@@ -5,16 +5,16 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:wood/root": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:wood/root": true
+              }
+            }
+          }
+        },
         "items": [
           {
             "items": "minecraft:cobblestone"
@@ -45,7 +45,8 @@
       "minecraft:cobblestone_slab",
       "minecraft:cobblestone_stairs",
       "minecraft:cobblestone_wall",
-      "minecraft:torch"
+      "minecraft:torch",
+      "farmersdelight:flint_knife"
     ]
   }
 }

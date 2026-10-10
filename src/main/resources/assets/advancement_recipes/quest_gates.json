@@ -1720,7 +1720,182 @@
     "nemos_backpacks:white_netherite_backpack": "rework:diamond/complete_category",
     "nemos_backpacks:white_netherite_backpack_smithing": "rework:diamond/complete_category",
     "nemos_backpacks:yellow_netherite_backpack": "rework:diamond/complete_category",
-    "nemos_backpacks:yellow_netherite_backpack_smithing": "rework:diamond/complete_category"
+    "nemos_backpacks:yellow_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "farmersdelight:acacia_cabinet": "rework:stone/craft_bundle",
+    "farmersdelight:apple_pie": "rework:wood/bread",
+    "farmersdelight:apple_pie_from_slices": "rework:wood/bread",
+    "farmersdelight:bacon_and_eggs": "rework:wood/kill_farm_animal",
+    "farmersdelight:bacon_sandwich": "rework:wood/kill_farm_animal",
+    "farmersdelight:bamboo_basket": "rework:iron/breed_pandas",
+    "farmersdelight:bamboo_cabinet": "rework:stone/craft_bundle",
+    "farmersdelight:barbecue_stick": "rework:wood/kill_farm_animal",
+    "farmersdelight:beef_patty": "rework:wood/kill_farm_animal",
+    "farmersdelight:beef_patty_from_campfire_cooking": "rework:wood/kill_farm_animal",
+    "farmersdelight:beef_patty_from_smoking": "rework:wood/kill_farm_animal",
+    "farmersdelight:beetroot_crate": "rework:wood/seeds",
+    "farmersdelight:beetroot_from_crate": "rework:wood/seeds",
+    "farmersdelight:birch_cabinet": "rework:stone/craft_bundle",
+    "farmersdelight:black_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:black_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:blue_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:blue_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:book_from_canvas": "rework:iron/write_book",
+    "farmersdelight:bread_from_smelting": "rework:wood/seeds",
+    "farmersdelight:bread_from_smoking": "rework:wood/seeds",
+    "farmersdelight:brown_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:brown_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:cabbage": "rework:wood/seeds",
+    "farmersdelight:cabbage_crate": "rework:wood/seeds",
+    "farmersdelight:cabbage_from_leaves": "rework:wood/seeds",
+    "farmersdelight:cake_from_milk_bottle": "rework:wood/bread",
+    "farmersdelight:cake_from_slices": "rework:wood/bread",
+    "farmersdelight:canvas": "rework:wood/seeds",
+    "farmersdelight:canvas_from_canvas_rug": "rework:wood/seeds",
+    "farmersdelight:canvas_rug": "rework:wood/seeds",
+    "farmersdelight:canvas_sign": "rework:wood/seeds",
+    "farmersdelight:carrot_crate": "rework:wood/seeds",
+    "farmersdelight:carrot_from_crate": "rework:wood/seeds",
+    "farmersdelight:cherry_cabinet": "rework:stone/craft_bundle",
+    "farmersdelight:chicken_sandwich": "rework:wood/kill_farm_animal",
+    "farmersdelight:chocolate_pie": "rework:iron/jungle",
+    "farmersdelight:chocolate_pie_from_slices": "rework:iron/jungle",
+    "farmersdelight:cod_roll": "rework:stone/catch_pufferfish",
+    "farmersdelight:cooked_bacon": "rework:wood/kill_farm_animal",
+    "farmersdelight:cooked_bacon_from_campfire_cooking": "rework:wood/kill_farm_animal",
+    "farmersdelight:cooked_bacon_from_smoking": "rework:wood/kill_farm_animal",
+    "farmersdelight:cooked_chicken_cuts": "rework:wood/kill_farm_animal",
+    "farmersdelight:cooked_chicken_cuts_from_campfire_cooking": "rework:wood/kill_farm_animal",
+    "farmersdelight:cooked_chicken_cuts_from_smoking": "rework:wood/kill_farm_animal",
+    "farmersdelight:cooked_cod_slice": "rework:stone/catch_pufferfish",
+    "farmersdelight:cooked_cod_slice_from_campfire_cooking": "rework:stone/catch_pufferfish",
+    "farmersdelight:cooked_cod_slice_from_smoking": "rework:stone/catch_pufferfish",
+    "farmersdelight:cooked_mutton_chops": "rework:wood/kill_farm_animal",
+    "farmersdelight:cooked_mutton_chops_from_campfire_cooking": "rework:wood/kill_farm_animal",
+    "farmersdelight:cooked_mutton_chops_from_smoking": "rework:wood/kill_farm_animal",
+    "farmersdelight:cooked_salmon_slice": "rework:stone/catch_pufferfish",
+    "farmersdelight:cooked_salmon_slice_from_campfire_cooking": "rework:stone/catch_pufferfish",
+    "farmersdelight:cooked_salmon_slice_from_smoking": "rework:stone/catch_pufferfish",
+    "farmersdelight:cooking_pot": "rework:copper/get_iron",
+    "farmersdelight:copper_knife": "rework:stone/complete_category",
+    "farmersdelight:copper_nugget_from_blasting_knife": "rework:stone/complete_category",
+    "farmersdelight:copper_nugget_from_smelting_knife": "rework:stone/complete_category",
+    "farmersdelight:crimson_cabinet": "rework:iron/nether",
+    "farmersdelight:cutting_board": "rework:wood/seeds",
+    "farmersdelight:cyan_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:cyan_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:dark_oak_cabinet": "rework:stone/craft_bundle",
+    "farmersdelight:diamond_knife": "rework:iron/complete_category",
+    "farmersdelight:egg_sandwich": "rework:wood/seeds",
+    "farmersdelight:flint_knife": "rework:wood/stone",
+    "farmersdelight:fried_egg": "rework:wood/seeds",
+    "farmersdelight:fried_egg_from_campfire_cooking": "rework:wood/seeds",
+    "farmersdelight:fried_egg_from_smoking": "rework:wood/seeds",
+    "farmersdelight:fruit_salad": "rework:wood/seeds",
+    "farmersdelight:full_tatami_mat": "rework:wood/seeds",
+    "farmersdelight:full_tatami_mat_from_halves": "rework:wood/seeds",
+    "farmersdelight:gleaming_salad_block": "rework:wood/seeds",
+    "farmersdelight:gold_nugget_from_blasting_knife": "rework:iron/nether",
+    "farmersdelight:gold_nugget_from_smelting_knife": "rework:iron/nether",
+    "farmersdelight:golden_knife": "rework:iron/nether",
+    "farmersdelight:gray_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:gray_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:green_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:green_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:grilled_salmon": "rework:stone/catch_pufferfish",
+    "farmersdelight:half_tatami_mat": "rework:wood/seeds",
+    "farmersdelight:hamburger": "rework:wood/kill_farm_animal",
+    "farmersdelight:hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:honey_cookie": "rework:stone/get_honey",
+    "farmersdelight:honey_glazed_ham_block": "rework:stone/get_honey",
+    "farmersdelight:horse_feed": "rework:copper/saddle_up",
+    "farmersdelight:iron_knife": "rework:copper/complete_category",
+    "farmersdelight:iron_nugget_from_blasting_knife": "rework:copper/complete_category",
+    "farmersdelight:iron_nugget_from_smelting_knife": "rework:copper/complete_category",
+    "farmersdelight:jungle_cabinet": "rework:stone/craft_bundle",
+    "farmersdelight:kelp_roll": "rework:stone/catch_pufferfish",
+    "farmersdelight:lead_from_straw": "rework:stone/kill_spider",
+    "farmersdelight:light_blue_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:light_blue_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:light_gray_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:light_gray_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:lime_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:lime_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:magenta_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:magenta_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:mangrove_cabinet": "rework:stone/craft_bundle",
+    "farmersdelight:melon_juice": "rework:iron/jungle",
+    "farmersdelight:melon_popsicle": "rework:iron/jungle",
+    "farmersdelight:milk_bottle": "rework:wood/seeds",
+    "farmersdelight:milk_bucket_from_bottles": "rework:wood/seeds",
+    "farmersdelight:mixed_salad": "rework:wood/seeds",
+    "farmersdelight:mutton_wrap": "rework:wood/kill_farm_animal",
+    "farmersdelight:nether_salad": "rework:iron/nether",
+    "farmersdelight:netherite_knife_smithing": "rework:diamond/complete_category",
+    "farmersdelight:oak_cabinet": "rework:stone/craft_bundle",
+    "farmersdelight:onion": "rework:wood/seeds",
+    "farmersdelight:onion_crate": "rework:wood/seeds",
+    "farmersdelight:orange_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:orange_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:organic_compost_from_rotten_flesh": "rework:wood/seeds",
+    "farmersdelight:organic_compost_from_tree_bark": "rework:wood/seeds",
+    "farmersdelight:packed_mud_from_straw": "rework:stone/make_mud",
+    "farmersdelight:painting_from_canvas": "rework:wood/get_wool",
+    "farmersdelight:pale_oak_cabinet": "rework:stone/craft_bundle",
+    "farmersdelight:paper_from_tree_bark": "rework:iron/get_sugar_cane",
+    "farmersdelight:pie_crust": "rework:wood/bread",
+    "farmersdelight:pink_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:pink_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:poplar_cabinet": "rework:stone/craft_bundle",
+    "farmersdelight:potato_crate": "rework:wood/seeds",
+    "farmersdelight:potato_from_crate": "rework:wood/seeds",
+    "farmersdelight:pumpkin_from_slices": "rework:wood/seeds",
+    "farmersdelight:pumpkin_pie_from_pie_crust": "rework:wood/bread",
+    "farmersdelight:pumpkin_pie_from_slices": "rework:wood/bread",
+    "farmersdelight:pumpkin_seeds_from_slice": "rework:wood/seeds",
+    "farmersdelight:purple_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:purple_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:red_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:red_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:rice": "rework:wood/seeds",
+    "farmersdelight:rice_bag": "rework:wood/seeds",
+    "farmersdelight:rice_bale": "rework:wood/seeds",
+    "farmersdelight:rice_from_bag": "rework:wood/seeds",
+    "farmersdelight:rice_panicle": "rework:wood/seeds",
+    "farmersdelight:rice_roll_medley_block": "rework:wood/seeds",
+    "farmersdelight:roast_chicken_block": "rework:wood/kill_farm_animal",
+    "farmersdelight:roasted_mutton_chops": "rework:wood/kill_farm_animal",
+    "farmersdelight:rope": "rework:wood/seeds",
+    "farmersdelight:rope_fence": "rework:wood/seeds",
+    "farmersdelight:rope_fence_gate": "rework:wood/seeds",
+    "farmersdelight:rope_from_safety_net": "rework:wood/seeds",
+    "farmersdelight:safety_net": "rework:wood/seeds",
+    "farmersdelight:salmon_roll": "rework:stone/catch_pufferfish",
+    "farmersdelight:scaffolding_from_canvas": "rework:iron/breed_pandas",
+    "farmersdelight:shepherds_pie_block": "rework:wood/bread",
+    "farmersdelight:skillet": "rework:copper/get_iron",
+    "farmersdelight:smoked_ham": "rework:wood/kill_farm_animal",
+    "farmersdelight:spruce_cabinet": "rework:stone/craft_bundle",
+    "farmersdelight:steak_and_potatoes": "rework:wood/kill_farm_animal",
+    "farmersdelight:stove": "rework:copper/get_iron",
+    "farmersdelight:straw": "rework:wood/seeds",
+    "farmersdelight:straw_bale": "rework:wood/seeds",
+    "farmersdelight:straw_bed": "rework:wood/seeds",
+    "farmersdelight:stuffed_potato": "rework:wood/seeds",
+    "farmersdelight:sweet_berry_cheesecake": "rework:iron/jungle",
+    "farmersdelight:sweet_berry_cheesecake_from_slices": "rework:iron/jungle",
+    "farmersdelight:sweet_berry_cookie": "rework:iron/jungle",
+    "farmersdelight:tatami": "rework:wood/seeds",
+    "farmersdelight:tatami_block_from_full": "rework:wood/seeds",
+    "farmersdelight:tomato": "rework:wood/seeds",
+    "farmersdelight:tomato_crate": "rework:wood/seeds",
+    "farmersdelight:tomato_seeds": "rework:wood/seeds",
+    "farmersdelight:warped_cabinet": "rework:iron/nether",
+    "farmersdelight:wheat_dough_from_egg": "rework:wood/seeds",
+    "farmersdelight:white_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:white_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:wooden_basket": "rework:wood/seeds",
+    "farmersdelight:yellow_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:yellow_hanging_canvas_sign": "rework:wood/seeds"
   },
   "item_to_quests": {
     "minecraft:dried_kelp": [
@@ -3069,6 +3244,7 @@
     ],
     "minecraft:iron_nugget": [
       "rework:copper/blast_furnace",
+      "rework:copper/complete_category",
       "rework:copper/get_iron"
     ],
     "minecraft:iron_trapdoor": [
@@ -4292,7 +4468,8 @@
       "rework:iron/get_sugar_cane"
     ],
     "minecraft:book": [
-      "rework:iron/get_sugar_cane"
+      "rework:iron/get_sugar_cane",
+      "rework:iron/write_book"
     ],
     "minecraft:written_book": [
       "rework:iron/get_sugar_cane"
@@ -5355,6 +5532,402 @@
     ],
     "nemos_backpacks:yellow_netherite_backpack": [
       "rework:diamond/complete_category"
+    ],
+    "farmersdelight:acacia_cabinet": [
+      "rework:stone/craft_bundle"
+    ],
+    "farmersdelight:apple_pie": [
+      "rework:wood/bread"
+    ],
+    "farmersdelight:bacon_and_eggs": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:bacon_sandwich": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:bamboo_basket": [
+      "rework:iron/breed_pandas"
+    ],
+    "farmersdelight:bamboo_cabinet": [
+      "rework:stone/craft_bundle"
+    ],
+    "farmersdelight:barbecue_stick": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:beef_patty": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:beetroot_crate": [
+      "rework:wood/seeds"
+    ],
+    "minecraft:beetroot": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:birch_cabinet": [
+      "rework:stone/craft_bundle"
+    ],
+    "farmersdelight:black_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:black_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:blue_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:blue_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:brown_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:brown_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:cabbage": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:cabbage_crate": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:canvas": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:canvas_rug": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:carrot_crate": [
+      "rework:wood/seeds"
+    ],
+    "minecraft:carrot": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:cherry_cabinet": [
+      "rework:stone/craft_bundle"
+    ],
+    "farmersdelight:chicken_sandwich": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:chocolate_pie": [
+      "rework:iron/jungle"
+    ],
+    "farmersdelight:cod_roll": [
+      "rework:stone/catch_pufferfish"
+    ],
+    "farmersdelight:cooked_bacon": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:cooked_chicken_cuts": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:cooked_cod_slice": [
+      "rework:stone/catch_pufferfish"
+    ],
+    "farmersdelight:cooked_mutton_chops": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:cooked_salmon_slice": [
+      "rework:stone/catch_pufferfish"
+    ],
+    "farmersdelight:cooking_pot": [
+      "rework:copper/get_iron"
+    ],
+    "farmersdelight:copper_knife": [
+      "rework:stone/complete_category"
+    ],
+    "farmersdelight:crimson_cabinet": [
+      "rework:iron/nether"
+    ],
+    "farmersdelight:cutting_board": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:cyan_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:cyan_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:dark_oak_cabinet": [
+      "rework:stone/craft_bundle"
+    ],
+    "farmersdelight:diamond_knife": [
+      "rework:iron/complete_category"
+    ],
+    "farmersdelight:egg_sandwich": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:flint_knife": [
+      "rework:wood/stone"
+    ],
+    "farmersdelight:fried_egg": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:fruit_salad": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:full_tatami_mat": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:gleaming_salad_block": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:golden_knife": [
+      "rework:iron/nether"
+    ],
+    "farmersdelight:gray_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:gray_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:green_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:green_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:grilled_salmon": [
+      "rework:stone/catch_pufferfish"
+    ],
+    "farmersdelight:half_tatami_mat": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:hamburger": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:honey_cookie": [
+      "rework:stone/get_honey"
+    ],
+    "farmersdelight:honey_glazed_ham_block": [
+      "rework:stone/get_honey"
+    ],
+    "farmersdelight:horse_feed": [
+      "rework:copper/saddle_up"
+    ],
+    "farmersdelight:iron_knife": [
+      "rework:copper/complete_category"
+    ],
+    "farmersdelight:jungle_cabinet": [
+      "rework:stone/craft_bundle"
+    ],
+    "farmersdelight:kelp_roll": [
+      "rework:stone/catch_pufferfish"
+    ],
+    "farmersdelight:light_blue_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:light_blue_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:light_gray_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:light_gray_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:lime_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:lime_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:magenta_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:magenta_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:mangrove_cabinet": [
+      "rework:stone/craft_bundle"
+    ],
+    "farmersdelight:melon_juice": [
+      "rework:iron/jungle"
+    ],
+    "farmersdelight:melon_popsicle": [
+      "rework:iron/jungle"
+    ],
+    "farmersdelight:milk_bottle": [
+      "rework:wood/seeds"
+    ],
+    "minecraft:milk_bucket": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:mixed_salad": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:mutton_wrap": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:nether_salad": [
+      "rework:iron/nether"
+    ],
+    "farmersdelight:netherite_knife": [
+      "rework:diamond/complete_category"
+    ],
+    "farmersdelight:oak_cabinet": [
+      "rework:stone/craft_bundle"
+    ],
+    "farmersdelight:onion": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:onion_crate": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:orange_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:orange_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:organic_compost": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:pale_oak_cabinet": [
+      "rework:stone/craft_bundle"
+    ],
+    "farmersdelight:pie_crust": [
+      "rework:wood/bread"
+    ],
+    "farmersdelight:pink_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:pink_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:poplar_cabinet": [
+      "rework:stone/craft_bundle"
+    ],
+    "farmersdelight:potato_crate": [
+      "rework:wood/seeds"
+    ],
+    "minecraft:potato": [
+      "rework:wood/seeds"
+    ],
+    "minecraft:pumpkin": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:purple_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:purple_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:red_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:red_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:rice": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:rice_bag": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:rice_bale": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:rice_panicle": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:rice_roll_medley_block": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:roast_chicken_block": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:roasted_mutton_chops": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:rope": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:rope_fence": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:rope_fence_gate": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:safety_net": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:salmon_roll": [
+      "rework:stone/catch_pufferfish"
+    ],
+    "farmersdelight:shepherds_pie_block": [
+      "rework:wood/bread"
+    ],
+    "farmersdelight:skillet": [
+      "rework:copper/get_iron"
+    ],
+    "farmersdelight:smoked_ham": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:spruce_cabinet": [
+      "rework:stone/craft_bundle"
+    ],
+    "farmersdelight:steak_and_potatoes": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "farmersdelight:stove": [
+      "rework:copper/get_iron"
+    ],
+    "farmersdelight:straw": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:straw_bale": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:straw_bed": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:stuffed_potato": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:sweet_berry_cheesecake": [
+      "rework:iron/jungle"
+    ],
+    "farmersdelight:sweet_berry_cookie": [
+      "rework:iron/jungle"
+    ],
+    "farmersdelight:tatami": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:tomato": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:tomato_crate": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:tomato_seeds": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:warped_cabinet": [
+      "rework:iron/nether"
+    ],
+    "farmersdelight:wheat_dough": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:white_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:white_hanging_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:wooden_basket": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:yellow_canvas_sign": [
+      "rework:wood/seeds"
+    ],
+    "farmersdelight:yellow_hanging_canvas_sign": [
+      "rework:wood/seeds"
     ]
   }
 }

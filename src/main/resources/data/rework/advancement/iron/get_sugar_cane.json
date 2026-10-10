@@ -4,16 +4,16 @@
     "default": {
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:iron/root": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            }
+          }
+        },
         "items": [
           {
             "items": "minecraft:sugar_cane",
@@ -59,7 +59,8 @@
       "minecraft:book_cloning",
       "minecraft:writable_book",
       "minecraft:cartography_table",
-      "minecraft:name_tag"
+      "minecraft:name_tag",
+      "farmersdelight:paper_from_tree_bark"
     ]
   }
 }

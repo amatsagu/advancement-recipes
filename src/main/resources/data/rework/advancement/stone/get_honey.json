@@ -5,16 +5,16 @@
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/glass": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/glass": true
+              }
+            }
+          }
+        },
         "location": {
           "type": "minecraft:all_of",
           "terms": [
@@ -63,7 +63,9 @@
   "rewards": {
     "recipes": [
       "minecraft:honey_block",
-      "minecraft:honey_bottle"
+      "minecraft:honey_bottle",
+      "farmersdelight:honey_cookie",
+      "farmersdelight:honey_glazed_ham_block"
     ]
   }
 }

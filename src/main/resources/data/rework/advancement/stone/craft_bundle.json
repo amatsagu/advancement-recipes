@@ -5,16 +5,16 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/kill_spider": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/kill_spider": true
+              }
+            }
+          }
+        },
         "recipes": "minecraft:bundle"
       }
     }
@@ -41,7 +41,18 @@
     "recipes": [
       "minecraft:chest",
       "minecraft:copper_chest",
-      "minecraft:barrel"
+      "minecraft:barrel",
+      "farmersdelight:acacia_cabinet",
+      "farmersdelight:bamboo_cabinet",
+      "farmersdelight:birch_cabinet",
+      "farmersdelight:cherry_cabinet",
+      "farmersdelight:dark_oak_cabinet",
+      "farmersdelight:jungle_cabinet",
+      "farmersdelight:mangrove_cabinet",
+      "farmersdelight:oak_cabinet",
+      "farmersdelight:pale_oak_cabinet",
+      "farmersdelight:poplar_cabinet",
+      "farmersdelight:spruce_cabinet"
     ]
   }
 }

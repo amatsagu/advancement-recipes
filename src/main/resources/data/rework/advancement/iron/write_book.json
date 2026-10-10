@@ -4,16 +4,16 @@
     "default": {
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:iron/get_sugar_cane": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/get_sugar_cane": true
+              }
+            }
+          }
+        },
         "items": [
           {
             "items": "minecraft:written_book"
@@ -51,7 +51,8 @@
       "minecraft:lapis_lazuli_from_blasting_lapis_ore",
       "minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore",
       "minecraft:lapis_lazuli_from_smelting_lapis_ore",
-      "minecraft:lectern"
+      "minecraft:lectern",
+      "farmersdelight:book_from_canvas"
     ]
   }
 }

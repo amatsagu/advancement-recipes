@@ -5,23 +5,23 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:iron/root": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            },
+            "location": {
+              "biomes": [
+                "minecraft:bamboo_jungle",
+                "minecraft:jungle",
+                "minecraft:sparse_jungle"
+              ]
             }
-          },
-          "location": {
-            "biomes": [
-              "minecraft:bamboo_jungle",
-              "minecraft:jungle",
-              "minecraft:sparse_jungle"
-            ]
           }
-  }
-}
+        }
       }
     }
   },
@@ -44,7 +44,14 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:cookie"
+      "minecraft:cookie",
+      "farmersdelight:chocolate_pie",
+      "farmersdelight:chocolate_pie_from_slices",
+      "farmersdelight:melon_juice",
+      "farmersdelight:melon_popsicle",
+      "farmersdelight:sweet_berry_cheesecake",
+      "farmersdelight:sweet_berry_cheesecake_from_slices",
+      "farmersdelight:sweet_berry_cookie"
     ]
   }
 }

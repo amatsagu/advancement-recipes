@@ -89,6 +89,37 @@ public class AdvancementRecipesTest {
 		Assertions.assertNotNull(netheriteQuests, "Netherite backpack should be gated");
 		Assertions.assertTrue(netheriteQuests.contains(Identifier.parse("rework:diamond/complete_category")), "Netherite backpack should require Netherite Completionist");
 
+		// Test Farmer's Delight items
+		Identifier cookingPot = Identifier.parse("farmersdelight:cooking_pot");
+		List<Identifier> cookingPotQuests = QuestData.getQuestsForItem(cookingPot);
+		Assertions.assertNotNull(cookingPotQuests, "Cooking pot should be gated");
+		Assertions.assertTrue(cookingPotQuests.contains(Identifier.parse("rework:copper/get_iron")), "Cooking pot should require Heavy Metal");
+
+		Identifier skillet = Identifier.parse("farmersdelight:skillet");
+		List<Identifier> skilletQuests = QuestData.getQuestsForItem(skillet);
+		Assertions.assertNotNull(skilletQuests, "Skillet should be gated");
+		Assertions.assertTrue(skilletQuests.contains(Identifier.parse("rework:copper/get_iron")), "Skillet should require Heavy Metal");
+
+		Identifier cuttingBoard = Identifier.parse("farmersdelight:cutting_board");
+		List<Identifier> cuttingBoardQuests = QuestData.getQuestsForItem(cuttingBoard);
+		Assertions.assertNotNull(cuttingBoardQuests, "Cutting board should be gated");
+		Assertions.assertTrue(cuttingBoardQuests.contains(Identifier.parse("rework:wood/seeds")), "Cutting board should require Farming Roots");
+
+		Identifier ironKnife = Identifier.parse("farmersdelight:iron_knife");
+		List<Identifier> ironKnifeQuests = QuestData.getQuestsForItem(ironKnife);
+		Assertions.assertNotNull(ironKnifeQuests, "Iron knife should be gated");
+		Assertions.assertTrue(ironKnifeQuests.contains(Identifier.parse("rework:copper/complete_category")), "Iron knife should require Iron Completionist");
+
+		Identifier diamondKnife = Identifier.parse("farmersdelight:diamond_knife");
+		List<Identifier> diamondKnifeQuests = QuestData.getQuestsForItem(diamondKnife);
+		Assertions.assertNotNull(diamondKnifeQuests, "Diamond knife should be gated");
+		Assertions.assertTrue(diamondKnifeQuests.contains(Identifier.parse("rework:iron/complete_category")), "Diamond knife should require Diamond Completionist");
+
+		Identifier applePie = Identifier.parse("farmersdelight:apple_pie");
+		List<Identifier> applePieQuests = QuestData.getQuestsForItem(applePie);
+		Assertions.assertNotNull(applePieQuests, "Apple pie should be gated");
+		Assertions.assertTrue(applePieQuests.contains(Identifier.parse("rework:wood/bread")), "Apple pie should require Baker's Delight");
+
 		// Test multiline tooltip lines for single and multi-quest items
 		List<net.minecraft.network.chat.Component> singleQuestLines = QuestData.getQuestTooltipLines(anvilQuests, false);
 		Assertions.assertEquals(2, singleQuestLines.size(), "Single quest should have 2 lines (state + quest)");

@@ -5,16 +5,16 @@
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/glass": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/glass": true
+              }
+            }
+          }
+        },
         "location": {
           "type": "minecraft:all_of",
           "terms": [
@@ -62,7 +62,8 @@
       "minecraft:mud_brick_wall",
       "minecraft:mud_bricks",
       "minecraft:packed_mud",
-      "minecraft:muddy_mangrove_roots"
+      "minecraft:muddy_mangrove_roots",
+      "farmersdelight:packed_mud_from_straw"
     ]
   }
 }

@@ -5,16 +5,16 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/enter_the_water": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/enter_the_water": true
+              }
+            }
+          }
+        },
         "item": {
           "items": "minecraft:pufferfish"
         }
@@ -40,6 +40,17 @@
     ]
   ],
   "rewards": {
-    "recipes": []
+    "recipes": [
+      "farmersdelight:cod_roll",
+      "farmersdelight:cooked_cod_slice",
+      "farmersdelight:cooked_cod_slice_from_campfire_cooking",
+      "farmersdelight:cooked_cod_slice_from_smoking",
+      "farmersdelight:cooked_salmon_slice",
+      "farmersdelight:cooked_salmon_slice_from_campfire_cooking",
+      "farmersdelight:cooked_salmon_slice_from_smoking",
+      "farmersdelight:grilled_salmon",
+      "farmersdelight:kelp_roll",
+      "farmersdelight:salmon_roll"
+    ]
   }
 }

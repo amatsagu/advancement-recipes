@@ -314,7 +314,10 @@
       "nemos_backpacks:white_copper_backpack",
       "nemos_backpacks:white_copper_backpack_smithing",
       "nemos_backpacks:yellow_copper_backpack",
-      "nemos_backpacks:yellow_copper_backpack_smithing"
+      "nemos_backpacks:yellow_copper_backpack_smithing",
+      "farmersdelight:copper_knife",
+      "farmersdelight:copper_nugget_from_blasting_knife",
+      "farmersdelight:copper_nugget_from_smelting_knife"
     ]
   }
 }

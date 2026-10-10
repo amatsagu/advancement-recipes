@@ -147,7 +147,13 @@
       "nemos_backpacks:white_golden_backpack",
       "nemos_backpacks:white_golden_backpack_smithing",
       "nemos_backpacks:yellow_golden_backpack",
-      "nemos_backpacks:yellow_golden_backpack_smithing"
+      "nemos_backpacks:yellow_golden_backpack_smithing",
+      "farmersdelight:crimson_cabinet",
+      "farmersdelight:gold_nugget_from_blasting_knife",
+      "farmersdelight:gold_nugget_from_smelting_knife",
+      "farmersdelight:golden_knife",
+      "farmersdelight:nether_salad",
+      "farmersdelight:warped_cabinet"
     ]
   }
 }

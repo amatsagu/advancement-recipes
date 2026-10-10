@@ -4,16 +4,16 @@
     "default": {
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:wood/root": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:wood/root": true
+              }
+            }
+          }
+        },
         "location": {
           "type": "minecraft:all_of",
           "terms": [
@@ -52,7 +52,96 @@
       "minecraft:pumpkin_seeds",
       "minecraft:melon",
       "minecraft:red_dye_from_beetroot",
-      "minecraft:beetroot_soup"
+      "minecraft:beetroot_soup",
+      "farmersdelight:beetroot_crate",
+      "farmersdelight:beetroot_from_crate",
+      "farmersdelight:black_canvas_sign",
+      "farmersdelight:black_hanging_canvas_sign",
+      "farmersdelight:blue_canvas_sign",
+      "farmersdelight:blue_hanging_canvas_sign",
+      "farmersdelight:bread_from_smelting",
+      "farmersdelight:bread_from_smoking",
+      "farmersdelight:brown_canvas_sign",
+      "farmersdelight:brown_hanging_canvas_sign",
+      "farmersdelight:cabbage",
+      "farmersdelight:cabbage_crate",
+      "farmersdelight:cabbage_from_leaves",
+      "farmersdelight:canvas",
+      "farmersdelight:canvas_from_canvas_rug",
+      "farmersdelight:canvas_rug",
+      "farmersdelight:canvas_sign",
+      "farmersdelight:carrot_crate",
+      "farmersdelight:carrot_from_crate",
+      "farmersdelight:cutting_board",
+      "farmersdelight:cyan_canvas_sign",
+      "farmersdelight:cyan_hanging_canvas_sign",
+      "farmersdelight:egg_sandwich",
+      "farmersdelight:fried_egg",
+      "farmersdelight:fried_egg_from_campfire_cooking",
+      "farmersdelight:fried_egg_from_smoking",
+      "farmersdelight:fruit_salad",
+      "farmersdelight:full_tatami_mat",
+      "farmersdelight:full_tatami_mat_from_halves",
+      "farmersdelight:gleaming_salad_block",
+      "farmersdelight:gray_canvas_sign",
+      "farmersdelight:gray_hanging_canvas_sign",
+      "farmersdelight:green_canvas_sign",
+      "farmersdelight:green_hanging_canvas_sign",
+      "farmersdelight:half_tatami_mat",
+      "farmersdelight:hanging_canvas_sign",
+      "farmersdelight:light_blue_canvas_sign",
+      "farmersdelight:light_blue_hanging_canvas_sign",
+      "farmersdelight:light_gray_canvas_sign",
+      "farmersdelight:light_gray_hanging_canvas_sign",
+      "farmersdelight:lime_canvas_sign",
+      "farmersdelight:lime_hanging_canvas_sign",
+      "farmersdelight:magenta_canvas_sign",
+      "farmersdelight:magenta_hanging_canvas_sign",
+      "farmersdelight:milk_bottle",
+      "farmersdelight:milk_bucket_from_bottles",
+      "farmersdelight:mixed_salad",
+      "farmersdelight:onion",
+      "farmersdelight:onion_crate",
+      "farmersdelight:orange_canvas_sign",
+      "farmersdelight:orange_hanging_canvas_sign",
+      "farmersdelight:organic_compost_from_rotten_flesh",
+      "farmersdelight:organic_compost_from_tree_bark",
+      "farmersdelight:pink_canvas_sign",
+      "farmersdelight:pink_hanging_canvas_sign",
+      "farmersdelight:potato_crate",
+      "farmersdelight:potato_from_crate",
+      "farmersdelight:pumpkin_from_slices",
+      "farmersdelight:pumpkin_seeds_from_slice",
+      "farmersdelight:purple_canvas_sign",
+      "farmersdelight:purple_hanging_canvas_sign",
+      "farmersdelight:red_canvas_sign",
+      "farmersdelight:red_hanging_canvas_sign",
+      "farmersdelight:rice",
+      "farmersdelight:rice_bag",
+      "farmersdelight:rice_bale",
+      "farmersdelight:rice_from_bag",
+      "farmersdelight:rice_panicle",
+      "farmersdelight:rice_roll_medley_block",
+      "farmersdelight:rope",
+      "farmersdelight:rope_fence",
+      "farmersdelight:rope_fence_gate",
+      "farmersdelight:rope_from_safety_net",
+      "farmersdelight:safety_net",
+      "farmersdelight:straw",
+      "farmersdelight:straw_bale",
+      "farmersdelight:straw_bed",
+      "farmersdelight:stuffed_potato",
+      "farmersdelight:tatami",
+      "farmersdelight:tatami_block_from_full",
+      "farmersdelight:tomato",
+      "farmersdelight:tomato_crate",
+      "farmersdelight:tomato_seeds",
+      "farmersdelight:wheat_dough_from_egg",
+      "farmersdelight:white_canvas_sign",
+      "farmersdelight:white_hanging_canvas_sign",
+      "farmersdelight:wooden_basket",
+      "farmersdelight:yellow_canvas_sign",
+      "farmersdelight:yellow_hanging_canvas_sign"
     ]
   }
 }
