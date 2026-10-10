@@ -40,7 +40,6 @@ public class DetailPanelPopUpScreenMixin {
 		boolean hasActualRewards = rewards.experience() > 0 || !rewards.loot().isEmpty() || rewards.hasFunction();
 		boolean hasRecipes = !rewards.recipes().isEmpty();
 
-		// 1. Render actual rewards if present
 		if (hasActualRewards) {
 			graphics.text(this.font, Component.translatable("gui.advancements.text.rewards"), x, y, -3355444, true);
 			y += 14;
@@ -63,7 +62,6 @@ public class DetailPanelPopUpScreenMixin {
 			}
 		}
 
-		// 2. Render recipe unlocks separately if present
 		if (hasRecipes) {
 			if (hasActualRewards) {
 				y += 4;

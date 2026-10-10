@@ -68,6 +68,8 @@
       "storagedrawers:void_upgrade",
       "toms_storage:crafting_terminal",
       "toms_storage:inventory_cable_connector",
+      "toms_storage:inventory_cable_connector_framed",
+      "toms_storage:inventory_cable_connector_framed_clean",
       "toms_storage:inventory_connector",
       "toms_storage:inventory_interface",
       "toms_storage:poly_item_filter"

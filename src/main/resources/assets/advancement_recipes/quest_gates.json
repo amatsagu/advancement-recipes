@@ -2039,25 +2039,25 @@
     "storagedrawers:keybutton_concealment": "rework:diamond/complete_category",
     "storagedrawers:netherite_storage_upgrade": "rework:diamond/complete_category",
     "storagedrawers:portability_upgrade": "rework:end/end_city",
-    "toms_storage:basic_inventory_hopper": "rework:iron/get_redstone",
-    "toms_storage:inventory_cable_connector_framed": "rework:iron/get_redstone",
-    "toms_storage:inventory_cable_connector_framed_clean": "rework:iron/get_redstone",
-    "toms_storage:inventory_cable_framed": "rework:iron/get_redstone",
-    "toms_storage:inventory_cable_framed_clean": "rework:iron/get_redstone",
-    "toms_storage:inventory_proxy_clean": "rework:iron/get_redstone",
     "toms_storage:item_filter": "rework:iron/get_redstone",
-    "toms_storage:level_emitter": "rework:iron/get_redstone",
     "toms_storage:open_crate": "rework:iron/get_redstone",
-    "toms_storage:paint_kit": "rework:iron/get_redstone",
-    "toms_storage:trim_clean": "rework:iron/get_redstone",
+    "toms_storage:basic_inventory_hopper": "rework:iron/nether",
     "toms_storage:filing_cabinet": "rework:iron/nether",
     "toms_storage:inventory_cable": "rework:iron/nether",
+    "toms_storage:inventory_cable_framed": "rework:iron/nether",
+    "toms_storage:inventory_cable_framed_clean": "rework:iron/nether",
     "toms_storage:inventory_configurator": "rework:iron/nether",
     "toms_storage:inventory_proxy": "rework:iron/nether",
+    "toms_storage:inventory_proxy_clean": "rework:iron/nether",
+    "toms_storage:level_emitter": "rework:iron/nether",
+    "toms_storage:paint_kit": "rework:iron/nether",
     "toms_storage:storage_terminal": "rework:iron/nether",
     "toms_storage:trim": "rework:iron/nether",
+    "toms_storage:trim_clean": "rework:iron/nether",
     "toms_storage:crafting_terminal": "rework:iron/get_diamond",
     "toms_storage:inventory_cable_connector": "rework:iron/get_diamond",
+    "toms_storage:inventory_cable_connector_framed": "rework:iron/get_diamond",
+    "toms_storage:inventory_cable_connector_framed_clean": "rework:iron/get_diamond",
     "toms_storage:inventory_connector": "rework:iron/get_diamond",
     "toms_storage:inventory_interface": "rework:iron/get_diamond",
     "toms_storage:poly_item_filter": "rework:iron/get_diamond",
@@ -6619,26 +6619,14 @@
     "storagedrawers:portability_upgrade": [
       "rework:end/end_city"
     ],
-    "toms_storage:basic_inventory_hopper": [
-      "rework:iron/get_redstone"
-    ],
-    "toms_storage:inventory_cable_connector_framed": [
-      "rework:iron/get_redstone"
-    ],
-    "toms_storage:inventory_cable_framed": [
-      "rework:iron/get_redstone"
-    ],
     "toms_storage:item_filter": [
-      "rework:iron/get_redstone"
-    ],
-    "toms_storage:level_emitter": [
       "rework:iron/get_redstone"
     ],
     "toms_storage:open_crate": [
       "rework:iron/get_redstone"
     ],
-    "toms_storage:paint_kit": [
-      "rework:iron/get_redstone"
+    "toms_storage:basic_inventory_hopper": [
+      "rework:iron/nether"
     ],
     "toms_storage:filing_cabinet": [
       "rework:iron/nether"
@@ -6646,10 +6634,19 @@
     "toms_storage:inventory_cable": [
       "rework:iron/nether"
     ],
+    "toms_storage:inventory_cable_framed": [
+      "rework:iron/nether"
+    ],
     "toms_storage:inventory_configurator": [
       "rework:iron/nether"
     ],
     "toms_storage:inventory_proxy": [
+      "rework:iron/nether"
+    ],
+    "toms_storage:level_emitter": [
+      "rework:iron/nether"
+    ],
+    "toms_storage:paint_kit": [
       "rework:iron/nether"
     ],
     "toms_storage:painted_trim": [
@@ -6665,6 +6662,9 @@
       "rework:iron/get_diamond"
     ],
     "toms_storage:inventory_cable_connector": [
+      "rework:iron/get_diamond"
+    ],
+    "toms_storage:inventory_cable_connector_framed": [
       "rework:iron/get_diamond"
     ],
     "toms_storage:inventory_connector": [

@@ -176,12 +176,19 @@
       "storagedrawers:warped_half_drawers_2",
       "storagedrawers:warped_half_drawers_4",
       "storagedrawers:warped_trim",
+      "toms_storage:basic_inventory_hopper",
       "toms_storage:filing_cabinet",
       "toms_storage:inventory_cable",
+      "toms_storage:inventory_cable_framed",
+      "toms_storage:inventory_cable_framed_clean",
       "toms_storage:inventory_configurator",
       "toms_storage:inventory_proxy",
+      "toms_storage:inventory_proxy_clean",
+      "toms_storage:level_emitter",
+      "toms_storage:paint_kit",
       "toms_storage:storage_terminal",
-      "toms_storage:trim"
+      "toms_storage:trim",
+      "toms_storage:trim_clean"
     ]
   }
 }

@@ -23,7 +23,6 @@ public class AdvancementRecipesTest {
 	public void testQuestDataLoaded() {
 		Assertions.assertFalse(QuestData.getAllItemGates().isEmpty(), "Item gates should not be empty");
 
-		// Test key items
 		Identifier anvil = Identifier.parse("minecraft:anvil");
 		List<Identifier> anvilQuests = QuestData.getQuestsForItem(anvil);
 		Assertions.assertNotNull(anvilQuests, "Anvil should be gated");
@@ -44,17 +43,14 @@ public class AdvancementRecipesTest {
 		Assertions.assertNotNull(bedQuests, "Bed should be gated");
 		Assertions.assertTrue(bedQuests.contains(Identifier.parse("rework:wood/get_wool")), "Bed should require Power Of Free Wool");
 
-		// Test nether_brick_fence is gated by fortress
 		Identifier netherBrickFence = Identifier.parse("minecraft:nether_brick_fence");
 		List<Identifier> fenceQuests = QuestData.getQuestsForItem(netherBrickFence);
 		Assertions.assertNotNull(fenceQuests, "Nether brick fence should be gated");
 		Assertions.assertTrue(fenceQuests.contains(Identifier.parse("rework:iron/fortress")), "Nether brick fence should require A Terrible Fortress");
 
-		// Test unlocked by default items (e.g. dirt, stick)
 		Identifier dirt = Identifier.parse("minecraft:dirt");
 		Assertions.assertNull(QuestData.getQuestsForItem(dirt), "Dirt should be unlocked by default");
 
-		// Test category mapping and formatting
 		Assertions.assertEquals("Questline III", QuestData.getQuestCategory(Identifier.parse("rework:copper/get_iron")));
 		Assertions.assertEquals("Questline IV", QuestData.getQuestCategory(Identifier.parse("rework:iron/get_diamond")));
 		Assertions.assertEquals("Questline I", QuestData.getQuestCategory(Identifier.parse("rework:wood/root")));
@@ -63,7 +59,6 @@ public class AdvancementRecipesTest {
 		String formattedAnvil = QuestData.formatQuestList(anvilQuests);
 		Assertions.assertTrue(formattedAnvil.contains("(Questline III)"), "Formatted anvil quest should include category: " + formattedAnvil);
 
-		// Test backpacks
 		Identifier baseBackpack = Identifier.parse("nemos_backpacks:backpack");
 		List<Identifier> baseQuests = QuestData.getQuestsForItem(baseBackpack);
 		Assertions.assertNotNull(baseQuests, "Base backpack should be gated");
@@ -99,7 +94,6 @@ public class AdvancementRecipesTest {
 		Assertions.assertNotNull(netheriteQuests, "Netherite backpack should be gated");
 		Assertions.assertTrue(netheriteQuests.contains(Identifier.parse("rework:diamond/complete_category")), "Netherite backpack should require Netherite Completionist");
 
-		// Test Farmer's Delight items
 		Identifier cookingPot = Identifier.parse("farmersdelight:cooking_pot");
 		List<Identifier> cookingPotQuests = QuestData.getQuestsForItem(cookingPot);
 		Assertions.assertNotNull(cookingPotQuests, "Cooking pot should be gated");
@@ -130,7 +124,6 @@ public class AdvancementRecipesTest {
 		Assertions.assertNotNull(applePieQuests, "Apple pie should be gated");
 		Assertions.assertTrue(applePieQuests.contains(Identifier.parse("rework:wood/bread")), "Apple pie should require Baker's Delight");
 
-		// Test cooking quest progression: Stone, Copper, Iron
 		Identifier hamburger = Identifier.parse("farmersdelight:hamburger");
 		List<Identifier> hamburgerQuests = QuestData.getQuestsForItem(hamburger);
 		Assertions.assertNotNull(hamburgerQuests, "Hamburger should be gated");
@@ -152,7 +145,6 @@ public class AdvancementRecipesTest {
 		Assertions.assertEquals("Grand Feast", QuestData.getQuestTitle(Identifier.parse("rework:iron/grand_feast")));
 		Assertions.assertEquals("Questline IV", QuestData.getQuestCategory(Identifier.parse("rework:iron/grand_feast")));
 
-		// Test Simple Magnets
 		Identifier basicMagnet = Identifier.parse("simplemagnets:basicmagnet");
 		List<Identifier> basicMagnetQuests = QuestData.getQuestsForItem(basicMagnet);
 		Assertions.assertNotNull(basicMagnetQuests, "Basic magnet should be gated");
@@ -177,7 +169,6 @@ public class AdvancementRecipesTest {
 		Assertions.assertEquals("Polar Reversal", QuestData.getQuestTitle(Identifier.parse("rework:end/advanced_magnet")));
 		Assertions.assertEquals("Questline VI", QuestData.getQuestCategory(Identifier.parse("rework:end/advanced_magnet")));
 
-		// Test multiline tooltip lines for single and multi-quest items
 		List<net.minecraft.network.chat.Component> singleQuestLines = QuestData.getQuestTooltipLines(anvilQuests, false);
 		Assertions.assertEquals(2, singleQuestLines.size(), "Single quest should have 2 lines (state + quest)");
 		Assertions.assertTrue(singleQuestLines.get(0).getString().contains("Usage or recipe blocked - finish quest:"));
@@ -194,23 +185,19 @@ public class AdvancementRecipesTest {
 		Assertions.assertTrue(multiQuestLines.get(1).getString().contains("•"));
 		Assertions.assertTrue(multiQuestLines.get(2).getString().contains("•"));
 
-		// Test Glow Paste
 		Identifier glowPaste = Identifier.parse("glowpaste:glow_paste");
 		List<Identifier> glowPasteQuests = QuestData.getQuestsForItem(glowPaste);
 		Assertions.assertNotNull(glowPasteQuests, "Glow paste should be gated");
 		Assertions.assertTrue(glowPasteQuests.contains(Identifier.parse("rework:iron/swamp")), "Glow paste should require Swampland explorer");
 		Assertions.assertEquals(Identifier.parse("rework:iron/swamp"), QuestData.getQuestForRecipe(glowPaste));
 
-		// Test Slime Ball from Honey Recipe
 		Identifier slimeFromHoney = Identifier.parse("advancement_recipes:slime_ball_from_honey");
 		Assertions.assertEquals(Identifier.parse("rework:iron/swamp"), QuestData.getQuestForRecipe(slimeFromHoney));
 
-		// Test Furnace gating (unlocked at wood/stone "Stone Age")
 		Identifier furnaceId = Identifier.parse("minecraft:furnace");
 		Assertions.assertEquals(Identifier.parse("rework:wood/stone"), QuestData.getQuestForRecipe(furnaceId));
 		Assertions.assertTrue(QuestData.getQuestsForItem(furnaceId).contains(Identifier.parse("rework:wood/stone")));
 
-		// Test Chest and Barrel gating (unlocked at wood/item_frame "A Frame On View")
 		Identifier chestId = Identifier.parse("minecraft:chest");
 		Assertions.assertEquals(Identifier.parse("rework:wood/item_frame"), QuestData.getQuestForRecipe(chestId));
 		Assertions.assertTrue(QuestData.getQuestsForItem(chestId).contains(Identifier.parse("rework:wood/item_frame")));
@@ -219,12 +206,10 @@ public class AdvancementRecipesTest {
 		Assertions.assertEquals(Identifier.parse("rework:wood/item_frame"), QuestData.getQuestForRecipe(barrelId));
 		Assertions.assertTrue(QuestData.getQuestsForItem(barrelId).contains(Identifier.parse("rework:wood/item_frame")));
 
-		// Test Copper Chest gating (unlocked at stone/copper_ingot "Top Tier Copper")
 		Identifier copperChestId = Identifier.parse("minecraft:copper_chest");
 		Assertions.assertEquals(Identifier.parse("rework:stone/copper_ingot"), QuestData.getQuestForRecipe(copperChestId));
 		Assertions.assertTrue(QuestData.getQuestsForItem(copperChestId).contains(Identifier.parse("rework:stone/copper_ingot")));
 
-		// Test Storage Drawers gating
 		Identifier oakDrawer = Identifier.parse("storagedrawers:oak_full_drawers_1");
 		Assertions.assertEquals(Identifier.parse("rework:wood/item_frame"), QuestData.getQuestForRecipe(oakDrawer));
 		Assertions.assertTrue(QuestData.getQuestsForItem(oakDrawer).contains(Identifier.parse("rework:wood/item_frame")));
@@ -281,14 +266,21 @@ public class AdvancementRecipesTest {
 		Assertions.assertEquals(Identifier.parse("rework:end/end_city"), QuestData.getQuestForRecipe(portabilityUpgrade));
 		Assertions.assertTrue(QuestData.getQuestsForItem(portabilityUpgrade).contains(Identifier.parse("rework:end/end_city")));
 
-		// Test Tom's Storage gating
 		Identifier itemFilter = Identifier.parse("toms_storage:item_filter");
 		Assertions.assertEquals(Identifier.parse("rework:iron/get_redstone"), QuestData.getQuestForRecipe(itemFilter));
 		Assertions.assertTrue(QuestData.getQuestsForItem(itemFilter).contains(Identifier.parse("rework:iron/get_redstone")));
 
+		Identifier openCrate = Identifier.parse("toms_storage:open_crate");
+		Assertions.assertEquals(Identifier.parse("rework:iron/get_redstone"), QuestData.getQuestForRecipe(openCrate));
+		Assertions.assertTrue(QuestData.getQuestsForItem(openCrate).contains(Identifier.parse("rework:iron/get_redstone")));
+
+		Identifier basicHopper = Identifier.parse("toms_storage:basic_inventory_hopper");
+		Assertions.assertEquals(Identifier.parse("rework:iron/nether"), QuestData.getQuestForRecipe(basicHopper));
+		Assertions.assertTrue(QuestData.getQuestsForItem(basicHopper).contains(Identifier.parse("rework:iron/nether")));
+
 		Identifier levelEmitter = Identifier.parse("toms_storage:level_emitter");
-		Assertions.assertEquals(Identifier.parse("rework:iron/get_redstone"), QuestData.getQuestForRecipe(levelEmitter));
-		Assertions.assertTrue(QuestData.getQuestsForItem(levelEmitter).contains(Identifier.parse("rework:iron/get_redstone")));
+		Assertions.assertEquals(Identifier.parse("rework:iron/nether"), QuestData.getQuestForRecipe(levelEmitter));
+		Assertions.assertTrue(QuestData.getQuestsForItem(levelEmitter).contains(Identifier.parse("rework:iron/nether")));
 
 		Identifier inventoryCable = Identifier.parse("toms_storage:inventory_cable");
 		Assertions.assertEquals(Identifier.parse("rework:iron/nether"), QuestData.getQuestForRecipe(inventoryCable));
@@ -305,6 +297,10 @@ public class AdvancementRecipesTest {
 		Identifier craftingTerminal = Identifier.parse("toms_storage:crafting_terminal");
 		Assertions.assertEquals(Identifier.parse("rework:iron/get_diamond"), QuestData.getQuestForRecipe(craftingTerminal));
 		Assertions.assertTrue(QuestData.getQuestsForItem(craftingTerminal).contains(Identifier.parse("rework:iron/get_diamond")));
+
+		Identifier invCableConnector = Identifier.parse("toms_storage:inventory_cable_connector");
+		Assertions.assertEquals(Identifier.parse("rework:iron/get_diamond"), QuestData.getQuestForRecipe(invCableConnector));
+		Assertions.assertTrue(QuestData.getQuestsForItem(invCableConnector).contains(Identifier.parse("rework:iron/get_diamond")));
 
 		Identifier wirelessTerminal = Identifier.parse("toms_storage:wireless_terminal");
 		Assertions.assertEquals(Identifier.parse("rework:diamond/root"), QuestData.getQuestForRecipe(wirelessTerminal));
@@ -339,7 +335,6 @@ public class AdvancementRecipesTest {
 			Assertions.assertTrue(json.has("type"), "Recipe must have type: " + path);
 			Assertions.assertTrue(json.has("result"), "Recipe must have result: " + path);
 
-			// Ensure logs are used rather than planks
 			if (json.has("key")) {
 				com.google.gson.JsonObject key = json.getAsJsonObject("key");
 				for (String k : key.keySet()) {
@@ -351,7 +346,6 @@ public class AdvancementRecipesTest {
 			}
 		}
 
-		// Also verify datapack files exist
 		java.nio.file.Path datapackMeta = java.nio.file.Paths.get("datapacks/toms_storage_overhaul/pack.mcmeta");
 		Assertions.assertTrue(java.nio.file.Files.exists(datapackMeta), "Datapack pack.mcmeta should exist");
 	}

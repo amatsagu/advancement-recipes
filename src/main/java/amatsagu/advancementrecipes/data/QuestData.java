@@ -79,7 +79,6 @@ public class QuestData {
 		if (title != null && !title.isEmpty()) {
 			return title;
 		}
-		// Fallback to path
 		String path = questId.getPath();
 		int slash = path.lastIndexOf('/');
 		return slash >= 0 ? path.substring(slash + 1) : path;

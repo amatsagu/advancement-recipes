@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "RGR",
-    "GWG",
-    "RGR"
+    "RIR",
+    "IWI",
+    "RIR"
   ],
   "key": {
     "R": "#c:dusts/redstone",
-    "G": "#c:ingots/gold",
+    "I": "#c:ingots/iron",
     "W": "#minecraft:wool"
   },
   "result": {

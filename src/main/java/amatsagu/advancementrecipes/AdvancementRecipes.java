@@ -17,7 +17,6 @@ public class AdvancementRecipes implements ModInitializer {
 		LOGGER.info("Initializing Advancement Recipes (Fabric 26.3)");
 		QuestData.init();
 
-		// Enforce limited crafting gamerule automatically on server start
 		ServerLifecycleEvents.SERVER_STARTED.register(server -> {
 			Boolean isLimited = server.getGameRules().get(GameRules.LIMITED_CRAFTING);
 			if (Boolean.FALSE.equals(isLimited)) {

@@ -3,13 +3,13 @@
   "pattern": [
     "LSL",
     "LCL",
-    "GTG"
+    "ITI"
   ],
   "key": {
     "L": "#minecraft:logs",
     "S": "#c:rods/wooden",
     "C": "#c:chests",
-    "G": "#c:ingots/gold",
+    "I": "#c:ingots/iron",
     "T": "#minecraft:trapdoors"
   },
   "result": {
