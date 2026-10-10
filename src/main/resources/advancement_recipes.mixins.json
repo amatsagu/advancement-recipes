@@ -2,7 +2,9 @@
   "required": true,
   "package": "amatsagu.advancementrecipes.mixin",
   "compatibilityLevel": "JAVA_25",
-  "mixins": [],
+  "mixins": [
+    "PackRepositoryMixin"
+  ],
   "client": [
     "client.IngredientGridTooltipHelperMixin",
     "client.OutputSlotTooltipCallbackMixin",

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GTG",
+    "LaC",
+    "LEL"
+  ],
+  "key": {
+    "G": "#c:ingots/gold",
+    "T": "minecraft:redstone_torch",
+    "L": "#minecraft:logs",
+    "a": "minecraft:spyglass",
+    "C": "minecraft:comparator",
+    "E": "#c:ender_pearls"
+  },
+  "result": {
+    "id": "toms_storage:wireless_terminal"
+  }
+}

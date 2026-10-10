@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "toms_storage:inventory_cable_connector",
+  "pattern": [
+    "GLR",
+    "CcE",
+    "GLD"
+  ],
+  "key": {
+    "L": "#minecraft:logs",
+    "G": "#c:ingots/gold",
+    "R": "minecraft:repeater",
+    "C": "toms_storage:inventory_cable",
+    "c": "#c:chests",
+    "E": "#c:ender_pearls",
+    "D": "#c:gems/diamond"
+  },
+  "result": {
+    "id": "toms_storage:inventory_cable_connector"
+  }
+}

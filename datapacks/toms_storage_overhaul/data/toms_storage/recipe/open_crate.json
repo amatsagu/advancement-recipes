@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LSL",
+    "LCL",
+    "GTG"
+  ],
+  "key": {
+    "L": "#minecraft:logs",
+    "S": "#c:rods/wooden",
+    "C": "#c:chests",
+    "G": "#c:ingots/gold",
+    "T": "#minecraft:trapdoors"
+  },
+  "result": {
+    "id": "toms_storage:open_crate"
+  }
+}

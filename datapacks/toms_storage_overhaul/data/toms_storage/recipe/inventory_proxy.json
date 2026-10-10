@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "toms_storage:inventory_proxy",
+  "pattern": [
+    "LTL",
+    "GCG",
+    "LRL"
+  ],
+  "key": {
+    "L": "#minecraft:logs",
+    "T": "#minecraft:trapdoors",
+    "G": "#c:ingots/gold",
+    "C": "#c:chests",
+    "R": "minecraft:repeater"
+  },
+  "result": {
+    "id": "toms_storage:inventory_proxy"
+  }
+}

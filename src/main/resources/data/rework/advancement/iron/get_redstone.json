@@ -91,7 +91,18 @@
       "storagedrawers:magnet_upgrade_3",
       "storagedrawers:max_redstone_upgrade",
       "storagedrawers:min_redstone_upgrade",
-      "storagedrawers:redstone_upgrade"
+      "storagedrawers:redstone_upgrade",
+      "toms_storage:basic_inventory_hopper",
+      "toms_storage:inventory_cable_connector_framed",
+      "toms_storage:inventory_cable_connector_framed_clean",
+      "toms_storage:inventory_cable_framed",
+      "toms_storage:inventory_cable_framed_clean",
+      "toms_storage:inventory_proxy_clean",
+      "toms_storage:item_filter",
+      "toms_storage:level_emitter",
+      "toms_storage:open_crate",
+      "toms_storage:paint_kit",
+      "toms_storage:trim_clean"
     ]
   }
 }

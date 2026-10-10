@@ -17,6 +17,7 @@ val supermartijn_core_version = prop("supermartijn_core_version")
 val supermartijn_config_version = prop("supermartijn_config_version")
 val glow_paste_version = prop("glow_paste_version")
 val storage_drawers_version = prop("storage_drawers_version")
+val toms_storage_version = prop("toms_storage_version")
 val mod_id = prop("mod_id")
 val mod_name = prop("mod_name")
 val mod_description = prop("mod_description")
@@ -56,6 +57,7 @@ dependencies {
     compileOnly("maven.modrinth:supermartijn642s-config-lib:$supermartijn_config_version")
     compileOnly("maven.modrinth:glow-paste:$glow_paste_version")
     compileOnly("maven.modrinth:storagedrawers:$storage_drawers_version")
+    compileOnly("maven.modrinth:toms-storage:$toms_storage_version")
 
     runtimeOnly("mezz.jei:jei-26.3-fabric:$jei_version")
     runtimeOnly("maven.modrinth:modern-advancement-screen:$modern_advancements_version")
@@ -67,6 +69,7 @@ dependencies {
     runtimeOnly("maven.modrinth:supermartijn642s-config-lib:$supermartijn_config_version")
     runtimeOnly("maven.modrinth:glow-paste:$glow_paste_version")
     runtimeOnly("maven.modrinth:storagedrawers:$storage_drawers_version")
+    runtimeOnly("maven.modrinth:toms-storage:$toms_storage_version")
 
     testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")

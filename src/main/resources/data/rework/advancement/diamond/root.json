@@ -4,15 +4,15 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:iron/complete_category": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/complete_category": true
+              }
             }
-  }
-}
+          }
         }
       }
     }
@@ -34,5 +34,11 @@
     [
       "default"
     ]
-  ]
+  ],
+  "rewards": {
+    "recipes": [
+      "toms_storage:tag_item_filter",
+      "toms_storage:wireless_terminal"
+    ]
+  }
 }

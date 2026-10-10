@@ -175,7 +175,13 @@
       "storagedrawers:warped_half_drawers_1",
       "storagedrawers:warped_half_drawers_2",
       "storagedrawers:warped_half_drawers_4",
-      "storagedrawers:warped_trim"
+      "storagedrawers:warped_trim",
+      "toms_storage:filing_cabinet",
+      "toms_storage:inventory_cable",
+      "toms_storage:inventory_configurator",
+      "toms_storage:inventory_proxy",
+      "toms_storage:storage_terminal",
+      "toms_storage:trim"
     ]
   }
 }

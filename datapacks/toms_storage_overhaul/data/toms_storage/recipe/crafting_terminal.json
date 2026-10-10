@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cDc",
+    "GtG",
+    "cRc"
+  ],
+  "key": {
+    "c": "minecraft:crafting_table",
+    "D": "#c:gems/diamond",
+    "G": "#c:ingots/gold",
+    "t": "toms_storage:storage_terminal",
+    "R": "minecraft:repeater"
+  },
+  "result": {
+    "id": "toms_storage:crafting_terminal"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "toms_storage:inventory_cable",
+  "pattern": [
+    "LGL",
+    "RCR",
+    "LGL"
+  ],
+  "key": {
+    "L": "#minecraft:logs",
+    "G": "#c:ingots/gold",
+    "R": "minecraft:repeater",
+    "C": "#c:chests"
+  },
+  "result": {
+    "id": "toms_storage:inventory_cable",
+    "count": 8
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LGL",
+    "TgC",
+    "LRL"
+  ],
+  "key": {
+    "L": "#minecraft:logs",
+    "G": "#c:ingots/gold",
+    "T": "minecraft:redstone_torch",
+    "g": "#c:glass_blocks/colorless",
+    "C": "minecraft:comparator",
+    "R": "minecraft:repeater"
+  },
+  "result": {
+    "id": "toms_storage:storage_terminal"
+  }
+}

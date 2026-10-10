@@ -251,7 +251,8 @@
       "simplemagnets:advancedmagnet",
       "storagedrawers:concealment_key",
       "storagedrawers:keybutton_concealment",
-      "storagedrawers:netherite_storage_upgrade"
+      "storagedrawers:netherite_storage_upgrade",
+      "toms_storage:adv_wireless_terminal"
     ]
   }
 }

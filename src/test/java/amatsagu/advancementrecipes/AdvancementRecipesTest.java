@@ -280,5 +280,79 @@ public class AdvancementRecipesTest {
 		Identifier portabilityUpgrade = Identifier.parse("storagedrawers:portability_upgrade");
 		Assertions.assertEquals(Identifier.parse("rework:end/end_city"), QuestData.getQuestForRecipe(portabilityUpgrade));
 		Assertions.assertTrue(QuestData.getQuestsForItem(portabilityUpgrade).contains(Identifier.parse("rework:end/end_city")));
+
+		// Test Tom's Storage gating
+		Identifier itemFilter = Identifier.parse("toms_storage:item_filter");
+		Assertions.assertEquals(Identifier.parse("rework:iron/get_redstone"), QuestData.getQuestForRecipe(itemFilter));
+		Assertions.assertTrue(QuestData.getQuestsForItem(itemFilter).contains(Identifier.parse("rework:iron/get_redstone")));
+
+		Identifier levelEmitter = Identifier.parse("toms_storage:level_emitter");
+		Assertions.assertEquals(Identifier.parse("rework:iron/get_redstone"), QuestData.getQuestForRecipe(levelEmitter));
+		Assertions.assertTrue(QuestData.getQuestsForItem(levelEmitter).contains(Identifier.parse("rework:iron/get_redstone")));
+
+		Identifier inventoryCable = Identifier.parse("toms_storage:inventory_cable");
+		Assertions.assertEquals(Identifier.parse("rework:iron/nether"), QuestData.getQuestForRecipe(inventoryCable));
+		Assertions.assertTrue(QuestData.getQuestsForItem(inventoryCable).contains(Identifier.parse("rework:iron/nether")));
+
+		Identifier storageTerminal = Identifier.parse("toms_storage:storage_terminal");
+		Assertions.assertEquals(Identifier.parse("rework:iron/nether"), QuestData.getQuestForRecipe(storageTerminal));
+		Assertions.assertTrue(QuestData.getQuestsForItem(storageTerminal).contains(Identifier.parse("rework:iron/nether")));
+
+		Identifier invConnector = Identifier.parse("toms_storage:inventory_connector");
+		Assertions.assertEquals(Identifier.parse("rework:iron/get_diamond"), QuestData.getQuestForRecipe(invConnector));
+		Assertions.assertTrue(QuestData.getQuestsForItem(invConnector).contains(Identifier.parse("rework:iron/get_diamond")));
+
+		Identifier craftingTerminal = Identifier.parse("toms_storage:crafting_terminal");
+		Assertions.assertEquals(Identifier.parse("rework:iron/get_diamond"), QuestData.getQuestForRecipe(craftingTerminal));
+		Assertions.assertTrue(QuestData.getQuestsForItem(craftingTerminal).contains(Identifier.parse("rework:iron/get_diamond")));
+
+		Identifier wirelessTerminal = Identifier.parse("toms_storage:wireless_terminal");
+		Assertions.assertEquals(Identifier.parse("rework:diamond/root"), QuestData.getQuestForRecipe(wirelessTerminal));
+		Assertions.assertTrue(QuestData.getQuestsForItem(wirelessTerminal).contains(Identifier.parse("rework:diamond/root")));
+
+		Identifier tagItemFilter = Identifier.parse("toms_storage:tag_item_filter");
+		Assertions.assertEquals(Identifier.parse("rework:diamond/root"), QuestData.getQuestForRecipe(tagItemFilter));
+		Assertions.assertTrue(QuestData.getQuestsForItem(tagItemFilter).contains(Identifier.parse("rework:diamond/root")));
+
+		Identifier advWirelessTerminal = Identifier.parse("toms_storage:adv_wireless_terminal");
+		Assertions.assertEquals(Identifier.parse("rework:diamond/complete_category"), QuestData.getQuestForRecipe(advWirelessTerminal));
+		Assertions.assertTrue(QuestData.getQuestsForItem(advWirelessTerminal).contains(Identifier.parse("rework:diamond/complete_category")));
+	}
+
+	@Test
+	public void testTomsStorageRecipesAndDatapack() throws Exception {
+		java.nio.file.Path recipeDir = java.nio.file.Paths.get("src/main/resources/data/toms_storage/recipe");
+		Assertions.assertTrue(java.nio.file.Files.isDirectory(recipeDir), "Toms Storage recipe dir should exist");
+
+		java.util.List<java.nio.file.Path> recipeFiles;
+		try (java.util.stream.Stream<java.nio.file.Path> stream = java.nio.file.Files.list(recipeDir)) {
+			recipeFiles = stream.filter(p -> p.toString().endsWith(".json")).toList();
+		}
+		Assertions.assertEquals(15, recipeFiles.size(), "Should have exactly 15 custom recipes");
+
+		com.google.gson.Gson gson = new com.google.gson.Gson();
+		java.util.Set<String> recipeSignatures = new java.util.HashSet<>();
+
+		for (java.nio.file.Path path : recipeFiles) {
+			String content = java.nio.file.Files.readString(path);
+			com.google.gson.JsonObject json = gson.fromJson(content, com.google.gson.JsonObject.class);
+			Assertions.assertTrue(json.has("type"), "Recipe must have type: " + path);
+			Assertions.assertTrue(json.has("result"), "Recipe must have result: " + path);
+
+			// Ensure logs are used rather than planks
+			if (json.has("key")) {
+				com.google.gson.JsonObject key = json.getAsJsonObject("key");
+				for (String k : key.keySet()) {
+					String ingredient = key.get(k).toString();
+					Assertions.assertFalse(ingredient.contains("minecraft:planks"), "Should not use planks: " + path);
+				}
+				String patternKeySig = json.getAsJsonArray("pattern").toString() + key.toString();
+				Assertions.assertTrue(recipeSignatures.add(patternKeySig), "Duplicate recipe pattern/key collision: " + path);
+			}
+		}
+
+		// Also verify datapack files exist
+		java.nio.file.Path datapackMeta = java.nio.file.Paths.get("datapacks/toms_storage_overhaul/pack.mcmeta");
+		Assertions.assertTrue(java.nio.file.Files.exists(datapackMeta), "Datapack pack.mcmeta should exist");
 	}
 }

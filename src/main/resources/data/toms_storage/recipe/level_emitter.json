@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "LCL",
+    "GHG"
+  ],
+  "key": {
+    "T": "minecraft:redstone_torch",
+    "L": "#minecraft:logs",
+    "C": "toms_storage:inventory_cable",
+    "G": "#c:ingots/gold",
+    "H": "minecraft:comparator"
+  },
+  "result": {
+    "id": "toms_storage:level_emitter"
+  }
+}

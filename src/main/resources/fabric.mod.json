@@ -38,5 +38,12 @@
   },
   "provides": [
     "mr_advancement_recipes"
-  ]
+  ],
+  "custom": {
+    "fabric:resource_load_order": {
+      "after": [
+        "toms_storage"
+      ]
+    }
+  }
 }

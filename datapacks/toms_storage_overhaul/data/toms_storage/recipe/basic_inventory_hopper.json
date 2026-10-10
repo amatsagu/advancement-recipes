@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LCL",
+    "GHG",
+    " R "
+  ],
+  "key": {
+    "L": "#minecraft:logs",
+    "C": "toms_storage:inventory_cable",
+    "G": "#c:ingots/gold",
+    "H": "minecraft:hopper",
+    "R": "minecraft:repeater"
+  },
+  "result": {
+    "id": "toms_storage:basic_inventory_hopper"
+  }
+}

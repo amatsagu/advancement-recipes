@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LRL",
+    "GcG",
+    "LEL"
+  ],
+  "key": {
+    "L": "#minecraft:logs",
+    "R": "minecraft:repeater",
+    "G": "#c:ingots/gold",
+    "c": "#c:chests",
+    "E": "#c:ender_pearls"
+  },
+  "result": {
+    "id": "toms_storage:inventory_interface"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGR",
+    "GWG",
+    "RGR"
+  ],
+  "key": {
+    "R": "#c:dusts/redstone",
+    "G": "#c:ingots/gold",
+    "W": "#minecraft:wool"
+  },
+  "result": {
+    "id": "toms_storage:item_filter"
+  }
+}

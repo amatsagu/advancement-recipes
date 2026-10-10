@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "toms_storage:trim",
+  "pattern": [
+    "LRL",
+    "GCG",
+    "LRL"
+  ],
+  "key": {
+    "L": "#minecraft:logs",
+    "R": "minecraft:redstone_torch",
+    "G": "#c:ingots/gold",
+    "C": "#c:chests"
+  },
+  "result": {
+    "id": "toms_storage:trim",
+    "count": 4
+  }
+}
