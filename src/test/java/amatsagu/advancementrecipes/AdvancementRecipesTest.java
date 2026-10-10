@@ -11,6 +11,11 @@ import java.util.List;
 public class AdvancementRecipesTest {
 	@BeforeAll
 	public static void setup() {
+		net.minecraft.SharedConstants.tryDetectVersion();
+		net.minecraft.server.Bootstrap.bootStrap();
+		for (net.minecraft.world.item.Item item : net.minecraft.core.registries.BuiltInRegistries.ITEM) {
+			item.builtInRegistryHolder().bindComponents(net.minecraft.core.component.DataComponentMap.EMPTY);
+		}
 		QuestData.init();
 	}
 
@@ -188,5 +193,16 @@ public class AdvancementRecipesTest {
 		Assertions.assertTrue(multiQuestLines.get(0).getString().contains("Usage or recipe blocked - finish either of the quests:"));
 		Assertions.assertTrue(multiQuestLines.get(1).getString().contains("•"));
 		Assertions.assertTrue(multiQuestLines.get(2).getString().contains("•"));
+
+		// Test Glow Paste
+		Identifier glowPaste = Identifier.parse("glowpaste:glow_paste");
+		List<Identifier> glowPasteQuests = QuestData.getQuestsForItem(glowPaste);
+		Assertions.assertNotNull(glowPasteQuests, "Glow paste should be gated");
+		Assertions.assertTrue(glowPasteQuests.contains(Identifier.parse("rework:iron/swamp")), "Glow paste should require Swampland explorer");
+		Assertions.assertEquals(Identifier.parse("rework:iron/swamp"), QuestData.getQuestForRecipe(glowPaste));
+
+		// Test Slime Ball from Honey Recipe
+		Identifier slimeFromHoney = Identifier.parse("advancement_recipes:slime_ball_from_honey");
+		Assertions.assertEquals(Identifier.parse("rework:iron/swamp"), QuestData.getQuestForRecipe(slimeFromHoney));
 	}
 }

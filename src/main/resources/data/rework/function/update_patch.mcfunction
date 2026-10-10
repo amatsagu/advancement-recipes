@@ -467,3 +467,5 @@ recipe give @s[advancements={rework:copper/complete_category=true}] simplemagnet
 recipe give @s[advancements={rework:iron/basic_magnet=true}] simplemagnets:basic_demagnetization_coil
 recipe give @s[advancements={rework:diamond/complete_category=true}] simplemagnets:advancedmagnet
 recipe give @s[advancements={rework:end/advanced_magnet=true}] simplemagnets:advanced_demagnetization_coil
+recipe give @s[advancements={rework:iron/swamp=true}] glowpaste:glow_paste
+recipe give @s[advancements={rework:iron/swamp=true}] advancement_recipes:slime_ball_from_honey
