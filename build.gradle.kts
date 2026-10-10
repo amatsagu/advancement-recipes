@@ -77,6 +77,7 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+    systemProperty("joml.nounsafe", "true")
 }
 
 tasks.processResources {

@@ -13,9 +13,8 @@ public class AdvancementRecipesTest {
 	public static void setup() {
 		net.minecraft.SharedConstants.tryDetectVersion();
 		net.minecraft.server.Bootstrap.bootStrap();
-		for (net.minecraft.world.item.Item item : net.minecraft.core.registries.BuiltInRegistries.ITEM) {
-			item.builtInRegistryHolder().bindComponents(net.minecraft.core.component.DataComponentMap.EMPTY);
-		}
+		net.minecraft.core.registries.BuiltInRegistries.ITEM.listElements()
+				.forEach(holder -> holder.bindComponents(net.minecraft.core.component.DataComponentMap.EMPTY));
 		QuestData.init();
 	}
 
