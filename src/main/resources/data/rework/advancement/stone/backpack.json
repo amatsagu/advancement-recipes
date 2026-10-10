@@ -1,0 +1,61 @@
+{
+  "parent": "rework:stone/craft_bundle",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/craft_bundle": true
+              }
+            }
+          }
+        },
+        "recipes": "nemos_backpacks:backpack"
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft a backpack."
+    },
+    "icon": {
+      "count": 1,
+      "id": "nemos_backpacks:backpack"
+    },
+    "show_toast": true,
+    "title": "On Your Back"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nemos_backpacks:backpack",
+      "nemos_backpacks:black_backpack",
+      "nemos_backpacks:blue_backpack",
+      "nemos_backpacks:brown_backpack",
+      "nemos_backpacks:cyan_backpack",
+      "nemos_backpacks:gray_backpack",
+      "nemos_backpacks:green_backpack",
+      "nemos_backpacks:light_blue_backpack",
+      "nemos_backpacks:light_gray_backpack",
+      "nemos_backpacks:lime_backpack",
+      "nemos_backpacks:magenta_backpack",
+      "nemos_backpacks:orange_backpack",
+      "nemos_backpacks:pink_backpack",
+      "nemos_backpacks:purple_backpack",
+      "nemos_backpacks:red_backpack",
+      "nemos_backpacks:white_backpack",
+      "nemos_backpacks:yellow_backpack"
+    ]
+  }
+}

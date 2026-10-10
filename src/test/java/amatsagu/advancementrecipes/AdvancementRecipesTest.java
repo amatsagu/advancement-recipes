@@ -57,5 +57,36 @@ public class AdvancementRecipesTest {
 
 		String formattedAnvil = QuestData.formatQuestList(anvilQuests);
 		Assertions.assertTrue(formattedAnvil.contains("(Questline III)"), "Formatted anvil quest should include category: " + formattedAnvil);
+
+		// Test backpacks
+		Identifier baseBackpack = Identifier.parse("nemos_backpacks:backpack");
+		List<Identifier> baseQuests = QuestData.getQuestsForItem(baseBackpack);
+		Assertions.assertNotNull(baseQuests, "Base backpack should be gated");
+		Assertions.assertTrue(baseQuests.contains(Identifier.parse("rework:stone/backpack")), "Base backpack should require On Your Back");
+
+		Identifier copperBackpack = Identifier.parse("nemos_backpacks:copper_backpack");
+		List<Identifier> copperQuests = QuestData.getQuestsForItem(copperBackpack);
+		Assertions.assertNotNull(copperQuests, "Copper backpack should be gated");
+		Assertions.assertTrue(copperQuests.contains(Identifier.parse("rework:stone/complete_category")), "Copper backpack should require Copper Completionist");
+
+		Identifier ironBackpack = Identifier.parse("nemos_backpacks:iron_backpack");
+		List<Identifier> ironQuests = QuestData.getQuestsForItem(ironBackpack);
+		Assertions.assertNotNull(ironQuests, "Iron backpack should be gated");
+		Assertions.assertTrue(ironQuests.contains(Identifier.parse("rework:copper/complete_category")), "Iron backpack should require Iron Completionist");
+
+		Identifier goldenBackpack = Identifier.parse("nemos_backpacks:golden_backpack");
+		List<Identifier> goldenQuests = QuestData.getQuestsForItem(goldenBackpack);
+		Assertions.assertNotNull(goldenQuests, "Golden backpack should be gated");
+		Assertions.assertTrue(goldenQuests.contains(Identifier.parse("rework:iron/nether")), "Golden backpack should require Nether");
+
+		Identifier diamondBackpack = Identifier.parse("nemos_backpacks:diamond_backpack");
+		List<Identifier> diamondQuests = QuestData.getQuestsForItem(diamondBackpack);
+		Assertions.assertNotNull(diamondQuests, "Diamond backpack should be gated");
+		Assertions.assertTrue(diamondQuests.contains(Identifier.parse("rework:iron/complete_category")), "Diamond backpack should require Diamond Completionist");
+
+		Identifier netheriteBackpack = Identifier.parse("nemos_backpacks:netherite_backpack");
+		List<Identifier> netheriteQuests = QuestData.getQuestsForItem(netheriteBackpack);
+		Assertions.assertNotNull(netheriteQuests, "Netherite backpack should be gated");
+		Assertions.assertTrue(netheriteQuests.contains(Identifier.parse("rework:diamond/complete_category")), "Netherite backpack should require Netherite Completionist");
 	}
 }

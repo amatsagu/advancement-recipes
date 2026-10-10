@@ -162,7 +162,8 @@
     "rework:tutorial/dirt": "Dirt Enjoyer",
     "rework:tutorial/complete_category": "Wooden Completionist",
     "rework:tutorial/gather_logs": "Timber",
-    "rework:tutorial/plant_sapling": "New Generation"
+    "rework:tutorial/plant_sapling": "New Generation",
+    "rework:stone/backpack": "On Your Back"
   },
   "recipe_to_quest": {
     "minecraft:dried_kelp": "rework:stone/deep_ocean_by_boat",
@@ -1537,7 +1538,189 @@
     "minecraft:pale_oak_sign": "rework:tutorial/plant_sapling",
     "minecraft:poplar_sign": "rework:tutorial/plant_sapling",
     "minecraft:spruce_sign": "rework:tutorial/plant_sapling",
-    "minecraft:composter": "rework:tutorial/plant_sapling"
+    "minecraft:composter": "rework:tutorial/plant_sapling",
+    "nemos_backpacks:backpack": "rework:stone/backpack",
+    "nemos_backpacks:black_backpack": "rework:stone/backpack",
+    "nemos_backpacks:blue_backpack": "rework:stone/backpack",
+    "nemos_backpacks:brown_backpack": "rework:stone/backpack",
+    "nemos_backpacks:cyan_backpack": "rework:stone/backpack",
+    "nemos_backpacks:gray_backpack": "rework:stone/backpack",
+    "nemos_backpacks:green_backpack": "rework:stone/backpack",
+    "nemos_backpacks:light_blue_backpack": "rework:stone/backpack",
+    "nemos_backpacks:light_gray_backpack": "rework:stone/backpack",
+    "nemos_backpacks:lime_backpack": "rework:stone/backpack",
+    "nemos_backpacks:magenta_backpack": "rework:stone/backpack",
+    "nemos_backpacks:orange_backpack": "rework:stone/backpack",
+    "nemos_backpacks:pink_backpack": "rework:stone/backpack",
+    "nemos_backpacks:purple_backpack": "rework:stone/backpack",
+    "nemos_backpacks:red_backpack": "rework:stone/backpack",
+    "nemos_backpacks:white_backpack": "rework:stone/backpack",
+    "nemos_backpacks:yellow_backpack": "rework:stone/backpack",
+    "nemos_backpacks:black_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:black_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:blue_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:blue_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:brown_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:brown_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:cyan_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:cyan_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:gray_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:gray_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:green_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:green_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:light_blue_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:light_blue_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:light_gray_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:light_gray_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:lime_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:lime_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:magenta_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:magenta_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:orange_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:orange_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:pink_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:pink_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:purple_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:purple_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:red_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:red_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:white_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:white_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:yellow_copper_backpack": "rework:stone/complete_category",
+    "nemos_backpacks:yellow_copper_backpack_smithing": "rework:stone/complete_category",
+    "nemos_backpacks:black_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:black_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:blue_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:blue_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:brown_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:brown_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:cyan_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:cyan_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:gray_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:gray_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:green_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:green_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:light_blue_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:light_blue_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:light_gray_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:light_gray_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:lime_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:lime_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:magenta_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:magenta_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:orange_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:orange_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:pink_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:pink_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:purple_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:purple_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:red_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:red_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:white_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:white_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:yellow_iron_backpack": "rework:copper/complete_category",
+    "nemos_backpacks:yellow_iron_backpack_smithing": "rework:copper/complete_category",
+    "nemos_backpacks:black_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:black_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:blue_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:blue_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:brown_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:brown_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:cyan_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:cyan_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:gray_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:gray_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:green_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:green_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:light_blue_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:light_blue_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:light_gray_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:light_gray_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:lime_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:lime_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:magenta_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:magenta_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:orange_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:orange_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:pink_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:pink_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:purple_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:purple_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:red_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:red_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:white_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:white_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:yellow_golden_backpack": "rework:iron/nether",
+    "nemos_backpacks:yellow_golden_backpack_smithing": "rework:iron/nether",
+    "nemos_backpacks:black_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:black_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:blue_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:blue_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:brown_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:brown_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:cyan_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:cyan_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:gray_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:gray_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:green_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:green_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:light_blue_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:light_blue_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:light_gray_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:light_gray_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:lime_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:lime_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:magenta_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:magenta_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:orange_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:orange_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:pink_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:pink_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:purple_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:purple_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:red_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:red_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:white_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:white_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:yellow_diamond_backpack": "rework:iron/complete_category",
+    "nemos_backpacks:yellow_diamond_backpack_smithing": "rework:iron/complete_category",
+    "nemos_backpacks:black_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:black_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:blue_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:blue_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:brown_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:brown_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:cyan_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:cyan_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:gray_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:gray_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:green_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:green_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:light_blue_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:light_blue_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:light_gray_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:light_gray_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:lime_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:lime_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:magenta_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:magenta_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:orange_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:orange_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:pink_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:pink_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:purple_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:purple_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:red_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:red_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:white_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:white_netherite_backpack_smithing": "rework:diamond/complete_category",
+    "nemos_backpacks:yellow_netherite_backpack": "rework:diamond/complete_category",
+    "nemos_backpacks:yellow_netherite_backpack_smithing": "rework:diamond/complete_category"
   },
   "item_to_quests": {
     "minecraft:dried_kelp": [
@@ -4866,6 +5049,312 @@
     ],
     "minecraft:filled_map": [
       "rework:iron/get_sugar_cane"
+    ],
+    "nemos_backpacks:backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:black_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:blue_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:brown_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:cyan_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:gray_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:green_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:light_blue_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:light_gray_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:lime_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:magenta_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:orange_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:pink_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:purple_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:red_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:white_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:yellow_backpack": [
+      "rework:stone/backpack"
+    ],
+    "nemos_backpacks:black_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:blue_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:brown_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:cyan_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:gray_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:green_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:light_blue_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:light_gray_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:lime_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:magenta_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:orange_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:pink_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:purple_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:red_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:white_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:yellow_copper_backpack": [
+      "rework:stone/complete_category"
+    ],
+    "nemos_backpacks:black_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:blue_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:brown_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:cyan_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:gray_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:green_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:light_blue_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:light_gray_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:lime_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:magenta_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:orange_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:pink_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:purple_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:red_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:white_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:yellow_iron_backpack": [
+      "rework:copper/complete_category"
+    ],
+    "nemos_backpacks:black_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:blue_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:brown_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:cyan_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:gray_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:green_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:light_blue_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:light_gray_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:lime_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:magenta_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:orange_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:pink_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:purple_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:red_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:white_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:yellow_golden_backpack": [
+      "rework:iron/nether"
+    ],
+    "nemos_backpacks:black_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:blue_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:brown_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:cyan_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:gray_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:green_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:light_blue_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:light_gray_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:lime_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:magenta_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:orange_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:pink_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:purple_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:red_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:white_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:yellow_diamond_backpack": [
+      "rework:iron/complete_category"
+    ],
+    "nemos_backpacks:black_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:blue_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:brown_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:cyan_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:gray_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:green_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:light_blue_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:light_gray_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:lime_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:magenta_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:orange_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:pink_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:purple_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:red_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:white_netherite_backpack": [
+      "rework:diamond/complete_category"
+    ],
+    "nemos_backpacks:yellow_netherite_backpack": [
+      "rework:diamond/complete_category"
     ]
   }
 }

@@ -192,6 +192,22 @@
           }
         }
       }
+    },
+    "goal14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/backpack": true
+              }
+            }
+          }
+        }
+      }
     }
   },
   "display": {
@@ -243,6 +259,9 @@
     ],
     [
       "goal13"
+    ],
+    [
+      "goal14"
     ]
   ],
   "rewards": {
@@ -262,7 +281,40 @@
       "minecraft:arrow",
       "minecraft:iron_ingot_from_smelting_deepslate_iron_ore",
       "minecraft:iron_ingot_from_smelting_iron_ore",
-      "minecraft:iron_ingot_from_smelting_raw_iron"
+      "minecraft:iron_ingot_from_smelting_raw_iron",
+      "nemos_backpacks:black_copper_backpack",
+      "nemos_backpacks:black_copper_backpack_smithing",
+      "nemos_backpacks:blue_copper_backpack",
+      "nemos_backpacks:blue_copper_backpack_smithing",
+      "nemos_backpacks:brown_copper_backpack",
+      "nemos_backpacks:brown_copper_backpack_smithing",
+      "nemos_backpacks:copper_backpack_smithing",
+      "nemos_backpacks:cyan_copper_backpack",
+      "nemos_backpacks:cyan_copper_backpack_smithing",
+      "nemos_backpacks:gray_copper_backpack",
+      "nemos_backpacks:gray_copper_backpack_smithing",
+      "nemos_backpacks:green_copper_backpack",
+      "nemos_backpacks:green_copper_backpack_smithing",
+      "nemos_backpacks:light_blue_copper_backpack",
+      "nemos_backpacks:light_blue_copper_backpack_smithing",
+      "nemos_backpacks:light_gray_copper_backpack",
+      "nemos_backpacks:light_gray_copper_backpack_smithing",
+      "nemos_backpacks:lime_copper_backpack",
+      "nemos_backpacks:lime_copper_backpack_smithing",
+      "nemos_backpacks:magenta_copper_backpack",
+      "nemos_backpacks:magenta_copper_backpack_smithing",
+      "nemos_backpacks:orange_copper_backpack",
+      "nemos_backpacks:orange_copper_backpack_smithing",
+      "nemos_backpacks:pink_copper_backpack",
+      "nemos_backpacks:pink_copper_backpack_smithing",
+      "nemos_backpacks:purple_copper_backpack",
+      "nemos_backpacks:purple_copper_backpack_smithing",
+      "nemos_backpacks:red_copper_backpack",
+      "nemos_backpacks:red_copper_backpack_smithing",
+      "nemos_backpacks:white_copper_backpack",
+      "nemos_backpacks:white_copper_backpack_smithing",
+      "nemos_backpacks:yellow_copper_backpack",
+      "nemos_backpacks:yellow_copper_backpack_smithing"
     ]
   }
 }

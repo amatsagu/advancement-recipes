@@ -5,15 +5,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:diamond/feed_snifflet": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/feed_snifflet": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -21,15 +21,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:diamond/kill_near_catalyst": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/kill_near_catalyst": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -37,15 +37,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:diamond/get_music_disc_5": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/get_music_disc_5": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -53,15 +53,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:diamond/get_recovery_compass": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/get_recovery_compass": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -69,15 +69,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:diamond/place_creaking_heart": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/place_creaking_heart": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -85,15 +85,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:diamond/full_beacon": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/full_beacon": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -101,15 +101,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:diamond/mace_damage": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/mace_damage": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -117,15 +117,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:diamond/true_rarest_block": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/true_rarest_block": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -133,15 +133,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:diamond/creator_music_discs": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/creator_music_discs": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -149,15 +149,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:diamond/get_coral": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/get_coral": true
+              }
             }
-  }
-}
+          }
         }
       }
     }
@@ -213,7 +213,40 @@
       "minecraft:netherite_upgrade_smithing_template",
       "minecraft:netherite_ingot",
       "minecraft:netherite_scrap",
-      "minecraft:netherite_scrap_from_blasting"
+      "minecraft:netherite_scrap_from_blasting",
+      "nemos_backpacks:black_netherite_backpack",
+      "nemos_backpacks:black_netherite_backpack_smithing",
+      "nemos_backpacks:blue_netherite_backpack",
+      "nemos_backpacks:blue_netherite_backpack_smithing",
+      "nemos_backpacks:brown_netherite_backpack",
+      "nemos_backpacks:brown_netherite_backpack_smithing",
+      "nemos_backpacks:cyan_netherite_backpack",
+      "nemos_backpacks:cyan_netherite_backpack_smithing",
+      "nemos_backpacks:gray_netherite_backpack",
+      "nemos_backpacks:gray_netherite_backpack_smithing",
+      "nemos_backpacks:green_netherite_backpack",
+      "nemos_backpacks:green_netherite_backpack_smithing",
+      "nemos_backpacks:light_blue_netherite_backpack",
+      "nemos_backpacks:light_blue_netherite_backpack_smithing",
+      "nemos_backpacks:light_gray_netherite_backpack",
+      "nemos_backpacks:light_gray_netherite_backpack_smithing",
+      "nemos_backpacks:lime_netherite_backpack",
+      "nemos_backpacks:lime_netherite_backpack_smithing",
+      "nemos_backpacks:magenta_netherite_backpack",
+      "nemos_backpacks:magenta_netherite_backpack_smithing",
+      "nemos_backpacks:netherite_backpack_smithing",
+      "nemos_backpacks:orange_netherite_backpack",
+      "nemos_backpacks:orange_netherite_backpack_smithing",
+      "nemos_backpacks:pink_netherite_backpack",
+      "nemos_backpacks:pink_netherite_backpack_smithing",
+      "nemos_backpacks:purple_netherite_backpack",
+      "nemos_backpacks:purple_netherite_backpack_smithing",
+      "nemos_backpacks:red_netherite_backpack",
+      "nemos_backpacks:red_netherite_backpack_smithing",
+      "nemos_backpacks:white_netherite_backpack",
+      "nemos_backpacks:white_netherite_backpack_smithing",
+      "nemos_backpacks:yellow_netherite_backpack",
+      "nemos_backpacks:yellow_netherite_backpack_smithing"
     ]
   }
 }

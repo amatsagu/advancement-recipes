@@ -5,19 +5,19 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:iron/root": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            },
+            "location": {
+              "dimension": "minecraft:the_nether"
             }
-          },
-          "location": {
-            "dimension": "minecraft:the_nether"
           }
-  }
-}
+        }
       }
     }
   },
@@ -114,7 +114,40 @@
       "minecraft:raw_gold_block",
       "minecraft:clock",
       "minecraft:golden_dandelion",
-      "minecraft:fire_charge"
+      "minecraft:fire_charge",
+      "nemos_backpacks:black_golden_backpack",
+      "nemos_backpacks:black_golden_backpack_smithing",
+      "nemos_backpacks:blue_golden_backpack",
+      "nemos_backpacks:blue_golden_backpack_smithing",
+      "nemos_backpacks:brown_golden_backpack",
+      "nemos_backpacks:brown_golden_backpack_smithing",
+      "nemos_backpacks:cyan_golden_backpack",
+      "nemos_backpacks:cyan_golden_backpack_smithing",
+      "nemos_backpacks:golden_backpack_smithing",
+      "nemos_backpacks:gray_golden_backpack",
+      "nemos_backpacks:gray_golden_backpack_smithing",
+      "nemos_backpacks:green_golden_backpack",
+      "nemos_backpacks:green_golden_backpack_smithing",
+      "nemos_backpacks:light_blue_golden_backpack",
+      "nemos_backpacks:light_blue_golden_backpack_smithing",
+      "nemos_backpacks:light_gray_golden_backpack",
+      "nemos_backpacks:light_gray_golden_backpack_smithing",
+      "nemos_backpacks:lime_golden_backpack",
+      "nemos_backpacks:lime_golden_backpack_smithing",
+      "nemos_backpacks:magenta_golden_backpack",
+      "nemos_backpacks:magenta_golden_backpack_smithing",
+      "nemos_backpacks:orange_golden_backpack",
+      "nemos_backpacks:orange_golden_backpack_smithing",
+      "nemos_backpacks:pink_golden_backpack",
+      "nemos_backpacks:pink_golden_backpack_smithing",
+      "nemos_backpacks:purple_golden_backpack",
+      "nemos_backpacks:purple_golden_backpack_smithing",
+      "nemos_backpacks:red_golden_backpack",
+      "nemos_backpacks:red_golden_backpack_smithing",
+      "nemos_backpacks:white_golden_backpack",
+      "nemos_backpacks:white_golden_backpack_smithing",
+      "nemos_backpacks:yellow_golden_backpack",
+      "nemos_backpacks:yellow_golden_backpack_smithing"
     ]
   }
 }
