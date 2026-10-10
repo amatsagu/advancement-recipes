@@ -5,18 +5,18 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:iron/get_amethyst": true
-            },
-            "looking_at": {
-              "minecraft:entity_type": "minecraft:enderman"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/get_amethyst": true
+              },
+              "looking_at": {
+                "minecraft:entity_type": "minecraft:enderman"
+              }
             }
-  }
-}
+          }
         },
         "item": {
           "items": "minecraft:spyglass"
@@ -43,6 +43,11 @@
     ]
   ],
   "rewards": {
-    "recipes": []
+    "recipes": [
+      "storagedrawers:remote_group_upgrade",
+      "storagedrawers:remote_group_upgrade_bound",
+      "storagedrawers:remote_group_upgrade_inc",
+      "storagedrawers:remote_upgrade"
+    ]
   }
 }

@@ -223,5 +223,62 @@ public class AdvancementRecipesTest {
 		Identifier copperChestId = Identifier.parse("minecraft:copper_chest");
 		Assertions.assertEquals(Identifier.parse("rework:stone/copper_ingot"), QuestData.getQuestForRecipe(copperChestId));
 		Assertions.assertTrue(QuestData.getQuestsForItem(copperChestId).contains(Identifier.parse("rework:stone/copper_ingot")));
+
+		// Test Storage Drawers gating
+		Identifier oakDrawer = Identifier.parse("storagedrawers:oak_full_drawers_1");
+		Assertions.assertEquals(Identifier.parse("rework:wood/item_frame"), QuestData.getQuestForRecipe(oakDrawer));
+		Assertions.assertTrue(QuestData.getQuestsForItem(oakDrawer).contains(Identifier.parse("rework:wood/item_frame")));
+
+		Identifier upgradeTemplate = Identifier.parse("storagedrawers:upgrade_template");
+		Assertions.assertEquals(Identifier.parse("rework:wood/item_frame"), QuestData.getQuestForRecipe(upgradeTemplate));
+		Assertions.assertTrue(QuestData.getQuestsForItem(upgradeTemplate).contains(Identifier.parse("rework:wood/item_frame")));
+
+		Identifier copperUpgrade = Identifier.parse("storagedrawers:copper_storage_upgrade");
+		Assertions.assertEquals(Identifier.parse("rework:stone/copper_ingot"), QuestData.getQuestForRecipe(copperUpgrade));
+		Assertions.assertTrue(QuestData.getQuestsForItem(copperUpgrade).contains(Identifier.parse("rework:stone/copper_ingot")));
+
+		Identifier ironUpgrade = Identifier.parse("storagedrawers:iron_storage_upgrade");
+		Assertions.assertEquals(Identifier.parse("rework:copper/get_iron"), QuestData.getQuestForRecipe(ironUpgrade));
+		Assertions.assertTrue(QuestData.getQuestsForItem(ironUpgrade).contains(Identifier.parse("rework:copper/get_iron")));
+
+		Identifier emeraldUpgrade = Identifier.parse("storagedrawers:emerald_storage_upgrade");
+		Assertions.assertEquals(Identifier.parse("rework:copper/complete_category"), QuestData.getQuestForRecipe(emeraldUpgrade));
+		Assertions.assertTrue(QuestData.getQuestsForItem(emeraldUpgrade).contains(Identifier.parse("rework:copper/complete_category")));
+
+		Identifier crimsonDrawer = Identifier.parse("storagedrawers:crimson_full_drawers_1");
+		Assertions.assertEquals(Identifier.parse("rework:iron/nether"), QuestData.getQuestForRecipe(crimsonDrawer));
+		Assertions.assertTrue(QuestData.getQuestsForItem(crimsonDrawer).contains(Identifier.parse("rework:iron/nether")));
+
+		Identifier drawerKey = Identifier.parse("storagedrawers:drawer_key");
+		Assertions.assertEquals(Identifier.parse("rework:iron/nether"), QuestData.getQuestForRecipe(drawerKey));
+		Assertions.assertTrue(QuestData.getQuestsForItem(drawerKey).contains(Identifier.parse("rework:iron/nether")));
+
+		Identifier redstoneUpgrade = Identifier.parse("storagedrawers:redstone_upgrade");
+		Assertions.assertEquals(Identifier.parse("rework:iron/get_redstone"), QuestData.getQuestForRecipe(redstoneUpgrade));
+		Assertions.assertTrue(QuestData.getQuestsForItem(redstoneUpgrade).contains(Identifier.parse("rework:iron/get_redstone")));
+
+		Identifier compDrawer = Identifier.parse("storagedrawers:compacting_drawers_2");
+		Assertions.assertEquals(Identifier.parse("rework:iron/get_redstone"), QuestData.getQuestForRecipe(compDrawer));
+		Assertions.assertTrue(QuestData.getQuestsForItem(compDrawer).contains(Identifier.parse("rework:iron/get_redstone")));
+
+		Identifier quantifyKey = Identifier.parse("storagedrawers:quantify_key");
+		Assertions.assertEquals(Identifier.parse("rework:iron/write_book"), QuestData.getQuestForRecipe(quantifyKey));
+		Assertions.assertTrue(QuestData.getQuestsForItem(quantifyKey).contains(Identifier.parse("rework:iron/write_book")));
+
+		Identifier remoteUpgrade = Identifier.parse("storagedrawers:remote_upgrade");
+		Assertions.assertEquals(Identifier.parse("rework:iron/look_at_enderman"), QuestData.getQuestForRecipe(remoteUpgrade));
+		Assertions.assertTrue(QuestData.getQuestsForItem(remoteUpgrade).contains(Identifier.parse("rework:iron/look_at_enderman")));
+
+		Identifier controller = Identifier.parse("storagedrawers:controller");
+		Assertions.assertEquals(Identifier.parse("rework:iron/get_diamond"), QuestData.getQuestForRecipe(controller));
+		Assertions.assertTrue(QuestData.getQuestsForItem(controller).contains(Identifier.parse("rework:iron/get_diamond")));
+
+		Identifier netheriteUpgrade = Identifier.parse("storagedrawers:netherite_storage_upgrade");
+		Assertions.assertEquals(Identifier.parse("rework:diamond/complete_category"), QuestData.getQuestForRecipe(netheriteUpgrade));
+		Assertions.assertTrue(QuestData.getQuestsForItem(netheriteUpgrade).contains(Identifier.parse("rework:diamond/complete_category")));
+
+		Identifier portabilityUpgrade = Identifier.parse("storagedrawers:portability_upgrade");
+		Assertions.assertEquals(Identifier.parse("rework:end/end_city"), QuestData.getQuestForRecipe(portabilityUpgrade));
+		Assertions.assertTrue(QuestData.getQuestsForItem(portabilityUpgrade).contains(Identifier.parse("rework:end/end_city")));
 	}
 }

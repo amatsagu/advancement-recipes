@@ -1906,7 +1906,139 @@
     "simplemagnets:basicmagnet": "rework:copper/complete_category",
     "simplemagnets:basic_demagnetization_coil": "rework:iron/basic_magnet",
     "simplemagnets:advancedmagnet": "rework:diamond/complete_category",
-    "simplemagnets:advanced_demagnetization_coil": "rework:end/advanced_magnet"
+    "simplemagnets:advanced_demagnetization_coil": "rework:end/advanced_magnet",
+    "storagedrawers:acacia_full_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:acacia_full_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:acacia_full_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:acacia_half_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:acacia_half_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:acacia_half_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:acacia_trim": "rework:wood/item_frame",
+    "storagedrawers:add_detached_upgrade": "rework:wood/item_frame",
+    "storagedrawers:add_upgrade": "rework:wood/item_frame",
+    "storagedrawers:bamboo_full_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:bamboo_full_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:bamboo_full_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:bamboo_half_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:bamboo_half_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:bamboo_half_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:bamboo_trim": "rework:wood/item_frame",
+    "storagedrawers:birch_full_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:birch_full_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:birch_full_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:birch_half_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:birch_half_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:birch_half_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:birch_trim": "rework:wood/item_frame",
+    "storagedrawers:cherry_full_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:cherry_full_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:cherry_full_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:cherry_half_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:cherry_half_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:cherry_half_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:cherry_trim": "rework:wood/item_frame",
+    "storagedrawers:dark_oak_full_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:dark_oak_full_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:dark_oak_full_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:dark_oak_half_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:dark_oak_half_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:dark_oak_half_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:dark_oak_trim": "rework:wood/item_frame",
+    "storagedrawers:detached_drawer": "rework:wood/item_frame",
+    "storagedrawers:framing_table": "rework:wood/item_frame",
+    "storagedrawers:jungle_full_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:jungle_full_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:jungle_full_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:jungle_half_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:jungle_half_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:jungle_half_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:jungle_trim": "rework:wood/item_frame",
+    "storagedrawers:mangrove_full_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:mangrove_full_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:mangrove_full_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:mangrove_half_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:mangrove_half_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:mangrove_half_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:mangrove_trim": "rework:wood/item_frame",
+    "storagedrawers:oak_full_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:oak_full_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:oak_full_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:oak_half_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:oak_half_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:oak_half_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:oak_trim": "rework:wood/item_frame",
+    "storagedrawers:one_stack_upgrade": "rework:wood/item_frame",
+    "storagedrawers:pale_oak_full_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:pale_oak_full_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:pale_oak_full_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:pale_oak_half_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:pale_oak_half_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:pale_oak_half_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:pale_oak_trim": "rework:wood/item_frame",
+    "storagedrawers:spruce_full_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:spruce_full_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:spruce_full_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:spruce_half_drawers_1": "rework:wood/item_frame",
+    "storagedrawers:spruce_half_drawers_2": "rework:wood/item_frame",
+    "storagedrawers:spruce_half_drawers_4": "rework:wood/item_frame",
+    "storagedrawers:spruce_trim": "rework:wood/item_frame",
+    "storagedrawers:upgrade_template": "rework:wood/item_frame",
+    "storagedrawers:copper_storage_upgrade": "rework:stone/copper_ingot",
+    "storagedrawers:drawer_puller": "rework:copper/get_iron",
+    "storagedrawers:iron_storage_upgrade": "rework:copper/get_iron",
+    "storagedrawers:keyring": "rework:copper/get_iron",
+    "storagedrawers:emerald_storage_upgrade": "rework:copper/complete_category",
+    "storagedrawers:crimson_full_drawers_1": "rework:iron/nether",
+    "storagedrawers:crimson_full_drawers_2": "rework:iron/nether",
+    "storagedrawers:crimson_full_drawers_4": "rework:iron/nether",
+    "storagedrawers:crimson_half_drawers_1": "rework:iron/nether",
+    "storagedrawers:crimson_half_drawers_2": "rework:iron/nether",
+    "storagedrawers:crimson_half_drawers_4": "rework:iron/nether",
+    "storagedrawers:crimson_trim": "rework:iron/nether",
+    "storagedrawers:drawer_key": "rework:iron/nether",
+    "storagedrawers:gold_storage_upgrade": "rework:iron/nether",
+    "storagedrawers:illumination_upgrade": "rework:iron/nether",
+    "storagedrawers:keybutton_drawer": "rework:iron/nether",
+    "storagedrawers:personal_key": "rework:iron/nether",
+    "storagedrawers:personal_key_cycle": "rework:iron/nether",
+    "storagedrawers:priority_key": "rework:iron/nether",
+    "storagedrawers:suspend_key": "rework:iron/nether",
+    "storagedrawers:warped_full_drawers_1": "rework:iron/nether",
+    "storagedrawers:warped_full_drawers_2": "rework:iron/nether",
+    "storagedrawers:warped_full_drawers_4": "rework:iron/nether",
+    "storagedrawers:warped_half_drawers_1": "rework:iron/nether",
+    "storagedrawers:warped_half_drawers_2": "rework:iron/nether",
+    "storagedrawers:warped_half_drawers_4": "rework:iron/nether",
+    "storagedrawers:warped_trim": "rework:iron/nether",
+    "storagedrawers:balanced_fill_upgrade": "rework:iron/get_redstone",
+    "storagedrawers:compacting_drawers_2": "rework:iron/get_redstone",
+    "storagedrawers:compacting_drawers_3": "rework:iron/get_redstone",
+    "storagedrawers:compacting_half_drawers_2": "rework:iron/get_redstone",
+    "storagedrawers:compacting_half_drawers_3": "rework:iron/get_redstone",
+    "storagedrawers:fill_level_upgrade": "rework:iron/get_redstone",
+    "storagedrawers:hopper_upgrade": "rework:iron/get_redstone",
+    "storagedrawers:magnet_upgrade": "rework:iron/get_redstone",
+    "storagedrawers:magnet_upgrade_2": "rework:iron/get_redstone",
+    "storagedrawers:magnet_upgrade_3": "rework:iron/get_redstone",
+    "storagedrawers:max_redstone_upgrade": "rework:iron/get_redstone",
+    "storagedrawers:min_redstone_upgrade": "rework:iron/get_redstone",
+    "storagedrawers:redstone_upgrade": "rework:iron/get_redstone",
+    "storagedrawers:conversion_upgrade": "rework:iron/write_book",
+    "storagedrawers:keybutton_quantify": "rework:iron/write_book",
+    "storagedrawers:quantify_key": "rework:iron/write_book",
+    "storagedrawers:remote_group_upgrade": "rework:iron/look_at_enderman",
+    "storagedrawers:remote_group_upgrade_bound": "rework:iron/look_at_enderman",
+    "storagedrawers:remote_group_upgrade_inc": "rework:iron/look_at_enderman",
+    "storagedrawers:remote_upgrade": "rework:iron/look_at_enderman",
+    "storagedrawers:controller": "rework:iron/get_diamond",
+    "storagedrawers:controller_io": "rework:iron/get_diamond",
+    "storagedrawers:diamond_storage_upgrade": "rework:iron/get_diamond",
+    "storagedrawers:obsidian_storage_upgrade": "rework:iron/get_diamond",
+    "storagedrawers:void_upgrade": "rework:iron/get_diamond",
+    "storagedrawers:concealment_key": "rework:diamond/complete_category",
+    "storagedrawers:keybutton_concealment": "rework:diamond/complete_category",
+    "storagedrawers:netherite_storage_upgrade": "rework:diamond/complete_category",
+    "storagedrawers:portability_upgrade": "rework:end/end_city"
   },
   "item_to_quests": {
     "minecraft:dried_kelp": [
@@ -5963,6 +6095,504 @@
     ],
     "farmersdelight:organic_compost_from_tree_bark": [
       "rework:stone/kill_skeleton"
+    ],
+    "storagedrawers:acacia_full_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:acacia_full_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:acacia_full_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:acacia_half_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:acacia_half_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:acacia_half_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:acacia_trim": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:bamboo_full_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:bamboo_full_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:bamboo_full_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:bamboo_half_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:bamboo_half_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:bamboo_half_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:bamboo_trim": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:birch_full_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:birch_full_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:birch_full_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:birch_half_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:birch_half_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:birch_half_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:birch_trim": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:cherry_full_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:cherry_full_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:cherry_full_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:cherry_half_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:cherry_half_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:cherry_half_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:cherry_trim": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:dark_oak_full_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:dark_oak_full_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:dark_oak_full_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:dark_oak_half_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:dark_oak_half_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:dark_oak_half_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:dark_oak_trim": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:detached_drawer": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:detached_drawer_full": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:framed_full_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:framed_full_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:framed_full_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:framed_half_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:framed_half_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:framed_half_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:framed_trim": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:framing_table": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:jungle_full_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:jungle_full_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:jungle_full_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:jungle_half_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:jungle_half_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:jungle_half_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:jungle_trim": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:mangrove_full_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:mangrove_full_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:mangrove_full_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:mangrove_half_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:mangrove_half_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:mangrove_half_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:mangrove_trim": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:oak_full_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:oak_full_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:oak_full_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:oak_half_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:oak_half_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:oak_half_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:oak_trim": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:one_stack_upgrade": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:pale_oak_full_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:pale_oak_full_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:pale_oak_full_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:pale_oak_half_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:pale_oak_half_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:pale_oak_half_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:pale_oak_trim": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:spruce_full_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:spruce_full_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:spruce_full_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:spruce_half_drawers_1": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:spruce_half_drawers_2": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:spruce_half_drawers_4": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:spruce_trim": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:upgrade_template": [
+      "rework:wood/item_frame"
+    ],
+    "storagedrawers:copper_storage_upgrade": [
+      "rework:stone/copper_ingot"
+    ],
+    "storagedrawers:drawer_puller": [
+      "rework:copper/get_iron"
+    ],
+    "storagedrawers:iron_storage_upgrade": [
+      "rework:copper/get_iron"
+    ],
+    "storagedrawers:keyring": [
+      "rework:copper/get_iron"
+    ],
+    "storagedrawers:keyring_puller": [
+      "rework:copper/get_iron"
+    ],
+    "storagedrawers:emerald_storage_upgrade": [
+      "rework:copper/complete_category"
+    ],
+    "storagedrawers:crimson_full_drawers_1": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:crimson_full_drawers_2": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:crimson_full_drawers_4": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:crimson_half_drawers_1": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:crimson_half_drawers_2": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:crimson_half_drawers_4": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:crimson_trim": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:drawer_key": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:gold_storage_upgrade": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:illumination_upgrade": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keybutton_drawer": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keybutton_personal": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keybutton_personel": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keyring_drawer": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keyring_personal": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keyring_personal_cofh": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keyring_personal_ftb": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keyring_personal_unlock": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keyring_priority": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keyring_priority_n1": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keyring_priority_n2": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keyring_priority_p1": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keyring_priority_p2": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:keyring_suspend": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:personal_key": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:personal_key_cofh": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:personal_key_ftb": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:personal_key_unlock": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:priority_key": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:priority_key_n1": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:priority_key_n2": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:priority_key_p1": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:priority_key_p2": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:suspend_key": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:warped_full_drawers_1": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:warped_full_drawers_2": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:warped_full_drawers_4": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:warped_half_drawers_1": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:warped_half_drawers_2": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:warped_half_drawers_4": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:warped_trim": [
+      "rework:iron/nether"
+    ],
+    "storagedrawers:balance_fill_upgrade": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:compacting_drawers_2": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:compacting_drawers_3": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:compacting_half_drawers_2": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:compacting_half_drawers_3": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:fill_level_upgrade": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:framed_compacting_drawers_2": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:framed_compacting_drawers_3": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:framed_compacting_half_drawers_2": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:framed_compacting_half_drawers_3": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:hopper_upgrade": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:magnet_upgrade": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:magnet_upgrade_2": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:magnet_upgrade_3": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:max_redstone_upgrade": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:min_redstone_upgrade": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:redstone_upgrade": [
+      "rework:iron/get_redstone"
+    ],
+    "storagedrawers:conversion_upgrade": [
+      "rework:iron/write_book"
+    ],
+    "storagedrawers:keybutton_quantify": [
+      "rework:iron/write_book"
+    ],
+    "storagedrawers:keyring_quantify": [
+      "rework:iron/write_book"
+    ],
+    "storagedrawers:quantify_key": [
+      "rework:iron/write_book"
+    ],
+    "storagedrawers:remote_group_upgrade": [
+      "rework:iron/look_at_enderman"
+    ],
+    "storagedrawers:remote_group_upgrade_bound": [
+      "rework:iron/look_at_enderman"
+    ],
+    "storagedrawers:remote_upgrade": [
+      "rework:iron/look_at_enderman"
+    ],
+    "storagedrawers:remote_upgrade_bound": [
+      "rework:iron/look_at_enderman"
+    ],
+    "storagedrawers:controller": [
+      "rework:iron/get_diamond"
+    ],
+    "storagedrawers:controller_io": [
+      "rework:iron/get_diamond"
+    ],
+    "storagedrawers:diamond_storage_upgrade": [
+      "rework:iron/get_diamond"
+    ],
+    "storagedrawers:framed_controller": [
+      "rework:iron/get_diamond"
+    ],
+    "storagedrawers:framed_controller_io": [
+      "rework:iron/get_diamond"
+    ],
+    "storagedrawers:obsidian_storage_upgrade": [
+      "rework:iron/get_diamond"
+    ],
+    "storagedrawers:void_upgrade": [
+      "rework:iron/get_diamond"
+    ],
+    "storagedrawers:keybutton_concealment": [
+      "rework:diamond/complete_category"
+    ],
+    "storagedrawers:keyring_shroud": [
+      "rework:diamond/complete_category"
+    ],
+    "storagedrawers:netherite_storage_upgrade": [
+      "rework:diamond/complete_category"
+    ],
+    "storagedrawers:shroud_key": [
+      "rework:diamond/complete_category"
+    ],
+    "storagedrawers:portability_upgrade": [
+      "rework:end/end_city"
     ]
   }
 }

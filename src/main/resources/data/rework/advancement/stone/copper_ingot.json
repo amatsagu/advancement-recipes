@@ -5,16 +5,16 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/raw_copper": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/raw_copper": true
+              }
+            }
+          }
+        },
         "recipes": "minecraft:copper_ingot_from_smelting_raw_copper"
       }
     }
@@ -89,7 +89,8 @@
       "minecraft:waxed_copper_grate",
       "minecraft:waxed_chiseled_copper",
       "minecraft:copper_ingot_from_waxed_copper_block",
-      "minecraft:copper_chest"
+      "minecraft:copper_chest",
+      "storagedrawers:copper_storage_upgrade"
     ]
   }
 }

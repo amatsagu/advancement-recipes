@@ -60,7 +60,12 @@
       "minecraft:ward_armor_trim_smithing_template",
       "minecraft:wayfinder_armor_trim_smithing_template",
       "minecraft:wild_armor_trim_smithing_template",
-      "minecraft:enchanting_table"
+      "minecraft:enchanting_table",
+      "storagedrawers:controller",
+      "storagedrawers:controller_io",
+      "storagedrawers:diamond_storage_upgrade",
+      "storagedrawers:obsidian_storage_upgrade",
+      "storagedrawers:void_upgrade"
     ]
   }
 }

@@ -16,6 +16,7 @@ val simple_magnets_version = prop("simple_magnets_version")
 val supermartijn_core_version = prop("supermartijn_core_version")
 val supermartijn_config_version = prop("supermartijn_config_version")
 val glow_paste_version = prop("glow_paste_version")
+val storage_drawers_version = prop("storage_drawers_version")
 val mod_id = prop("mod_id")
 val mod_name = prop("mod_name")
 val mod_description = prop("mod_description")
@@ -54,6 +55,7 @@ dependencies {
     compileOnly("maven.modrinth:supermartijn642s-core-lib:$supermartijn_core_version")
     compileOnly("maven.modrinth:supermartijn642s-config-lib:$supermartijn_config_version")
     compileOnly("maven.modrinth:glow-paste:$glow_paste_version")
+    compileOnly("maven.modrinth:storagedrawers:$storage_drawers_version")
 
     runtimeOnly("mezz.jei:jei-26.3-fabric:$jei_version")
     runtimeOnly("maven.modrinth:modern-advancement-screen:$modern_advancements_version")
@@ -64,6 +66,7 @@ dependencies {
     runtimeOnly("maven.modrinth:supermartijn642s-core-lib:$supermartijn_core_version")
     runtimeOnly("maven.modrinth:supermartijn642s-config-lib:$supermartijn_config_version")
     runtimeOnly("maven.modrinth:glow-paste:$glow_paste_version")
+    runtimeOnly("maven.modrinth:storagedrawers:$storage_drawers_version")
 
     testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")

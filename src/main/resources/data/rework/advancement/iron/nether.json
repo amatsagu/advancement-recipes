@@ -153,7 +153,29 @@
       "farmersdelight:gold_nugget_from_smelting_knife",
       "farmersdelight:golden_knife",
       "farmersdelight:warped_cabinet",
-      "farmersdelight:horse_feed"
+      "farmersdelight:horse_feed",
+      "storagedrawers:crimson_full_drawers_1",
+      "storagedrawers:crimson_full_drawers_2",
+      "storagedrawers:crimson_full_drawers_4",
+      "storagedrawers:crimson_half_drawers_1",
+      "storagedrawers:crimson_half_drawers_2",
+      "storagedrawers:crimson_half_drawers_4",
+      "storagedrawers:crimson_trim",
+      "storagedrawers:drawer_key",
+      "storagedrawers:gold_storage_upgrade",
+      "storagedrawers:illumination_upgrade",
+      "storagedrawers:keybutton_drawer",
+      "storagedrawers:personal_key",
+      "storagedrawers:personal_key_cycle",
+      "storagedrawers:priority_key",
+      "storagedrawers:suspend_key",
+      "storagedrawers:warped_full_drawers_1",
+      "storagedrawers:warped_full_drawers_2",
+      "storagedrawers:warped_full_drawers_4",
+      "storagedrawers:warped_half_drawers_1",
+      "storagedrawers:warped_half_drawers_2",
+      "storagedrawers:warped_half_drawers_4",
+      "storagedrawers:warped_trim"
     ]
   }
 }

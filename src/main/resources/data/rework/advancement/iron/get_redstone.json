@@ -5,16 +5,16 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:iron/root": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            }
+          }
+        },
         "items": [
           {
             "items": "minecraft:redstone_block",
@@ -78,7 +78,20 @@
       "minecraft:piston",
       "minecraft:hopper",
       "minecraft:daylight_detector",
-      "minecraft:crafter"
+      "minecraft:crafter",
+      "storagedrawers:balanced_fill_upgrade",
+      "storagedrawers:compacting_drawers_2",
+      "storagedrawers:compacting_drawers_3",
+      "storagedrawers:compacting_half_drawers_2",
+      "storagedrawers:compacting_half_drawers_3",
+      "storagedrawers:fill_level_upgrade",
+      "storagedrawers:hopper_upgrade",
+      "storagedrawers:magnet_upgrade",
+      "storagedrawers:magnet_upgrade_2",
+      "storagedrawers:magnet_upgrade_3",
+      "storagedrawers:max_redstone_upgrade",
+      "storagedrawers:min_redstone_upgrade",
+      "storagedrawers:redstone_upgrade"
     ]
   }
 }

@@ -5,19 +5,19 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:end/end_gateway": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:end/end_gateway": true
+              }
+            },
+            "location": {
+              "structures": "minecraft:end_city"
             }
-          },
-          "location": {
-            "structures": "minecraft:end_city"
           }
-  }
-}
+        }
       }
     }
   },
@@ -45,7 +45,8 @@
       "minecraft:purpur_pillar",
       "minecraft:purpur_slab",
       "minecraft:purpur_stairs",
-      "minecraft:shulker_box"
+      "minecraft:shulker_box",
+      "storagedrawers:portability_upgrade"
     ]
   }
 }

@@ -248,7 +248,10 @@
       "nemos_backpacks:yellow_netherite_backpack",
       "nemos_backpacks:yellow_netherite_backpack_smithing",
       "farmersdelight:netherite_knife_smithing",
-      "simplemagnets:advancedmagnet"
+      "simplemagnets:advancedmagnet",
+      "storagedrawers:concealment_key",
+      "storagedrawers:keybutton_concealment",
+      "storagedrawers:netherite_storage_upgrade"
     ]
   }
 }

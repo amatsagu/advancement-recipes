@@ -87,7 +87,10 @@
       "farmersdelight:red_hanging_canvas_sign",
       "farmersdelight:white_hanging_canvas_sign",
       "farmersdelight:yellow_hanging_canvas_sign",
-      "farmersdelight:milk_bucket_from_bottles"
+      "farmersdelight:milk_bucket_from_bottles",
+      "storagedrawers:drawer_puller",
+      "storagedrawers:iron_storage_upgrade",
+      "storagedrawers:keyring"
     ]
   }
 }
