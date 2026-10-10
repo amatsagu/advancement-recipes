@@ -68,7 +68,6 @@ It provides a cohesive, structured progression experience where recipes for vani
   * [Fabric API](https://modrinth.com/mod/fabric-api)
   * [JEI (Just Enough Items)](https://modrinth.com/mod/jei) (>=31.0.0)
   * [Modern Advancement Screen](https://modrinth.com/mod/modern-advancement-screen) (>=1.11.0)
-- **Supported Optional Mods**:
   * [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage)
   * [Storage Drawers](https://modrinth.com/mod/storagedrawers)
   * [Farmer's Delight [Refabricated]](https://modrinth.com/mod/farmers-delight)
