@@ -2,7 +2,11 @@
   <h1>
     <sub>Advancement Recipes</sub>
   </h1>
-  <h3>A modern Fabric mod that locks crafting recipes behind advancement questlines with full JEI integration.</h3>
+  <h3>A modern Fabric mod that locks crafting recipes behind questlines with full JEI integration.</h3>
+
+  <br />
+  <img src=".github/big-view.png" alt="Advancement Recipes Quest Tree Overview" width="100%" />
+  <br />
 </div>
 
 ## Overview
@@ -23,8 +27,16 @@ It provides a cohesive, structured progression experience where recipes for vani
   * **Ingredient Info Pages**: Gated items include dedicated JEI description tabs explaining their progression requirements.
   * Works seamlessly in both singleplayer and multiplayer.
 
+  <p align="center">
+    <img src=".github/recipe-blockade.png" alt="Recipe Blockade and Quest Requirement in JEI" width="75%" />
+  </p>
+
 - **Modern Advancement Screen Compatibility**:
   * Integrates with **Modern Advancement Screen** to cleanly distinguish between actual rewards (XP, loot, functions) and recipe unlocks in advancement detail popups.
+
+  <p align="center">
+    <img src=".github/quest-details.png" alt="Advancement Detail Popup with Separated Rewards and Unlocks" width="55%" />
+  </p>
 
 - **Extensive Mod Support**:
   * **Tom's Simple Storage Mod**:
