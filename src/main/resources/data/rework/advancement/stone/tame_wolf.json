@@ -1,0 +1,49 @@
+{
+  "parent": "rework:stone/kill_skeleton",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/kill_skeleton": true
+						}
+					}
+				}
+			},
+        "entity":{
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:wolf"
+            }
+          }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Tame a wolf."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bone"
+    },
+    "show_toast": true,
+    "title": "Loyal Companion"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

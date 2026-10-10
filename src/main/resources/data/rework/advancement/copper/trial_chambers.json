@@ -1,0 +1,74 @@
+{
+  "parent": "rework:copper/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:copper/root": true
+              }
+            },
+            "location": {
+              "structures": "minecraft:trial_chambers"
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Enter Trial Chambers to test your combat skills."
+    },
+    "icon": {
+      "components": {},
+      "count": 1,
+      "id": "minecraft:buried_trial_chambers_map"
+    },
+    "show_toast": true,
+    "title": "Minecraft Trial(s) Edition",
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tuff_brick_slab",
+      "minecraft:tuff_brick_stairs",
+      "minecraft:tuff_brick_wall",
+      "minecraft:tuff_bricks",
+      "minecraft:tuff_slab",
+      "minecraft:tuff_stairs",
+      "minecraft:tuff_wall",
+      "minecraft:chiseled_tuff",
+      "minecraft:chiseled_tuff_bricks",
+      "minecraft:polished_tuff",
+      "minecraft:polished_tuff_slab",
+      "minecraft:polished_tuff_stairs",
+      "minecraft:polished_tuff_wall",
+      "minecraft:wind_charge",
+      "minecraft:acacia_button",
+      "minecraft:bamboo_button",
+      "minecraft:birch_button",
+      "minecraft:cherry_button",
+      "minecraft:dark_oak_button",
+      "minecraft:jungle_button",
+      "minecraft:mangrove_button",
+      "minecraft:oak_button",
+      "minecraft:pale_oak_button",
+      "minecraft:poplar_button",
+      "minecraft:spruce_button",
+      "minecraft:stone_button",
+      "minecraft:lever"
+    ]
+  }
+}

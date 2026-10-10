@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/root": false
+            }
+  }
+}
+        },
+        "item": {
+          "items": "#rework:tool_rewards_questline_3",
+          "predicates": {
+            "minecraft:damage": {
+              "durability": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "function": "rework:tool_rewards_questline_3_break"
+  }
+}

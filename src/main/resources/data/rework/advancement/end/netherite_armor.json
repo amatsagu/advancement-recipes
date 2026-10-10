@@ -1,0 +1,122 @@
+{
+  "parent": "rework:end/root",
+  "criteria": {
+    "helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:end/root": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:netherite_helmet"
+          }
+        ]
+      }
+    },
+    "chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:end/root": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:netherite_chestplate"
+          }
+        ]
+      }
+    },
+    "leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:end/root": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:netherite_leggings"
+          }
+        ]
+      }
+    },
+    "boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:end/root": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:netherite_boots"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain full netherite armor."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_ingot"
+    },
+    "show_toast": true,
+    "title": "Cover Me in Debris"
+  },
+  "requirements": [
+    [
+      "helmet"
+    ],
+    [
+      "chestplate"
+    ],
+    [
+      "leggings"
+    ],
+    [
+      "boots"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:netherite_ingot_from_netherite_block",
+      "minecraft:netherite_block"
+    ]
+  }
+}

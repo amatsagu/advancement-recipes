@@ -1,0 +1,59 @@
+{
+  "parent": "rework:wood/stone",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:wood/stone": true
+						}
+					}
+				}
+			},
+        "location": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:torch"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:wall_torch"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Place a torch to bright up area around you."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:torch"
+    },
+    "show_toast": true,
+    "title": "Light Work"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:coal",
+      "minecraft:coal_block",
+      "minecraft:jack_o_lantern"
+    ]
+  }
+}

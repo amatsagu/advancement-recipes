@@ -1,0 +1,43 @@
+{
+  "parent": "rework:stone/kill_spider",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/kill_spider": true
+						}
+					}
+				}
+			},
+        "recipes": "minecraft:fermented_spider_eye"
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft Fermented Spider Eye."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "show_toast": true,
+    "title": "Corrupted Ocelli"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

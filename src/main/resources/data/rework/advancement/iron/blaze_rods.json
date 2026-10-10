@@ -1,0 +1,61 @@
+{
+  "parent": "rework:iron/fortress",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/fortress": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:blaze_rod",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Get 16 blaze rods."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:blaze_rod"
+    },
+    "show_toast": true,
+    "title": "Into Fire"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blaze_powder",
+      "minecraft:magma_cream",
+      "minecraft:brewing_stand",
+      "minecraft:copper_bulb",
+      "minecraft:exposed_copper_bulb",
+      "minecraft:oxidized_copper_bulb",
+      "minecraft:waxed_copper_bulb",
+      "minecraft:waxed_exposed_copper_bulb",
+      "minecraft:waxed_oxidized_copper_bulb",
+      "minecraft:waxed_weathered_copper_bulb",
+      "minecraft:weathered_copper_bulb"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "parent": "rework:wood/kill_farm_animal",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:wood/kill_farm_animal": true
+						}
+					}
+				}
+			},
+        "parent": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:sheep"
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:chicken"
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:cow"
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:pig"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Breed farm animals together."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chicken_spawn_egg"
+    },
+    "title": {
+      "text": "The Parrots and the Bats"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:acacia_fence",
+      "minecraft:birch_fence",
+      "minecraft:bamboo_fence",
+      "minecraft:cherry_fence",
+      "minecraft:dark_oak_fence",
+      "minecraft:jungle_fence",
+      "minecraft:mangrove_fence",
+      "minecraft:oak_fence",
+      "minecraft:pale_oak_fence",
+      "minecraft:spruce_fence",
+      "minecraft:acacia_fence_gate",
+      "minecraft:birch_fence_gate",
+      "minecraft:bamboo_fence_gate",
+      "minecraft:cherry_fence_gate",
+      "minecraft:dark_oak_fence_gate",
+      "minecraft:jungle_fence_gate",
+      "minecraft:mangrove_fence_gate",
+      "minecraft:oak_fence_gate",
+      "minecraft:pale_oak_fence_gate",
+      "minecraft:spruce_fence_gate",
+      "minecraft:poplar_fence",
+      "minecraft:poplar_fence_gate"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "rework:copper/lush_caves",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/lush_caves": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:axolotl_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Catch an Axolotl in a Bucket."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": {
+      "text": "The Cutest Predator"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

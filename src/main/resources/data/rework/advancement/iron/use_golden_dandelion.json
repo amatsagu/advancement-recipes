@@ -1,0 +1,58 @@
+{
+  "parent": "rework:iron/nether",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/nether": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:hoglin",
+            "minecraft:flags": {
+              "is_baby": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Feed baby hoglin with a golden dandelion."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_dandelion"
+    },
+    "show_toast": true,
+    "title": "Golden Dandelion Which Is a Golden Dandelion"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:suspicious_stew_from_golden_dandelion",
+      "minecraft:yellow_dye_from_golden_dandelion"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "parent": "rework:diamond/warm_ocean_ruin",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:diamond/warm_ocean_ruin": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:sniffer_egg"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Uncover a Sniffer egg from suspicious sand."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sniffer_egg"
+    },
+    "show_toast": true,
+    "title": "Smells Interesting"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:orange_dye_from_torchflower",
+      "minecraft:cyan_dye_from_pitcher_plant"
+    ]
+  }
+}

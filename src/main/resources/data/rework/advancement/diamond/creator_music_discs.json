@@ -1,0 +1,50 @@
+{
+  "parent": "rework:diamond/open_ominous_vault",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:diamond/open_ominous_vault": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_creator",
+              "minecraft:music_disc_creator_music_box"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Collect any version of Creator Music Disc."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:music_disc_creator"
+    },
+    "show_toast": true,
+    "title": "Music Creator"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

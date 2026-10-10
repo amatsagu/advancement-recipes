@@ -1,0 +1,48 @@
+{
+  "parent": "rework:iron/blaze_rods",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/blaze_rods": true
+						}
+					}
+				}
+			},
+        "potion": {
+          "potions": "minecraft:awkward"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Brew an awkward potion by adding Nether Wart to a water bottle in a Brewing Stand."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "text": "Local Brewery"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:glistering_melon_slice"
+    ]
+  }
+}

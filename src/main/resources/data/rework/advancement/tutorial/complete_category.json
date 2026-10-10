@@ -1,0 +1,69 @@
+{
+  "parent": "rework:tutorial/root",
+  "criteria": {
+    "goal1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:tutorial/dirt": true
+            }
+  }
+}
+        }
+      }
+    },
+    "goal2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:tutorial/plant_sapling": true
+            }
+  }
+}
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Complete all goals in this category."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wooden_sword"
+    },
+    "show_toast": true,
+    "title": "Wooden Completionist"
+  },
+  "requirements": [
+    [
+      "goal1"
+    ],
+    [
+      "goal2"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:wooden_axe",
+      "minecraft:wooden_hoe",
+      "minecraft:wooden_pickaxe",
+      "minecraft:wooden_shovel",
+      "minecraft:wooden_spear",
+      "minecraft:wooden_sword",
+      "minecraft:repair_item"
+    ]
+  }
+}

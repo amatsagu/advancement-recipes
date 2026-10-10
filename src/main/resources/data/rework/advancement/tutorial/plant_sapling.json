@@ -1,0 +1,104 @@
+{
+  "parent": "rework:tutorial/crafting_table",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:tutorial/crafting_table": true
+						}
+					}
+				}
+			},
+        "location": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:acacia_sapling"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:mangrove_propagule"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:birch_sapling"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:cherry_sapling"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:dark_oak_sapling"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:jungle_sapling"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:oak_sapling"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:pale_oak_sapling"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:bamboo_sapling"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:spruce_sapling"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:poplar_sapling"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Plant a sapling of any tree type."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:oak_sapling"
+    },
+    "show_toast": true,
+    "title": "New Generation"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:acacia_sign",
+      "minecraft:birch_sign",
+      "minecraft:bamboo_sign",
+      "minecraft:cherry_sign",
+      "minecraft:dark_oak_sign",
+      "minecraft:jungle_sign",
+      "minecraft:mangrove_sign",
+      "minecraft:oak_sign",
+      "minecraft:pale_oak_sign",
+      "minecraft:poplar_sign",
+      "minecraft:spruce_sign",
+      "minecraft:composter"
+    ]
+  }
+}

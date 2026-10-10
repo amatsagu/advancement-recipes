@@ -1,0 +1,5 @@
+playsound minecraft:block.anvil.destroy master @s ~ ~ ~ 1 0.6
+tellraw @s [{text:"<", color:red}, {"player": {"properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIzM2Q2YTJlMmE2NDFhN2MwNGQzZjNkMjM1NmZmYWM0MTE1MzdhMjM5ZjM3YjMzZDYzZDY2YjQzYmMxZThmNSJ9fX0="}]}, color:white}, {text:" Guide Bunny> ", color:red}, {type: "object", atlas: "minecraft:items", sprite:"item/diamond_pickaxe",color:white}, {text:" Diamond tool broken! Complete Questline 4 so you can use diamond tools.",color:white}]
+execute if items entity @s weapon.mainhand #rework:tool_rewards_questline_4 run item modify entity @s weapon.mainhand {"type": "minecraft:set_components", "components": {"minecraft:damage": 9999}}
+execute if items entity @s weapon.offhand #rework:tool_rewards_questline_4 run item modify entity @s weapon.offhand {"type": "minecraft:set_components", "components": {"minecraft:damage": 9999}}
+advancement revoke @s only rework:hidden/tool_rewards_questline_4_check

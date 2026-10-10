@@ -1,0 +1,192 @@
+{
+  "parent": "rework:wood/root",
+  "criteria": {
+    "goal1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:wood/breed": true
+            }
+  }
+}
+        }
+      }
+    },
+    "goal2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:wood/fancy_stone": true
+            }
+  }
+}
+        }
+      }
+    },
+    "goal3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:wood/item_frame": true
+            }
+  }
+}
+        }
+      }
+    },
+    "goal4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:wood/get_wool": true
+            }
+  }
+}
+        }
+      }
+    },
+    "goal5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:wood/pumpkin_pie": true
+            }
+  }
+}
+        }
+      }
+    },
+    "goal6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:wood/torch": true
+            }
+  }
+}
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Complete all goals in this category."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:stone_sword"
+    },
+    "show_toast": true,
+    "title": "Stone Completionist"
+  },
+  "requirements": [
+    [
+      "goal1"
+    ],
+    [
+      "goal2"
+    ],
+    [
+      "goal3"
+    ],
+    [
+      "goal4"
+    ],
+    [
+      "goal5"
+    ],
+    [
+      "goal6"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stone_axe",
+      "minecraft:stone_hoe",
+      "minecraft:stone_pickaxe",
+      "minecraft:stone_shovel",
+      "minecraft:stone_spear",
+      "minecraft:stone_sword",
+      "minecraft:leather_helmet",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_leggings",
+      "minecraft:leather_boots",
+      "minecraft:leather_boots_dyed",
+      "minecraft:leather_chestplate_dyed",
+      "minecraft:leather_helmet_dyed",
+      "minecraft:leather_horse_armor_dyed",
+      "minecraft:leather_leggings_dyed",
+      "minecraft:furnace",
+      "minecraft:glass",
+      "minecraft:copper_ingot_from_smelting_copper_ore",
+      "minecraft:copper_ingot_from_smelting_deepslate_copper_ore",
+      "minecraft:copper_ingot_from_smelting_raw_copper",
+      "minecraft:lime_dye_from_smelting",
+      "minecraft:coal_from_smelting_coal_ore",
+      "minecraft:coal_from_smelting_deepslate_coal_ore",
+      "minecraft:charcoal",
+      "minecraft:green_dye",
+      "minecraft:cooked_beef",
+      "minecraft:cooked_beef_from_smoking",
+      "minecraft:cooked_chicken",
+      "minecraft:cooked_chicken_from_smoking",
+      "minecraft:cooked_cod",
+      "minecraft:cooked_cod_from_smoking",
+      "minecraft:cooked_mutton",
+      "minecraft:cooked_mutton_from_smoking",
+      "minecraft:cooked_porkchop",
+      "minecraft:cooked_porkchop_from_smoking",
+      "minecraft:cooked_rabbit",
+      "minecraft:cooked_rabbit_from_smoking",
+      "minecraft:cooked_salmon",
+      "minecraft:cooked_salmon_from_smoking",
+      "minecraft:baked_potato",
+      "minecraft:baked_potato_from_smoking",
+      "minecraft:smoker",
+      "minecraft:stone",
+      "minecraft:stone_brick_slab",
+      "minecraft:stone_brick_stairs",
+      "minecraft:stone_brick_wall",
+      "minecraft:stone_bricks",
+      "minecraft:stone_slab",
+      "minecraft:stone_stairs",
+      "minecraft:chiseled_stone_bricks",
+      "minecraft:smooth_stone",
+      "minecraft:smooth_stone_slab",
+      "minecraft:cracked_stone_bricks",
+      "minecraft:armor_stand"
+    ]
+  }
+}

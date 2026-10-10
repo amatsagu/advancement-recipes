@@ -1,0 +1,84 @@
+{
+  "parent": "rework:iron/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/root": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:redstone_block",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain a stack of redstone blocks."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:redstone_block"
+    },
+    "show_toast": true,
+    "title": "Unlimited Power"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:comparator",
+      "minecraft:compass",
+      "minecraft:dispenser",
+      "minecraft:dropper",
+      "minecraft:hopper",
+      "minecraft:acacia_pressure_plate",
+      "minecraft:bamboo_pressure_plate",
+      "minecraft:birch_pressure_plate",
+      "minecraft:cherry_pressure_plate",
+      "minecraft:crimson_pressure_plate",
+      "minecraft:dark_oak_pressure_plate",
+      "minecraft:heavy_weighted_pressure_plate",
+      "minecraft:jungle_pressure_plate",
+      "minecraft:light_weighted_pressure_plate",
+      "minecraft:mangrove_pressure_plate",
+      "minecraft:oak_pressure_plate",
+      "minecraft:pale_oak_pressure_plate",
+      "minecraft:poplar_pressure_plate",
+      "minecraft:polished_blackstone_pressure_plate",
+      "minecraft:spruce_pressure_plate",
+      "minecraft:stone_pressure_plate",
+      "minecraft:warped_pressure_plate",
+      "minecraft:minecart",
+      "minecraft:note_block",
+      "minecraft:observer",
+      "minecraft:rail",
+      "minecraft:repeater",
+      "minecraft:redstone_lamp",
+      "minecraft:redstone_torch",
+      "minecraft:target",
+      "minecraft:piston",
+      "minecraft:hopper",
+      "minecraft:daylight_detector",
+      "minecraft:crafter"
+    ]
+  }
+}

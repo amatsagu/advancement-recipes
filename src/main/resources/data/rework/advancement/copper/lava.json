@@ -1,0 +1,49 @@
+{
+  "parent": "rework:copper/bucket",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/bucket": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:lava_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Pick up lava with a bucket."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "text": "Hot Stuff"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:flint_and_steel"
+    ]
+  }
+}

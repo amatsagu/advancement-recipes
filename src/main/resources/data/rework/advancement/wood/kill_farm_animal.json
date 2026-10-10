@@ -1,0 +1,76 @@
+{
+  "parent": "rework:wood/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:wood/root": true
+						}
+					}
+				}
+			},
+        "entity":{
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:sheep"
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:cow"
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:chicken"
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:pig"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Kill any type of farm animal."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cow_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "The Novice Butcher"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:campfire"
+    ]
+  }
+}

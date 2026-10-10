@@ -1,0 +1,52 @@
+{
+  "parent": "rework:diamond/root",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:diamond/root": true
+						}
+					}
+				}
+			},
+        "entity": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "minecraft:wither"
+  }
+}
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Kill the wither"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wither_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Beginning"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:beacon",
+      "minecraft:black_dye_from_wither_rose",
+      "minecraft:suspicious_stew_from_wither_rose"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "rework:iron/swamp",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/swamp": true
+            }
+          },
+          "location": {
+            "structures": "minecraft:swamp_hut"
+          }
+  }
+}
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Visit the witch hut."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:witch_spawn_egg"
+    },
+    "title": {
+      "text": "Witch Way?"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

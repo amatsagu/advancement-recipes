@@ -1,0 +1,42 @@
+{
+  "parent": "rework:copper/get_iron",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/get_iron": true
+						}
+					}
+				}
+			},
+        "recipes": "minecraft:bucket"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft a bucket."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bucket"
+    },
+    "show_toast": true,
+    "title": "Steal Bowl"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

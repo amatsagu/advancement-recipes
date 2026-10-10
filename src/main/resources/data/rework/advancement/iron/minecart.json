@@ -1,0 +1,53 @@
+{
+  "parent": "rework:iron/get_redstone",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/get_redstone": true
+            }
+          },
+          "vehicle": {
+            "minecraft:entity_type": "minecraft:minecart"
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Ride a minecart."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:minecart"
+    },
+    "show_toast": true,
+    "title": "On A Rail"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:chest_minecart",
+      "minecraft:hopper_minecart",
+      "minecraft:furnace_minecart",
+      "minecraft:tnt_minecart",
+      "minecraft:activator_rail",
+      "minecraft:detector_rail",
+      "minecraft:powered_rail"
+    ]
+  }
+}

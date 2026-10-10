@@ -1,0 +1,47 @@
+{
+  "parent": "rework:iron/bastion",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/bastion": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:snout_armor_trim_smithing_template"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain Snout Armor Trim Smithing Template."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:snout_armor_trim_smithing_template"
+    },
+    "show_toast": true,
+    "title": "Piglin Style"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

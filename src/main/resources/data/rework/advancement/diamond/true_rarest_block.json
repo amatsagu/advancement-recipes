@@ -1,0 +1,47 @@
+{
+  "parent": "rework:diamond/rarest_block",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:diamond/rarest_block": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:piglin_head"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain piglin head."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:piglin_head"
+    },
+    "show_toast": true,
+    "title": "Or Is It?"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "rework:iron/brew_awkward_potion",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/brew_awkward_potion": true
+						}
+					}
+				}
+			},
+        "potion": {
+          "potions": "minecraft:healing"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Brew an healing potion by adding Glistering Melon Slice to an awkward potion in a Brewing Stand."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:glistering_melon_slice"
+    },
+    "title": {
+      "text": "Advanced Brewery"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

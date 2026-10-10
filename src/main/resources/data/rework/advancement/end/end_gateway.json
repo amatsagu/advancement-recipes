@@ -1,0 +1,48 @@
+{
+  "parent": "rework:end/kill_ender_dragon",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:end/kill_ender_dragon": true
+						}
+					}
+				}
+			},
+        "block": "minecraft:end_gateway"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Enter End Gateway"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ender_pearl"
+    },
+    "show_toast": true,
+    "title": "Remote Getaway"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ender_chest",
+      "minecraft:end_stone_brick_slab",
+      "minecraft:end_stone_brick_stairs",
+      "minecraft:end_stone_brick_wall",
+      "minecraft:end_stone_bricks"
+    ]
+  }
+}

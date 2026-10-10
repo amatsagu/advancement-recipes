@@ -1,0 +1,73 @@
+{
+  "parent": "rework:wood/stone",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:wood/stone": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": [
+              "minecraft:diorite",
+              "minecraft:andesite",
+              "minecraft:granite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Get a fancy looking piece of stone."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:granite"
+    },
+    "show_toast": true,
+    "title": "Stone Age With The Style"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:granite",
+      "minecraft:granite_slab",
+      "minecraft:granite_stairs",
+      "minecraft:granite_wall",
+      "minecraft:andesite",
+      "minecraft:andesite_slab",
+      "minecraft:andesite_stairs",
+      "minecraft:andesite_wall",
+      "minecraft:diorite",
+      "minecraft:diorite_slab",
+      "minecraft:diorite_stairs",
+      "minecraft:diorite_wall",
+      "minecraft:polished_granite",
+      "minecraft:polished_granite_slab",
+      "minecraft:polished_granite_stairs",
+      "minecraft:polished_andesite",
+      "minecraft:polished_andesite_slab",
+      "minecraft:polished_andesite_stairs",
+      "minecraft:polished_diorite",
+      "minecraft:polished_diorite_slab",
+      "minecraft:polished_diorite_stairs"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "rework:wood/bread",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:wood/bread": true
+						}
+					}
+				}
+			},
+        "recipes": "minecraft:pumpkin_pie"
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft a pumpkin pie."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:pumpkin_pie"
+    },
+    "show_toast": true,
+    "title": "Master Baker"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:hay_block"
+    ]
+  }
+}

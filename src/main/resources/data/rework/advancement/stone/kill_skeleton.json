@@ -1,0 +1,57 @@
+{
+  "parent": "rework:stone/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/root": true
+						}
+					}
+				}
+			},
+        "entity":{
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": [
+                "minecraft:skeleton",
+                "minecraft:bogged",
+                "minecraft:stray",
+                "minecraft:parched"
+              ]
+            }
+          }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Kill a skeleton."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:skeleton_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Osteophobia"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bone_meal",
+      "minecraft:bone_block",
+      "minecraft:bone_meal_from_bone_block"
+    ]
+  }
+}

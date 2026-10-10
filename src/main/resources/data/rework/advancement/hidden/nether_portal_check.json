@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/root": false
+            }
+  }
+}
+        },
+        "blocks": "minecraft:nether_portal"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "function": "rework:portal_break"
+  }
+}

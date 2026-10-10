@@ -1,0 +1,74 @@
+{
+  "parent": "rework:stone/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/root": true
+						}
+					}
+				}
+			},
+        "entity":{
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": [
+                "minecraft:spider",
+                "minecraft:cave_spider"
+              ]
+            }
+          }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Kill a spider."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:spider_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Arachnophobia"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:white_wool_from_string",
+      "minecraft:lead",
+      "minecraft:loom",
+      "minecraft:fishing_rod",
+      "minecraft:black_bundle",
+      "minecraft:blue_bundle",
+      "minecraft:brown_bundle",
+      "minecraft:bundle",
+      "minecraft:cyan_bundle",
+      "minecraft:gray_bundle",
+      "minecraft:green_bundle",
+      "minecraft:light_blue_bundle",
+      "minecraft:light_gray_bundle",
+      "minecraft:lime_bundle",
+      "minecraft:magenta_bundle",
+      "minecraft:orange_bundle",
+      "minecraft:pink_bundle",
+      "minecraft:purple_bundle",
+      "minecraft:red_bundle",
+      "minecraft:white_bundle",
+      "minecraft:yellow_bundle",
+      "minecraft:fermented_spider_eye"
+    ]
+  }
+}

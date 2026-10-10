@@ -1,0 +1,49 @@
+{
+  "parent": "rework:end/stronghold",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:end/stronghold": true
+						}
+					}
+				}
+			},
+        "entity": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "minecraft:endermite"
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Spawn and kill an Endermite."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:endermite_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Creature of In-between"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

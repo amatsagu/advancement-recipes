@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:end/root": false
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+  }
+}
+      }
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "function": "rework:end_escape"
+  }
+}

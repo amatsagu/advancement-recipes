@@ -1,0 +1,21 @@
+{
+  "pack": {
+    "description": {
+      "translate": "Advancement Recipes",
+      "color": "#02ff45",
+      "shadow_color": 1207625,
+      "font": "minecraft:default",
+      "bold": true
+    },
+    "min_format": 121,
+    "max_format": 999
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "^advancement\/.*"
+      }
+    ]
+  }
+}

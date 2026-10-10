@@ -1,0 +1,59 @@
+{
+  "parent": "rework:iron/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/root": true
+            }
+          },
+          "location": {
+            "structures": "minecraft:monument"
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Visit ocean monument."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:prismarine"
+    },
+    "show_toast": true,
+    "title": "Water Temple"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:prismarine",
+      "minecraft:prismarine_brick_slab",
+      "minecraft:prismarine_brick_stairs",
+      "minecraft:prismarine_bricks",
+      "minecraft:prismarine_slab",
+      "minecraft:prismarine_stairs",
+      "minecraft:prismarine_wall",
+      "minecraft:dark_prismarine",
+      "minecraft:dark_prismarine_slab",
+      "minecraft:dark_prismarine_stairs",
+      "minecraft:turtle_helmet",
+      "minecraft:sponge",
+      "minecraft:conduit",
+      "minecraft:sea_lantern"
+    ]
+  }
+}

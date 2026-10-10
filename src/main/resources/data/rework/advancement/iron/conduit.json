@@ -1,0 +1,45 @@
+{
+  "parent": "rework:iron/monument",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/monument": true
+						}
+					}
+				}
+			},
+        "effects": {
+          "minecraft:conduit_power": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Be in range of a conduit."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "text": "Moskstraumen"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

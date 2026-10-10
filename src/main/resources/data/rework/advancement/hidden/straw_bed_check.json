@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:wood/get_wool": false
+              }
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:straw_bed"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [],
+    "function": "rework:destroy_straw_bed"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "parent": "rework:copper/root",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:copper/root": true
+            }
+          },
+          "location": {
+            "biomes": "minecraft:lush_caves"
+          }
+  }
+}
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Find lush caves."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:flowering_azalea"
+    },
+    "title": {
+      "text": "Lush Cave Here"
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:moss_carpet",
+      "minecraft:mossy_cobblestone_from_moss_block",
+      "minecraft:mossy_cobblestone_from_vine",
+      "minecraft:mossy_cobblestone_slab",
+      "minecraft:mossy_cobblestone_stairs",
+      "minecraft:mossy_cobblestone_wall",
+      "minecraft:mossy_stone_brick_slab",
+      "minecraft:mossy_stone_brick_stairs",
+      "minecraft:mossy_stone_brick_wall",
+      "minecraft:mossy_stone_bricks_from_moss_block",
+      "minecraft:mossy_stone_bricks_from_vine",
+      "minecraft:dripstone_block",
+      "minecraft:chiseled_deepslate",
+      "minecraft:cobbled_deepslate_slab",
+      "minecraft:cobbled_deepslate_stairs",
+      "minecraft:cobbled_deepslate_wall",
+      "minecraft:cracked_deepslate_bricks",
+      "minecraft:cracked_deepslate_tiles",
+      "minecraft:deepslate",
+      "minecraft:deepslate_brick_slab",
+      "minecraft:deepslate_brick_stairs",
+      "minecraft:deepslate_brick_wall",
+      "minecraft:deepslate_bricks",
+      "minecraft:deepslate_tile_slab",
+      "minecraft:deepslate_tile_stairs",
+      "minecraft:deepslate_tile_wall",
+      "minecraft:deepslate_tiles",
+      "minecraft:polished_deepslate",
+      "minecraft:polished_deepslate_slab",
+      "minecraft:polished_deepslate_stairs",
+      "minecraft:polished_deepslate_wall",
+      "minecraft:glow_item_frame"
+    ]
+  }
+}

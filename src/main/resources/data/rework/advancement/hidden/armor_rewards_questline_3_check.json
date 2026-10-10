@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/root": false
+            }
+          },
+          "slots": {
+            "armor.*": {
+              "items": "#rework:armor_rewards_questline_3",
+              "predicates": {
+                "minecraft:damage": {
+                  "durability": {
+                    "min": 1
+                  }
+  }
+}
+              }
+            }
+          }
+        },
+        "items": []
+      }
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "function": "rework:armor_rewards_questline_3_break"
+  }
+}

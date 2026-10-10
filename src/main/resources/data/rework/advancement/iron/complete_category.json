@@ -1,0 +1,434 @@
+{
+  "parent": "rework:iron/root",
+  "criteria": {
+    "goal1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/brew_healing_potion": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/harness": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/duplicate_trim": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/get_wither_skull": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/look_at_enderman": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/minecart": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/cake_on_noteblock": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/get_snout_armor_trim": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/turtle_helmet": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/swim_lava": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/breed_pandas": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/write_book": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/use_golden_dandelion": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/all_froglight": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/witch_hut": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/conduit": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/tnt_sulfur_cube": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal21": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/ride_strider": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal22": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/sponge": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal23": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/use_lodestone": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "goal5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/enchant": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Complete all goals in this category."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_sword"
+    },
+    "show_toast": true,
+    "title": "Diamond Completionist"
+  },
+  "requirements": [
+    [
+      "goal1"
+    ],
+    [
+      "goal2"
+    ],
+    [
+      "goal3"
+    ],
+    [
+      "goal4"
+    ],
+    [
+      "goal5"
+    ],
+    [
+      "goal6"
+    ],
+    [
+      "goal7"
+    ],
+    [
+      "goal8"
+    ],
+    [
+      "goal9"
+    ],
+    [
+      "goal10"
+    ],
+    [
+      "goal11"
+    ],
+    [
+      "goal12"
+    ],
+    [
+      "goal14"
+    ],
+    [
+      "goal15"
+    ],
+    [
+      "goal16"
+    ],
+    [
+      "goal17"
+    ],
+    [
+      "goal18"
+    ],
+    [
+      "goal19"
+    ],
+    [
+      "goal21"
+    ],
+    [
+      "goal22"
+    ],
+    [
+      "goal23"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:diamond_axe",
+      "minecraft:diamond_block",
+      "minecraft:diamond_boots",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_hoe",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_shovel",
+      "minecraft:diamond_spear",
+      "minecraft:diamond_sword"
+    ]
+  }
+}

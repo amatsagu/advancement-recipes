@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:stone/complete_category": true
+            }
+  }
+}
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/crafter_bottom",
+    "description": {
+      "text": "When you start to explore."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:copper_pickaxe"
+    },
+    "show_toast": false,
+    "title": "Questline III"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ]
+}

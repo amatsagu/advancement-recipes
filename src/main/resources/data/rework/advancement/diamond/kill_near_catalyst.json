@@ -1,0 +1,42 @@
+{
+  "parent": "rework:diamond/deep_dark",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:kill_mob_near_sculk_catalyst",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:diamond/deep_dark": true
+            }
+  }
+}
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Kill a mob near a sculk catalyst."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sculk_catalyst"
+    },
+    "show_toast": true,
+    "title": "It Spreads"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

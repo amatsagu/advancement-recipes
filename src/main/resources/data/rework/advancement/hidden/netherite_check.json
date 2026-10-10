@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:end/root": false
+            },
+            "stats": []
+          }
+        }
+      },
+        "items": [
+          {
+            "items": "#rework:netherite_items"
+          }
+        ]
+  }
+}
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [],
+    "function": "rework:find_netherite_items"
+  }
+}

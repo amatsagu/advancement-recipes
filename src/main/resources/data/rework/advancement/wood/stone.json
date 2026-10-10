@@ -1,0 +1,51 @@
+{
+  "parent": "rework:wood/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:wood/root": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:cobblestone"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Get a piece of cobblestone."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cobblestone"
+    },
+    "show_toast": true,
+    "title": "Stone Age"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cobblestone_slab",
+      "minecraft:cobblestone_stairs",
+      "minecraft:cobblestone_wall",
+      "minecraft:torch"
+    ]
+  }
+}

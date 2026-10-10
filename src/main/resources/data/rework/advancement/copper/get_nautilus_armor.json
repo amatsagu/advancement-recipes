@@ -1,0 +1,52 @@
+{
+  "parent": "rework:copper/ride_nautilus",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/ride_nautilus": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_nautilus_armor",
+              "minecraft:diamond_nautilus_armor",
+              "minecraft:golden_nautilus_armor",
+              "minecraft:iron_nautilus_armor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Get nautilus armor."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_nautilus_armor"
+    },
+    "title": {
+      "text": "Second Shell"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

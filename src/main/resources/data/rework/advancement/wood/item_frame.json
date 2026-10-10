@@ -1,0 +1,64 @@
+{
+  "parent": "rework:wood/get_leather",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:wood/get_leather": true
+						}
+					}
+				}
+			},
+        "item": {
+          "items": "minecraft:item_frame"
+        },
+        "entity": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "minecraft:item_frame"
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Place an item frame in another item frame."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:item_frame"
+    },
+    "show_toast": true,
+    "title": "A Frame On View"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:acacia_shelf",
+      "minecraft:birch_shelf",
+      "minecraft:bamboo_shelf",
+      "minecraft:cherry_shelf",
+      "minecraft:dark_oak_shelf",
+      "minecraft:jungle_shelf",
+      "minecraft:mangrove_shelf",
+      "minecraft:oak_shelf",
+      "minecraft:pale_oak_shelf",
+      "minecraft:poplar_shelf",
+      "minecraft:spruce_shelf"
+    ]
+  }
+}

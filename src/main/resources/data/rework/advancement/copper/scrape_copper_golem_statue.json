@@ -1,0 +1,66 @@
+{
+  "parent": "rework:copper/honeycomb",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/honeycomb": true
+						}
+					}
+				}
+			},
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "#minecraft:copper_golem_statues"
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "#minecraft:axes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Scrape oxidization from copper golem statue by using axe."
+    },
+    "icon": {
+      "components": {
+        "minecraft:block_state": {
+          "copper_golem_pose": "sitting"
+        }
+      },
+      "count": 1,
+      "id": "minecraft:copper_golem_statue"
+    },
+    "show_toast": true,
+    "title": "Rebooted"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

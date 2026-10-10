@@ -1,0 +1,45 @@
+{
+  "parent": "rework:stone/get_honey",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:slide_down_block",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/get_honey": true
+						}
+					}
+				}
+			},
+        "block": "minecraft:honey_block"
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Slide down the honey block."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:honey_block"
+    },
+    "show_toast": true,
+    "title": "Sticky Situation"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ladder"
+    ]
+  }
+}

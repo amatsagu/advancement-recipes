@@ -1,0 +1,51 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "player": {
+        "type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:copper/get_iron": false
+            }
+          }
+        }
+      },
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:match_block",
+                  "blocks": "minecraft:anvil"
+                },
+                {
+                  "type": "minecraft:match_block",
+                  "blocks": "minecraft:chipped_anvil"
+                },
+                {
+                  "type": "minecraft:match_block",
+                  "blocks": "minecraft:damaged_anvil"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [],
+    "function": "rework:destroy_anvil"
+  }
+}

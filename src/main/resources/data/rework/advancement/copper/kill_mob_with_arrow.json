@@ -1,0 +1,45 @@
+{
+  "parent": "rework:copper/root",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:copper/root": true
+            }
+  }
+}
+        }
+      },
+      "trigger": "minecraft:killed_by_arrow"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Kill a mob with an arrow."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "text": "Take Aim"
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:crossbow",
+      "minecraft:tipped_arrow",
+      "minecraft:fletching_table"
+    ]
+  }
+}

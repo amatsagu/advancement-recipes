@@ -1,0 +1,53 @@
+{
+  "parent": "rework:tutorial/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dirt",
+            "count": {
+              "min": 8,
+              "max": 64
+            }
+          }
+        ],
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:tutorial/root": true
+            }
+  }
+}
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Mine 8 blocks of dirt. (Could be a good house building material!)"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:dirt"
+    },
+    "show_toast": true,
+    "title": "Dirt Enjoyer"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:coarse_dirt"
+    ]
+  }
+}

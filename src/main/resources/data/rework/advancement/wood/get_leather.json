@@ -1,0 +1,52 @@
+{
+  "parent": "rework:wood/kill_farm_animal",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:wood/kill_farm_animal": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:leather",
+            "count": {
+              "min": 25
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Harvest 25 pieces of leather."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:leather"
+    },
+    "show_toast": true,
+    "title": "Full Grain Leather"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:leather",
+      "minecraft:item_frame"
+    ]
+  }
+}

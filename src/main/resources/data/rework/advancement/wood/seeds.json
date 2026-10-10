@@ -1,0 +1,58 @@
+{
+  "parent": "rework:wood/root",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:wood/root": true
+						}
+					}
+				}
+			},
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "blocks": "minecraft:wheat",
+              "type": "minecraft:match_block"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Plant wheat on farmland."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "text": "A Seedy Place"
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bread",
+      "minecraft:wheat",
+      "minecraft:melon_seeds",
+      "minecraft:pumpkin_seeds",
+      "minecraft:melon",
+      "minecraft:red_dye_from_beetroot",
+      "minecraft:beetroot_soup"
+    ]
+  }
+}

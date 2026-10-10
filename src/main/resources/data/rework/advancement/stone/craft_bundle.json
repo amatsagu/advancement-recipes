@@ -1,0 +1,47 @@
+{
+  "parent": "rework:stone/kill_spider",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/kill_spider": true
+						}
+					}
+				}
+			},
+        "recipes": "minecraft:bundle"
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft a bundle."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:pink_bundle"
+    },
+    "show_toast": true,
+    "title": "Packed and Ready"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:chest",
+      "minecraft:copper_chest",
+      "minecraft:barrel"
+    ]
+  }
+}

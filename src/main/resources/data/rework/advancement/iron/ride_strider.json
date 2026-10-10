@@ -1,0 +1,53 @@
+{
+  "parent": "rework:iron/kill_magma_cube",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:ride_entity_in_lava",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/kill_magma_cube": true
+            }
+          },
+          "minecraft:vehicle": {
+            "minecraft:entity_type": "minecraft:strider"
+          }
+        },
+        "distance": {
+          "horizontal": {
+            "min": 200
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Travel 200 block distance on lava by Strider."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:strider_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "This Boat Has Legs"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:smooth_basalt",
+      "minecraft:polished_basalt"
+    ]
+  }
+}

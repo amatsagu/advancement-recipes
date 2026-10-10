@@ -1,0 +1,57 @@
+{
+  "parent": "rework:iron/get_sugar_cane",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/get_sugar_cane": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:written_book"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Write your thoughts in a book."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:written_book"
+    },
+    "show_toast": true,
+    "title": "Ordinary Book I Did Write",
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bookshelf",
+      "minecraft:chiseled_bookshelf",
+      "minecraft:lapis_block",
+      "minecraft:lapis_lazuli",
+      "minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore",
+      "minecraft:lapis_lazuli_from_blasting_lapis_ore",
+      "minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore",
+      "minecraft:lapis_lazuli_from_smelting_lapis_ore",
+      "minecraft:lectern"
+    ]
+  }
+}

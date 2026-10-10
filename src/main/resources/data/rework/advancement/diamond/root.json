@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/complete_category": true
+            }
+  }
+}
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/daylight_detector_side",
+    "description": {
+      "text": "One more."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "show_toast": false,
+    "title": "Questline V"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ]
+}

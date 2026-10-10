@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:wood/get_wool": false
+            }
+  }
+}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "function": "rework:break_bed"
+  }
+}

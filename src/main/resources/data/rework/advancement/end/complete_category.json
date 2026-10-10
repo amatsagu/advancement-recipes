@@ -1,0 +1,157 @@
+{
+  "parent": "rework:end/root",
+  "criteria": {
+    "goal1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:end/get_dragon_breath": true
+            }
+  }
+}
+        }
+      }
+    },
+    "goal2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:end/chorus_flower": true
+            }
+  }
+}
+        }
+      }
+    },
+    "goal3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:end/get_elytra": true
+            }
+  }
+}
+        }
+      }
+    },
+    "goal4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:end/levitation": true
+            }
+  }
+}
+        }
+      }
+    },
+    "goal5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:end/dragon_head": true
+            }
+  }
+}
+        }
+      }
+    },
+    "goal6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:end/kill_endermite": true
+            }
+  }
+}
+        }
+      }
+    },
+    "goal7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:end/netherite_armor": true
+            }
+  }
+}
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Complete all quests in this final questline."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crafter"
+    },
+    "show_toast": true,
+    "title": "The Completionist"
+  },
+  "requirements": [
+    [
+      "goal1"
+    ],
+    [
+      "goal2"
+    ],
+    [
+      "goal3"
+    ],
+    [
+      "goal4"
+    ],
+    [
+      "goal5"
+    ],
+    [
+      "goal6"
+    ],
+    [
+      "goal7"
+    ]
+  ],
+  "rewards": {
+    "recipes": [],
+    "function": "rework:ending"
+  }
+}

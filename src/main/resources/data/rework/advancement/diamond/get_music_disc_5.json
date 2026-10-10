@@ -1,0 +1,47 @@
+{
+  "parent": "rework:diamond/ancient_city",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:diamond/ancient_city": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:music_disc_5"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain music disc 5."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:music_disc_5"
+    },
+    "show_toast": true,
+    "title": "The Fifth Note"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

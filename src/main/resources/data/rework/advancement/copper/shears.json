@@ -1,0 +1,44 @@
+{
+  "parent": "rework:copper/get_iron",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/get_iron": true
+						}
+					}
+				}
+			},
+        "recipes": "minecraft:shears"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft shears."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:shears"
+    },
+    "show_toast": true,
+    "title": "Have A Shearful Day"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:leaf_litter"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "parent": "rework:stone/enter_the_water",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:stone/enter_the_water": true
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:deep_cold_ocean",
+              "minecraft:deep_frozen_ocean",
+              "minecraft:deep_lukewarm_ocean",
+              "minecraft:deep_ocean"
+            ]
+          },
+          "vehicle": {
+            "minecraft:entity_type": "#rework:boats"
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Travel to any deep sea biome by boat."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:mangrove_boat"
+    },
+    "show_toast": true,
+    "title": "Travel The Seven Seas"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:dried_kelp",
+      "minecraft:dried_kelp_block",
+      "minecraft:dried_kelp_from_smelting",
+      "minecraft:dried_kelp_from_smoking"
+    ]
+  }
+}

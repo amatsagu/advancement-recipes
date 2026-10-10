@@ -1,0 +1,55 @@
+{
+  "parent": "rework:diamond/get_sniffer_egg",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/get_sniffer_egg": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "#minecraft:sniffer_food"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sniffer",
+            "minecraft:flags": {
+              "is_baby": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Feed torchflower seeds to a snifflet."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sniffer_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Little Sniffs"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

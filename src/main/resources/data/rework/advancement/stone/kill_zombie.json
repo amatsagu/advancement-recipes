@@ -1,0 +1,73 @@
+{
+  "parent": "rework:stone/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/root": true
+						}
+					}
+				}
+			},
+        "entity":{
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": [
+                "minecraft:zombie",
+                "minecraft:zombie_villager",
+                "minecraft:husk",
+                "minecraft:drowned"
+              ]
+            }
+          }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Kill a zombie."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:zombie_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Necrophobia"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:mushroom_stew",
+      "minecraft:rabbit_stew_from_brown_mushroom",
+      "minecraft:rabbit_stew_from_red_mushroom",
+      "minecraft:rabbit_stew_from_shelf_mushroom",
+      "minecraft:suspicious_stew_from_allium",
+      "minecraft:suspicious_stew_from_azure_bluet",
+      "minecraft:suspicious_stew_from_blue_orchid",
+      "minecraft:suspicious_stew_from_closed_eyeblossom",
+      "minecraft:suspicious_stew_from_cornflower",
+      "minecraft:suspicious_stew_from_dandelion",
+      "minecraft:suspicious_stew_from_lily_of_the_valley",
+      "minecraft:suspicious_stew_from_open_eyeblossom",
+      "minecraft:suspicious_stew_from_orange_tulip",
+      "minecraft:suspicious_stew_from_oxeye_daisy",
+      "minecraft:suspicious_stew_from_pink_tulip",
+      "minecraft:suspicious_stew_from_poppy",
+      "minecraft:suspicious_stew_from_red_tulip",
+      "minecraft:suspicious_stew_from_torchflower",
+      "minecraft:suspicious_stew_from_white_tulip"
+    ]
+  }
+}

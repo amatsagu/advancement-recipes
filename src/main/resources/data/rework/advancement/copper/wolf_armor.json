@@ -1,0 +1,45 @@
+{
+  "parent": "rework:copper/armadillo_scute",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/armadillo_scute": true
+						}
+					}
+				}
+			},
+        "recipes": "minecraft:wolf_armor"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Craft armor for your wolf."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wolf_armor"
+    },
+    "title": {
+      "text": "Armored Paws"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:wolf_armor_dyed"
+    ]
+  }
+}

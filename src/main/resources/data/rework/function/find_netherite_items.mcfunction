@@ -1,0 +1,43 @@
+playsound minecraft:block.anvil.destroy master @s ~ ~ ~ 1 1.8
+tellraw @s [{text:"<", color:red}, {"player": {"properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIzM2Q2YTJlMmE2NDFhN2MwNGQzZjNkMjM1NmZmYWM0MTE1MzdhMjM5ZjM3YjMzZDYzZDY2YjQzYmMxZThmNSJ9fX0="}]}, color:white}, {text:" Guide Bunny> ", color:red}, {type: "object", atlas: "minecraft:items", sprite:"item/netherite_chestplate",color:white}, {text:" Netherite upgrade reverted! Complete Questline 5 so you can use netherite equipment.",color:white}]
+execute if items entity @s hotbar.0 #rework:netherite_items run function rework:netherite_replace {slot: "hotbar.0"}
+execute if items entity @s hotbar.1 #rework:netherite_items run function rework:netherite_replace {slot: "hotbar.1"}
+execute if items entity @s hotbar.2 #rework:netherite_items run function rework:netherite_replace {slot: "hotbar.2"}
+execute if items entity @s hotbar.3 #rework:netherite_items run function rework:netherite_replace {slot: "hotbar.3"}
+execute if items entity @s hotbar.4 #rework:netherite_items run function rework:netherite_replace {slot: "hotbar.4"}
+execute if items entity @s hotbar.5 #rework:netherite_items run function rework:netherite_replace {slot: "hotbar.5"}
+execute if items entity @s hotbar.6 #rework:netherite_items run function rework:netherite_replace {slot: "hotbar.6"}
+execute if items entity @s hotbar.7 #rework:netherite_items run function rework:netherite_replace {slot: "hotbar.7"}
+execute if items entity @s hotbar.8 #rework:netherite_items run function rework:netherite_replace {slot: "hotbar.8"}
+execute if items entity @s inventory.0 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.0"}
+execute if items entity @s inventory.1 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.1"}
+execute if items entity @s inventory.2 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.2"}
+execute if items entity @s inventory.3 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.3"}
+execute if items entity @s inventory.4 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.4"}
+execute if items entity @s inventory.5 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.5"}
+execute if items entity @s inventory.6 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.6"}
+execute if items entity @s inventory.7 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.7"}
+execute if items entity @s inventory.8 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.8"}
+execute if items entity @s inventory.9 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.9"}
+execute if items entity @s inventory.10 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.10"}
+execute if items entity @s inventory.11 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.11"}
+execute if items entity @s inventory.12 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.12"}
+execute if items entity @s inventory.13 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.13"}
+execute if items entity @s inventory.14 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.14"}
+execute if items entity @s inventory.15 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.15"}
+execute if items entity @s inventory.16 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.16"}
+execute if items entity @s inventory.17 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.17"}
+execute if items entity @s inventory.18 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.18"}
+execute if items entity @s inventory.19 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.19"}
+execute if items entity @s inventory.20 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.20"}
+execute if items entity @s inventory.21 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.21"}
+execute if items entity @s inventory.22 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.22"}
+execute if items entity @s inventory.23 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.23"}
+execute if items entity @s inventory.24 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.24"}
+execute if items entity @s inventory.25 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.25"}
+execute if items entity @s inventory.26 #rework:netherite_items run function rework:netherite_replace {slot: "inventory.26"}
+execute if items entity @s armor.head #rework:netherite_items run function rework:netherite_replace {slot: "armor.head"}
+execute if items entity @s armor.chest #rework:netherite_items run function rework:netherite_replace {slot: "armor.chest"}
+execute if items entity @s armor.legs #rework:netherite_items run function rework:netherite_replace {slot: "armor.legs"}
+execute if items entity @s armor.feet #rework:netherite_items run function rework:netherite_replace {slot: "armor.feet"}
+advancement revoke @s only rework:hidden/netherite_check

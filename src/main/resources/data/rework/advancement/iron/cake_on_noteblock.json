@@ -1,0 +1,61 @@
+{
+  "parent": "rework:iron/get_redstone",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:allay_drop_item_on_block",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/get_redstone": true
+						}
+					}
+				}
+			},
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:note_block"
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "cake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Have an Allay drop a cake at a note block."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:allay_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Birthday Song"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

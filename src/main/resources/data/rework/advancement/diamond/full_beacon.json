@@ -1,0 +1,43 @@
+{
+  "parent": "rework:diamond/kill_wither",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:diamond/kill_wither": true
+						}
+					}
+				}
+			},
+        "level": 4
+      },
+      "trigger": "minecraft:construct_beacon"
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Bring a beacon to full power"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:beacon"
+    },
+    "show_toast": true,
+    "title": "Beaconator"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

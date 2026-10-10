@@ -1,0 +1,45 @@
+{
+  "parent": "rework:stone/enter_the_water",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/enter_the_water": true
+						}
+					}
+				}
+			},
+        "item": {
+          "items": "minecraft:pufferfish"
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Catch a pufferfish with fishing rod."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:fishing_rod"
+    },
+    "show_toast": true,
+    "title": "Fishy Business"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

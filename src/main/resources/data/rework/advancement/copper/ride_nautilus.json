@@ -1,0 +1,44 @@
+{
+  "parent": "rework:copper/saddle_up",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/saddle_up": true
+						}
+					}
+				}
+			},
+        "effects": {
+          "minecraft:breath_of_the_nautilus": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Ride a nautilus."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:nautilus_shell"
+    },
+    "title": {
+      "text": "Big Ammonite"
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

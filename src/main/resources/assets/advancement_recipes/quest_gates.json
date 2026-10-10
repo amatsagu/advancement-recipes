@@ -1,0 +1,4871 @@
+{
+  "quest_titles": {
+    "rework:stone/deep_ocean_by_boat": "Travel The Seven Seas",
+    "rework:stone/raw_copper": "Low Grade Copper",
+    "rework:stone/glass": "Glassmaking",
+    "rework:stone/kill_spider": "Arachnophobia",
+    "rework:stone/root": "Questline II",
+    "rework:stone/enter_the_water": "Water Is Wet",
+    "rework:stone/find_buried_treasure": "Me Gold!",
+    "rework:stone/get_honey": "Bee Our Guest",
+    "rework:stone/feed_dolphin": "Echolocation",
+    "rework:stone/kill_zombie": "Necrophobia",
+    "rework:stone/craft_bundle": "Packed and Ready",
+    "rework:stone/craft_fermented_spider_eye": "Corrupted Ocelli",
+    "rework:stone/kill_skeleton": "Osteophobia",
+    "rework:stone/eat_stew": "Sussy Stew",
+    "rework:stone/lightning_rod": "Surge Protector",
+    "rework:stone/complete_category": "Copper Completionist",
+    "rework:stone/catch_pufferfish": "Fishy Business",
+    "rework:stone/tame_wolf": "Loyal Companion",
+    "rework:stone/kill_creeper": "Creepophobia",
+    "rework:stone/copper_ingot": "Top Tier Copper",
+    "rework:stone/slide_honey_block": "Sticky Situation",
+    "rework:stone/make_mud": "Washing Dirty Hands",
+    "rework:stone/archeology": "Archeologist",
+    "rework:diamond/get_music_disc_5": "The Fifth Note",
+    "rework:diamond/root": "Questline V",
+    "rework:diamond/open_ominous_vault": "Revaulting",
+    "rework:diamond/kill_creaking": "Heartbroken",
+    "rework:diamond/pale_garden": "Spooky Garden",
+    "rework:diamond/get_recovery_compass": "Items Recovery",
+    "rework:diamond/rarest_block": "The Rarest Block",
+    "rework:diamond/kill_near_catalyst": "It Spreads",
+    "rework:diamond/feed_snifflet": "Little Sniffs",
+    "rework:diamond/full_beacon": "Beaconator",
+    "rework:diamond/mace_damage": "Overkill",
+    "rework:diamond/get_coral": "Coralful Collection",
+    "rework:diamond/creator_music_discs": "Music Creator",
+    "rework:diamond/complete_category": "Netherite Completionist",
+    "rework:diamond/warm_ocean_ruin": "Atlantis?",
+    "rework:diamond/place_creaking_heart": "Heart Transplanter",
+    "rework:diamond/deep_dark": "Deep Dark",
+    "rework:diamond/get_sniffer_egg": "Smells Interesting",
+    "rework:diamond/ancient_city": "Ruins Of Echo",
+    "rework:diamond/kill_wither": "Beginning",
+    "rework:diamond/true_rarest_block": "Or Is It?",
+    "rework:copper/kill_pillager": "Who's The Pillager Now?",
+    "rework:copper/shears": "Have A Shearful Day",
+    "rework:copper/kill_mob_with_arrow": "Take Aim",
+    "rework:copper/root": "Questline III",
+    "rework:copper/lava": "Hot Stuff",
+    "rework:copper/trail_ruins": "Respecting the Remnants",
+    "rework:copper/saddle_up": "Saddle Up",
+    "rework:copper/honeycomb": "It Ain't Much But It's Honest Work",
+    "rework:copper/trail_ruins_trims": "Timeless Fashion",
+    "rework:copper/trial_chambers": "Minecraft Trial(s) Edition",
+    "rework:copper/wolf_armor": "Armored Paws",
+    "rework:copper/scrape_copper_golem_statue": "Rebooted",
+    "rework:copper/complete_category": "Iron Completionist",
+    "rework:copper/armadillo_scute": "Isn't It Scute?",
+    "rework:copper/summon_iron_golem": "Hired Help",
+    "rework:copper/bucket": "Steal Bowl",
+    "rework:copper/axolotl_bucket": "The Cutest Predator",
+    "rework:copper/get_iron": "Heavy Metal",
+    "rework:copper/wax_sign": "Locked Thread",
+    "rework:copper/eat_glow_berries": "A Light Meal",
+    "rework:copper/lush_caves": "Lush Cave Here",
+    "rework:copper/blast_furnace": "Supersmelter",
+    "rework:copper/get_nautilus_armor": "Second Shell",
+    "rework:copper/get_goat_horn": "Greatest Of All Time",
+    "rework:copper/ride_nautilus": "Big Ammonite",
+    "rework:secret/root": "???",
+    "rework:hidden/tool_rewards_questline_3_check": "",
+    "rework:hidden/armor_rewards_questline_1_check": "",
+    "rework:hidden/nether_portal_check": "",
+    "rework:hidden/update_tr": "",
+    "rework:hidden/enchanting_table_check": "",
+    "rework:hidden/update_26_1": "",
+    "rework:hidden/armor_rewards_questline_2_check": "",
+    "rework:hidden/armor_rewards_questline_4_check": "",
+    "rework:hidden/sleep_check": "",
+    "rework:hidden/nether_check": "",
+    "rework:hidden/end_check": "",
+    "rework:hidden/anvil_check": "",
+    "rework:hidden/tool_rewards_questline_2_check": "",
+    "rework:hidden/update_patch": "",
+    "rework:hidden/straw_bed_check": "",
+    "rework:hidden/armor_rewards_questline_3_check": "",
+    "rework:hidden/tool_rewards_questline_1_check": "",
+    "rework:hidden/elytra_check": "",
+    "rework:hidden/bucket_check": "",
+    "rework:hidden/update_26_3": "",
+    "rework:hidden/netherite_check": "",
+    "rework:hidden/tool_rewards_questline_4_check": "",
+    "rework:wood/breed": "The Parrots and the Bats",
+    "rework:wood/root": "Questline I",
+    "rework:wood/kill_farm_animal": "The Novice Butcher",
+    "rework:wood/get_wool": "Power Of Free Wool",
+    "rework:wood/item_frame": "A Frame On View",
+    "rework:wood/seeds": "A Seedy Place",
+    "rework:wood/fancy_stone": "Stone Age With The Style",
+    "rework:wood/pumpkin_pie": "Master Baker",
+    "rework:wood/complete_category": "Stone Completionist",
+    "rework:wood/torch": "Light Work",
+    "rework:wood/bread": "Lots Of Loaves Of Bread",
+    "rework:wood/get_leather": "Full Grain Leather",
+    "rework:wood/stone": "Stone Age",
+    "rework:end/root": "Questline VI",
+    "rework:end/end_city": "The City at the End of the Game",
+    "rework:end/kill_ender_dragon": "The End",
+    "rework:end/chorus_flower": "The End Flower",
+    "rework:end/levitation": "Great View From Up Here",
+    "rework:end/netherite_armor": "Cover Me in Debris",
+    "rework:end/get_elytra": "Sky's the Limit",
+    "rework:end/dragon_head": "Dragon Hunter",
+    "rework:end/complete_category": "The Completionist",
+    "rework:end/stronghold": "Eye Spy",
+    "rework:end/end_gateway": "Remote Getaway",
+    "rework:end/kill_endermite": "Creature of In-between",
+    "rework:end/get_dragon_breath": "You Need a Mint",
+    "rework:iron/tnt_sulfur_cube": "Uh Oh",
+    "rework:iron/sponge": "Dry Spell",
+    "rework:iron/tadpole_bucket": "Bukkit Bukkit",
+    "rework:iron/fortress": "A Terrible Fortress",
+    "rework:iron/root": "Questline IV",
+    "rework:iron/brew_awkward_potion": "Local Brewery",
+    "rework:iron/enchant": "Enchanter",
+    "rework:iron/get_wither_skull": "Spooky Scary Skeleton",
+    "rework:iron/monument": "Water Temple",
+    "rework:iron/dried_ghast": "Stay Hydrated",
+    "rework:iron/write_book": "Ordinary Book I Did Write",
+    "rework:iron/kill_magma_cube": "Pyrophobia",
+    "rework:iron/turtle_helmet": "Emerald Helmet",
+    "rework:iron/all_froglight": "With Our Powers Combined",
+    "rework:iron/sulfur_caves": "Sulfur Cave Here",
+    "rework:iron/get_sugar_cane": "Sugar Cane Farmer",
+    "rework:iron/duplicate_trim": "Crafting a New Look",
+    "rework:iron/use_golden_dandelion": "Golden Dandelion Which Is a Golden Dandelion",
+    "rework:iron/get_amethyst": "Purple Quartz Geode",
+    "rework:iron/minecart": "On A Rail",
+    "rework:iron/bastion": "War Pigs",
+    "rework:iron/blaze_rods": "Into Fire",
+    "rework:iron/cake_on_noteblock": "Birthday Song",
+    "rework:iron/ride_strider": "This Boat Has Legs",
+    "rework:iron/conduit": "Moskstraumen",
+    "rework:iron/use_lodestone": "Country Lode, Take Me Home",
+    "rework:iron/get_diamond": "Diamonds!",
+    "rework:iron/swim_lava": "Stayin' Frosty",
+    "rework:iron/complete_category": "Diamond Completionist",
+    "rework:iron/get_redstone": "Unlimited Power",
+    "rework:iron/witch_hut": "Witch Way?",
+    "rework:iron/swamp": "Swampland explorer",
+    "rework:iron/nether": "We Need to Go Deeper",
+    "rework:iron/brew_healing_potion": "Advanced Brewery",
+    "rework:iron/get_snout_armor_trim": "Piglin Style",
+    "rework:iron/breed_pandas": "Zoologist",
+    "rework:iron/harness": "From Stockholm to Australia in 40 Days",
+    "rework:iron/jungle": "Rain Forest Explorer",
+    "rework:iron/look_at_enderman": "Staring Contest",
+    "rework:tutorial/root": "Tutorial",
+    "rework:tutorial/crafting_table": "First Workbench",
+    "rework:tutorial/dirt": "Dirt Enjoyer",
+    "rework:tutorial/complete_category": "Wooden Completionist",
+    "rework:tutorial/gather_logs": "Timber",
+    "rework:tutorial/plant_sapling": "New Generation"
+  },
+  "recipe_to_quest": {
+    "minecraft:dried_kelp": "rework:stone/deep_ocean_by_boat",
+    "minecraft:dried_kelp_block": "rework:stone/deep_ocean_by_boat",
+    "minecraft:dried_kelp_from_smelting": "rework:stone/deep_ocean_by_boat",
+    "minecraft:dried_kelp_from_smoking": "rework:stone/deep_ocean_by_boat",
+    "minecraft:raw_copper_block": "rework:stone/raw_copper",
+    "minecraft:raw_copper": "rework:stone/raw_copper",
+    "minecraft:glass_bottle": "rework:stone/glass",
+    "minecraft:black_stained_glass": "rework:stone/glass",
+    "minecraft:blue_stained_glass": "rework:stone/glass",
+    "minecraft:brown_stained_glass": "rework:stone/glass",
+    "minecraft:cyan_stained_glass": "rework:stone/glass",
+    "minecraft:gray_stained_glass": "rework:stone/glass",
+    "minecraft:green_stained_glass": "rework:stone/glass",
+    "minecraft:light_blue_stained_glass": "rework:stone/glass",
+    "minecraft:light_gray_stained_glass": "rework:stone/glass",
+    "minecraft:lime_stained_glass": "rework:stone/glass",
+    "minecraft:magenta_stained_glass": "rework:stone/glass",
+    "minecraft:orange_stained_glass": "rework:stone/glass",
+    "minecraft:pink_stained_glass": "rework:stone/glass",
+    "minecraft:purple_stained_glass": "rework:stone/glass",
+    "minecraft:red_stained_glass": "rework:stone/glass",
+    "minecraft:white_stained_glass": "rework:stone/glass",
+    "minecraft:yellow_stained_glass": "rework:stone/glass",
+    "minecraft:black_stained_glass_pane": "rework:stone/glass",
+    "minecraft:black_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:blue_stained_glass_pane": "rework:stone/glass",
+    "minecraft:blue_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:brown_stained_glass_pane": "rework:stone/glass",
+    "minecraft:brown_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:cyan_stained_glass_pane": "rework:stone/glass",
+    "minecraft:cyan_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:glass_pane": "rework:stone/glass",
+    "minecraft:gray_stained_glass_pane": "rework:stone/glass",
+    "minecraft:gray_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:green_stained_glass_pane": "rework:stone/glass",
+    "minecraft:green_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:light_blue_stained_glass_pane": "rework:stone/glass",
+    "minecraft:light_blue_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:light_gray_stained_glass_pane": "rework:stone/glass",
+    "minecraft:light_gray_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:lime_stained_glass_pane": "rework:stone/glass",
+    "minecraft:lime_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:magenta_stained_glass_pane": "rework:stone/glass",
+    "minecraft:magenta_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:orange_stained_glass_pane": "rework:stone/glass",
+    "minecraft:orange_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:pink_stained_glass_pane": "rework:stone/glass",
+    "minecraft:pink_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:purple_stained_glass_pane": "rework:stone/glass",
+    "minecraft:purple_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:red_stained_glass_pane": "rework:stone/glass",
+    "minecraft:red_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:white_stained_glass_pane": "rework:stone/glass",
+    "minecraft:white_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:yellow_stained_glass_pane": "rework:stone/glass",
+    "minecraft:yellow_stained_glass_pane_from_glass_pane": "rework:stone/glass",
+    "minecraft:chiseled_red_sandstone": "rework:stone/glass",
+    "minecraft:chiseled_sandstone": "rework:stone/glass",
+    "minecraft:cut_red_sandstone": "rework:stone/glass",
+    "minecraft:cut_red_sandstone_slab": "rework:stone/glass",
+    "minecraft:cut_sandstone": "rework:stone/glass",
+    "minecraft:cut_sandstone_slab": "rework:stone/glass",
+    "minecraft:red_sandstone": "rework:stone/glass",
+    "minecraft:red_sandstone_slab": "rework:stone/glass",
+    "minecraft:red_sandstone_stairs": "rework:stone/glass",
+    "minecraft:red_sandstone_wall": "rework:stone/glass",
+    "minecraft:sandstone": "rework:stone/glass",
+    "minecraft:sandstone_slab": "rework:stone/glass",
+    "minecraft:sandstone_stairs": "rework:stone/glass",
+    "minecraft:sandstone_wall": "rework:stone/glass",
+    "minecraft:smooth_red_sandstone": "rework:stone/glass",
+    "minecraft:smooth_red_sandstone_slab": "rework:stone/glass",
+    "minecraft:smooth_red_sandstone_stairs": "rework:stone/glass",
+    "minecraft:smooth_sandstone": "rework:stone/glass",
+    "minecraft:smooth_sandstone_slab": "rework:stone/glass",
+    "minecraft:smooth_sandstone_stairs": "rework:stone/glass",
+    "minecraft:black_concrete_powder": "rework:stone/glass",
+    "minecraft:blue_concrete_powder": "rework:stone/glass",
+    "minecraft:brown_concrete_powder": "rework:stone/glass",
+    "minecraft:cyan_concrete_powder": "rework:stone/glass",
+    "minecraft:gray_concrete_powder": "rework:stone/glass",
+    "minecraft:green_concrete_powder": "rework:stone/glass",
+    "minecraft:light_blue_concrete_powder": "rework:stone/glass",
+    "minecraft:light_gray_concrete_powder": "rework:stone/glass",
+    "minecraft:lime_concrete_powder": "rework:stone/glass",
+    "minecraft:magenta_concrete_powder": "rework:stone/glass",
+    "minecraft:orange_concrete_powder": "rework:stone/glass",
+    "minecraft:pink_concrete_powder": "rework:stone/glass",
+    "minecraft:purple_concrete_powder": "rework:stone/glass",
+    "minecraft:red_concrete_powder": "rework:stone/glass",
+    "minecraft:white_concrete_powder": "rework:stone/glass",
+    "minecraft:yellow_concrete_powder": "rework:stone/glass",
+    "minecraft:black_concrete_slab": "rework:stone/glass",
+    "minecraft:blue_concrete_slab": "rework:stone/glass",
+    "minecraft:brown_concrete_slab": "rework:stone/glass",
+    "minecraft:cyan_concrete_slab": "rework:stone/glass",
+    "minecraft:gray_concrete_slab": "rework:stone/glass",
+    "minecraft:green_concrete_slab": "rework:stone/glass",
+    "minecraft:light_blue_concrete_slab": "rework:stone/glass",
+    "minecraft:light_gray_concrete_slab": "rework:stone/glass",
+    "minecraft:lime_concrete_slab": "rework:stone/glass",
+    "minecraft:magenta_concrete_slab": "rework:stone/glass",
+    "minecraft:orange_concrete_slab": "rework:stone/glass",
+    "minecraft:pink_concrete_slab": "rework:stone/glass",
+    "minecraft:purple_concrete_slab": "rework:stone/glass",
+    "minecraft:red_concrete_slab": "rework:stone/glass",
+    "minecraft:white_concrete_slab": "rework:stone/glass",
+    "minecraft:yellow_concrete_slab": "rework:stone/glass",
+    "minecraft:black_concrete_stairs": "rework:stone/glass",
+    "minecraft:blue_concrete_stairs": "rework:stone/glass",
+    "minecraft:brown_concrete_stairs": "rework:stone/glass",
+    "minecraft:cyan_concrete_stairs": "rework:stone/glass",
+    "minecraft:gray_concrete_stairs": "rework:stone/glass",
+    "minecraft:green_concrete_stairs": "rework:stone/glass",
+    "minecraft:light_blue_concrete_stairs": "rework:stone/glass",
+    "minecraft:light_gray_concrete_stairs": "rework:stone/glass",
+    "minecraft:lime_concrete_stairs": "rework:stone/glass",
+    "minecraft:magenta_concrete_stairs": "rework:stone/glass",
+    "minecraft:orange_concrete_stairs": "rework:stone/glass",
+    "minecraft:pink_concrete_stairs": "rework:stone/glass",
+    "minecraft:purple_concrete_stairs": "rework:stone/glass",
+    "minecraft:red_concrete_stairs": "rework:stone/glass",
+    "minecraft:white_concrete_stairs": "rework:stone/glass",
+    "minecraft:yellow_concrete_stairs": "rework:stone/glass",
+    "minecraft:white_wool_from_string": "rework:stone/kill_spider",
+    "minecraft:lead": "rework:stone/kill_spider",
+    "minecraft:loom": "rework:stone/kill_spider",
+    "minecraft:fishing_rod": "rework:stone/kill_spider",
+    "minecraft:black_bundle": "rework:stone/kill_spider",
+    "minecraft:blue_bundle": "rework:stone/kill_spider",
+    "minecraft:brown_bundle": "rework:stone/kill_spider",
+    "minecraft:bundle": "rework:stone/kill_spider",
+    "minecraft:cyan_bundle": "rework:stone/kill_spider",
+    "minecraft:gray_bundle": "rework:stone/kill_spider",
+    "minecraft:green_bundle": "rework:stone/kill_spider",
+    "minecraft:light_blue_bundle": "rework:stone/kill_spider",
+    "minecraft:light_gray_bundle": "rework:stone/kill_spider",
+    "minecraft:lime_bundle": "rework:stone/kill_spider",
+    "minecraft:magenta_bundle": "rework:stone/kill_spider",
+    "minecraft:orange_bundle": "rework:stone/kill_spider",
+    "minecraft:pink_bundle": "rework:stone/kill_spider",
+    "minecraft:purple_bundle": "rework:stone/kill_spider",
+    "minecraft:red_bundle": "rework:stone/kill_spider",
+    "minecraft:white_bundle": "rework:stone/kill_spider",
+    "minecraft:yellow_bundle": "rework:stone/kill_spider",
+    "minecraft:fermented_spider_eye": "rework:stone/kill_spider",
+    "minecraft:acacia_boat": "rework:stone/enter_the_water",
+    "minecraft:acacia_chest_boat": "rework:stone/enter_the_water",
+    "minecraft:birch_boat": "rework:stone/enter_the_water",
+    "minecraft:birch_chest_boat": "rework:stone/enter_the_water",
+    "minecraft:cherry_boat": "rework:stone/enter_the_water",
+    "minecraft:cherry_chest_boat": "rework:stone/enter_the_water",
+    "minecraft:dark_oak_boat": "rework:stone/enter_the_water",
+    "minecraft:dark_oak_chest_boat": "rework:stone/enter_the_water",
+    "minecraft:jungle_boat": "rework:stone/enter_the_water",
+    "minecraft:jungle_chest_boat": "rework:stone/enter_the_water",
+    "minecraft:mangrove_boat": "rework:stone/enter_the_water",
+    "minecraft:mangrove_chest_boat": "rework:stone/enter_the_water",
+    "minecraft:oak_boat": "rework:stone/enter_the_water",
+    "minecraft:oak_chest_boat": "rework:stone/enter_the_water",
+    "minecraft:pale_oak_boat": "rework:stone/enter_the_water",
+    "minecraft:pale_oak_chest_boat": "rework:stone/enter_the_water",
+    "minecraft:poplar_boat": "rework:stone/enter_the_water",
+    "minecraft:poplar_chest_boat": "rework:stone/enter_the_water",
+    "minecraft:spruce_boat": "rework:stone/enter_the_water",
+    "minecraft:spruce_chest_boat": "rework:stone/enter_the_water",
+    "minecraft:bamboo_raft": "rework:stone/enter_the_water",
+    "minecraft:bamboo_chest_raft": "rework:stone/enter_the_water",
+    "minecraft:honey_block": "rework:stone/get_honey",
+    "minecraft:honey_bottle": "rework:stone/get_honey",
+    "minecraft:mushroom_stew": "rework:stone/kill_zombie",
+    "minecraft:rabbit_stew_from_brown_mushroom": "rework:stone/kill_zombie",
+    "minecraft:rabbit_stew_from_red_mushroom": "rework:stone/kill_zombie",
+    "minecraft:rabbit_stew_from_shelf_mushroom": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_allium": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_azure_bluet": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_blue_orchid": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_closed_eyeblossom": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_cornflower": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_dandelion": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_lily_of_the_valley": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_open_eyeblossom": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_orange_tulip": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_oxeye_daisy": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_pink_tulip": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_poppy": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_red_tulip": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_torchflower": "rework:stone/kill_zombie",
+    "minecraft:suspicious_stew_from_white_tulip": "rework:stone/kill_zombie",
+    "minecraft:chest": "rework:stone/craft_bundle",
+    "minecraft:copper_chest": "rework:stone/craft_bundle",
+    "minecraft:barrel": "rework:stone/craft_bundle",
+    "minecraft:bone_meal": "rework:stone/kill_skeleton",
+    "minecraft:bone_block": "rework:stone/kill_skeleton",
+    "minecraft:bone_meal_from_bone_block": "rework:stone/kill_skeleton",
+    "minecraft:copper_chestplate": "rework:stone/complete_category",
+    "minecraft:copper_helmet": "rework:stone/complete_category",
+    "minecraft:copper_hoe": "rework:stone/complete_category",
+    "minecraft:copper_axe": "rework:stone/complete_category",
+    "minecraft:copper_boots": "rework:stone/complete_category",
+    "minecraft:copper_nugget_from_smelting": "rework:stone/complete_category",
+    "minecraft:copper_pickaxe": "rework:stone/complete_category",
+    "minecraft:copper_shovel": "rework:stone/complete_category",
+    "minecraft:copper_spear": "rework:stone/complete_category",
+    "minecraft:copper_sword": "rework:stone/complete_category",
+    "minecraft:copper_leggings": "rework:stone/complete_category",
+    "minecraft:bow": "rework:stone/complete_category",
+    "minecraft:arrow": "rework:stone/complete_category",
+    "minecraft:iron_ingot_from_smelting_deepslate_iron_ore": "rework:stone/complete_category",
+    "minecraft:iron_ingot_from_smelting_iron_ore": "rework:stone/complete_category",
+    "minecraft:iron_ingot_from_smelting_raw_iron": "rework:stone/complete_category",
+    "minecraft:jukebox": "rework:stone/kill_creeper",
+    "minecraft:tnt": "rework:stone/kill_creeper",
+    "minecraft:acacia_door": "rework:stone/kill_creeper",
+    "minecraft:acacia_trapdoor": "rework:stone/kill_creeper",
+    "minecraft:bamboo_door": "rework:stone/kill_creeper",
+    "minecraft:bamboo_trapdoor": "rework:stone/kill_creeper",
+    "minecraft:birch_door": "rework:stone/kill_creeper",
+    "minecraft:birch_trapdoor": "rework:stone/kill_creeper",
+    "minecraft:cherry_door": "rework:stone/kill_creeper",
+    "minecraft:cherry_trapdoor": "rework:stone/kill_creeper",
+    "minecraft:copper_door": "rework:stone/kill_creeper",
+    "minecraft:copper_trapdoor": "rework:stone/kill_creeper",
+    "minecraft:dark_oak_door": "rework:stone/kill_creeper",
+    "minecraft:dark_oak_trapdoor": "rework:stone/kill_creeper",
+    "minecraft:jungle_door": "rework:stone/kill_creeper",
+    "minecraft:jungle_trapdoor": "rework:stone/kill_creeper",
+    "minecraft:mangrove_door": "rework:stone/kill_creeper",
+    "minecraft:mangrove_trapdoor": "rework:stone/kill_creeper",
+    "minecraft:oak_door": "rework:stone/kill_creeper",
+    "minecraft:oak_trapdoor": "rework:stone/kill_creeper",
+    "minecraft:pale_oak_door": "rework:stone/kill_creeper",
+    "minecraft:pale_oak_trapdoor": "rework:stone/kill_creeper",
+    "minecraft:poplar_door": "rework:stone/kill_creeper",
+    "minecraft:poplar_trapdoor": "rework:stone/kill_creeper",
+    "minecraft:spruce_door": "rework:stone/kill_creeper",
+    "minecraft:spruce_trapdoor": "rework:stone/kill_creeper",
+    "minecraft:chiseled_copper": "rework:stone/copper_ingot",
+    "minecraft:cut_copper": "rework:stone/copper_ingot",
+    "minecraft:exposed_chiseled_copper": "rework:stone/copper_ingot",
+    "minecraft:exposed_cut_copper": "rework:stone/copper_ingot",
+    "minecraft:oxidized_chiseled_copper": "rework:stone/copper_ingot",
+    "minecraft:oxidized_cut_copper": "rework:stone/copper_ingot",
+    "minecraft:weathered_chiseled_copper": "rework:stone/copper_ingot",
+    "minecraft:weathered_cut_copper": "rework:stone/copper_ingot",
+    "minecraft:cut_copper_slab": "rework:stone/copper_ingot",
+    "minecraft:exposed_cut_copper_slab": "rework:stone/copper_ingot",
+    "minecraft:oxidized_cut_copper_slab": "rework:stone/copper_ingot",
+    "minecraft:weathered_cut_copper_slab": "rework:stone/copper_ingot",
+    "minecraft:cut_copper_stairs": "rework:stone/copper_ingot",
+    "minecraft:exposed_cut_copper_stairs": "rework:stone/copper_ingot",
+    "minecraft:oxidized_cut_copper_stairs": "rework:stone/copper_ingot",
+    "minecraft:weathered_cut_copper_stairs": "rework:stone/copper_ingot",
+    "minecraft:exposed_copper_grate": "rework:stone/copper_ingot",
+    "minecraft:oxidized_copper_grate": "rework:stone/copper_ingot",
+    "minecraft:weathered_copper_grate": "rework:stone/copper_ingot",
+    "minecraft:copper_grate": "rework:stone/copper_ingot",
+    "minecraft:copper_block": "rework:stone/copper_ingot",
+    "minecraft:copper_ingot": "rework:stone/copper_ingot",
+    "minecraft:copper_torch": "rework:stone/copper_ingot",
+    "minecraft:copper_chain": "rework:stone/copper_ingot",
+    "minecraft:copper_lantern": "rework:stone/copper_ingot",
+    "minecraft:copper_bars": "rework:stone/copper_ingot",
+    "minecraft:copper_ingot_from_nuggets": "rework:stone/copper_ingot",
+    "minecraft:copper_nugget": "rework:stone/copper_ingot",
+    "minecraft:lightning_rod": "rework:stone/copper_ingot",
+    "minecraft:brush": "rework:stone/copper_ingot",
+    "minecraft:waxed_weathered_copper_grate": "rework:stone/copper_ingot",
+    "minecraft:waxed_weathered_cut_copper": "rework:stone/copper_ingot",
+    "minecraft:waxed_weathered_cut_copper_slab": "rework:stone/copper_ingot",
+    "minecraft:waxed_weathered_cut_copper_stairs": "rework:stone/copper_ingot",
+    "minecraft:waxed_oxidized_copper_grate": "rework:stone/copper_ingot",
+    "minecraft:waxed_oxidized_cut_copper": "rework:stone/copper_ingot",
+    "minecraft:waxed_oxidized_cut_copper_slab": "rework:stone/copper_ingot",
+    "minecraft:waxed_oxidized_cut_copper_stairs": "rework:stone/copper_ingot",
+    "minecraft:waxed_weathered_chiseled_copper": "rework:stone/copper_ingot",
+    "minecraft:waxed_exposed_copper_grate": "rework:stone/copper_ingot",
+    "minecraft:waxed_exposed_cut_copper": "rework:stone/copper_ingot",
+    "minecraft:waxed_exposed_cut_copper_slab": "rework:stone/copper_ingot",
+    "minecraft:waxed_exposed_cut_copper_stairs": "rework:stone/copper_ingot",
+    "minecraft:waxed_oxidized_chiseled_copper": "rework:stone/copper_ingot",
+    "minecraft:waxed_cut_copper": "rework:stone/copper_ingot",
+    "minecraft:waxed_cut_copper_slab": "rework:stone/copper_ingot",
+    "minecraft:waxed_cut_copper_stairs": "rework:stone/copper_ingot",
+    "minecraft:waxed_exposed_chiseled_copper": "rework:stone/copper_ingot",
+    "minecraft:waxed_copper_grate": "rework:stone/copper_ingot",
+    "minecraft:waxed_chiseled_copper": "rework:stone/copper_ingot",
+    "minecraft:copper_ingot_from_waxed_copper_block": "rework:stone/copper_ingot",
+    "minecraft:ladder": "rework:stone/slide_honey_block",
+    "minecraft:mud_brick_slab": "rework:stone/make_mud",
+    "minecraft:mud_brick_stairs": "rework:stone/make_mud",
+    "minecraft:mud_brick_wall": "rework:stone/make_mud",
+    "minecraft:mud_bricks": "rework:stone/make_mud",
+    "minecraft:packed_mud": "rework:stone/make_mud",
+    "minecraft:muddy_mangrove_roots": "rework:stone/make_mud",
+    "minecraft:clay": "rework:stone/archeology",
+    "minecraft:brick": "rework:stone/archeology",
+    "minecraft:brick_slab": "rework:stone/archeology",
+    "minecraft:brick_stairs": "rework:stone/archeology",
+    "minecraft:brick_wall": "rework:stone/archeology",
+    "minecraft:bricks": "rework:stone/archeology",
+    "minecraft:decorated_pot": "rework:stone/archeology",
+    "minecraft:flower_pot": "rework:stone/archeology",
+    "minecraft:decorated_pot_simple": "rework:stone/archeology",
+    "minecraft:mace": "rework:diamond/open_ominous_vault",
+    "minecraft:creaking_heart": "rework:diamond/kill_creaking",
+    "minecraft:resin_clump": "rework:diamond/kill_creaking",
+    "minecraft:resin_block": "rework:diamond/kill_creaking",
+    "minecraft:pale_moss_carpet": "rework:diamond/pale_garden",
+    "minecraft:ender_eye": "rework:diamond/complete_category",
+    "minecraft:netherite_upgrade_smithing_template": "rework:diamond/complete_category",
+    "minecraft:netherite_ingot": "rework:diamond/complete_category",
+    "minecraft:netherite_scrap": "rework:diamond/complete_category",
+    "minecraft:netherite_scrap_from_blasting": "rework:diamond/complete_category",
+    "minecraft:resin_brick": "rework:diamond/place_creaking_heart",
+    "minecraft:resin_brick_slab": "rework:diamond/place_creaking_heart",
+    "minecraft:resin_brick_stairs": "rework:diamond/place_creaking_heart",
+    "minecraft:resin_brick_wall": "rework:diamond/place_creaking_heart",
+    "minecraft:resin_bricks": "rework:diamond/place_creaking_heart",
+    "minecraft:chiseled_resin_bricks": "rework:diamond/place_creaking_heart",
+    "minecraft:calibrated_sculk_sensor": "rework:diamond/deep_dark",
+    "minecraft:orange_dye_from_torchflower": "rework:diamond/get_sniffer_egg",
+    "minecraft:cyan_dye_from_pitcher_plant": "rework:diamond/get_sniffer_egg",
+    "minecraft:recovery_compass": "rework:diamond/ancient_city",
+    "minecraft:music_disc_5": "rework:diamond/ancient_city",
+    "minecraft:beacon": "rework:diamond/kill_wither",
+    "minecraft:black_dye_from_wither_rose": "rework:diamond/kill_wither",
+    "minecraft:suspicious_stew_from_wither_rose": "rework:diamond/kill_wither",
+    "minecraft:firework_rocket": "rework:copper/kill_pillager",
+    "minecraft:firework_rocket_simple": "rework:copper/kill_pillager",
+    "minecraft:firework_star": "rework:copper/kill_pillager",
+    "minecraft:firework_star_fade": "rework:copper/kill_pillager",
+    "minecraft:leaf_litter": "rework:copper/shears",
+    "minecraft:crossbow": "rework:copper/kill_mob_with_arrow",
+    "minecraft:tipped_arrow": "rework:copper/kill_mob_with_arrow",
+    "minecraft:fletching_table": "rework:copper/kill_mob_with_arrow",
+    "minecraft:flint_and_steel": "rework:copper/lava",
+    "minecraft:black_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:black_terracotta": "rework:copper/trail_ruins",
+    "minecraft:blue_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:blue_terracotta": "rework:copper/trail_ruins",
+    "minecraft:brown_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:brown_terracotta": "rework:copper/trail_ruins",
+    "minecraft:cyan_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:cyan_terracotta": "rework:copper/trail_ruins",
+    "minecraft:gray_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:gray_terracotta": "rework:copper/trail_ruins",
+    "minecraft:green_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:green_terracotta": "rework:copper/trail_ruins",
+    "minecraft:light_blue_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:light_blue_terracotta": "rework:copper/trail_ruins",
+    "minecraft:light_gray_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:light_gray_terracotta": "rework:copper/trail_ruins",
+    "minecraft:lime_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:lime_terracotta": "rework:copper/trail_ruins",
+    "minecraft:magenta_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:magenta_terracotta": "rework:copper/trail_ruins",
+    "minecraft:orange_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:orange_terracotta": "rework:copper/trail_ruins",
+    "minecraft:pink_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:pink_terracotta": "rework:copper/trail_ruins",
+    "minecraft:purple_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:purple_terracotta": "rework:copper/trail_ruins",
+    "minecraft:red_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:red_terracotta": "rework:copper/trail_ruins",
+    "minecraft:terracotta": "rework:copper/trail_ruins",
+    "minecraft:white_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:white_terracotta": "rework:copper/trail_ruins",
+    "minecraft:yellow_glazed_terracotta": "rework:copper/trail_ruins",
+    "minecraft:yellow_terracotta": "rework:copper/trail_ruins",
+    "minecraft:leather_horse_armor": "rework:copper/saddle_up",
+    "minecraft:carrot_on_a_stick": "rework:copper/saddle_up",
+    "minecraft:honeycomb_block": "rework:copper/honeycomb",
+    "minecraft:waxed_chiseled_copper_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_copper_bars_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_copper_block_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_copper_bulb_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_copper_chain_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_copper_chest_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_copper_door_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_copper_golem_statue_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_copper_grate_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_copper_lantern_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_copper_trapdoor_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_cut_copper_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_cut_copper_slab_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_cut_copper_stairs_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_chiseled_copper_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_copper_bars_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_copper_bulb_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_copper_chain_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_copper_chest_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_copper_door_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_copper_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_copper_golem_statue_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_copper_grate_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_copper_lantern_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_copper_trapdoor_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_cut_copper_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_cut_copper_slab_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_cut_copper_stairs_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_exposed_lightning_rod_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_lightning_rod_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_chiseled_copper_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_copper_bars_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_copper_bulb_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_copper_chain_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_copper_chest_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_copper_door_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_copper_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_copper_golem_statue_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_copper_grate_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_copper_lantern_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_copper_trapdoor_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_cut_copper_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_cut_copper_slab_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_cut_copper_stairs_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_oxidized_lightning_rod_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_chiseled_copper_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_copper_bars_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_copper_bulb_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_copper_chain_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_copper_chest_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_copper_door_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_copper_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_copper_golem_statue_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_copper_grate_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_copper_lantern_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_copper_trapdoor_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_cut_copper_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_cut_copper_slab_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:waxed_weathered_lightning_rod_from_honeycomb": "rework:copper/honeycomb",
+    "minecraft:black_candle": "rework:copper/honeycomb",
+    "minecraft:blue_candle": "rework:copper/honeycomb",
+    "minecraft:brown_candle": "rework:copper/honeycomb",
+    "minecraft:candle": "rework:copper/honeycomb",
+    "minecraft:cyan_candle": "rework:copper/honeycomb",
+    "minecraft:gray_candle": "rework:copper/honeycomb",
+    "minecraft:green_candle": "rework:copper/honeycomb",
+    "minecraft:light_blue_candle": "rework:copper/honeycomb",
+    "minecraft:light_gray_candle": "rework:copper/honeycomb",
+    "minecraft:lime_candle": "rework:copper/honeycomb",
+    "minecraft:magenta_candle": "rework:copper/honeycomb",
+    "minecraft:orange_candle": "rework:copper/honeycomb",
+    "minecraft:pink_candle": "rework:copper/honeycomb",
+    "minecraft:purple_candle": "rework:copper/honeycomb",
+    "minecraft:red_candle": "rework:copper/honeycomb",
+    "minecraft:white_candle": "rework:copper/honeycomb",
+    "minecraft:yellow_candle": "rework:copper/honeycomb",
+    "minecraft:beehive": "rework:copper/honeycomb",
+    "minecraft:tuff_brick_slab": "rework:copper/trial_chambers",
+    "minecraft:tuff_brick_stairs": "rework:copper/trial_chambers",
+    "minecraft:tuff_brick_wall": "rework:copper/trial_chambers",
+    "minecraft:tuff_bricks": "rework:copper/trial_chambers",
+    "minecraft:tuff_slab": "rework:copper/trial_chambers",
+    "minecraft:tuff_stairs": "rework:copper/trial_chambers",
+    "minecraft:tuff_wall": "rework:copper/trial_chambers",
+    "minecraft:chiseled_tuff": "rework:copper/trial_chambers",
+    "minecraft:chiseled_tuff_bricks": "rework:copper/trial_chambers",
+    "minecraft:polished_tuff": "rework:copper/trial_chambers",
+    "minecraft:polished_tuff_slab": "rework:copper/trial_chambers",
+    "minecraft:polished_tuff_stairs": "rework:copper/trial_chambers",
+    "minecraft:polished_tuff_wall": "rework:copper/trial_chambers",
+    "minecraft:wind_charge": "rework:copper/trial_chambers",
+    "minecraft:acacia_button": "rework:copper/trial_chambers",
+    "minecraft:bamboo_button": "rework:copper/trial_chambers",
+    "minecraft:birch_button": "rework:copper/trial_chambers",
+    "minecraft:cherry_button": "rework:copper/trial_chambers",
+    "minecraft:dark_oak_button": "rework:copper/trial_chambers",
+    "minecraft:jungle_button": "rework:copper/trial_chambers",
+    "minecraft:mangrove_button": "rework:copper/trial_chambers",
+    "minecraft:oak_button": "rework:copper/trial_chambers",
+    "minecraft:pale_oak_button": "rework:copper/trial_chambers",
+    "minecraft:poplar_button": "rework:copper/trial_chambers",
+    "minecraft:spruce_button": "rework:copper/trial_chambers",
+    "minecraft:stone_button": "rework:copper/trial_chambers",
+    "minecraft:lever": "rework:copper/trial_chambers",
+    "minecraft:wolf_armor_dyed": "rework:copper/wolf_armor",
+    "minecraft:iron_axe": "rework:copper/complete_category",
+    "minecraft:iron_boots": "rework:copper/complete_category",
+    "minecraft:iron_chestplate": "rework:copper/complete_category",
+    "minecraft:iron_helmet": "rework:copper/complete_category",
+    "minecraft:iron_hoe": "rework:copper/complete_category",
+    "minecraft:iron_leggings": "rework:copper/complete_category",
+    "minecraft:iron_pickaxe": "rework:copper/complete_category",
+    "minecraft:iron_shovel": "rework:copper/complete_category",
+    "minecraft:iron_spear": "rework:copper/complete_category",
+    "minecraft:iron_sword": "rework:copper/complete_category",
+    "minecraft:emerald": "rework:copper/complete_category",
+    "minecraft:emerald_block": "rework:copper/complete_category",
+    "minecraft:emerald_from_blasting_deepslate_emerald_ore": "rework:copper/complete_category",
+    "minecraft:emerald_from_blasting_emerald_ore": "rework:copper/complete_category",
+    "minecraft:emerald_from_smelting_deepslate_emerald_ore": "rework:copper/complete_category",
+    "minecraft:emerald_from_smelting_emerald_ore": "rework:copper/complete_category",
+    "minecraft:shield": "rework:copper/complete_category",
+    "minecraft:shield_decoration": "rework:copper/complete_category",
+    "minecraft:lodestone": "rework:copper/complete_category",
+    "minecraft:redstone": "rework:copper/complete_category",
+    "minecraft:redstone_block": "rework:copper/complete_category",
+    "minecraft:redstone_from_blasting_deepslate_redstone_ore": "rework:copper/complete_category",
+    "minecraft:redstone_from_blasting_redstone_ore": "rework:copper/complete_category",
+    "minecraft:redstone_from_smelting_deepslate_redstone_ore": "rework:copper/complete_category",
+    "minecraft:redstone_from_smelting_redstone_ore": "rework:copper/complete_category",
+    "minecraft:diamond_from_blasting_deepslate_diamond_ore": "rework:copper/complete_category",
+    "minecraft:diamond_from_blasting_diamond_ore": "rework:copper/complete_category",
+    "minecraft:diamond_from_smelting_deepslate_diamond_ore": "rework:copper/complete_category",
+    "minecraft:diamond_from_smelting_diamond_ore": "rework:copper/complete_category",
+    "minecraft:diamond": "rework:copper/complete_category",
+    "minecraft:wolf_armor": "rework:copper/armadillo_scute",
+    "minecraft:iron_bars": "rework:copper/get_iron",
+    "minecraft:iron_block": "rework:copper/get_iron",
+    "minecraft:iron_door": "rework:copper/get_iron",
+    "minecraft:iron_chain": "rework:copper/get_iron",
+    "minecraft:iron_ingot_from_iron_block": "rework:copper/get_iron",
+    "minecraft:iron_ingot_from_nuggets": "rework:copper/get_iron",
+    "minecraft:iron_nugget_from_smelting": "rework:copper/get_iron",
+    "minecraft:iron_nugget": "rework:copper/get_iron",
+    "minecraft:iron_trapdoor": "rework:copper/get_iron",
+    "minecraft:lantern": "rework:copper/get_iron",
+    "minecraft:saddle": "rework:copper/get_iron",
+    "minecraft:shears": "rework:copper/get_iron",
+    "minecraft:smithing_table": "rework:copper/get_iron",
+    "minecraft:tripwire_hook": "rework:copper/get_iron",
+    "minecraft:trapped_chest": "rework:copper/get_iron",
+    "minecraft:bucket": "rework:copper/get_iron",
+    "minecraft:stonecutter": "rework:copper/get_iron",
+    "minecraft:blast_furnace": "rework:copper/get_iron",
+    "minecraft:cauldron": "rework:copper/get_iron",
+    "minecraft:raw_iron": "rework:copper/get_iron",
+    "minecraft:raw_iron_block": "rework:copper/get_iron",
+    "minecraft:anvil": "rework:copper/get_iron",
+    "minecraft:acacia_hanging_sign": "rework:copper/wax_sign",
+    "minecraft:bamboo_hanging_sign": "rework:copper/wax_sign",
+    "minecraft:birch_hanging_sign": "rework:copper/wax_sign",
+    "minecraft:cherry_hanging_sign": "rework:copper/wax_sign",
+    "minecraft:dark_oak_hanging_sign": "rework:copper/wax_sign",
+    "minecraft:jungle_hanging_sign": "rework:copper/wax_sign",
+    "minecraft:mangrove_hanging_sign": "rework:copper/wax_sign",
+    "minecraft:oak_hanging_sign": "rework:copper/wax_sign",
+    "minecraft:pale_oak_hanging_sign": "rework:copper/wax_sign",
+    "minecraft:poplar_hanging_sign": "rework:copper/wax_sign",
+    "minecraft:spruce_hanging_sign": "rework:copper/wax_sign",
+    "minecraft:moss_carpet": "rework:copper/lush_caves",
+    "minecraft:mossy_cobblestone_from_moss_block": "rework:copper/lush_caves",
+    "minecraft:mossy_cobblestone_from_vine": "rework:copper/lush_caves",
+    "minecraft:mossy_cobblestone_slab": "rework:copper/lush_caves",
+    "minecraft:mossy_cobblestone_stairs": "rework:copper/lush_caves",
+    "minecraft:mossy_cobblestone_wall": "rework:copper/lush_caves",
+    "minecraft:mossy_stone_brick_slab": "rework:copper/lush_caves",
+    "minecraft:mossy_stone_brick_stairs": "rework:copper/lush_caves",
+    "minecraft:mossy_stone_brick_wall": "rework:copper/lush_caves",
+    "minecraft:mossy_stone_bricks_from_moss_block": "rework:copper/lush_caves",
+    "minecraft:mossy_stone_bricks_from_vine": "rework:copper/lush_caves",
+    "minecraft:dripstone_block": "rework:copper/lush_caves",
+    "minecraft:chiseled_deepslate": "rework:copper/lush_caves",
+    "minecraft:cobbled_deepslate_slab": "rework:copper/lush_caves",
+    "minecraft:cobbled_deepslate_stairs": "rework:copper/lush_caves",
+    "minecraft:cobbled_deepslate_wall": "rework:copper/lush_caves",
+    "minecraft:cracked_deepslate_bricks": "rework:copper/lush_caves",
+    "minecraft:cracked_deepslate_tiles": "rework:copper/lush_caves",
+    "minecraft:deepslate": "rework:copper/lush_caves",
+    "minecraft:deepslate_brick_slab": "rework:copper/lush_caves",
+    "minecraft:deepslate_brick_stairs": "rework:copper/lush_caves",
+    "minecraft:deepslate_brick_wall": "rework:copper/lush_caves",
+    "minecraft:deepslate_bricks": "rework:copper/lush_caves",
+    "minecraft:deepslate_tile_slab": "rework:copper/lush_caves",
+    "minecraft:deepslate_tile_stairs": "rework:copper/lush_caves",
+    "minecraft:deepslate_tile_wall": "rework:copper/lush_caves",
+    "minecraft:deepslate_tiles": "rework:copper/lush_caves",
+    "minecraft:polished_deepslate": "rework:copper/lush_caves",
+    "minecraft:polished_deepslate_slab": "rework:copper/lush_caves",
+    "minecraft:polished_deepslate_stairs": "rework:copper/lush_caves",
+    "minecraft:polished_deepslate_wall": "rework:copper/lush_caves",
+    "minecraft:glow_item_frame": "rework:copper/lush_caves",
+    "minecraft:coal_from_blasting_coal_ore": "rework:copper/blast_furnace",
+    "minecraft:coal_from_blasting_deepslate_coal_ore": "rework:copper/blast_furnace",
+    "minecraft:copper_ingot_from_blasting_copper_ore": "rework:copper/blast_furnace",
+    "minecraft:copper_ingot_from_blasting_deepslate_copper_ore": "rework:copper/blast_furnace",
+    "minecraft:copper_ingot_from_blasting_raw_copper": "rework:copper/blast_furnace",
+    "minecraft:copper_nugget_from_blasting": "rework:copper/blast_furnace",
+    "minecraft:iron_ingot_from_blasting_deepslate_iron_ore": "rework:copper/blast_furnace",
+    "minecraft:iron_ingot_from_blasting_iron_ore": "rework:copper/blast_furnace",
+    "minecraft:iron_ingot_from_blasting_raw_iron": "rework:copper/blast_furnace",
+    "minecraft:iron_nugget_from_blasting": "rework:copper/blast_furnace",
+    "minecraft:acacia_fence": "rework:wood/breed",
+    "minecraft:birch_fence": "rework:wood/breed",
+    "minecraft:bamboo_fence": "rework:wood/breed",
+    "minecraft:cherry_fence": "rework:wood/breed",
+    "minecraft:dark_oak_fence": "rework:wood/breed",
+    "minecraft:jungle_fence": "rework:wood/breed",
+    "minecraft:mangrove_fence": "rework:wood/breed",
+    "minecraft:oak_fence": "rework:wood/breed",
+    "minecraft:pale_oak_fence": "rework:wood/breed",
+    "minecraft:spruce_fence": "rework:wood/breed",
+    "minecraft:acacia_fence_gate": "rework:wood/breed",
+    "minecraft:birch_fence_gate": "rework:wood/breed",
+    "minecraft:bamboo_fence_gate": "rework:wood/breed",
+    "minecraft:cherry_fence_gate": "rework:wood/breed",
+    "minecraft:dark_oak_fence_gate": "rework:wood/breed",
+    "minecraft:jungle_fence_gate": "rework:wood/breed",
+    "minecraft:mangrove_fence_gate": "rework:wood/breed",
+    "minecraft:oak_fence_gate": "rework:wood/breed",
+    "minecraft:pale_oak_fence_gate": "rework:wood/breed",
+    "minecraft:spruce_fence_gate": "rework:wood/breed",
+    "minecraft:poplar_fence": "rework:wood/breed",
+    "minecraft:poplar_fence_gate": "rework:wood/breed",
+    "minecraft:campfire": "rework:wood/kill_farm_animal",
+    "minecraft:black_carpet": "rework:wood/get_wool",
+    "minecraft:white_carpet": "rework:wood/get_wool",
+    "minecraft:red_carpet": "rework:wood/get_wool",
+    "minecraft:orange_carpet": "rework:wood/get_wool",
+    "minecraft:yellow_carpet": "rework:wood/get_wool",
+    "minecraft:lime_carpet": "rework:wood/get_wool",
+    "minecraft:green_carpet": "rework:wood/get_wool",
+    "minecraft:cyan_carpet": "rework:wood/get_wool",
+    "minecraft:light_blue_carpet": "rework:wood/get_wool",
+    "minecraft:blue_carpet": "rework:wood/get_wool",
+    "minecraft:purple_carpet": "rework:wood/get_wool",
+    "minecraft:magenta_carpet": "rework:wood/get_wool",
+    "minecraft:pink_carpet": "rework:wood/get_wool",
+    "minecraft:gray_carpet": "rework:wood/get_wool",
+    "minecraft:light_gray_carpet": "rework:wood/get_wool",
+    "minecraft:brown_carpet": "rework:wood/get_wool",
+    "minecraft:black_banner": "rework:wood/get_wool",
+    "minecraft:white_banner": "rework:wood/get_wool",
+    "minecraft:red_banner": "rework:wood/get_wool",
+    "minecraft:orange_banner": "rework:wood/get_wool",
+    "minecraft:yellow_banner": "rework:wood/get_wool",
+    "minecraft:lime_banner": "rework:wood/get_wool",
+    "minecraft:green_banner": "rework:wood/get_wool",
+    "minecraft:cyan_banner": "rework:wood/get_wool",
+    "minecraft:light_blue_banner": "rework:wood/get_wool",
+    "minecraft:blue_banner": "rework:wood/get_wool",
+    "minecraft:purple_banner": "rework:wood/get_wool",
+    "minecraft:magenta_banner": "rework:wood/get_wool",
+    "minecraft:pink_banner": "rework:wood/get_wool",
+    "minecraft:gray_banner": "rework:wood/get_wool",
+    "minecraft:light_gray_banner": "rework:wood/get_wool",
+    "minecraft:brown_banner": "rework:wood/get_wool",
+    "minecraft:black_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:blue_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:brown_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:cyan_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:gray_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:green_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:light_blue_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:light_gray_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:lime_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:magenta_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:orange_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:pink_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:purple_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:red_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:white_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:yellow_banner_duplicate": "rework:wood/get_wool",
+    "minecraft:painting": "rework:wood/get_wool",
+    "minecraft:black_cushion": "rework:wood/get_wool",
+    "minecraft:blue_cushion": "rework:wood/get_wool",
+    "minecraft:brown_cushion": "rework:wood/get_wool",
+    "minecraft:cyan_cushion": "rework:wood/get_wool",
+    "minecraft:dye_black_cushion": "rework:wood/get_wool",
+    "minecraft:dye_blue_cushion": "rework:wood/get_wool",
+    "minecraft:dye_brown_cushion": "rework:wood/get_wool",
+    "minecraft:dye_cyan_cushion": "rework:wood/get_wool",
+    "minecraft:dye_gray_cushion": "rework:wood/get_wool",
+    "minecraft:dye_green_cushion": "rework:wood/get_wool",
+    "minecraft:dye_light_blue_cushion": "rework:wood/get_wool",
+    "minecraft:dye_light_gray_cushion": "rework:wood/get_wool",
+    "minecraft:dye_lime_cushion": "rework:wood/get_wool",
+    "minecraft:dye_magenta_cushion": "rework:wood/get_wool",
+    "minecraft:dye_orange_cushion": "rework:wood/get_wool",
+    "minecraft:dye_pink_cushion": "rework:wood/get_wool",
+    "minecraft:dye_purple_cushion": "rework:wood/get_wool",
+    "minecraft:dye_red_cushion": "rework:wood/get_wool",
+    "minecraft:dye_white_cushion": "rework:wood/get_wool",
+    "minecraft:dye_yellow_cushion": "rework:wood/get_wool",
+    "minecraft:gray_cushion": "rework:wood/get_wool",
+    "minecraft:green_cushion": "rework:wood/get_wool",
+    "minecraft:light_blue_cushion": "rework:wood/get_wool",
+    "minecraft:light_gray_cushion": "rework:wood/get_wool",
+    "minecraft:lime_cushion": "rework:wood/get_wool",
+    "minecraft:magenta_cushion": "rework:wood/get_wool",
+    "minecraft:orange_cushion": "rework:wood/get_wool",
+    "minecraft:pink_cushion": "rework:wood/get_wool",
+    "minecraft:purple_cushion": "rework:wood/get_wool",
+    "minecraft:red_cushion": "rework:wood/get_wool",
+    "minecraft:white_cushion": "rework:wood/get_wool",
+    "minecraft:yellow_cushion": "rework:wood/get_wool",
+    "minecraft:black_wool_stairs": "rework:wood/get_wool",
+    "minecraft:blue_wool_stairs": "rework:wood/get_wool",
+    "minecraft:brown_wool_stairs": "rework:wood/get_wool",
+    "minecraft:cyan_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_black_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_blue_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_brown_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_cyan_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_gray_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_green_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_light_blue_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_light_gray_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_lime_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_magenta_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_orange_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_pink_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_purple_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_red_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_white_wool_stairs": "rework:wood/get_wool",
+    "minecraft:dye_yellow_wool_stairs": "rework:wood/get_wool",
+    "minecraft:gray_wool_stairs": "rework:wood/get_wool",
+    "minecraft:green_wool_stairs": "rework:wood/get_wool",
+    "minecraft:light_blue_wool_stairs": "rework:wood/get_wool",
+    "minecraft:light_gray_wool_stairs": "rework:wood/get_wool",
+    "minecraft:lime_wool_stairs": "rework:wood/get_wool",
+    "minecraft:magenta_wool_stairs": "rework:wood/get_wool",
+    "minecraft:orange_wool_stairs": "rework:wood/get_wool",
+    "minecraft:pink_wool_stairs": "rework:wood/get_wool",
+    "minecraft:purple_wool_stairs": "rework:wood/get_wool",
+    "minecraft:red_wool_stairs": "rework:wood/get_wool",
+    "minecraft:white_wool_stairs": "rework:wood/get_wool",
+    "minecraft:yellow_wool_stairs": "rework:wood/get_wool",
+    "minecraft:black_wool_slab": "rework:wood/get_wool",
+    "minecraft:blue_wool_slab": "rework:wood/get_wool",
+    "minecraft:brown_wool_slab": "rework:wood/get_wool",
+    "minecraft:cyan_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_black_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_blue_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_brown_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_cyan_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_gray_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_green_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_light_blue_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_light_gray_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_lime_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_magenta_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_orange_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_pink_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_purple_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_red_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_white_wool_slab": "rework:wood/get_wool",
+    "minecraft:dye_yellow_wool_slab": "rework:wood/get_wool",
+    "minecraft:gray_wool_slab": "rework:wood/get_wool",
+    "minecraft:green_wool_slab": "rework:wood/get_wool",
+    "minecraft:light_blue_wool_slab": "rework:wood/get_wool",
+    "minecraft:light_gray_wool_slab": "rework:wood/get_wool",
+    "minecraft:lime_wool_slab": "rework:wood/get_wool",
+    "minecraft:magenta_wool_slab": "rework:wood/get_wool",
+    "minecraft:orange_wool_slab": "rework:wood/get_wool",
+    "minecraft:pink_wool_slab": "rework:wood/get_wool",
+    "minecraft:purple_wool_slab": "rework:wood/get_wool",
+    "minecraft:red_wool_slab": "rework:wood/get_wool",
+    "minecraft:white_wool_slab": "rework:wood/get_wool",
+    "minecraft:yellow_wool_slab": "rework:wood/get_wool",
+    "minecraft:black_dye": "rework:wood/get_wool",
+    "minecraft:blue_dye": "rework:wood/get_wool",
+    "minecraft:blue_dye_from_cornflower": "rework:wood/get_wool",
+    "minecraft:brown_dye": "rework:wood/get_wool",
+    "minecraft:cyan_dye": "rework:wood/get_wool",
+    "minecraft:gray_dye": "rework:wood/get_wool",
+    "minecraft:gray_dye_from_closed_eyeblossom": "rework:wood/get_wool",
+    "minecraft:light_blue_dye_from_blue_orchid": "rework:wood/get_wool",
+    "minecraft:light_blue_dye_from_blue_white_dye": "rework:wood/get_wool",
+    "minecraft:light_gray_dye_from_azure_bluet": "rework:wood/get_wool",
+    "minecraft:light_gray_dye_from_black_white_dye": "rework:wood/get_wool",
+    "minecraft:light_gray_dye_from_gray_white_dye": "rework:wood/get_wool",
+    "minecraft:light_gray_dye_from_oxeye_daisy": "rework:wood/get_wool",
+    "minecraft:light_gray_dye_from_white_tulip": "rework:wood/get_wool",
+    "minecraft:lime_dye": "rework:wood/get_wool",
+    "minecraft:magenta_dye_from_allium": "rework:wood/get_wool",
+    "minecraft:magenta_dye_from_blue_red_pink": "rework:wood/get_wool",
+    "minecraft:magenta_dye_from_blue_red_white_dye": "rework:wood/get_wool",
+    "minecraft:magenta_dye_from_lilac": "rework:wood/get_wool",
+    "minecraft:magenta_dye_from_purple_and_pink": "rework:wood/get_wool",
+    "minecraft:orange_dye_from_open_eyeblossom": "rework:wood/get_wool",
+    "minecraft:orange_dye_from_orange_tulip": "rework:wood/get_wool",
+    "minecraft:orange_dye_from_red_yellow": "rework:wood/get_wool",
+    "minecraft:pink_dye_from_cactus_flower": "rework:wood/get_wool",
+    "minecraft:pink_dye_from_peony": "rework:wood/get_wool",
+    "minecraft:pink_dye_from_pink_petals": "rework:wood/get_wool",
+    "minecraft:pink_dye_from_pink_tulip": "rework:wood/get_wool",
+    "minecraft:pink_dye_from_red_white_dye": "rework:wood/get_wool",
+    "minecraft:purple_dye": "rework:wood/get_wool",
+    "minecraft:red_dye_from_poppy": "rework:wood/get_wool",
+    "minecraft:red_dye_from_rose_bush": "rework:wood/get_wool",
+    "minecraft:red_dye_from_tulip": "rework:wood/get_wool",
+    "minecraft:white_dye": "rework:wood/get_wool",
+    "minecraft:white_dye_from_lily_of_the_valley": "rework:wood/get_wool",
+    "minecraft:yellow_dye_from_dandelion": "rework:wood/get_wool",
+    "minecraft:yellow_dye_from_sunflower": "rework:wood/get_wool",
+    "minecraft:yellow_dye_from_wildflowers": "rework:wood/get_wool",
+    "minecraft:dye_black_carpet": "rework:wood/get_wool",
+    "minecraft:dye_blue_carpet": "rework:wood/get_wool",
+    "minecraft:dye_brown_carpet": "rework:wood/get_wool",
+    "minecraft:dye_cyan_carpet": "rework:wood/get_wool",
+    "minecraft:dye_gray_carpet": "rework:wood/get_wool",
+    "minecraft:dye_green_carpet": "rework:wood/get_wool",
+    "minecraft:dye_light_blue_carpet": "rework:wood/get_wool",
+    "minecraft:dye_light_gray_carpet": "rework:wood/get_wool",
+    "minecraft:dye_lime_carpet": "rework:wood/get_wool",
+    "minecraft:dye_magenta_carpet": "rework:wood/get_wool",
+    "minecraft:dye_orange_carpet": "rework:wood/get_wool",
+    "minecraft:dye_pink_carpet": "rework:wood/get_wool",
+    "minecraft:dye_purple_carpet": "rework:wood/get_wool",
+    "minecraft:dye_red_carpet": "rework:wood/get_wool",
+    "minecraft:dye_white_carpet": "rework:wood/get_wool",
+    "minecraft:dye_yellow_carpet": "rework:wood/get_wool",
+    "minecraft:dye_black_wool": "rework:wood/get_wool",
+    "minecraft:dye_blue_wool": "rework:wood/get_wool",
+    "minecraft:dye_brown_wool": "rework:wood/get_wool",
+    "minecraft:dye_cyan_wool": "rework:wood/get_wool",
+    "minecraft:dye_gray_wool": "rework:wood/get_wool",
+    "minecraft:dye_green_wool": "rework:wood/get_wool",
+    "minecraft:dye_light_blue_wool": "rework:wood/get_wool",
+    "minecraft:dye_light_gray_wool": "rework:wood/get_wool",
+    "minecraft:dye_lime_wool": "rework:wood/get_wool",
+    "minecraft:dye_magenta_wool": "rework:wood/get_wool",
+    "minecraft:dye_orange_wool": "rework:wood/get_wool",
+    "minecraft:dye_pink_wool": "rework:wood/get_wool",
+    "minecraft:dye_purple_wool": "rework:wood/get_wool",
+    "minecraft:dye_red_wool": "rework:wood/get_wool",
+    "minecraft:dye_white_wool": "rework:wood/get_wool",
+    "minecraft:dye_yellow_wool": "rework:wood/get_wool",
+    "minecraft:black_bed": "rework:wood/get_wool",
+    "minecraft:blue_bed": "rework:wood/get_wool",
+    "minecraft:brown_bed": "rework:wood/get_wool",
+    "minecraft:cyan_bed": "rework:wood/get_wool",
+    "minecraft:dye_black_bed": "rework:wood/get_wool",
+    "minecraft:dye_blue_bed": "rework:wood/get_wool",
+    "minecraft:dye_brown_bed": "rework:wood/get_wool",
+    "minecraft:dye_cyan_bed": "rework:wood/get_wool",
+    "minecraft:dye_gray_bed": "rework:wood/get_wool",
+    "minecraft:dye_green_bed": "rework:wood/get_wool",
+    "minecraft:dye_light_blue_bed": "rework:wood/get_wool",
+    "minecraft:dye_light_gray_bed": "rework:wood/get_wool",
+    "minecraft:dye_lime_bed": "rework:wood/get_wool",
+    "minecraft:dye_magenta_bed": "rework:wood/get_wool",
+    "minecraft:dye_orange_bed": "rework:wood/get_wool",
+    "minecraft:dye_pink_bed": "rework:wood/get_wool",
+    "minecraft:dye_purple_bed": "rework:wood/get_wool",
+    "minecraft:dye_red_bed": "rework:wood/get_wool",
+    "minecraft:dye_white_bed": "rework:wood/get_wool",
+    "minecraft:dye_yellow_bed": "rework:wood/get_wool",
+    "minecraft:gray_bed": "rework:wood/get_wool",
+    "minecraft:green_bed": "rework:wood/get_wool",
+    "minecraft:light_blue_bed": "rework:wood/get_wool",
+    "minecraft:light_gray_bed": "rework:wood/get_wool",
+    "minecraft:lime_bed": "rework:wood/get_wool",
+    "minecraft:magenta_bed": "rework:wood/get_wool",
+    "minecraft:orange_bed": "rework:wood/get_wool",
+    "minecraft:pink_bed": "rework:wood/get_wool",
+    "minecraft:purple_bed": "rework:wood/get_wool",
+    "minecraft:red_bed": "rework:wood/get_wool",
+    "minecraft:white_bed": "rework:wood/get_wool",
+    "minecraft:yellow_bed": "rework:wood/get_wool",
+    "minecraft:straw_bed": "rework:wood/get_wool",
+    "minecraft:acacia_shelf": "rework:wood/item_frame",
+    "minecraft:birch_shelf": "rework:wood/item_frame",
+    "minecraft:bamboo_shelf": "rework:wood/item_frame",
+    "minecraft:cherry_shelf": "rework:wood/item_frame",
+    "minecraft:dark_oak_shelf": "rework:wood/item_frame",
+    "minecraft:jungle_shelf": "rework:wood/item_frame",
+    "minecraft:mangrove_shelf": "rework:wood/item_frame",
+    "minecraft:oak_shelf": "rework:wood/item_frame",
+    "minecraft:pale_oak_shelf": "rework:wood/item_frame",
+    "minecraft:poplar_shelf": "rework:wood/item_frame",
+    "minecraft:spruce_shelf": "rework:wood/item_frame",
+    "minecraft:bread": "rework:wood/seeds",
+    "minecraft:wheat": "rework:wood/seeds",
+    "minecraft:melon_seeds": "rework:wood/seeds",
+    "minecraft:pumpkin_seeds": "rework:wood/seeds",
+    "minecraft:melon": "rework:wood/seeds",
+    "minecraft:red_dye_from_beetroot": "rework:wood/seeds",
+    "minecraft:beetroot_soup": "rework:wood/seeds",
+    "minecraft:granite": "rework:wood/fancy_stone",
+    "minecraft:granite_slab": "rework:wood/fancy_stone",
+    "minecraft:granite_stairs": "rework:wood/fancy_stone",
+    "minecraft:granite_wall": "rework:wood/fancy_stone",
+    "minecraft:andesite": "rework:wood/fancy_stone",
+    "minecraft:andesite_slab": "rework:wood/fancy_stone",
+    "minecraft:andesite_stairs": "rework:wood/fancy_stone",
+    "minecraft:andesite_wall": "rework:wood/fancy_stone",
+    "minecraft:diorite": "rework:wood/fancy_stone",
+    "minecraft:diorite_slab": "rework:wood/fancy_stone",
+    "minecraft:diorite_stairs": "rework:wood/fancy_stone",
+    "minecraft:diorite_wall": "rework:wood/fancy_stone",
+    "minecraft:polished_granite": "rework:wood/fancy_stone",
+    "minecraft:polished_granite_slab": "rework:wood/fancy_stone",
+    "minecraft:polished_granite_stairs": "rework:wood/fancy_stone",
+    "minecraft:polished_andesite": "rework:wood/fancy_stone",
+    "minecraft:polished_andesite_slab": "rework:wood/fancy_stone",
+    "minecraft:polished_andesite_stairs": "rework:wood/fancy_stone",
+    "minecraft:polished_diorite": "rework:wood/fancy_stone",
+    "minecraft:polished_diorite_slab": "rework:wood/fancy_stone",
+    "minecraft:polished_diorite_stairs": "rework:wood/fancy_stone",
+    "minecraft:hay_block": "rework:wood/pumpkin_pie",
+    "minecraft:stone_axe": "rework:wood/complete_category",
+    "minecraft:stone_hoe": "rework:wood/complete_category",
+    "minecraft:stone_pickaxe": "rework:wood/complete_category",
+    "minecraft:stone_shovel": "rework:wood/complete_category",
+    "minecraft:stone_spear": "rework:wood/complete_category",
+    "minecraft:stone_sword": "rework:wood/complete_category",
+    "minecraft:leather_helmet": "rework:wood/complete_category",
+    "minecraft:leather_chestplate": "rework:wood/complete_category",
+    "minecraft:leather_leggings": "rework:wood/complete_category",
+    "minecraft:leather_boots": "rework:wood/complete_category",
+    "minecraft:leather_boots_dyed": "rework:wood/complete_category",
+    "minecraft:leather_chestplate_dyed": "rework:wood/complete_category",
+    "minecraft:leather_helmet_dyed": "rework:wood/complete_category",
+    "minecraft:leather_horse_armor_dyed": "rework:wood/complete_category",
+    "minecraft:leather_leggings_dyed": "rework:wood/complete_category",
+    "minecraft:furnace": "rework:wood/complete_category",
+    "minecraft:glass": "rework:wood/complete_category",
+    "minecraft:copper_ingot_from_smelting_copper_ore": "rework:wood/complete_category",
+    "minecraft:copper_ingot_from_smelting_deepslate_copper_ore": "rework:wood/complete_category",
+    "minecraft:copper_ingot_from_smelting_raw_copper": "rework:wood/complete_category",
+    "minecraft:lime_dye_from_smelting": "rework:wood/complete_category",
+    "minecraft:coal_from_smelting_coal_ore": "rework:wood/complete_category",
+    "minecraft:coal_from_smelting_deepslate_coal_ore": "rework:wood/complete_category",
+    "minecraft:charcoal": "rework:wood/complete_category",
+    "minecraft:green_dye": "rework:wood/complete_category",
+    "minecraft:cooked_beef": "rework:wood/complete_category",
+    "minecraft:cooked_beef_from_smoking": "rework:wood/complete_category",
+    "minecraft:cooked_chicken": "rework:wood/complete_category",
+    "minecraft:cooked_chicken_from_smoking": "rework:wood/complete_category",
+    "minecraft:cooked_cod": "rework:wood/complete_category",
+    "minecraft:cooked_cod_from_smoking": "rework:wood/complete_category",
+    "minecraft:cooked_mutton": "rework:wood/complete_category",
+    "minecraft:cooked_mutton_from_smoking": "rework:wood/complete_category",
+    "minecraft:cooked_porkchop": "rework:wood/complete_category",
+    "minecraft:cooked_porkchop_from_smoking": "rework:wood/complete_category",
+    "minecraft:cooked_rabbit": "rework:wood/complete_category",
+    "minecraft:cooked_rabbit_from_smoking": "rework:wood/complete_category",
+    "minecraft:cooked_salmon": "rework:wood/complete_category",
+    "minecraft:cooked_salmon_from_smoking": "rework:wood/complete_category",
+    "minecraft:baked_potato": "rework:wood/complete_category",
+    "minecraft:baked_potato_from_smoking": "rework:wood/complete_category",
+    "minecraft:smoker": "rework:wood/complete_category",
+    "minecraft:stone": "rework:wood/complete_category",
+    "minecraft:stone_brick_slab": "rework:wood/complete_category",
+    "minecraft:stone_brick_stairs": "rework:wood/complete_category",
+    "minecraft:stone_brick_wall": "rework:wood/complete_category",
+    "minecraft:stone_bricks": "rework:wood/complete_category",
+    "minecraft:stone_slab": "rework:wood/complete_category",
+    "minecraft:stone_stairs": "rework:wood/complete_category",
+    "minecraft:chiseled_stone_bricks": "rework:wood/complete_category",
+    "minecraft:smooth_stone": "rework:wood/complete_category",
+    "minecraft:smooth_stone_slab": "rework:wood/complete_category",
+    "minecraft:cracked_stone_bricks": "rework:wood/complete_category",
+    "minecraft:armor_stand": "rework:wood/complete_category",
+    "minecraft:coal": "rework:wood/torch",
+    "minecraft:coal_block": "rework:wood/torch",
+    "minecraft:jack_o_lantern": "rework:wood/torch",
+    "minecraft:pumpkin_pie": "rework:wood/bread",
+    "minecraft:cake": "rework:wood/bread",
+    "minecraft:sugar_from_sugar_cane": "rework:wood/bread",
+    "minecraft:sugar_from_honey_bottle": "rework:wood/bread",
+    "minecraft:leather": "rework:wood/get_leather",
+    "minecraft:item_frame": "rework:wood/get_leather",
+    "minecraft:cobblestone_slab": "rework:wood/stone",
+    "minecraft:cobblestone_stairs": "rework:wood/stone",
+    "minecraft:cobblestone_wall": "rework:wood/stone",
+    "minecraft:torch": "rework:wood/stone",
+    "minecraft:end_rod": "rework:end/end_city",
+    "minecraft:purpur_block": "rework:end/end_city",
+    "minecraft:purpur_pillar": "rework:end/end_city",
+    "minecraft:purpur_slab": "rework:end/end_city",
+    "minecraft:purpur_stairs": "rework:end/end_city",
+    "minecraft:shulker_box": "rework:end/end_city",
+    "minecraft:end_crystal": "rework:end/kill_ender_dragon",
+    "minecraft:popped_chorus_fruit": "rework:end/chorus_flower",
+    "minecraft:black_shulker_box": "rework:end/levitation",
+    "minecraft:blue_shulker_box": "rework:end/levitation",
+    "minecraft:brown_shulker_box": "rework:end/levitation",
+    "minecraft:cyan_shulker_box": "rework:end/levitation",
+    "minecraft:gray_shulker_box": "rework:end/levitation",
+    "minecraft:green_shulker_box": "rework:end/levitation",
+    "minecraft:light_blue_shulker_box": "rework:end/levitation",
+    "minecraft:light_gray_shulker_box": "rework:end/levitation",
+    "minecraft:lime_shulker_box": "rework:end/levitation",
+    "minecraft:magenta_shulker_box": "rework:end/levitation",
+    "minecraft:orange_shulker_box": "rework:end/levitation",
+    "minecraft:pink_shulker_box": "rework:end/levitation",
+    "minecraft:purple_shulker_box": "rework:end/levitation",
+    "minecraft:red_shulker_box": "rework:end/levitation",
+    "minecraft:white_shulker_box": "rework:end/levitation",
+    "minecraft:yellow_shulker_box": "rework:end/levitation",
+    "minecraft:netherite_ingot_from_netherite_block": "rework:end/netherite_armor",
+    "minecraft:netherite_block": "rework:end/netherite_armor",
+    "minecraft:ender_chest": "rework:end/end_gateway",
+    "minecraft:end_stone_brick_slab": "rework:end/end_gateway",
+    "minecraft:end_stone_brick_stairs": "rework:end/end_gateway",
+    "minecraft:end_stone_brick_wall": "rework:end/end_gateway",
+    "minecraft:end_stone_bricks": "rework:end/end_gateway",
+    "minecraft:cracked_nether_bricks": "rework:iron/fortress",
+    "minecraft:chiseled_nether_bricks": "rework:iron/fortress",
+    "minecraft:nether_brick": "rework:iron/fortress",
+    "minecraft:nether_brick_slab": "rework:iron/fortress",
+    "minecraft:nether_brick_stairs": "rework:iron/fortress",
+    "minecraft:nether_brick_wall": "rework:iron/fortress",
+    "minecraft:nether_brick_fence": "rework:iron/fortress",
+    "minecraft:nether_bricks": "rework:iron/fortress",
+    "minecraft:nether_wart_block": "rework:iron/fortress",
+    "minecraft:red_nether_brick_slab": "rework:iron/fortress",
+    "minecraft:red_nether_brick_stairs": "rework:iron/fortress",
+    "minecraft:red_nether_brick_wall": "rework:iron/fortress",
+    "minecraft:red_nether_bricks": "rework:iron/fortress",
+    "minecraft:glistering_melon_slice": "rework:iron/brew_awkward_potion",
+    "minecraft:grindstone": "rework:iron/enchant",
+    "minecraft:prismarine": "rework:iron/monument",
+    "minecraft:prismarine_brick_slab": "rework:iron/monument",
+    "minecraft:prismarine_brick_stairs": "rework:iron/monument",
+    "minecraft:prismarine_bricks": "rework:iron/monument",
+    "minecraft:prismarine_slab": "rework:iron/monument",
+    "minecraft:prismarine_stairs": "rework:iron/monument",
+    "minecraft:prismarine_wall": "rework:iron/monument",
+    "minecraft:dark_prismarine": "rework:iron/monument",
+    "minecraft:dark_prismarine_slab": "rework:iron/monument",
+    "minecraft:dark_prismarine_stairs": "rework:iron/monument",
+    "minecraft:turtle_helmet": "rework:iron/monument",
+    "minecraft:sponge": "rework:iron/monument",
+    "minecraft:conduit": "rework:iron/monument",
+    "minecraft:sea_lantern": "rework:iron/monument",
+    "minecraft:black_harness": "rework:iron/dried_ghast",
+    "minecraft:blue_harness": "rework:iron/dried_ghast",
+    "minecraft:brown_harness": "rework:iron/dried_ghast",
+    "minecraft:cyan_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_black_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_blue_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_brown_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_cyan_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_gray_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_green_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_light_blue_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_light_gray_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_lime_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_magenta_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_orange_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_pink_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_purple_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_red_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_white_harness": "rework:iron/dried_ghast",
+    "minecraft:dye_yellow_harness": "rework:iron/dried_ghast",
+    "minecraft:gray_harness": "rework:iron/dried_ghast",
+    "minecraft:green_harness": "rework:iron/dried_ghast",
+    "minecraft:light_blue_harness": "rework:iron/dried_ghast",
+    "minecraft:light_gray_harness": "rework:iron/dried_ghast",
+    "minecraft:lime_harness": "rework:iron/dried_ghast",
+    "minecraft:magenta_harness": "rework:iron/dried_ghast",
+    "minecraft:orange_harness": "rework:iron/dried_ghast",
+    "minecraft:pink_harness": "rework:iron/dried_ghast",
+    "minecraft:purple_harness": "rework:iron/dried_ghast",
+    "minecraft:red_harness": "rework:iron/dried_ghast",
+    "minecraft:white_harness": "rework:iron/dried_ghast",
+    "minecraft:yellow_harness": "rework:iron/dried_ghast",
+    "minecraft:dried_ghast": "rework:iron/dried_ghast",
+    "minecraft:bookshelf": "rework:iron/write_book",
+    "minecraft:chiseled_bookshelf": "rework:iron/write_book",
+    "minecraft:lapis_block": "rework:iron/write_book",
+    "minecraft:lapis_lazuli": "rework:iron/write_book",
+    "minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore": "rework:iron/write_book",
+    "minecraft:lapis_lazuli_from_blasting_lapis_ore": "rework:iron/write_book",
+    "minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore": "rework:iron/write_book",
+    "minecraft:lapis_lazuli_from_smelting_lapis_ore": "rework:iron/write_book",
+    "minecraft:lectern": "rework:iron/write_book",
+    "minecraft:magma_block": "rework:iron/kill_magma_cube",
+    "minecraft:chiseled_sulfur": "rework:iron/sulfur_caves",
+    "minecraft:polished_sulfur": "rework:iron/sulfur_caves",
+    "minecraft:polished_sulfur_slab": "rework:iron/sulfur_caves",
+    "minecraft:polished_sulfur_stairs": "rework:iron/sulfur_caves",
+    "minecraft:polished_sulfur_wall": "rework:iron/sulfur_caves",
+    "minecraft:potent_sulfur": "rework:iron/sulfur_caves",
+    "minecraft:sulfur_brick_slab": "rework:iron/sulfur_caves",
+    "minecraft:sulfur_brick_stairs": "rework:iron/sulfur_caves",
+    "minecraft:sulfur_brick_wall": "rework:iron/sulfur_caves",
+    "minecraft:sulfur_bricks": "rework:iron/sulfur_caves",
+    "minecraft:sulfur_from_sulfur_spikes": "rework:iron/sulfur_caves",
+    "minecraft:sulfur_slab": "rework:iron/sulfur_caves",
+    "minecraft:sulfur_stairs": "rework:iron/sulfur_caves",
+    "minecraft:sulfur_wall": "rework:iron/sulfur_caves",
+    "minecraft:chiseled_cinnabar": "rework:iron/sulfur_caves",
+    "minecraft:cinnabar_brick_slab": "rework:iron/sulfur_caves",
+    "minecraft:cinnabar_brick_stairs": "rework:iron/sulfur_caves",
+    "minecraft:cinnabar_brick_wall": "rework:iron/sulfur_caves",
+    "minecraft:cinnabar_bricks": "rework:iron/sulfur_caves",
+    "minecraft:cinnabar_slab": "rework:iron/sulfur_caves",
+    "minecraft:cinnabar_stairs": "rework:iron/sulfur_caves",
+    "minecraft:cinnabar_wall": "rework:iron/sulfur_caves",
+    "minecraft:polished_cinnabar": "rework:iron/sulfur_caves",
+    "minecraft:polished_cinnabar_slab": "rework:iron/sulfur_caves",
+    "minecraft:polished_cinnabar_stairs": "rework:iron/sulfur_caves",
+    "minecraft:polished_cinnabar_wall": "rework:iron/sulfur_caves",
+    "minecraft:paper": "rework:iron/get_sugar_cane",
+    "minecraft:map": "rework:iron/get_sugar_cane",
+    "minecraft:map_cloning": "rework:iron/get_sugar_cane",
+    "minecraft:map_extending": "rework:iron/get_sugar_cane",
+    "minecraft:bordure_indented_banner_pattern": "rework:iron/get_sugar_cane",
+    "minecraft:creeper_banner_pattern": "rework:iron/get_sugar_cane",
+    "minecraft:field_masoned_banner_pattern": "rework:iron/get_sugar_cane",
+    "minecraft:flower_banner_pattern": "rework:iron/get_sugar_cane",
+    "minecraft:mojang_banner_pattern": "rework:iron/get_sugar_cane",
+    "minecraft:skull_banner_pattern": "rework:iron/get_sugar_cane",
+    "minecraft:book": "rework:iron/get_sugar_cane",
+    "minecraft:book_cloning": "rework:iron/get_sugar_cane",
+    "minecraft:writable_book": "rework:iron/get_sugar_cane",
+    "minecraft:cartography_table": "rework:iron/get_sugar_cane",
+    "minecraft:name_tag": "rework:iron/get_sugar_cane",
+    "minecraft:suspicious_stew_from_golden_dandelion": "rework:iron/use_golden_dandelion",
+    "minecraft:yellow_dye_from_golden_dandelion": "rework:iron/use_golden_dandelion",
+    "minecraft:tinted_glass": "rework:iron/get_amethyst",
+    "minecraft:spyglass": "rework:iron/get_amethyst",
+    "minecraft:amethyst_block": "rework:iron/get_amethyst",
+    "minecraft:chest_minecart": "rework:iron/minecart",
+    "minecraft:hopper_minecart": "rework:iron/minecart",
+    "minecraft:furnace_minecart": "rework:iron/minecart",
+    "minecraft:tnt_minecart": "rework:iron/minecart",
+    "minecraft:activator_rail": "rework:iron/minecart",
+    "minecraft:detector_rail": "rework:iron/minecart",
+    "minecraft:powered_rail": "rework:iron/minecart",
+    "minecraft:blackstone_slab": "rework:iron/bastion",
+    "minecraft:blackstone_stairs": "rework:iron/bastion",
+    "minecraft:blackstone_wall": "rework:iron/bastion",
+    "minecraft:chiseled_polished_blackstone": "rework:iron/bastion",
+    "minecraft:cracked_polished_blackstone_bricks": "rework:iron/bastion",
+    "minecraft:polished_blackstone": "rework:iron/bastion",
+    "minecraft:polished_blackstone_brick_slab": "rework:iron/bastion",
+    "minecraft:polished_blackstone_brick_stairs": "rework:iron/bastion",
+    "minecraft:polished_blackstone_brick_wall": "rework:iron/bastion",
+    "minecraft:polished_blackstone_bricks": "rework:iron/bastion",
+    "minecraft:polished_blackstone_button": "rework:iron/bastion",
+    "minecraft:polished_blackstone_slab": "rework:iron/bastion",
+    "minecraft:polished_blackstone_stairs": "rework:iron/bastion",
+    "minecraft:polished_blackstone_wall": "rework:iron/bastion",
+    "minecraft:blaze_powder": "rework:iron/blaze_rods",
+    "minecraft:magma_cream": "rework:iron/blaze_rods",
+    "minecraft:brewing_stand": "rework:iron/blaze_rods",
+    "minecraft:copper_bulb": "rework:iron/blaze_rods",
+    "minecraft:exposed_copper_bulb": "rework:iron/blaze_rods",
+    "minecraft:oxidized_copper_bulb": "rework:iron/blaze_rods",
+    "minecraft:waxed_copper_bulb": "rework:iron/blaze_rods",
+    "minecraft:waxed_exposed_copper_bulb": "rework:iron/blaze_rods",
+    "minecraft:waxed_oxidized_copper_bulb": "rework:iron/blaze_rods",
+    "minecraft:waxed_weathered_copper_bulb": "rework:iron/blaze_rods",
+    "minecraft:weathered_copper_bulb": "rework:iron/blaze_rods",
+    "minecraft:smooth_basalt": "rework:iron/ride_strider",
+    "minecraft:polished_basalt": "rework:iron/ride_strider",
+    "minecraft:bolt_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:coast_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:dune_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:eye_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:flow_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:host_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:raiser_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:rib_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:sentry_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:shaper_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:silence_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:snout_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:spire_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:tide_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:vex_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:ward_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:wayfinder_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:wild_armor_trim_smithing_template": "rework:iron/get_diamond",
+    "minecraft:enchanting_table": "rework:iron/get_diamond",
+    "minecraft:blue_ice": "rework:iron/swim_lava",
+    "minecraft:packed_ice": "rework:iron/swim_lava",
+    "minecraft:snow_block": "rework:iron/swim_lava",
+    "minecraft:snow": "rework:iron/swim_lava",
+    "minecraft:diamond_axe": "rework:iron/complete_category",
+    "minecraft:diamond_block": "rework:iron/complete_category",
+    "minecraft:diamond_boots": "rework:iron/complete_category",
+    "minecraft:diamond_chestplate": "rework:iron/complete_category",
+    "minecraft:diamond_helmet": "rework:iron/complete_category",
+    "minecraft:diamond_hoe": "rework:iron/complete_category",
+    "minecraft:diamond_leggings": "rework:iron/complete_category",
+    "minecraft:diamond_pickaxe": "rework:iron/complete_category",
+    "minecraft:diamond_shovel": "rework:iron/complete_category",
+    "minecraft:diamond_spear": "rework:iron/complete_category",
+    "minecraft:diamond_sword": "rework:iron/complete_category",
+    "minecraft:comparator": "rework:iron/get_redstone",
+    "minecraft:compass": "rework:iron/get_redstone",
+    "minecraft:dispenser": "rework:iron/get_redstone",
+    "minecraft:dropper": "rework:iron/get_redstone",
+    "minecraft:hopper": "rework:iron/get_redstone",
+    "minecraft:acacia_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:bamboo_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:birch_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:cherry_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:crimson_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:dark_oak_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:heavy_weighted_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:jungle_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:light_weighted_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:mangrove_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:oak_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:pale_oak_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:poplar_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:polished_blackstone_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:spruce_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:stone_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:warped_pressure_plate": "rework:iron/get_redstone",
+    "minecraft:minecart": "rework:iron/get_redstone",
+    "minecraft:note_block": "rework:iron/get_redstone",
+    "minecraft:observer": "rework:iron/get_redstone",
+    "minecraft:rail": "rework:iron/get_redstone",
+    "minecraft:repeater": "rework:iron/get_redstone",
+    "minecraft:redstone_lamp": "rework:iron/get_redstone",
+    "minecraft:redstone_torch": "rework:iron/get_redstone",
+    "minecraft:target": "rework:iron/get_redstone",
+    "minecraft:piston": "rework:iron/get_redstone",
+    "minecraft:daylight_detector": "rework:iron/get_redstone",
+    "minecraft:crafter": "rework:iron/get_redstone",
+    "minecraft:slime_ball": "rework:iron/swamp",
+    "minecraft:slime_block": "rework:iron/swamp",
+    "minecraft:sticky_piston": "rework:iron/swamp",
+    "minecraft:chiseled_quartz_block": "rework:iron/nether",
+    "minecraft:quartz": "rework:iron/nether",
+    "minecraft:quartz_block": "rework:iron/nether",
+    "minecraft:quartz_bricks": "rework:iron/nether",
+    "minecraft:quartz_from_blasting": "rework:iron/nether",
+    "minecraft:quartz_pillar": "rework:iron/nether",
+    "minecraft:quartz_slab": "rework:iron/nether",
+    "minecraft:quartz_stairs": "rework:iron/nether",
+    "minecraft:smooth_quartz": "rework:iron/nether",
+    "minecraft:smooth_quartz_slab": "rework:iron/nether",
+    "minecraft:smooth_quartz_stairs": "rework:iron/nether",
+    "minecraft:glowstone": "rework:iron/nether",
+    "minecraft:respawn_anchor": "rework:iron/nether",
+    "minecraft:gold_block": "rework:iron/nether",
+    "minecraft:gold_ingot_from_blasting_deepslate_gold_ore": "rework:iron/nether",
+    "minecraft:gold_ingot_from_blasting_gold_ore": "rework:iron/nether",
+    "minecraft:gold_ingot_from_blasting_nether_gold_ore": "rework:iron/nether",
+    "minecraft:gold_ingot_from_blasting_raw_gold": "rework:iron/nether",
+    "minecraft:gold_ingot_from_gold_block": "rework:iron/nether",
+    "minecraft:gold_ingot_from_nuggets": "rework:iron/nether",
+    "minecraft:gold_ingot_from_smelting_deepslate_gold_ore": "rework:iron/nether",
+    "minecraft:gold_ingot_from_smelting_gold_ore": "rework:iron/nether",
+    "minecraft:gold_ingot_from_smelting_nether_gold_ore": "rework:iron/nether",
+    "minecraft:gold_ingot_from_smelting_raw_gold": "rework:iron/nether",
+    "minecraft:gold_nugget": "rework:iron/nether",
+    "minecraft:gold_nugget_from_blasting": "rework:iron/nether",
+    "minecraft:gold_nugget_from_smelting": "rework:iron/nether",
+    "minecraft:golden_apple": "rework:iron/nether",
+    "minecraft:golden_axe": "rework:iron/nether",
+    "minecraft:golden_boots": "rework:iron/nether",
+    "minecraft:golden_carrot": "rework:iron/nether",
+    "minecraft:golden_chestplate": "rework:iron/nether",
+    "minecraft:golden_helmet": "rework:iron/nether",
+    "minecraft:golden_hoe": "rework:iron/nether",
+    "minecraft:golden_leggings": "rework:iron/nether",
+    "minecraft:golden_pickaxe": "rework:iron/nether",
+    "minecraft:golden_shovel": "rework:iron/nether",
+    "minecraft:golden_spear": "rework:iron/nether",
+    "minecraft:golden_sword": "rework:iron/nether",
+    "minecraft:crimson_shelf": "rework:iron/nether",
+    "minecraft:crimson_sign": "rework:iron/nether",
+    "minecraft:crimson_slab": "rework:iron/nether",
+    "minecraft:crimson_stairs": "rework:iron/nether",
+    "minecraft:crimson_trapdoor": "rework:iron/nether",
+    "minecraft:crimson_button": "rework:iron/nether",
+    "minecraft:crimson_door": "rework:iron/nether",
+    "minecraft:crimson_fence": "rework:iron/nether",
+    "minecraft:crimson_fence_gate": "rework:iron/nether",
+    "minecraft:crimson_hanging_sign": "rework:iron/nether",
+    "minecraft:crimson_hyphae": "rework:iron/nether",
+    "minecraft:crimson_planks": "rework:iron/nether",
+    "minecraft:stripped_crimson_hyphae": "rework:iron/nether",
+    "minecraft:stripped_warped_hyphae": "rework:iron/nether",
+    "minecraft:warped_shelf": "rework:iron/nether",
+    "minecraft:warped_sign": "rework:iron/nether",
+    "minecraft:warped_slab": "rework:iron/nether",
+    "minecraft:warped_stairs": "rework:iron/nether",
+    "minecraft:warped_trapdoor": "rework:iron/nether",
+    "minecraft:warped_button": "rework:iron/nether",
+    "minecraft:warped_door": "rework:iron/nether",
+    "minecraft:warped_fence": "rework:iron/nether",
+    "minecraft:warped_fence_gate": "rework:iron/nether",
+    "minecraft:warped_fungus_on_a_stick": "rework:iron/nether",
+    "minecraft:warped_hanging_sign": "rework:iron/nether",
+    "minecraft:warped_hyphae": "rework:iron/nether",
+    "minecraft:warped_planks": "rework:iron/nether",
+    "minecraft:soul_campfire": "rework:iron/nether",
+    "minecraft:soul_lantern": "rework:iron/nether",
+    "minecraft:soul_torch": "rework:iron/nether",
+    "minecraft:spectral_arrow": "rework:iron/nether",
+    "minecraft:raw_gold": "rework:iron/nether",
+    "minecraft:raw_gold_block": "rework:iron/nether",
+    "minecraft:clock": "rework:iron/nether",
+    "minecraft:golden_dandelion": "rework:iron/nether",
+    "minecraft:fire_charge": "rework:iron/nether",
+    "minecraft:bamboo_mosaic": "rework:iron/breed_pandas",
+    "minecraft:bamboo_mosaic_slab": "rework:iron/breed_pandas",
+    "minecraft:bamboo_mosaic_stairs": "rework:iron/breed_pandas",
+    "minecraft:scaffolding": "rework:iron/breed_pandas",
+    "minecraft:cookie": "rework:iron/jungle",
+    "minecraft:stick_from_bamboo_item": "rework:tutorial/crafting_table",
+    "minecraft:stick": "rework:tutorial/crafting_table",
+    "minecraft:bowl": "rework:tutorial/crafting_table",
+    "minecraft:acacia_slab": "rework:tutorial/crafting_table",
+    "minecraft:birch_slab": "rework:tutorial/crafting_table",
+    "minecraft:bamboo_slab": "rework:tutorial/crafting_table",
+    "minecraft:cherry_slab": "rework:tutorial/crafting_table",
+    "minecraft:dark_oak_slab": "rework:tutorial/crafting_table",
+    "minecraft:jungle_slab": "rework:tutorial/crafting_table",
+    "minecraft:mangrove_slab": "rework:tutorial/crafting_table",
+    "minecraft:oak_slab": "rework:tutorial/crafting_table",
+    "minecraft:pale_oak_slab": "rework:tutorial/crafting_table",
+    "minecraft:spruce_slab": "rework:tutorial/crafting_table",
+    "minecraft:acacia_stairs": "rework:tutorial/crafting_table",
+    "minecraft:birch_stairs": "rework:tutorial/crafting_table",
+    "minecraft:bamboo_stairs": "rework:tutorial/crafting_table",
+    "minecraft:cherry_stairs": "rework:tutorial/crafting_table",
+    "minecraft:dark_oak_stairs": "rework:tutorial/crafting_table",
+    "minecraft:jungle_stairs": "rework:tutorial/crafting_table",
+    "minecraft:mangrove_stairs": "rework:tutorial/crafting_table",
+    "minecraft:oak_stairs": "rework:tutorial/crafting_table",
+    "minecraft:pale_oak_stairs": "rework:tutorial/crafting_table",
+    "minecraft:spruce_stairs": "rework:tutorial/crafting_table",
+    "minecraft:poplar_slab": "rework:tutorial/crafting_table",
+    "minecraft:poplar_stairs": "rework:tutorial/crafting_table",
+    "minecraft:coarse_dirt": "rework:tutorial/dirt",
+    "minecraft:wooden_axe": "rework:tutorial/complete_category",
+    "minecraft:wooden_hoe": "rework:tutorial/complete_category",
+    "minecraft:wooden_pickaxe": "rework:tutorial/complete_category",
+    "minecraft:wooden_shovel": "rework:tutorial/complete_category",
+    "minecraft:wooden_spear": "rework:tutorial/complete_category",
+    "minecraft:wooden_sword": "rework:tutorial/complete_category",
+    "minecraft:repair_item": "rework:tutorial/complete_category",
+    "minecraft:acacia_planks": "rework:tutorial/gather_logs",
+    "minecraft:birch_planks": "rework:tutorial/gather_logs",
+    "minecraft:bamboo_planks": "rework:tutorial/gather_logs",
+    "minecraft:cherry_planks": "rework:tutorial/gather_logs",
+    "minecraft:dark_oak_planks": "rework:tutorial/gather_logs",
+    "minecraft:jungle_planks": "rework:tutorial/gather_logs",
+    "minecraft:mangrove_planks": "rework:tutorial/gather_logs",
+    "minecraft:oak_planks": "rework:tutorial/gather_logs",
+    "minecraft:pale_oak_planks": "rework:tutorial/gather_logs",
+    "minecraft:poplar_planks": "rework:tutorial/gather_logs",
+    "minecraft:spruce_planks": "rework:tutorial/gather_logs",
+    "minecraft:crafting_table": "rework:tutorial/gather_logs",
+    "minecraft:acacia_wood": "rework:tutorial/gather_logs",
+    "minecraft:birch_wood": "rework:tutorial/gather_logs",
+    "minecraft:cherry_wood": "rework:tutorial/gather_logs",
+    "minecraft:dark_oak_wood": "rework:tutorial/gather_logs",
+    "minecraft:jungle_wood": "rework:tutorial/gather_logs",
+    "minecraft:mangrove_wood": "rework:tutorial/gather_logs",
+    "minecraft:oak_wood": "rework:tutorial/gather_logs",
+    "minecraft:pale_oak_wood": "rework:tutorial/gather_logs",
+    "minecraft:poplar_wood": "rework:tutorial/gather_logs",
+    "minecraft:spruce_wood": "rework:tutorial/gather_logs",
+    "minecraft:stripped_acacia_wood": "rework:tutorial/gather_logs",
+    "minecraft:stripped_birch_wood": "rework:tutorial/gather_logs",
+    "minecraft:stripped_cherry_wood": "rework:tutorial/gather_logs",
+    "minecraft:stripped_dark_oak_wood": "rework:tutorial/gather_logs",
+    "minecraft:stripped_jungle_wood": "rework:tutorial/gather_logs",
+    "minecraft:stripped_mangrove_wood": "rework:tutorial/gather_logs",
+    "minecraft:stripped_oak_wood": "rework:tutorial/gather_logs",
+    "minecraft:stripped_pale_oak_wood": "rework:tutorial/gather_logs",
+    "minecraft:stripped_poplar_wood": "rework:tutorial/gather_logs",
+    "minecraft:stripped_spruce_wood": "rework:tutorial/gather_logs",
+    "minecraft:bamboo_block": "rework:tutorial/gather_logs",
+    "minecraft:acacia_sign": "rework:tutorial/plant_sapling",
+    "minecraft:birch_sign": "rework:tutorial/plant_sapling",
+    "minecraft:bamboo_sign": "rework:tutorial/plant_sapling",
+    "minecraft:cherry_sign": "rework:tutorial/plant_sapling",
+    "minecraft:dark_oak_sign": "rework:tutorial/plant_sapling",
+    "minecraft:jungle_sign": "rework:tutorial/plant_sapling",
+    "minecraft:mangrove_sign": "rework:tutorial/plant_sapling",
+    "minecraft:oak_sign": "rework:tutorial/plant_sapling",
+    "minecraft:pale_oak_sign": "rework:tutorial/plant_sapling",
+    "minecraft:poplar_sign": "rework:tutorial/plant_sapling",
+    "minecraft:spruce_sign": "rework:tutorial/plant_sapling",
+    "minecraft:composter": "rework:tutorial/plant_sapling"
+  },
+  "item_to_quests": {
+    "minecraft:dried_kelp": [
+      "rework:stone/deep_ocean_by_boat"
+    ],
+    "minecraft:dried_kelp_block": [
+      "rework:stone/deep_ocean_by_boat"
+    ],
+    "minecraft:raw_copper_block": [
+      "rework:stone/raw_copper"
+    ],
+    "minecraft:raw_copper": [
+      "rework:stone/raw_copper"
+    ],
+    "minecraft:glass_bottle": [
+      "rework:stone/glass"
+    ],
+    "minecraft:black_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:blue_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:brown_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:cyan_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:gray_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:green_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:light_blue_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:light_gray_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:lime_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:magenta_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:orange_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:pink_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:purple_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:red_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:white_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:yellow_stained_glass": [
+      "rework:stone/glass"
+    ],
+    "minecraft:black_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:blue_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:brown_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:cyan_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:gray_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:green_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:light_blue_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:light_gray_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:lime_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:magenta_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:orange_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:pink_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:purple_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:red_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:white_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:yellow_stained_glass_pane": [
+      "rework:stone/glass"
+    ],
+    "minecraft:chiseled_red_sandstone": [
+      "rework:stone/glass"
+    ],
+    "minecraft:chiseled_sandstone": [
+      "rework:stone/glass"
+    ],
+    "minecraft:cut_red_sandstone": [
+      "rework:stone/glass"
+    ],
+    "minecraft:cut_red_sandstone_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:cut_sandstone": [
+      "rework:stone/glass"
+    ],
+    "minecraft:cut_sandstone_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:red_sandstone": [
+      "rework:stone/glass"
+    ],
+    "minecraft:red_sandstone_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:red_sandstone_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:red_sandstone_wall": [
+      "rework:stone/glass"
+    ],
+    "minecraft:sandstone": [
+      "rework:stone/glass"
+    ],
+    "minecraft:sandstone_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:sandstone_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:sandstone_wall": [
+      "rework:stone/glass"
+    ],
+    "minecraft:smooth_red_sandstone": [
+      "rework:stone/glass"
+    ],
+    "minecraft:smooth_red_sandstone_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:smooth_red_sandstone_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:smooth_sandstone": [
+      "rework:stone/glass"
+    ],
+    "minecraft:smooth_sandstone_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:smooth_sandstone_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:black_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:blue_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:brown_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:cyan_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:gray_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:green_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:light_blue_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:light_gray_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:lime_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:magenta_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:orange_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:pink_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:purple_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:red_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:white_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:yellow_concrete_powder": [
+      "rework:stone/glass"
+    ],
+    "minecraft:black_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:blue_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:brown_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:cyan_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:gray_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:green_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:light_blue_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:light_gray_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:lime_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:magenta_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:orange_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:pink_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:purple_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:red_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:white_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:yellow_concrete_slab": [
+      "rework:stone/glass"
+    ],
+    "minecraft:black_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:blue_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:brown_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:cyan_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:gray_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:green_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:light_blue_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:light_gray_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:lime_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:magenta_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:orange_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:pink_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:purple_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:red_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:white_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:yellow_concrete_stairs": [
+      "rework:stone/glass"
+    ],
+    "minecraft:white_wool": [
+      "rework:stone/kill_spider",
+      "rework:wood/get_wool"
+    ],
+    "minecraft:lead": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:loom": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:fishing_rod": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:black_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:blue_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:brown_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:cyan_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:gray_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:green_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:light_blue_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:light_gray_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:lime_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:magenta_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:orange_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:pink_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:purple_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:red_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:white_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:yellow_bundle": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:fermented_spider_eye": [
+      "rework:stone/kill_spider"
+    ],
+    "minecraft:acacia_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:acacia_chest_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:birch_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:birch_chest_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:cherry_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:cherry_chest_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:dark_oak_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:dark_oak_chest_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:jungle_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:jungle_chest_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:mangrove_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:mangrove_chest_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:oak_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:oak_chest_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:pale_oak_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:pale_oak_chest_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:poplar_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:poplar_chest_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:spruce_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:spruce_chest_boat": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:bamboo_raft": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:bamboo_chest_raft": [
+      "rework:stone/enter_the_water"
+    ],
+    "minecraft:honey_block": [
+      "rework:stone/get_honey"
+    ],
+    "minecraft:honey_bottle": [
+      "rework:stone/get_honey"
+    ],
+    "minecraft:mushroom_stew": [
+      "rework:stone/kill_zombie"
+    ],
+    "minecraft:rabbit_stew": [
+      "rework:stone/kill_zombie"
+    ],
+    "minecraft:suspicious_stew": [
+      "rework:diamond/kill_wither",
+      "rework:iron/use_golden_dandelion",
+      "rework:stone/kill_zombie"
+    ],
+    "minecraft:chest": [
+      "rework:stone/craft_bundle"
+    ],
+    "minecraft:copper_chest": [
+      "rework:stone/craft_bundle"
+    ],
+    "minecraft:barrel": [
+      "rework:stone/craft_bundle"
+    ],
+    "minecraft:bone_meal": [
+      "rework:stone/kill_skeleton"
+    ],
+    "minecraft:bone_block": [
+      "rework:stone/kill_skeleton"
+    ],
+    "minecraft:copper_chestplate": [
+      "rework:stone/complete_category"
+    ],
+    "minecraft:copper_helmet": [
+      "rework:stone/complete_category"
+    ],
+    "minecraft:copper_hoe": [
+      "rework:stone/complete_category"
+    ],
+    "minecraft:copper_axe": [
+      "rework:stone/complete_category"
+    ],
+    "minecraft:copper_boots": [
+      "rework:stone/complete_category"
+    ],
+    "minecraft:copper_nugget": [
+      "rework:copper/blast_furnace",
+      "rework:stone/complete_category",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:copper_pickaxe": [
+      "rework:stone/complete_category"
+    ],
+    "minecraft:copper_shovel": [
+      "rework:stone/complete_category"
+    ],
+    "minecraft:copper_spear": [
+      "rework:stone/complete_category"
+    ],
+    "minecraft:copper_sword": [
+      "rework:stone/complete_category"
+    ],
+    "minecraft:copper_leggings": [
+      "rework:stone/complete_category"
+    ],
+    "minecraft:bow": [
+      "rework:stone/complete_category"
+    ],
+    "minecraft:arrow": [
+      "rework:stone/complete_category"
+    ],
+    "minecraft:iron_ingot": [
+      "rework:copper/blast_furnace",
+      "rework:copper/get_iron",
+      "rework:stone/complete_category"
+    ],
+    "minecraft:jukebox": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:tnt": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:acacia_door": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:acacia_trapdoor": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:bamboo_door": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:bamboo_trapdoor": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:birch_door": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:birch_trapdoor": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:cherry_door": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:cherry_trapdoor": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:copper_door": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:copper_trapdoor": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:dark_oak_door": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:dark_oak_trapdoor": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:jungle_door": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:jungle_trapdoor": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:mangrove_door": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:mangrove_trapdoor": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:oak_door": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:oak_trapdoor": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:pale_oak_door": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:pale_oak_trapdoor": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:poplar_door": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:poplar_trapdoor": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:spruce_door": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:spruce_trapdoor": [
+      "rework:stone/kill_creeper"
+    ],
+    "minecraft:chiseled_copper": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:cut_copper": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:exposed_chiseled_copper": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:exposed_cut_copper": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:oxidized_chiseled_copper": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:oxidized_cut_copper": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:weathered_chiseled_copper": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:weathered_cut_copper": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:cut_copper_slab": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:exposed_cut_copper_slab": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:oxidized_cut_copper_slab": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:weathered_cut_copper_slab": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:cut_copper_stairs": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:exposed_cut_copper_stairs": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:oxidized_cut_copper_stairs": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:weathered_cut_copper_stairs": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:exposed_copper_grate": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:oxidized_copper_grate": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:weathered_copper_grate": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:copper_grate": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:copper_block": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:copper_ingot": [
+      "rework:copper/blast_furnace",
+      "rework:stone/copper_ingot",
+      "rework:wood/complete_category"
+    ],
+    "minecraft:copper_torch": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:copper_chain": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:copper_lantern": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:copper_bars": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:lightning_rod": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:brush": [
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_weathered_copper_grate": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_weathered_cut_copper": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_weathered_cut_copper_slab": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_weathered_cut_copper_stairs": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_oxidized_copper_grate": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_oxidized_cut_copper": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_oxidized_cut_copper_slab": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_oxidized_cut_copper_stairs": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_weathered_chiseled_copper": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_exposed_copper_grate": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_exposed_cut_copper": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_exposed_cut_copper_slab": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_exposed_cut_copper_stairs": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_oxidized_chiseled_copper": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_cut_copper": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_cut_copper_slab": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_cut_copper_stairs": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_exposed_chiseled_copper": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_copper_grate": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:waxed_chiseled_copper": [
+      "rework:copper/honeycomb",
+      "rework:stone/copper_ingot"
+    ],
+    "minecraft:ladder": [
+      "rework:stone/slide_honey_block"
+    ],
+    "minecraft:mud_brick_slab": [
+      "rework:stone/make_mud"
+    ],
+    "minecraft:mud_brick_stairs": [
+      "rework:stone/make_mud"
+    ],
+    "minecraft:mud_brick_wall": [
+      "rework:stone/make_mud"
+    ],
+    "minecraft:mud_bricks": [
+      "rework:stone/make_mud"
+    ],
+    "minecraft:packed_mud": [
+      "rework:stone/make_mud"
+    ],
+    "minecraft:muddy_mangrove_roots": [
+      "rework:stone/make_mud"
+    ],
+    "minecraft:clay": [
+      "rework:stone/archeology"
+    ],
+    "minecraft:brick": [
+      "rework:stone/archeology"
+    ],
+    "minecraft:brick_slab": [
+      "rework:stone/archeology"
+    ],
+    "minecraft:brick_stairs": [
+      "rework:stone/archeology"
+    ],
+    "minecraft:brick_wall": [
+      "rework:stone/archeology"
+    ],
+    "minecraft:bricks": [
+      "rework:stone/archeology"
+    ],
+    "minecraft:decorated_pot": [
+      "rework:stone/archeology"
+    ],
+    "minecraft:flower_pot": [
+      "rework:stone/archeology"
+    ],
+    "minecraft:mace": [
+      "rework:diamond/open_ominous_vault"
+    ],
+    "minecraft:creaking_heart": [
+      "rework:diamond/kill_creaking"
+    ],
+    "minecraft:resin_clump": [
+      "rework:diamond/kill_creaking"
+    ],
+    "minecraft:resin_block": [
+      "rework:diamond/kill_creaking"
+    ],
+    "minecraft:pale_moss_carpet": [
+      "rework:diamond/pale_garden"
+    ],
+    "minecraft:ender_eye": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_upgrade_smithing_template": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_ingot": [
+      "rework:diamond/complete_category",
+      "rework:end/netherite_armor"
+    ],
+    "minecraft:netherite_scrap": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:resin_brick": [
+      "rework:diamond/place_creaking_heart"
+    ],
+    "minecraft:resin_brick_slab": [
+      "rework:diamond/place_creaking_heart"
+    ],
+    "minecraft:resin_brick_stairs": [
+      "rework:diamond/place_creaking_heart"
+    ],
+    "minecraft:resin_brick_wall": [
+      "rework:diamond/place_creaking_heart"
+    ],
+    "minecraft:resin_bricks": [
+      "rework:diamond/place_creaking_heart"
+    ],
+    "minecraft:chiseled_resin_bricks": [
+      "rework:diamond/place_creaking_heart"
+    ],
+    "minecraft:calibrated_sculk_sensor": [
+      "rework:diamond/deep_dark"
+    ],
+    "minecraft:orange_dye": [
+      "rework:diamond/get_sniffer_egg",
+      "rework:wood/get_wool"
+    ],
+    "minecraft:cyan_dye": [
+      "rework:diamond/get_sniffer_egg",
+      "rework:wood/get_wool"
+    ],
+    "minecraft:recovery_compass": [
+      "rework:diamond/ancient_city"
+    ],
+    "minecraft:music_disc_5": [
+      "rework:diamond/ancient_city"
+    ],
+    "minecraft:beacon": [
+      "rework:diamond/kill_wither"
+    ],
+    "minecraft:black_dye": [
+      "rework:diamond/kill_wither",
+      "rework:wood/get_wool"
+    ],
+    "minecraft:firework_rocket": [
+      "rework:copper/kill_pillager"
+    ],
+    "minecraft:firework_star": [
+      "rework:copper/kill_pillager"
+    ],
+    "minecraft:leaf_litter": [
+      "rework:copper/shears"
+    ],
+    "minecraft:crossbow": [
+      "rework:copper/kill_mob_with_arrow"
+    ],
+    "minecraft:tipped_arrow": [
+      "rework:copper/kill_mob_with_arrow"
+    ],
+    "minecraft:fletching_table": [
+      "rework:copper/kill_mob_with_arrow"
+    ],
+    "minecraft:flint_and_steel": [
+      "rework:copper/lava"
+    ],
+    "minecraft:black_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:black_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:blue_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:blue_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:brown_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:brown_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:cyan_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:cyan_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:gray_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:gray_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:green_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:green_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:light_blue_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:light_blue_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:light_gray_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:light_gray_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:lime_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:lime_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:magenta_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:magenta_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:orange_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:orange_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:pink_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:pink_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:purple_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:purple_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:red_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:red_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:white_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:white_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:yellow_glazed_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:yellow_terracotta": [
+      "rework:copper/trail_ruins"
+    ],
+    "minecraft:leather_horse_armor": [
+      "rework:copper/saddle_up",
+      "rework:wood/complete_category"
+    ],
+    "minecraft:carrot_on_a_stick": [
+      "rework:copper/saddle_up"
+    ],
+    "minecraft:honeycomb_block": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_copper_bars": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_copper_block": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_copper_bulb": [
+      "rework:copper/honeycomb",
+      "rework:iron/blaze_rods"
+    ],
+    "minecraft:waxed_copper_chain": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_copper_chest": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_copper_door": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_copper_golem_statue": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_copper_lantern": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_copper_trapdoor": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_exposed_copper_bars": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_exposed_copper_bulb": [
+      "rework:copper/honeycomb",
+      "rework:iron/blaze_rods"
+    ],
+    "minecraft:waxed_exposed_copper_chain": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_exposed_copper_chest": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_exposed_copper_door": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_exposed_copper": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_exposed_copper_golem_statue": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_exposed_copper_lantern": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_exposed_copper_trapdoor": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_exposed_lightning_rod": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_lightning_rod": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_oxidized_copper_bars": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_oxidized_copper_bulb": [
+      "rework:copper/honeycomb",
+      "rework:iron/blaze_rods"
+    ],
+    "minecraft:waxed_oxidized_copper_chain": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_oxidized_copper_chest": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_oxidized_copper_door": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_oxidized_copper": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_oxidized_copper_golem_statue": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_oxidized_copper_lantern": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_oxidized_copper_trapdoor": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_oxidized_lightning_rod": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_weathered_copper_bars": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_weathered_copper_bulb": [
+      "rework:copper/honeycomb",
+      "rework:iron/blaze_rods"
+    ],
+    "minecraft:waxed_weathered_copper_chain": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_weathered_copper_chest": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_weathered_copper_door": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_weathered_copper": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_weathered_copper_golem_statue": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_weathered_copper_lantern": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_weathered_copper_trapdoor": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:waxed_weathered_lightning_rod": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:black_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:blue_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:brown_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:cyan_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:gray_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:green_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:light_blue_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:light_gray_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:lime_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:magenta_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:orange_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:pink_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:purple_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:red_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:white_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:yellow_candle": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:beehive": [
+      "rework:copper/honeycomb"
+    ],
+    "minecraft:tuff_brick_slab": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:tuff_brick_stairs": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:tuff_brick_wall": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:tuff_bricks": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:tuff_slab": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:tuff_stairs": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:tuff_wall": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:chiseled_tuff": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:chiseled_tuff_bricks": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:polished_tuff": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:polished_tuff_slab": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:polished_tuff_stairs": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:polished_tuff_wall": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:wind_charge": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:acacia_button": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:bamboo_button": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:birch_button": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:cherry_button": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:dark_oak_button": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:jungle_button": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:mangrove_button": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:oak_button": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:pale_oak_button": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:poplar_button": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:spruce_button": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:stone_button": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:lever": [
+      "rework:copper/trial_chambers"
+    ],
+    "minecraft:wolf_armor": [
+      "rework:copper/armadillo_scute",
+      "rework:copper/wolf_armor"
+    ],
+    "minecraft:iron_axe": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:iron_boots": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:iron_chestplate": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:iron_helmet": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:iron_hoe": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:iron_leggings": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:iron_pickaxe": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:iron_shovel": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:iron_spear": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:iron_sword": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:emerald": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:emerald_block": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:shield": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:lodestone": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:redstone": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:redstone_block": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:diamond": [
+      "rework:copper/complete_category"
+    ],
+    "minecraft:iron_bars": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:iron_block": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:iron_door": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:iron_chain": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:iron_nugget": [
+      "rework:copper/blast_furnace",
+      "rework:copper/get_iron"
+    ],
+    "minecraft:iron_trapdoor": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:lantern": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:saddle": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:shears": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:smithing_table": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:tripwire_hook": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:trapped_chest": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:bucket": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:stonecutter": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:blast_furnace": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:cauldron": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:raw_iron": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:raw_iron_block": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:anvil": [
+      "rework:copper/get_iron"
+    ],
+    "minecraft:acacia_hanging_sign": [
+      "rework:copper/wax_sign"
+    ],
+    "minecraft:bamboo_hanging_sign": [
+      "rework:copper/wax_sign"
+    ],
+    "minecraft:birch_hanging_sign": [
+      "rework:copper/wax_sign"
+    ],
+    "minecraft:cherry_hanging_sign": [
+      "rework:copper/wax_sign"
+    ],
+    "minecraft:dark_oak_hanging_sign": [
+      "rework:copper/wax_sign"
+    ],
+    "minecraft:jungle_hanging_sign": [
+      "rework:copper/wax_sign"
+    ],
+    "minecraft:mangrove_hanging_sign": [
+      "rework:copper/wax_sign"
+    ],
+    "minecraft:oak_hanging_sign": [
+      "rework:copper/wax_sign"
+    ],
+    "minecraft:pale_oak_hanging_sign": [
+      "rework:copper/wax_sign"
+    ],
+    "minecraft:poplar_hanging_sign": [
+      "rework:copper/wax_sign"
+    ],
+    "minecraft:spruce_hanging_sign": [
+      "rework:copper/wax_sign"
+    ],
+    "minecraft:moss_carpet": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:mossy_cobblestone": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:mossy_cobblestone_slab": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:mossy_cobblestone_stairs": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:mossy_cobblestone_wall": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:mossy_stone_brick_slab": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:mossy_stone_brick_stairs": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:mossy_stone_brick_wall": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:mossy_stone_bricks": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:dripstone_block": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:chiseled_deepslate": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:cobbled_deepslate_slab": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:cobbled_deepslate_stairs": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:cobbled_deepslate_wall": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:cracked_deepslate_bricks": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:cracked_deepslate_tiles": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:deepslate": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:deepslate_brick_slab": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:deepslate_brick_stairs": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:deepslate_brick_wall": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:deepslate_bricks": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:deepslate_tile_slab": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:deepslate_tile_stairs": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:deepslate_tile_wall": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:deepslate_tiles": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:polished_deepslate": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:polished_deepslate_slab": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:polished_deepslate_stairs": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:polished_deepslate_wall": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:glow_item_frame": [
+      "rework:copper/lush_caves"
+    ],
+    "minecraft:coal": [
+      "rework:copper/blast_furnace",
+      "rework:wood/complete_category",
+      "rework:wood/torch"
+    ],
+    "minecraft:acacia_fence": [
+      "rework:wood/breed"
+    ],
+    "minecraft:birch_fence": [
+      "rework:wood/breed"
+    ],
+    "minecraft:bamboo_fence": [
+      "rework:wood/breed"
+    ],
+    "minecraft:cherry_fence": [
+      "rework:wood/breed"
+    ],
+    "minecraft:dark_oak_fence": [
+      "rework:wood/breed"
+    ],
+    "minecraft:jungle_fence": [
+      "rework:wood/breed"
+    ],
+    "minecraft:mangrove_fence": [
+      "rework:wood/breed"
+    ],
+    "minecraft:oak_fence": [
+      "rework:wood/breed"
+    ],
+    "minecraft:pale_oak_fence": [
+      "rework:wood/breed"
+    ],
+    "minecraft:spruce_fence": [
+      "rework:wood/breed"
+    ],
+    "minecraft:acacia_fence_gate": [
+      "rework:wood/breed"
+    ],
+    "minecraft:birch_fence_gate": [
+      "rework:wood/breed"
+    ],
+    "minecraft:bamboo_fence_gate": [
+      "rework:wood/breed"
+    ],
+    "minecraft:cherry_fence_gate": [
+      "rework:wood/breed"
+    ],
+    "minecraft:dark_oak_fence_gate": [
+      "rework:wood/breed"
+    ],
+    "minecraft:jungle_fence_gate": [
+      "rework:wood/breed"
+    ],
+    "minecraft:mangrove_fence_gate": [
+      "rework:wood/breed"
+    ],
+    "minecraft:oak_fence_gate": [
+      "rework:wood/breed"
+    ],
+    "minecraft:pale_oak_fence_gate": [
+      "rework:wood/breed"
+    ],
+    "minecraft:spruce_fence_gate": [
+      "rework:wood/breed"
+    ],
+    "minecraft:poplar_fence": [
+      "rework:wood/breed"
+    ],
+    "minecraft:poplar_fence_gate": [
+      "rework:wood/breed"
+    ],
+    "minecraft:campfire": [
+      "rework:wood/kill_farm_animal"
+    ],
+    "minecraft:black_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:white_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:red_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:orange_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:yellow_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:lime_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:green_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:cyan_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_blue_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:blue_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:purple_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:magenta_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:pink_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:gray_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_gray_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:brown_carpet": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:black_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:white_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:red_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:orange_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:yellow_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:lime_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:green_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:cyan_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_blue_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:blue_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:purple_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:magenta_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:pink_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:gray_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_gray_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:brown_banner": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:painting": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:black_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:blue_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:brown_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:cyan_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:gray_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:green_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_blue_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_gray_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:lime_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:magenta_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:orange_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:pink_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:purple_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:red_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:white_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:yellow_cushion": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:black_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:blue_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:brown_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:cyan_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:gray_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:green_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_blue_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_gray_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:lime_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:magenta_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:orange_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:pink_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:purple_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:red_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:white_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:yellow_wool_stairs": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:black_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:blue_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:brown_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:cyan_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:gray_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:green_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_blue_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_gray_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:lime_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:magenta_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:orange_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:pink_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:purple_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:red_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:white_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:yellow_wool_slab": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:blue_dye": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:brown_dye": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:gray_dye": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_blue_dye": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_gray_dye": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:lime_dye": [
+      "rework:wood/complete_category",
+      "rework:wood/get_wool"
+    ],
+    "minecraft:magenta_dye": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:pink_dye": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:purple_dye": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:red_dye": [
+      "rework:wood/get_wool",
+      "rework:wood/seeds"
+    ],
+    "minecraft:white_dye": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:yellow_dye": [
+      "rework:iron/use_golden_dandelion",
+      "rework:wood/get_wool"
+    ],
+    "minecraft:black_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:blue_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:brown_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:cyan_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:gray_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:green_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_blue_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_gray_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:lime_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:magenta_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:orange_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:pink_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:purple_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:red_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:yellow_wool": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:black_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:blue_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:brown_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:cyan_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:gray_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:green_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_blue_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:light_gray_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:lime_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:magenta_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:orange_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:pink_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:purple_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:red_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:white_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:yellow_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:straw_bed": [
+      "rework:wood/get_wool"
+    ],
+    "minecraft:acacia_shelf": [
+      "rework:wood/item_frame"
+    ],
+    "minecraft:birch_shelf": [
+      "rework:wood/item_frame"
+    ],
+    "minecraft:bamboo_shelf": [
+      "rework:wood/item_frame"
+    ],
+    "minecraft:cherry_shelf": [
+      "rework:wood/item_frame"
+    ],
+    "minecraft:dark_oak_shelf": [
+      "rework:wood/item_frame"
+    ],
+    "minecraft:jungle_shelf": [
+      "rework:wood/item_frame"
+    ],
+    "minecraft:mangrove_shelf": [
+      "rework:wood/item_frame"
+    ],
+    "minecraft:oak_shelf": [
+      "rework:wood/item_frame"
+    ],
+    "minecraft:pale_oak_shelf": [
+      "rework:wood/item_frame"
+    ],
+    "minecraft:poplar_shelf": [
+      "rework:wood/item_frame"
+    ],
+    "minecraft:spruce_shelf": [
+      "rework:wood/item_frame"
+    ],
+    "minecraft:bread": [
+      "rework:wood/seeds"
+    ],
+    "minecraft:wheat": [
+      "rework:wood/seeds"
+    ],
+    "minecraft:melon_seeds": [
+      "rework:wood/seeds"
+    ],
+    "minecraft:pumpkin_seeds": [
+      "rework:wood/seeds"
+    ],
+    "minecraft:melon": [
+      "rework:wood/seeds"
+    ],
+    "minecraft:beetroot_soup": [
+      "rework:wood/seeds"
+    ],
+    "minecraft:granite": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:granite_slab": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:granite_stairs": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:granite_wall": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:andesite": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:andesite_slab": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:andesite_stairs": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:andesite_wall": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:diorite": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:diorite_slab": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:diorite_stairs": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:diorite_wall": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:polished_granite": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:polished_granite_slab": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:polished_granite_stairs": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:polished_andesite": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:polished_andesite_slab": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:polished_andesite_stairs": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:polished_diorite": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:polished_diorite_slab": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:polished_diorite_stairs": [
+      "rework:wood/fancy_stone"
+    ],
+    "minecraft:hay_block": [
+      "rework:wood/pumpkin_pie"
+    ],
+    "minecraft:stone_axe": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:stone_hoe": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:stone_pickaxe": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:stone_shovel": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:stone_spear": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:stone_sword": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:leather_helmet": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:leather_chestplate": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:leather_leggings": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:leather_boots": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:furnace": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:glass": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:charcoal": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:green_dye": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:cooked_beef": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:cooked_chicken": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:cooked_cod": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:cooked_mutton": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:cooked_porkchop": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:cooked_rabbit": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:cooked_salmon": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:baked_potato": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:smoker": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:stone": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:stone_brick_slab": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:stone_brick_stairs": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:stone_brick_wall": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:stone_bricks": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:stone_slab": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:stone_stairs": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:chiseled_stone_bricks": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:smooth_stone": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:smooth_stone_slab": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:cracked_stone_bricks": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:armor_stand": [
+      "rework:wood/complete_category"
+    ],
+    "minecraft:coal_block": [
+      "rework:wood/torch"
+    ],
+    "minecraft:jack_o_lantern": [
+      "rework:wood/torch"
+    ],
+    "minecraft:pumpkin_pie": [
+      "rework:wood/bread"
+    ],
+    "minecraft:cake": [
+      "rework:wood/bread"
+    ],
+    "minecraft:sugar": [
+      "rework:wood/bread"
+    ],
+    "minecraft:leather": [
+      "rework:wood/get_leather"
+    ],
+    "minecraft:item_frame": [
+      "rework:wood/get_leather"
+    ],
+    "minecraft:cobblestone_slab": [
+      "rework:wood/stone"
+    ],
+    "minecraft:cobblestone_stairs": [
+      "rework:wood/stone"
+    ],
+    "minecraft:cobblestone_wall": [
+      "rework:wood/stone"
+    ],
+    "minecraft:torch": [
+      "rework:wood/stone"
+    ],
+    "minecraft:end_rod": [
+      "rework:end/end_city"
+    ],
+    "minecraft:purpur_block": [
+      "rework:end/end_city"
+    ],
+    "minecraft:purpur_pillar": [
+      "rework:end/end_city"
+    ],
+    "minecraft:purpur_slab": [
+      "rework:end/end_city"
+    ],
+    "minecraft:purpur_stairs": [
+      "rework:end/end_city"
+    ],
+    "minecraft:shulker_box": [
+      "rework:end/end_city"
+    ],
+    "minecraft:end_crystal": [
+      "rework:end/kill_ender_dragon"
+    ],
+    "minecraft:popped_chorus_fruit": [
+      "rework:end/chorus_flower"
+    ],
+    "minecraft:black_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:blue_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:brown_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:cyan_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:gray_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:green_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:light_blue_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:light_gray_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:lime_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:magenta_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:orange_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:pink_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:purple_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:red_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:white_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:yellow_shulker_box": [
+      "rework:end/levitation"
+    ],
+    "minecraft:netherite_block": [
+      "rework:end/netherite_armor"
+    ],
+    "minecraft:ender_chest": [
+      "rework:end/end_gateway"
+    ],
+    "minecraft:end_stone_brick_slab": [
+      "rework:end/end_gateway"
+    ],
+    "minecraft:end_stone_brick_stairs": [
+      "rework:end/end_gateway"
+    ],
+    "minecraft:end_stone_brick_wall": [
+      "rework:end/end_gateway"
+    ],
+    "minecraft:end_stone_bricks": [
+      "rework:end/end_gateway"
+    ],
+    "minecraft:cracked_nether_bricks": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:chiseled_nether_bricks": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:nether_brick": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:nether_brick_slab": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:nether_brick_stairs": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:nether_brick_wall": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:nether_brick_fence": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:nether_bricks": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:nether_wart_block": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:red_nether_brick_slab": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:red_nether_brick_stairs": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:red_nether_brick_wall": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:red_nether_bricks": [
+      "rework:iron/fortress"
+    ],
+    "minecraft:glistering_melon_slice": [
+      "rework:iron/brew_awkward_potion"
+    ],
+    "minecraft:grindstone": [
+      "rework:iron/enchant"
+    ],
+    "minecraft:prismarine": [
+      "rework:iron/monument"
+    ],
+    "minecraft:prismarine_brick_slab": [
+      "rework:iron/monument"
+    ],
+    "minecraft:prismarine_brick_stairs": [
+      "rework:iron/monument"
+    ],
+    "minecraft:prismarine_bricks": [
+      "rework:iron/monument"
+    ],
+    "minecraft:prismarine_slab": [
+      "rework:iron/monument"
+    ],
+    "minecraft:prismarine_stairs": [
+      "rework:iron/monument"
+    ],
+    "minecraft:prismarine_wall": [
+      "rework:iron/monument"
+    ],
+    "minecraft:dark_prismarine": [
+      "rework:iron/monument"
+    ],
+    "minecraft:dark_prismarine_slab": [
+      "rework:iron/monument"
+    ],
+    "minecraft:dark_prismarine_stairs": [
+      "rework:iron/monument"
+    ],
+    "minecraft:turtle_helmet": [
+      "rework:iron/monument"
+    ],
+    "minecraft:sponge": [
+      "rework:iron/monument"
+    ],
+    "minecraft:conduit": [
+      "rework:iron/monument"
+    ],
+    "minecraft:sea_lantern": [
+      "rework:iron/monument"
+    ],
+    "minecraft:black_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:blue_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:brown_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:cyan_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:gray_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:green_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:light_blue_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:light_gray_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:lime_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:magenta_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:orange_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:pink_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:purple_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:red_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:white_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:yellow_harness": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:dried_ghast": [
+      "rework:iron/dried_ghast"
+    ],
+    "minecraft:bookshelf": [
+      "rework:iron/write_book"
+    ],
+    "minecraft:chiseled_bookshelf": [
+      "rework:iron/write_book"
+    ],
+    "minecraft:lapis_block": [
+      "rework:iron/write_book"
+    ],
+    "minecraft:lapis_lazuli": [
+      "rework:iron/write_book"
+    ],
+    "minecraft:lectern": [
+      "rework:iron/write_book"
+    ],
+    "minecraft:magma_block": [
+      "rework:iron/kill_magma_cube"
+    ],
+    "minecraft:chiseled_sulfur": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:polished_sulfur": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:polished_sulfur_slab": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:polished_sulfur_stairs": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:polished_sulfur_wall": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:potent_sulfur": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:sulfur_brick_slab": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:sulfur_brick_stairs": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:sulfur_brick_wall": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:sulfur_bricks": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:sulfur": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:sulfur_slab": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:sulfur_stairs": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:sulfur_wall": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:chiseled_cinnabar": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:cinnabar_brick_slab": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:cinnabar_brick_stairs": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:cinnabar_brick_wall": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:cinnabar_bricks": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:cinnabar_slab": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:cinnabar_stairs": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:cinnabar_wall": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:polished_cinnabar": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:polished_cinnabar_slab": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:polished_cinnabar_stairs": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:polished_cinnabar_wall": [
+      "rework:iron/sulfur_caves"
+    ],
+    "minecraft:paper": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:map": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:bordure_indented_banner_pattern": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:creeper_banner_pattern": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:field_masoned_banner_pattern": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:flower_banner_pattern": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:mojang_banner_pattern": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:skull_banner_pattern": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:book": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:written_book": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:writable_book": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:cartography_table": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:name_tag": [
+      "rework:iron/get_sugar_cane"
+    ],
+    "minecraft:tinted_glass": [
+      "rework:iron/get_amethyst"
+    ],
+    "minecraft:spyglass": [
+      "rework:iron/get_amethyst"
+    ],
+    "minecraft:amethyst_block": [
+      "rework:iron/get_amethyst"
+    ],
+    "minecraft:chest_minecart": [
+      "rework:iron/minecart"
+    ],
+    "minecraft:hopper_minecart": [
+      "rework:iron/minecart"
+    ],
+    "minecraft:furnace_minecart": [
+      "rework:iron/minecart"
+    ],
+    "minecraft:tnt_minecart": [
+      "rework:iron/minecart"
+    ],
+    "minecraft:activator_rail": [
+      "rework:iron/minecart"
+    ],
+    "minecraft:detector_rail": [
+      "rework:iron/minecart"
+    ],
+    "minecraft:powered_rail": [
+      "rework:iron/minecart"
+    ],
+    "minecraft:blackstone_slab": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:blackstone_stairs": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:blackstone_wall": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:chiseled_polished_blackstone": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:cracked_polished_blackstone_bricks": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:polished_blackstone": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:polished_blackstone_brick_slab": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:polished_blackstone_brick_stairs": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:polished_blackstone_brick_wall": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:polished_blackstone_bricks": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:polished_blackstone_button": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:polished_blackstone_slab": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:polished_blackstone_stairs": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:polished_blackstone_wall": [
+      "rework:iron/bastion"
+    ],
+    "minecraft:blaze_powder": [
+      "rework:iron/blaze_rods"
+    ],
+    "minecraft:magma_cream": [
+      "rework:iron/blaze_rods"
+    ],
+    "minecraft:brewing_stand": [
+      "rework:iron/blaze_rods"
+    ],
+    "minecraft:copper_bulb": [
+      "rework:iron/blaze_rods"
+    ],
+    "minecraft:exposed_copper_bulb": [
+      "rework:iron/blaze_rods"
+    ],
+    "minecraft:oxidized_copper_bulb": [
+      "rework:iron/blaze_rods"
+    ],
+    "minecraft:weathered_copper_bulb": [
+      "rework:iron/blaze_rods"
+    ],
+    "minecraft:smooth_basalt": [
+      "rework:iron/ride_strider"
+    ],
+    "minecraft:polished_basalt": [
+      "rework:iron/ride_strider"
+    ],
+    "minecraft:bolt_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:coast_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:dune_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:eye_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:flow_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:host_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:raiser_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:rib_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:sentry_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:shaper_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:silence_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:snout_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:spire_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:tide_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:vex_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:ward_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:wayfinder_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:wild_armor_trim_smithing_template": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:enchanting_table": [
+      "rework:iron/get_diamond"
+    ],
+    "minecraft:blue_ice": [
+      "rework:iron/swim_lava"
+    ],
+    "minecraft:packed_ice": [
+      "rework:iron/swim_lava"
+    ],
+    "minecraft:snow_block": [
+      "rework:iron/swim_lava"
+    ],
+    "minecraft:snow": [
+      "rework:iron/swim_lava"
+    ],
+    "minecraft:diamond_axe": [
+      "rework:iron/complete_category"
+    ],
+    "minecraft:diamond_block": [
+      "rework:iron/complete_category"
+    ],
+    "minecraft:diamond_boots": [
+      "rework:iron/complete_category"
+    ],
+    "minecraft:diamond_chestplate": [
+      "rework:iron/complete_category"
+    ],
+    "minecraft:diamond_helmet": [
+      "rework:iron/complete_category"
+    ],
+    "minecraft:diamond_hoe": [
+      "rework:iron/complete_category"
+    ],
+    "minecraft:diamond_leggings": [
+      "rework:iron/complete_category"
+    ],
+    "minecraft:diamond_pickaxe": [
+      "rework:iron/complete_category"
+    ],
+    "minecraft:diamond_shovel": [
+      "rework:iron/complete_category"
+    ],
+    "minecraft:diamond_spear": [
+      "rework:iron/complete_category"
+    ],
+    "minecraft:diamond_sword": [
+      "rework:iron/complete_category"
+    ],
+    "minecraft:comparator": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:compass": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:dispenser": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:dropper": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:hopper": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:acacia_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:bamboo_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:birch_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:cherry_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:crimson_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:dark_oak_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:heavy_weighted_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:jungle_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:light_weighted_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:mangrove_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:oak_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:pale_oak_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:poplar_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:polished_blackstone_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:spruce_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:stone_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:warped_pressure_plate": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:minecart": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:note_block": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:observer": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:rail": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:repeater": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:redstone_lamp": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:redstone_torch": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:target": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:piston": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:daylight_detector": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:crafter": [
+      "rework:iron/get_redstone"
+    ],
+    "minecraft:slime_ball": [
+      "rework:iron/swamp"
+    ],
+    "minecraft:slime_block": [
+      "rework:iron/swamp"
+    ],
+    "minecraft:sticky_piston": [
+      "rework:iron/swamp"
+    ],
+    "minecraft:chiseled_quartz_block": [
+      "rework:iron/nether"
+    ],
+    "minecraft:quartz": [
+      "rework:iron/nether"
+    ],
+    "minecraft:quartz_block": [
+      "rework:iron/nether"
+    ],
+    "minecraft:quartz_bricks": [
+      "rework:iron/nether"
+    ],
+    "minecraft:quartz_pillar": [
+      "rework:iron/nether"
+    ],
+    "minecraft:quartz_slab": [
+      "rework:iron/nether"
+    ],
+    "minecraft:quartz_stairs": [
+      "rework:iron/nether"
+    ],
+    "minecraft:smooth_quartz": [
+      "rework:iron/nether"
+    ],
+    "minecraft:smooth_quartz_slab": [
+      "rework:iron/nether"
+    ],
+    "minecraft:smooth_quartz_stairs": [
+      "rework:iron/nether"
+    ],
+    "minecraft:glowstone": [
+      "rework:iron/nether"
+    ],
+    "minecraft:respawn_anchor": [
+      "rework:iron/nether"
+    ],
+    "minecraft:gold_block": [
+      "rework:iron/nether"
+    ],
+    "minecraft:gold_ingot": [
+      "rework:iron/nether"
+    ],
+    "minecraft:gold_nugget": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_apple": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_axe": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_boots": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_carrot": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_chestplate": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_helmet": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_hoe": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_leggings": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_pickaxe": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_shovel": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_spear": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_sword": [
+      "rework:iron/nether"
+    ],
+    "minecraft:crimson_shelf": [
+      "rework:iron/nether"
+    ],
+    "minecraft:crimson_sign": [
+      "rework:iron/nether"
+    ],
+    "minecraft:crimson_slab": [
+      "rework:iron/nether"
+    ],
+    "minecraft:crimson_stairs": [
+      "rework:iron/nether"
+    ],
+    "minecraft:crimson_trapdoor": [
+      "rework:iron/nether"
+    ],
+    "minecraft:crimson_button": [
+      "rework:iron/nether"
+    ],
+    "minecraft:crimson_door": [
+      "rework:iron/nether"
+    ],
+    "minecraft:crimson_fence": [
+      "rework:iron/nether"
+    ],
+    "minecraft:crimson_fence_gate": [
+      "rework:iron/nether"
+    ],
+    "minecraft:crimson_hanging_sign": [
+      "rework:iron/nether"
+    ],
+    "minecraft:crimson_hyphae": [
+      "rework:iron/nether"
+    ],
+    "minecraft:crimson_planks": [
+      "rework:iron/nether"
+    ],
+    "minecraft:stripped_crimson_hyphae": [
+      "rework:iron/nether"
+    ],
+    "minecraft:stripped_warped_hyphae": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_shelf": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_sign": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_slab": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_stairs": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_trapdoor": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_button": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_door": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_fence": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_fence_gate": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_fungus_on_a_stick": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_hanging_sign": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_hyphae": [
+      "rework:iron/nether"
+    ],
+    "minecraft:warped_planks": [
+      "rework:iron/nether"
+    ],
+    "minecraft:soul_campfire": [
+      "rework:iron/nether"
+    ],
+    "minecraft:soul_lantern": [
+      "rework:iron/nether"
+    ],
+    "minecraft:soul_torch": [
+      "rework:iron/nether"
+    ],
+    "minecraft:spectral_arrow": [
+      "rework:iron/nether"
+    ],
+    "minecraft:raw_gold": [
+      "rework:iron/nether"
+    ],
+    "minecraft:raw_gold_block": [
+      "rework:iron/nether"
+    ],
+    "minecraft:clock": [
+      "rework:iron/nether"
+    ],
+    "minecraft:golden_dandelion": [
+      "rework:iron/nether"
+    ],
+    "minecraft:fire_charge": [
+      "rework:iron/nether"
+    ],
+    "minecraft:bamboo_mosaic": [
+      "rework:iron/breed_pandas"
+    ],
+    "minecraft:bamboo_mosaic_slab": [
+      "rework:iron/breed_pandas"
+    ],
+    "minecraft:bamboo_mosaic_stairs": [
+      "rework:iron/breed_pandas"
+    ],
+    "minecraft:scaffolding": [
+      "rework:iron/breed_pandas"
+    ],
+    "minecraft:cookie": [
+      "rework:iron/jungle"
+    ],
+    "minecraft:stick": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:bowl": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:acacia_slab": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:birch_slab": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:bamboo_slab": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:cherry_slab": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:dark_oak_slab": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:jungle_slab": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:mangrove_slab": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:oak_slab": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:pale_oak_slab": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:spruce_slab": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:acacia_stairs": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:birch_stairs": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:bamboo_stairs": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:cherry_stairs": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:dark_oak_stairs": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:jungle_stairs": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:mangrove_stairs": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:oak_stairs": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:pale_oak_stairs": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:spruce_stairs": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:poplar_slab": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:poplar_stairs": [
+      "rework:tutorial/crafting_table"
+    ],
+    "minecraft:coarse_dirt": [
+      "rework:tutorial/dirt"
+    ],
+    "minecraft:wooden_axe": [
+      "rework:tutorial/complete_category"
+    ],
+    "minecraft:wooden_hoe": [
+      "rework:tutorial/complete_category"
+    ],
+    "minecraft:wooden_pickaxe": [
+      "rework:tutorial/complete_category"
+    ],
+    "minecraft:wooden_shovel": [
+      "rework:tutorial/complete_category"
+    ],
+    "minecraft:wooden_spear": [
+      "rework:tutorial/complete_category"
+    ],
+    "minecraft:wooden_sword": [
+      "rework:tutorial/complete_category"
+    ],
+    "minecraft:acacia_planks": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:birch_planks": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:bamboo_planks": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:cherry_planks": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:dark_oak_planks": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:jungle_planks": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:mangrove_planks": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:oak_planks": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:pale_oak_planks": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:poplar_planks": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:spruce_planks": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:crafting_table": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:acacia_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:birch_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:cherry_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:dark_oak_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:jungle_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:mangrove_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:oak_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:pale_oak_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:poplar_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:spruce_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:stripped_acacia_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:stripped_birch_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:stripped_cherry_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:stripped_dark_oak_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:stripped_jungle_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:stripped_mangrove_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:stripped_oak_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:stripped_pale_oak_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:stripped_poplar_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:stripped_spruce_wood": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:bamboo_block": [
+      "rework:tutorial/gather_logs"
+    ],
+    "minecraft:acacia_sign": [
+      "rework:tutorial/plant_sapling"
+    ],
+    "minecraft:birch_sign": [
+      "rework:tutorial/plant_sapling"
+    ],
+    "minecraft:bamboo_sign": [
+      "rework:tutorial/plant_sapling"
+    ],
+    "minecraft:cherry_sign": [
+      "rework:tutorial/plant_sapling"
+    ],
+    "minecraft:dark_oak_sign": [
+      "rework:tutorial/plant_sapling"
+    ],
+    "minecraft:jungle_sign": [
+      "rework:tutorial/plant_sapling"
+    ],
+    "minecraft:mangrove_sign": [
+      "rework:tutorial/plant_sapling"
+    ],
+    "minecraft:oak_sign": [
+      "rework:tutorial/plant_sapling"
+    ],
+    "minecraft:pale_oak_sign": [
+      "rework:tutorial/plant_sapling"
+    ],
+    "minecraft:poplar_sign": [
+      "rework:tutorial/plant_sapling"
+    ],
+    "minecraft:spruce_sign": [
+      "rework:tutorial/plant_sapling"
+    ],
+    "minecraft:composter": [
+      "rework:tutorial/plant_sapling"
+    ],
+    "minecraft:filled_map": [
+      "rework:iron/get_sugar_cane"
+    ]
+  }
+}

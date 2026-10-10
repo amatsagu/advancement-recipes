@@ -1,0 +1,47 @@
+{
+  "parent": "rework:copper/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/root": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:goat_horn"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain a goat horn."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:goat_horn"
+    },
+    "show_toast": true,
+    "title": "Greatest Of All Time"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

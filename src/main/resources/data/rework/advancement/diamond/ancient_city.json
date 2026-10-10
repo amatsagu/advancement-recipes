@@ -1,0 +1,47 @@
+{
+  "parent": "rework:diamond/deep_dark",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:diamond/deep_dark": true
+            }
+          },
+          "location": {
+            "structures": "minecraft:ancient_city"
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Visit ancient city."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:warden_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Ruins Of Echo"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:recovery_compass",
+      "minecraft:music_disc_5"
+    ]
+  }
+}

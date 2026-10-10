@@ -1,0 +1,47 @@
+{
+  "parent": "rework:iron/fortress",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/fortress": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain wither skeleton skull."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wither_skeleton_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Spooky Scary Skeleton"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

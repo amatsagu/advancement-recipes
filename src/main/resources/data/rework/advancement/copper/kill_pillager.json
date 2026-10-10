@@ -1,0 +1,59 @@
+{
+  "parent": "rework:copper/kill_mob_with_arrow",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:copper/kill_mob_with_arrow": true
+              }
+            }
+          }
+        },
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        },
+        "victims": [
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:pillager"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:killed_by_arrow"
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "description": {
+      "text": "Kill Pillager with a crossbow."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "text": "Who's The Pillager Now?"
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:firework_rocket",
+      "minecraft:firework_rocket_simple",
+      "minecraft:firework_star",
+      "minecraft:firework_star_fade"
+    ]
+  }
+}

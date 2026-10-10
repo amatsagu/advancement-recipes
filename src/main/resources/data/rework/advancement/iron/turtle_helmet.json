@@ -1,0 +1,43 @@
+{
+  "parent": "rework:iron/monument",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/monument": true
+						}
+					}
+				}
+			},
+        "recipes": "minecraft:turtle_helmet"
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft a turtle helmet."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:turtle_helmet"
+    },
+    "show_toast": true,
+    "title": "Emerald Helmet"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "rework:diamond/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:diamond/root": true
+            }
+          },
+          "location": {
+            "structures": "minecraft:ocean_ruin_warm"
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Enter a Warm Ocean Ruin."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chiseled_sandstone"
+    },
+    "show_toast": true,
+    "title": "Atlantis?"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

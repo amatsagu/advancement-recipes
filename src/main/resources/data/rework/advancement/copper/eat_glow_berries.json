@@ -1,0 +1,45 @@
+{
+  "parent": "rework:copper/lush_caves",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/lush_caves": true
+						}
+					}
+				}
+			},
+        "item": {
+          "items": "minecraft:glow_berries"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Eat glow berries."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:glow_berries"
+    },
+    "title": {
+      "text": "A Light Meal"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

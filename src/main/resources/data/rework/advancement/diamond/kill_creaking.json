@@ -1,0 +1,52 @@
+{
+  "parent": "rework:diamond/pale_garden",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:diamond/pale_garden": true
+						}
+					}
+				}
+			},
+        "entity": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "minecraft:creaking"
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Defeat the creaking by destroying the heart."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:creaking_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Heartbroken"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:creaking_heart",
+      "minecraft:resin_clump",
+      "minecraft:resin_block"
+    ]
+  }
+}

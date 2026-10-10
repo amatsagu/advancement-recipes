@@ -1,0 +1,54 @@
+{
+  "parent": "rework:stone/enter_the_water",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/enter_the_water": true
+						}
+					}
+				}
+			},
+        "item": {
+          "items": [
+            "minecraft:cod",
+            "minecraft:salmon"
+          ]
+        },
+        "entity": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "minecraft:dolphin"
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Feed a dolphin cod or salmon so it can lure you to a structure."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:dolphin_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Echolocation"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

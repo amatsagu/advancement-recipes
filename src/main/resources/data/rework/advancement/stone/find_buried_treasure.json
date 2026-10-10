@@ -1,0 +1,43 @@
+{
+  "parent": "rework:stone/feed_dolphin",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/feed_dolphin": true
+						}
+					}
+				}
+			},
+        "loot_tables": "minecraft:chests/buried_treasure"
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Dig up a buried treasure."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "show_toast": true,
+    "title": "Me Gold!"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

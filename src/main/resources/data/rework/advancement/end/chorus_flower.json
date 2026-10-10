@@ -1,0 +1,49 @@
+{
+  "parent": "rework:end/end_gateway",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:end/end_gateway": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:chorus_flower"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain chorus flower."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chorus_flower"
+    },
+    "show_toast": true,
+    "title": "The End Flower"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:popped_chorus_fruit"
+    ]
+  }
+}

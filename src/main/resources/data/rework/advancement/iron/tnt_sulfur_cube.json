@@ -1,0 +1,55 @@
+{
+  "parent": "rework:iron/sulfur_caves",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/sulfur_caves": true
+						}
+					}
+				}
+			},
+        "item": {
+          "items": "#minecraft:sulfur_cube_archetype/explosive"
+        },
+        "entity":{
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:sulfur_cube",
+              "minecraft:flags": {
+                "is_baby": false
+              }
+            }
+          }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Put tnt in a sulfur cube by interacting with it."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chiseled_sulfur"
+    },
+    "title": {
+      "text": "Uh Oh"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

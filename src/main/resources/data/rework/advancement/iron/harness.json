@@ -1,0 +1,62 @@
+{
+  "parent": "rework:iron/dried_ghast",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/dried_ghast": true
+              }
+            }
+          }
+        },
+        "parent": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:cow",
+            "minecraft:components": {
+              "minecraft:cow/variant": "minecraft:cold"
+            }
+          }
+        },
+        "partner": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:cow",
+            "minecraft:components": {
+              "minecraft:cow/variant": "minecraft:warm"
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Breed cold and warm cow together. (Happy ghast can be good transport)"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:purple_harness"
+    },
+    "show_toast": true,
+    "title": "From Stockholm to Australia in 40 Days"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

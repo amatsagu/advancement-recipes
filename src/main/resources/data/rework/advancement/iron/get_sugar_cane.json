@@ -1,0 +1,65 @@
+{
+  "parent": "rework:iron/root",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/root": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:sugar_cane",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain 64 sugar cane."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sugar_cane"
+    },
+    "show_toast": true,
+    "title": "Sugar Cane Farmer"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:paper",
+      "minecraft:map",
+      "minecraft:map_cloning",
+      "minecraft:map_extending",
+      "minecraft:bordure_indented_banner_pattern",
+      "minecraft:creeper_banner_pattern",
+      "minecraft:field_masoned_banner_pattern",
+      "minecraft:flower_banner_pattern",
+      "minecraft:mojang_banner_pattern",
+      "minecraft:skull_banner_pattern",
+      "minecraft:book",
+      "minecraft:book_cloning",
+      "minecraft:writable_book",
+      "minecraft:cartography_table",
+      "minecraft:name_tag"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:end/root": false
+            }
+          },
+          "equipment": {
+            "chest": {
+              "items": "minecraft:elytra",
+              "predicates": {
+                "minecraft:damage": {
+                  "durability": {
+                    "min": 1
+                  }
+  }
+}
+              }
+            }
+          }
+        },
+        "items": []
+      }
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [],
+    "function": "rework:elytra_break"
+  }
+}

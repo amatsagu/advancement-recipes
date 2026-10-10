@@ -1,0 +1,52 @@
+{
+  "parent": "rework:stone/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/root": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:raw_copper",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Mine a stack of raw copper."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:raw_copper"
+    },
+    "show_toast": true,
+    "title": "Low Grade Copper"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_copper_block",
+      "minecraft:raw_copper"
+    ]
+  }
+}

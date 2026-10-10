@@ -1,0 +1,120 @@
+{
+  "parent": "rework:iron/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/root": true
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Enter the Nether."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherrack"
+    },
+    "show_toast": true,
+    "title": "We Need to Go Deeper"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:chiseled_quartz_block",
+      "minecraft:quartz",
+      "minecraft:quartz_block",
+      "minecraft:quartz_bricks",
+      "minecraft:quartz_from_blasting",
+      "minecraft:quartz_pillar",
+      "minecraft:quartz_slab",
+      "minecraft:quartz_stairs",
+      "minecraft:smooth_quartz",
+      "minecraft:smooth_quartz_slab",
+      "minecraft:smooth_quartz_stairs",
+      "minecraft:glowstone",
+      "minecraft:respawn_anchor",
+      "minecraft:gold_block",
+      "minecraft:gold_ingot_from_blasting_deepslate_gold_ore",
+      "minecraft:gold_ingot_from_blasting_gold_ore",
+      "minecraft:gold_ingot_from_blasting_nether_gold_ore",
+      "minecraft:gold_ingot_from_blasting_raw_gold",
+      "minecraft:gold_ingot_from_gold_block",
+      "minecraft:gold_ingot_from_nuggets",
+      "minecraft:gold_ingot_from_smelting_deepslate_gold_ore",
+      "minecraft:gold_ingot_from_smelting_gold_ore",
+      "minecraft:gold_ingot_from_smelting_nether_gold_ore",
+      "minecraft:gold_ingot_from_smelting_raw_gold",
+      "minecraft:gold_nugget",
+      "minecraft:gold_nugget_from_blasting",
+      "minecraft:gold_nugget_from_smelting",
+      "minecraft:golden_apple",
+      "minecraft:golden_axe",
+      "minecraft:golden_boots",
+      "minecraft:golden_carrot",
+      "minecraft:golden_chestplate",
+      "minecraft:golden_helmet",
+      "minecraft:golden_hoe",
+      "minecraft:golden_leggings",
+      "minecraft:golden_pickaxe",
+      "minecraft:golden_shovel",
+      "minecraft:golden_spear",
+      "minecraft:golden_sword",
+      "minecraft:crimson_shelf",
+      "minecraft:crimson_sign",
+      "minecraft:crimson_slab",
+      "minecraft:crimson_stairs",
+      "minecraft:crimson_trapdoor",
+      "minecraft:crimson_button",
+      "minecraft:crimson_door",
+      "minecraft:crimson_fence",
+      "minecraft:crimson_fence_gate",
+      "minecraft:crimson_hanging_sign",
+      "minecraft:crimson_hyphae",
+      "minecraft:crimson_planks",
+      "minecraft:stripped_crimson_hyphae",
+      "minecraft:stripped_warped_hyphae",
+      "minecraft:warped_shelf",
+      "minecraft:warped_sign",
+      "minecraft:warped_slab",
+      "minecraft:warped_stairs",
+      "minecraft:warped_trapdoor",
+      "minecraft:warped_button",
+      "minecraft:warped_door",
+      "minecraft:warped_fence",
+      "minecraft:warped_fence_gate",
+      "minecraft:warped_fungus_on_a_stick",
+      "minecraft:warped_hanging_sign",
+      "minecraft:warped_hyphae",
+      "minecraft:warped_planks",
+      "minecraft:soul_campfire",
+      "minecraft:soul_lantern",
+      "minecraft:soul_torch",
+      "minecraft:spectral_arrow",
+      "minecraft:raw_gold",
+      "minecraft:raw_gold_block",
+      "minecraft:clock",
+      "minecraft:golden_dandelion",
+      "minecraft:fire_charge"
+    ]
+  }
+}

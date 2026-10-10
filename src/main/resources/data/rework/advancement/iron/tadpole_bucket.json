@@ -1,0 +1,46 @@
+{
+  "parent": "rework:iron/swamp",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/swamp": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:tadpole_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Catch a tadpole in a bucket."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:tadpole_bucket"
+    },
+    "title": {
+      "text": "Bukkit Bukkit"
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

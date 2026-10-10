@@ -1,0 +1,73 @@
+{
+  "parent": "rework:copper/honeycomb",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/honeycomb": true
+						}
+					}
+				}
+			},
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "#minecraft:all_signs"
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:honeycomb"
+              }
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Disable sign edition by using honeycomb."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cherry_sign"
+    },
+    "title": {
+      "text": "Locked Thread"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:acacia_hanging_sign",
+      "minecraft:bamboo_hanging_sign",
+      "minecraft:birch_hanging_sign",
+      "minecraft:cherry_hanging_sign",
+      "minecraft:dark_oak_hanging_sign",
+      "minecraft:jungle_hanging_sign",
+      "minecraft:mangrove_hanging_sign",
+      "minecraft:oak_hanging_sign",
+      "minecraft:pale_oak_hanging_sign",
+      "minecraft:poplar_hanging_sign",
+      "minecraft:spruce_hanging_sign"
+    ]
+  }
+}

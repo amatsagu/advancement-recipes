@@ -1,0 +1,50 @@
+{
+  "parent": "rework:end/stronghold",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:end/stronghold": true
+						}
+					}
+				}
+			},
+        "entity":{
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:ender_dragon"
+            }
+          }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Defeat the Ender Dragon."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ender_dragon_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "The End"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:end_crystal"
+    ]
+  }
+}

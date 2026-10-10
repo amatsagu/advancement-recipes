@@ -1,0 +1,54 @@
+{
+  "parent": "rework:wood/seeds",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:wood/seeds": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:bread",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Have at least 16 loaves of bread in your inventory."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bread"
+    },
+    "show_toast": true,
+    "title": "Lots Of Loaves Of Bread"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pumpkin_pie",
+      "minecraft:cake",
+      "minecraft:sugar_from_sugar_cane",
+      "minecraft:sugar_from_honey_bottle"
+    ]
+  }
+}

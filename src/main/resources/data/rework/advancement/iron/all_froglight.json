@@ -1,0 +1,95 @@
+{
+  "parent": "rework:iron/tadpole_bucket",
+  "criteria": {
+    "default1": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/tadpole_bucket": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:ochre_froglight"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "default2": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/tadpole_bucket": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:pearlescent_froglight"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "default3": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/tadpole_bucket": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:verdant_froglight"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Get every type of froglight."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:verdant_froglight"
+    },
+    "title": {
+      "text": "With Our Powers Combined"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default1"
+    ],
+    [
+      "default2"
+    ],
+    [
+      "default3"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

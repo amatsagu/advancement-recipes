@@ -1,0 +1,43 @@
+{
+  "parent": "rework:iron/monument",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/monument": true
+						}
+					}
+				}
+			},
+        "recipes": "minecraft:sponge"
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Dry a sponge in a furnace."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sponge"
+    },
+    "show_toast": true,
+    "title": "Dry Spell"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

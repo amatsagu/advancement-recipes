@@ -1,0 +1,47 @@
+{
+  "parent": "rework:end/stronghold",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:end/stronghold": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:dragon_breath"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Collect dragon's breath in a glass bottle."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:dragon_breath"
+    },
+    "show_toast": true,
+    "title": "You Need a Mint"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

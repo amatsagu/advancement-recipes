@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:wood/complete_category": true
+            }
+  }
+}
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/stonecutter_bottom",
+    "description": {
+      "text": "Where challange beggins."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:stone_pickaxe"
+    },
+    "show_toast": false,
+    "title": "Questline II"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ]
+}

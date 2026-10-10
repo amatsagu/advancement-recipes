@@ -1,0 +1,47 @@
+{
+  "parent": "rework:end/end_city",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:end/end_city": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:dragon_head"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain dragon head."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:dragon_head"
+    },
+    "show_toast": true,
+    "title": "Dragon Hunter"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

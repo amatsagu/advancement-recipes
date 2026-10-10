@@ -1,0 +1,46 @@
+{
+  "parent": "rework:diamond/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:diamond/root": true
+            }
+          },
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Visit pale garden."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:pale_hanging_moss"
+    },
+    "show_toast": true,
+    "title": "Spooky Garden"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pale_moss_carpet"
+    ]
+  }
+}

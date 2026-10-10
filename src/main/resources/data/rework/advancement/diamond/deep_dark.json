@@ -1,0 +1,46 @@
+{
+  "parent": "rework:diamond/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:diamond/root": true
+            }
+          },
+          "location": {
+            "biomes": "minecraft:deep_dark"
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Visit deep dark biome."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sculk_vein"
+    },
+    "show_toast": true,
+    "title": "Deep Dark"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:calibrated_sculk_sensor"
+    ]
+  }
+}

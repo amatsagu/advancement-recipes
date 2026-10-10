@@ -1,0 +1,71 @@
+{
+  "parent": "rework:iron/root",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/root": true
+            }
+          },
+          "location": {
+            "biomes": "minecraft:sulfur_caves"
+          }
+  }
+}
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Find sulfur caves."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sulfur_spike"
+    },
+    "title": {
+      "text": "Sulfur Cave Here"
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:chiseled_sulfur",
+      "minecraft:polished_sulfur",
+      "minecraft:polished_sulfur_slab",
+      "minecraft:polished_sulfur_stairs",
+      "minecraft:polished_sulfur_wall",
+      "minecraft:potent_sulfur",
+      "minecraft:sulfur_brick_slab",
+      "minecraft:sulfur_brick_stairs",
+      "minecraft:sulfur_brick_wall",
+      "minecraft:sulfur_bricks",
+      "minecraft:sulfur_from_sulfur_spikes",
+      "minecraft:sulfur_slab",
+      "minecraft:sulfur_stairs",
+      "minecraft:sulfur_wall",
+      "minecraft:chiseled_cinnabar",
+      "minecraft:cinnabar_brick_slab",
+      "minecraft:cinnabar_brick_stairs",
+      "minecraft:cinnabar_brick_wall",
+      "minecraft:cinnabar_bricks",
+      "minecraft:cinnabar_slab",
+      "minecraft:cinnabar_stairs",
+      "minecraft:cinnabar_wall",
+      "minecraft:polished_cinnabar",
+      "minecraft:polished_cinnabar_slab",
+      "minecraft:polished_cinnabar_stairs",
+      "minecraft:polished_cinnabar_wall"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "parent": "rework:diamond/open_ominous_vault",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:diamond/open_ominous_vault": true
+						}
+					}
+				}
+			},
+        "damage": {
+          "dealt": {
+            "min": 100
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:mace_smash",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "minecraft:entity_type": "minecraft:player",
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:mace"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Deal 100 damage with mace."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:mace"
+    },
+    "show_toast": true,
+    "title": "Overkill"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

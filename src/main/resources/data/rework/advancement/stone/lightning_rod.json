@@ -1,0 +1,80 @@
+{
+  "parent": "rework:stone/copper_ingot",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/copper_ingot": true
+						}
+					}
+				}
+			},
+        "location":
+          {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:lightning_rod"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:exposed_lightning_rod"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:weathered_lightning_rod"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:oxidized_lightning_rod"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:waxed_lightning_rod"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:waxed_exposed_lightning_rod"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:waxed_weathered_lightning_rod"
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:waxed_oxidized_lightning_rod"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Place down a lightning rod."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:weathered_lightning_rod"
+    },
+    "show_toast": true,
+    "title": "Surge Protector"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

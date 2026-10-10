@@ -1,0 +1,3 @@
+execute anchored eyes run fill ^ ^ ^ ^ ^ ^5 minecraft:air replace #minecraft:anvil destroy
+tellraw @s [{text:"<", color:red}, {"player": {"properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIzM2Q2YTJlMmE2NDFhN2MwNGQzZjNkMjM1NmZmYWM0MTE1MzdhMjM5ZjM3YjMzZDYzZDY2YjQzYmMxZThmNSJ9fX0="}]}, color:white}, {text:" Guide Bunny> ", color:red}, {text:"You are not ready to use the anvil yet! Complete the \"Heavy Metal\" advancement in Questline 3 first.",color:white}]
+advancement revoke @s only rework:hidden/anvil_check

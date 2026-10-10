@@ -1,0 +1,45 @@
+{
+  "parent": "rework:stone/kill_zombie",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/kill_zombie": true
+						}
+					}
+				}
+			},
+        "item": {
+          "items": "minecraft:suspicious_stew"
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Eat suspicious stew."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:suspicious_stew"
+    },
+    "show_toast": true,
+    "title": "Sussy Stew"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

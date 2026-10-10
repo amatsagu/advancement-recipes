@@ -1,0 +1,69 @@
+{
+  "parent": "rework:stone/glass",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/glass": true
+						}
+					}
+				}
+			},
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "#minecraft:beehives"
+                },
+                "smokey": true
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:glass_bottle"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Safely harvest honey from bee nest."
+    },
+    "icon": {
+      "components": {
+        "minecraft:block_state": {
+          "honey_level": "5"
+        }
+      },
+      "count": 1,
+      "id": "minecraft:bee_nest"
+    },
+    "show_toast": true,
+    "title": "Bee Our Guest"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:honey_block",
+      "minecraft:honey_bottle"
+    ]
+  }
+}

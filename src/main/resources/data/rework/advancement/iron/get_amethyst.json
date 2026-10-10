@@ -1,0 +1,53 @@
+{
+  "parent": "rework:iron/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:iron/root": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:amethyst_shard",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Grind for a total of 16 amethyst shards."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:large_amethyst_bud"
+    },
+    "show_toast": true,
+    "title": "Purple Quartz Geode"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tinted_glass",
+      "minecraft:spyglass",
+      "minecraft:amethyst_block"
+    ]
+  }
+}

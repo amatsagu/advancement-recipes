@@ -1,0 +1,68 @@
+{
+  "parent": "rework:stone/glass",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:stone/glass": true
+						}
+					}
+				}
+			},
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:mud"
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:potion"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Use water bottle on dirt to make mud."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:mud"
+    },
+    "show_toast": true,
+    "title": "Washing Dirty Hands"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:mud_brick_slab",
+      "minecraft:mud_brick_stairs",
+      "minecraft:mud_brick_wall",
+      "minecraft:mud_bricks",
+      "minecraft:packed_mud",
+      "minecraft:muddy_mangrove_roots"
+    ]
+  }
+}

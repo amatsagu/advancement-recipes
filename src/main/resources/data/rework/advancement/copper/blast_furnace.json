@@ -1,0 +1,58 @@
+{
+  "parent": "rework:copper/get_iron",
+  "criteria": {
+    "default": {
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/get_iron": true
+						}
+					}
+				}
+			},
+      "location": 
+        {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:blast_furnace"
+        }
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Place a blast furnace."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:blast_furnace"
+    },
+    "title": {
+      "text": "Supersmelter"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:coal_from_blasting_coal_ore",
+      "minecraft:coal_from_blasting_deepslate_coal_ore",
+      "minecraft:copper_ingot_from_blasting_copper_ore",
+      "minecraft:copper_ingot_from_blasting_deepslate_copper_ore",
+      "minecraft:copper_ingot_from_blasting_raw_copper",
+      "minecraft:copper_nugget_from_blasting",
+      "minecraft:iron_ingot_from_blasting_deepslate_iron_ore",
+      "minecraft:iron_ingot_from_blasting_iron_ore",
+      "minecraft:iron_ingot_from_blasting_raw_iron",
+      "minecraft:iron_nugget_from_blasting"
+    ]
+  }
+}

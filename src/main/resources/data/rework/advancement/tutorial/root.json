@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/beehive_end",
+    "description": {
+      "text": "Have fun!"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:knowledge_book"
+    },
+    "show_toast": false,
+    "title": "Tutorial"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "function": "rework:config"
+  }
+}

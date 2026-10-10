@@ -1,0 +1,7 @@
+playsound minecraft:block.anvil.destroy master @s ~ ~ ~ 1 0.8
+tellraw @s [{text:"<", color:red}, {"player": {"properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIzM2Q2YTJlMmE2NDFhN2MwNGQzZjNkMjM1NmZmYWM0MTE1MzdhMjM5ZjM3YjMzZDYzZDY2YjQzYmMxZThmNSJ9fX0="}]}, color:white}, {text:" Guide Bunny> ", color:red}, {type: "object", atlas: "minecraft:items", sprite:"item/iron_chestplate",color:white}, {text:" Armor broken! Complete Questline 3 so you can wear iron and chainmail armor.",color:white}]
+execute if items entity @s armor.head #rework:armor_rewards_questline_3 run item modify entity @s armor.head {"type": "minecraft:set_components", "components": {"minecraft:damage": 9999}}
+execute if items entity @s armor.chest #rework:armor_rewards_questline_3 run item modify entity @s armor.chest {"type": "minecraft:set_components", "components": {"minecraft:damage": 9999}}
+execute if items entity @s armor.legs #rework:armor_rewards_questline_3 run item modify entity @s armor.legs {"type": "minecraft:set_components", "components": {"minecraft:damage": 9999}}
+execute if items entity @s armor.feet #rework:armor_rewards_questline_3 run item modify entity @s armor.feet {"type": "minecraft:set_components", "components": {"minecraft:damage": 9999}}
+advancement revoke @s only rework:hidden/armor_rewards_questline_3_check

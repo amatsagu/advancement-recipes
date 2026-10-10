@@ -1,0 +1,48 @@
+{
+  "parent": "rework:iron/get_amethyst",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/get_amethyst": true
+            },
+            "looking_at": {
+              "minecraft:entity_type": "minecraft:enderman"
+            }
+  }
+}
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Look at Enderman with a spyglass."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:spyglass"
+    },
+    "show_toast": true,
+    "title": "Staring Contest"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

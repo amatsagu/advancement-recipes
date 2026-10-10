@@ -1,0 +1,50 @@
+{
+  "parent": "rework:iron/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/root": true
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:bamboo_jungle",
+              "minecraft:jungle",
+              "minecraft:sparse_jungle"
+            ]
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Visit any jungle type."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:jungle_sapling"
+    },
+    "show_toast": true,
+    "title": "Rain Forest Explorer"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cookie"
+    ]
+  }
+}

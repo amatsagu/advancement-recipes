@@ -1,0 +1,51 @@
+{
+  "parent": "rework:iron/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/root": true
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:swamp",
+              "minecraft:mangrove_swamp"
+            ]
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Visit any swamp biome."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lily_pad"
+    },
+    "show_toast": true,
+    "title": "Swampland explorer"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:slime_ball",
+      "minecraft:slime_block",
+      "minecraft:sticky_piston"
+    ]
+  }
+}

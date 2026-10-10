@@ -1,0 +1,46 @@
+{
+  "parent": "rework:diamond/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:diamond/root": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:deepslate_emerald_ore"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain deepslate emerald ore"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:deepslate_emerald_ore"
+    },
+    "show_toast": true,
+    "title": "The Rarest Block"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

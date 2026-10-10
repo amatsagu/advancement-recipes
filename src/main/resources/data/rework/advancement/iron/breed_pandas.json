@@ -1,0 +1,61 @@
+{
+  "parent": "rework:iron/jungle",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/jungle": true
+              }
+            }
+          }
+        },
+        "parent": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:panda"
+          }
+        },
+        "partner": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:panda"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Breed pandas."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:panda_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Zoologist"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bamboo_mosaic",
+      "minecraft:bamboo_mosaic_slab",
+      "minecraft:bamboo_mosaic_stairs",
+      "minecraft:scaffolding"
+    ]
+  }
+}

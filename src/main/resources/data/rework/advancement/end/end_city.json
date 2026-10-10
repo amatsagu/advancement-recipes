@@ -1,0 +1,51 @@
+{
+  "parent": "rework:end/end_gateway",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:end/end_gateway": true
+            }
+          },
+          "location": {
+            "structures": "minecraft:end_city"
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Enter the end city"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:purpur_pillar"
+    },
+    "show_toast": true,
+    "title": "The City at the End of the Game"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:end_rod",
+      "minecraft:purpur_block",
+      "minecraft:purpur_pillar",
+      "minecraft:purpur_slab",
+      "minecraft:purpur_stairs",
+      "minecraft:shulker_box"
+    ]
+  }
+}

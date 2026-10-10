@@ -1,0 +1,72 @@
+{
+  "parent": "rework:copper/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"rework:copper/root": true
+						}
+					}
+				}
+			},
+        "items": [
+          {
+            "items": "minecraft:iron_ingot",
+            "count": {
+              "min": 48
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain 48 iron ingots."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_ingot"
+    },
+    "show_toast": true,
+    "title": "Heavy Metal"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+        "minecraft:iron_bars",
+        "minecraft:iron_block",
+        "minecraft:iron_door",
+        "minecraft:iron_chain",
+        "minecraft:iron_ingot_from_iron_block",
+        "minecraft:iron_ingot_from_nuggets",
+        "minecraft:iron_nugget_from_smelting",
+        "minecraft:iron_nugget",
+        "minecraft:iron_trapdoor",
+        "minecraft:lantern",
+        "minecraft:saddle",
+        "minecraft:shears",
+        "minecraft:smithing_table",
+        "minecraft:tripwire_hook",
+        "minecraft:trapped_chest",
+        "minecraft:bucket",
+        "minecraft:stonecutter",
+        "minecraft:blast_furnace",
+        "minecraft:cauldron",
+        "minecraft:raw_iron",
+        "minecraft:raw_iron_block",
+        "minecraft:anvil"
+    ]
+  }
+}

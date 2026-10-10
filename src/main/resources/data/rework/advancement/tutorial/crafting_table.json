@@ -1,0 +1,76 @@
+{
+  "parent": "rework:tutorial/gather_logs",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ],
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:tutorial/gather_logs": true
+            }
+  }
+}
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft a crafting table."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crafting_table"
+    },
+    "show_toast": true,
+    "title": "First Workbench"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stick_from_bamboo_item",
+      "minecraft:stick",
+      "minecraft:bowl",
+      "minecraft:acacia_slab",
+      "minecraft:birch_slab",
+      "minecraft:bamboo_slab",
+      "minecraft:cherry_slab",
+      "minecraft:dark_oak_slab",
+      "minecraft:jungle_slab",
+      "minecraft:mangrove_slab",
+      "minecraft:oak_slab",
+      "minecraft:pale_oak_slab",
+      "minecraft:spruce_slab",
+      "minecraft:acacia_stairs",
+      "minecraft:birch_stairs",
+      "minecraft:bamboo_stairs",
+      "minecraft:cherry_stairs",
+      "minecraft:dark_oak_stairs",
+      "minecraft:jungle_stairs",
+      "minecraft:mangrove_stairs",
+      "minecraft:oak_stairs",
+      "minecraft:pale_oak_stairs",
+      "minecraft:spruce_stairs",
+      "minecraft:poplar_slab",
+      "minecraft:poplar_stairs"
+    ]
+  }
+}

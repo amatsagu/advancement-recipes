@@ -1,0 +1,51 @@
+{
+  "parent": "rework:iron/kill_magma_cube",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/kill_magma_cube": true
+            }
+          },
+          "effects": {
+            "minecraft:fire_resistance": {}
+  }
+}
+        },
+        "block": "minecraft:lava"
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Swim in lava by using fire resistance effect."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:magma_block"
+    },
+    "show_toast": true,
+    "title": "Stayin' Frosty"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blue_ice",
+      "minecraft:packed_ice",
+      "minecraft:snow_block",
+      "minecraft:snow"
+    ]
+  }
+}

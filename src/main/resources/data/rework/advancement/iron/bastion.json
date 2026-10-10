@@ -1,0 +1,59 @@
+{
+  "parent": "rework:iron/nether",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+            "advancements": {
+              "rework:iron/nether": true
+            }
+          },
+          "location": {
+            "structures": "minecraft:bastion_remnant"
+          }
+  }
+}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Be in a bastion."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:gilded_blackstone"
+    },
+    "show_toast": true,
+    "title": "War Pigs"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blackstone_slab",
+      "minecraft:blackstone_stairs",
+      "minecraft:blackstone_wall",
+      "minecraft:chiseled_polished_blackstone",
+      "minecraft:cracked_polished_blackstone_bricks",
+      "minecraft:polished_blackstone",
+      "minecraft:polished_blackstone_brick_slab",
+      "minecraft:polished_blackstone_brick_stairs",
+      "minecraft:polished_blackstone_brick_wall",
+      "minecraft:polished_blackstone_bricks",
+      "minecraft:polished_blackstone_button",
+      "minecraft:polished_blackstone_slab",
+      "minecraft:polished_blackstone_stairs",
+      "minecraft:polished_blackstone_wall"
+    ]
+  }
+}
