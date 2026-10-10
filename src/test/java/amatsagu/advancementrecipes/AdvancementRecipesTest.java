@@ -62,7 +62,12 @@ public class AdvancementRecipesTest {
 		Identifier baseBackpack = Identifier.parse("nemos_backpacks:backpack");
 		List<Identifier> baseQuests = QuestData.getQuestsForItem(baseBackpack);
 		Assertions.assertNotNull(baseQuests, "Base backpack should be gated");
-		Assertions.assertTrue(baseQuests.contains(Identifier.parse("rework:stone/backpack")), "Base backpack should require On Your Back");
+		Assertions.assertTrue(baseQuests.contains(Identifier.parse("rework:stone/craft_bundle")), "Base backpack should require Pack It Up!");
+
+		Identifier blackBackpack = Identifier.parse("nemos_backpacks:black_backpack");
+		List<Identifier> blackQuests = QuestData.getQuestsForItem(blackBackpack);
+		Assertions.assertNotNull(blackQuests, "Dyed backpack should be gated");
+		Assertions.assertTrue(blackQuests.contains(Identifier.parse("rework:stone/backpack")), "Dyed backpack should require On Your Back");
 
 		Identifier copperBackpack = Identifier.parse("nemos_backpacks:copper_backpack");
 		List<Identifier> copperQuests = QuestData.getQuestsForItem(copperBackpack);

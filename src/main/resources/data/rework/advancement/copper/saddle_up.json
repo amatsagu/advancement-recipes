@@ -45,8 +45,7 @@
   "rewards": {
     "recipes": [
       "minecraft:leather_horse_armor",
-      "minecraft:carrot_on_a_stick",
-      "farmersdelight:horse_feed"
+      "minecraft:carrot_on_a_stick"
     ]
   }
 }

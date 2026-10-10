@@ -1544,7 +1544,7 @@
     "minecraft:poplar_sign": "rework:tutorial/plant_sapling",
     "minecraft:spruce_sign": "rework:tutorial/plant_sapling",
     "minecraft:composter": "rework:tutorial/plant_sapling",
-    "nemos_backpacks:backpack": "rework:stone/backpack",
+    "nemos_backpacks:backpack": "rework:stone/craft_bundle",
     "nemos_backpacks:black_backpack": "rework:stone/backpack",
     "nemos_backpacks:blue_backpack": "rework:stone/backpack",
     "nemos_backpacks:brown_backpack": "rework:stone/backpack",
@@ -1741,14 +1741,14 @@
     "farmersdelight:beetroot_from_crate": "rework:wood/seeds",
     "farmersdelight:birch_cabinet": "rework:stone/craft_bundle",
     "farmersdelight:black_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:black_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:black_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:blue_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:blue_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:blue_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:book_from_canvas": "rework:iron/write_book",
     "farmersdelight:bread_from_smelting": "rework:wood/seeds",
     "farmersdelight:bread_from_smoking": "rework:wood/seeds",
     "farmersdelight:brown_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:brown_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:brown_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:cabbage": "rework:wood/seeds",
     "farmersdelight:cabbage_crate": "rework:wood/seeds",
     "farmersdelight:cabbage_from_leaves": "rework:wood/seeds",
@@ -1787,7 +1787,7 @@
     "farmersdelight:crimson_cabinet": "rework:iron/nether",
     "farmersdelight:cutting_board": "rework:wood/seeds",
     "farmersdelight:cyan_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:cyan_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:cyan_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:dark_oak_cabinet": "rework:stone/craft_bundle",
     "farmersdelight:diamond_knife": "rework:iron/complete_category",
     "farmersdelight:egg_sandwich": "rework:wood/seeds",
@@ -1803,16 +1803,16 @@
     "farmersdelight:gold_nugget_from_smelting_knife": "rework:iron/nether",
     "farmersdelight:golden_knife": "rework:iron/nether",
     "farmersdelight:gray_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:gray_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:gray_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:green_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:green_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:green_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:grilled_salmon": "rework:stone/catch_pufferfish",
     "farmersdelight:half_tatami_mat": "rework:wood/seeds",
     "farmersdelight:hamburger": "rework:stone/hearty_meal",
-    "farmersdelight:hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:honey_cookie": "rework:stone/get_honey",
     "farmersdelight:honey_glazed_ham_block": "rework:iron/grand_feast",
-    "farmersdelight:horse_feed": "rework:copper/saddle_up",
+    "farmersdelight:horse_feed": "rework:iron/nether",
     "farmersdelight:iron_knife": "rework:copper/complete_category",
     "farmersdelight:iron_nugget_from_blasting_knife": "rework:copper/complete_category",
     "farmersdelight:iron_nugget_from_smelting_knife": "rework:copper/complete_category",
@@ -1820,18 +1820,18 @@
     "farmersdelight:kelp_roll": "rework:stone/catch_pufferfish",
     "farmersdelight:lead_from_straw": "rework:stone/kill_spider",
     "farmersdelight:light_blue_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:light_blue_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:light_blue_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:light_gray_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:light_gray_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:light_gray_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:lime_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:lime_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:lime_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:magenta_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:magenta_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:magenta_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:mangrove_cabinet": "rework:stone/craft_bundle",
     "farmersdelight:melon_juice": "rework:iron/jungle",
     "farmersdelight:melon_popsicle": "rework:iron/jungle",
-    "farmersdelight:milk_bottle": "rework:wood/seeds",
-    "farmersdelight:milk_bucket_from_bottles": "rework:wood/seeds",
+    "farmersdelight:milk_bottle": "rework:stone/glass",
+    "farmersdelight:milk_bucket_from_bottles": "rework:copper/get_iron",
     "farmersdelight:mixed_salad": "rework:wood/seeds",
     "farmersdelight:mutton_wrap": "rework:stone/hearty_meal",
     "farmersdelight:nether_salad": "rework:iron/grand_feast",
@@ -1840,16 +1840,16 @@
     "farmersdelight:onion": "rework:wood/seeds",
     "farmersdelight:onion_crate": "rework:wood/seeds",
     "farmersdelight:orange_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:orange_hanging_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:organic_compost_from_rotten_flesh": "rework:wood/seeds",
-    "farmersdelight:organic_compost_from_tree_bark": "rework:wood/seeds",
+    "farmersdelight:orange_hanging_canvas_sign": "rework:copper/get_iron",
+    "farmersdelight:organic_compost_from_rotten_flesh": "rework:stone/kill_skeleton",
+    "farmersdelight:organic_compost_from_tree_bark": "rework:stone/kill_skeleton",
     "farmersdelight:packed_mud_from_straw": "rework:stone/make_mud",
     "farmersdelight:painting_from_canvas": "rework:wood/get_wool",
     "farmersdelight:pale_oak_cabinet": "rework:stone/craft_bundle",
     "farmersdelight:paper_from_tree_bark": "rework:iron/get_sugar_cane",
     "farmersdelight:pie_crust": "rework:wood/bread",
     "farmersdelight:pink_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:pink_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:pink_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:poplar_cabinet": "rework:stone/craft_bundle",
     "farmersdelight:potato_crate": "rework:wood/seeds",
     "farmersdelight:potato_from_crate": "rework:wood/seeds",
@@ -1858,9 +1858,9 @@
     "farmersdelight:pumpkin_pie_from_slices": "rework:wood/bread",
     "farmersdelight:pumpkin_seeds_from_slice": "rework:wood/seeds",
     "farmersdelight:purple_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:purple_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:purple_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:red_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:red_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:red_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:rice": "rework:wood/seeds",
     "farmersdelight:rice_bag": "rework:wood/seeds",
     "farmersdelight:rice_bale": "rework:wood/seeds",
@@ -1897,10 +1897,10 @@
     "farmersdelight:warped_cabinet": "rework:iron/nether",
     "farmersdelight:wheat_dough_from_egg": "rework:wood/seeds",
     "farmersdelight:white_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:white_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:white_hanging_canvas_sign": "rework:copper/get_iron",
     "farmersdelight:wooden_basket": "rework:wood/seeds",
     "farmersdelight:yellow_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:yellow_hanging_canvas_sign": "rework:wood/seeds",
+    "farmersdelight:yellow_hanging_canvas_sign": "rework:copper/get_iron",
     "simplemagnets:basicmagnet": "rework:copper/complete_category",
     "simplemagnets:basic_demagnetization_coil": "rework:iron/basic_magnet",
     "simplemagnets:advancedmagnet": "rework:diamond/complete_category",
@@ -5237,7 +5237,7 @@
       "rework:iron/get_sugar_cane"
     ],
     "nemos_backpacks:backpack": [
-      "rework:stone/backpack"
+      "rework:stone/craft_bundle"
     ],
     "nemos_backpacks:black_backpack": [
       "rework:stone/backpack"
@@ -5579,19 +5579,19 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:black_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:blue_canvas_sign": [
       "rework:wood/seeds"
     ],
     "farmersdelight:blue_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:brown_canvas_sign": [
       "rework:wood/seeds"
     ],
     "farmersdelight:brown_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:cabbage": [
       "rework:wood/seeds"
@@ -5657,7 +5657,7 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:cyan_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:dark_oak_cabinet": [
       "rework:stone/craft_bundle"
@@ -5690,13 +5690,13 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:gray_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:green_canvas_sign": [
       "rework:wood/seeds"
     ],
     "farmersdelight:green_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:grilled_salmon": [
       "rework:stone/catch_pufferfish"
@@ -5708,7 +5708,7 @@
       "rework:stone/hearty_meal"
     ],
     "farmersdelight:hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:honey_cookie": [
       "rework:stone/get_honey"
@@ -5717,7 +5717,7 @@
       "rework:iron/grand_feast"
     ],
     "farmersdelight:horse_feed": [
-      "rework:copper/saddle_up"
+      "rework:iron/nether"
     ],
     "farmersdelight:iron_knife": [
       "rework:copper/complete_category"
@@ -5732,25 +5732,25 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:light_blue_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:light_gray_canvas_sign": [
       "rework:wood/seeds"
     ],
     "farmersdelight:light_gray_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:lime_canvas_sign": [
       "rework:wood/seeds"
     ],
     "farmersdelight:lime_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:magenta_canvas_sign": [
       "rework:wood/seeds"
     ],
     "farmersdelight:magenta_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:mangrove_cabinet": [
       "rework:stone/craft_bundle"
@@ -5762,7 +5762,7 @@
       "rework:iron/jungle"
     ],
     "farmersdelight:milk_bottle": [
-      "rework:wood/seeds"
+      "rework:stone/glass"
     ],
     "minecraft:milk_bucket": [
       "rework:wood/seeds"
@@ -5792,7 +5792,7 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:orange_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:organic_compost": [
       "rework:wood/seeds"
@@ -5807,7 +5807,7 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:pink_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:poplar_cabinet": [
       "rework:stone/craft_bundle"
@@ -5825,13 +5825,13 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:purple_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:red_canvas_sign": [
       "rework:wood/seeds"
     ],
     "farmersdelight:red_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:rice": [
       "rework:wood/seeds"
@@ -5927,7 +5927,7 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:white_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "farmersdelight:wooden_basket": [
       "rework:wood/seeds"
@@ -5936,7 +5936,7 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:yellow_hanging_canvas_sign": [
-      "rework:wood/seeds"
+      "rework:copper/get_iron"
     ],
     "simplemagnets:basicmagnet": [
       "rework:copper/complete_category"
@@ -5949,6 +5949,15 @@
     ],
     "simplemagnets:advanced_demagnetization_coil": [
       "rework:end/advanced_magnet"
+    ],
+    "farmersdelight:milk_bucket_from_bottles": [
+      "rework:copper/get_iron"
+    ],
+    "farmersdelight:organic_compost_from_rotten_flesh": [
+      "rework:stone/kill_skeleton"
+    ],
+    "farmersdelight:organic_compost_from_tree_bark": [
+      "rework:stone/kill_skeleton"
     ]
   }
 }
