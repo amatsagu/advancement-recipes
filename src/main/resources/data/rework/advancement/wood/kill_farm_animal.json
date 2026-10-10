@@ -71,13 +71,9 @@
   "rewards": {
     "recipes": [
       "minecraft:campfire",
-      "farmersdelight:bacon_and_eggs",
-      "farmersdelight:bacon_sandwich",
-      "farmersdelight:barbecue_stick",
       "farmersdelight:beef_patty",
       "farmersdelight:beef_patty_from_campfire_cooking",
       "farmersdelight:beef_patty_from_smoking",
-      "farmersdelight:chicken_sandwich",
       "farmersdelight:cooked_bacon",
       "farmersdelight:cooked_bacon_from_campfire_cooking",
       "farmersdelight:cooked_bacon_from_smoking",
@@ -86,13 +82,7 @@
       "farmersdelight:cooked_chicken_cuts_from_smoking",
       "farmersdelight:cooked_mutton_chops",
       "farmersdelight:cooked_mutton_chops_from_campfire_cooking",
-      "farmersdelight:cooked_mutton_chops_from_smoking",
-      "farmersdelight:hamburger",
-      "farmersdelight:mutton_wrap",
-      "farmersdelight:roast_chicken_block",
-      "farmersdelight:roasted_mutton_chops",
-      "farmersdelight:smoked_ham",
-      "farmersdelight:steak_and_potatoes"
+      "farmersdelight:cooked_mutton_chops_from_smoking"
     ]
   }
 }

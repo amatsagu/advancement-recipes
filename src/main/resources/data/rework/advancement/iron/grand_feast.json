@@ -1,0 +1,154 @@
+{
+  "parent": "rework:iron/root",
+  "criteria": {
+    "place_roast_chicken": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "farmersdelight:roast_chicken_block"
+        }
+      }
+    },
+    "place_shepherds_pie": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "farmersdelight:shepherds_pie_block"
+        }
+      }
+    },
+    "eat_roast_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:roast_chicken"
+        }
+      }
+    },
+    "eat_shepherds_pie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:shepherds_pie"
+        }
+      }
+    },
+    "place_stuffed_pumpkin": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "farmersdelight:stuffed_pumpkin_block"
+        }
+      }
+    },
+    "eat_stuffed_pumpkin": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:stuffed_pumpkin"
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Place a feast block (Roast Chicken, Shepherd's Pie, or Stuffed Pumpkin), or eat a serving from one."
+    },
+    "icon": {
+      "count": 1,
+      "id": "farmersdelight:roast_chicken_block"
+    },
+    "show_toast": true,
+    "title": "Grand Feast"
+  },
+  "requirements": [
+    [
+      "place_roast_chicken",
+      "place_shepherds_pie",
+      "place_stuffed_pumpkin",
+      "eat_roast_chicken",
+      "eat_shepherds_pie",
+      "eat_stuffed_pumpkin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farmersdelight:honey_glazed_ham_block",
+      "farmersdelight:rice_roll_medley_block",
+      "farmersdelight:gleaming_salad_block",
+      "farmersdelight:smoked_ham",
+      "farmersdelight:nether_salad"
+    ]
+  }
+}

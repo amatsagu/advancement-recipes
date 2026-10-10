@@ -1,0 +1,93 @@
+{
+  "parent": "rework:stone/root",
+  "criteria": {
+    "egg_sandwich": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/root": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:egg_sandwich"
+        }
+      }
+    },
+    "fruit_salad": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/root": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:fruit_salad"
+        }
+      }
+    },
+    "mixed_salad": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/root": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:mixed_salad"
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Prepare and eat a sandwich or salad."
+    },
+    "icon": {
+      "count": 1,
+      "id": "farmersdelight:egg_sandwich"
+    },
+    "show_toast": true,
+    "title": "Hearty Lunch"
+  },
+  "requirements": [
+    [
+      "egg_sandwich",
+      "fruit_salad",
+      "mixed_salad"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farmersdelight:hamburger",
+      "farmersdelight:bacon_sandwich",
+      "farmersdelight:chicken_sandwich",
+      "farmersdelight:mutton_wrap",
+      "farmersdelight:bacon_and_eggs",
+      "farmersdelight:barbecue_stick",
+      "farmersdelight:stuffed_potato"
+    ]
+  }
+}

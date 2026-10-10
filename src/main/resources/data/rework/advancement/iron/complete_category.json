@@ -336,6 +336,22 @@
           }
         }
       }
+    },
+    "goal24": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/grand_feast": true
+              }
+            }
+          }
+        }
+      }
     }
   },
   "display": {
@@ -414,6 +430,9 @@
     ],
     [
       "goal23"
+    ],
+    [
+      "goal24"
     ]
   ],
   "rewards": {

@@ -64,8 +64,7 @@
     "recipes": [
       "minecraft:honey_block",
       "minecraft:honey_bottle",
-      "farmersdelight:honey_cookie",
-      "farmersdelight:honey_glazed_ham_block"
+      "farmersdelight:honey_cookie"
     ]
   }
 }

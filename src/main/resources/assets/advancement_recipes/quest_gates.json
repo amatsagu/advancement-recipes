@@ -163,7 +163,10 @@
     "rework:tutorial/complete_category": "Wooden Completionist",
     "rework:tutorial/gather_logs": "Timber",
     "rework:tutorial/plant_sapling": "New Generation",
-    "rework:stone/backpack": "On Your Back"
+    "rework:stone/backpack": "On Your Back",
+    "rework:stone/hearty_meal": "Hearty Lunch",
+    "rework:copper/pot_cooking": "Home Cooking",
+    "rework:iron/grand_feast": "Grand Feast"
   },
   "recipe_to_quest": {
     "minecraft:dried_kelp": "rework:stone/deep_ocean_by_boat",
@@ -1724,11 +1727,11 @@
     "farmersdelight:acacia_cabinet": "rework:stone/craft_bundle",
     "farmersdelight:apple_pie": "rework:wood/bread",
     "farmersdelight:apple_pie_from_slices": "rework:wood/bread",
-    "farmersdelight:bacon_and_eggs": "rework:wood/kill_farm_animal",
-    "farmersdelight:bacon_sandwich": "rework:wood/kill_farm_animal",
+    "farmersdelight:bacon_and_eggs": "rework:stone/hearty_meal",
+    "farmersdelight:bacon_sandwich": "rework:stone/hearty_meal",
     "farmersdelight:bamboo_basket": "rework:iron/breed_pandas",
     "farmersdelight:bamboo_cabinet": "rework:stone/craft_bundle",
-    "farmersdelight:barbecue_stick": "rework:wood/kill_farm_animal",
+    "farmersdelight:barbecue_stick": "rework:stone/hearty_meal",
     "farmersdelight:beef_patty": "rework:wood/kill_farm_animal",
     "farmersdelight:beef_patty_from_campfire_cooking": "rework:wood/kill_farm_animal",
     "farmersdelight:beef_patty_from_smoking": "rework:wood/kill_farm_animal",
@@ -1756,7 +1759,7 @@
     "farmersdelight:carrot_crate": "rework:wood/seeds",
     "farmersdelight:carrot_from_crate": "rework:wood/seeds",
     "farmersdelight:cherry_cabinet": "rework:stone/craft_bundle",
-    "farmersdelight:chicken_sandwich": "rework:wood/kill_farm_animal",
+    "farmersdelight:chicken_sandwich": "rework:stone/hearty_meal",
     "farmersdelight:chocolate_pie": "rework:iron/jungle",
     "farmersdelight:chocolate_pie_from_slices": "rework:iron/jungle",
     "farmersdelight:cod_roll": "rework:stone/catch_pufferfish",
@@ -1793,7 +1796,7 @@
     "farmersdelight:fruit_salad": "rework:wood/seeds",
     "farmersdelight:full_tatami_mat": "rework:wood/seeds",
     "farmersdelight:full_tatami_mat_from_halves": "rework:wood/seeds",
-    "farmersdelight:gleaming_salad_block": "rework:wood/seeds",
+    "farmersdelight:gleaming_salad_block": "rework:iron/grand_feast",
     "farmersdelight:gold_nugget_from_blasting_knife": "rework:iron/nether",
     "farmersdelight:gold_nugget_from_smelting_knife": "rework:iron/nether",
     "farmersdelight:golden_knife": "rework:iron/nether",
@@ -1803,10 +1806,10 @@
     "farmersdelight:green_hanging_canvas_sign": "rework:wood/seeds",
     "farmersdelight:grilled_salmon": "rework:stone/catch_pufferfish",
     "farmersdelight:half_tatami_mat": "rework:wood/seeds",
-    "farmersdelight:hamburger": "rework:wood/kill_farm_animal",
+    "farmersdelight:hamburger": "rework:stone/hearty_meal",
     "farmersdelight:hanging_canvas_sign": "rework:wood/seeds",
     "farmersdelight:honey_cookie": "rework:stone/get_honey",
-    "farmersdelight:honey_glazed_ham_block": "rework:stone/get_honey",
+    "farmersdelight:honey_glazed_ham_block": "rework:iron/grand_feast",
     "farmersdelight:horse_feed": "rework:copper/saddle_up",
     "farmersdelight:iron_knife": "rework:copper/complete_category",
     "farmersdelight:iron_nugget_from_blasting_knife": "rework:copper/complete_category",
@@ -1828,8 +1831,8 @@
     "farmersdelight:milk_bottle": "rework:wood/seeds",
     "farmersdelight:milk_bucket_from_bottles": "rework:wood/seeds",
     "farmersdelight:mixed_salad": "rework:wood/seeds",
-    "farmersdelight:mutton_wrap": "rework:wood/kill_farm_animal",
-    "farmersdelight:nether_salad": "rework:iron/nether",
+    "farmersdelight:mutton_wrap": "rework:stone/hearty_meal",
+    "farmersdelight:nether_salad": "rework:iron/grand_feast",
     "farmersdelight:netherite_knife_smithing": "rework:diamond/complete_category",
     "farmersdelight:oak_cabinet": "rework:stone/craft_bundle",
     "farmersdelight:onion": "rework:wood/seeds",
@@ -1861,9 +1864,9 @@
     "farmersdelight:rice_bale": "rework:wood/seeds",
     "farmersdelight:rice_from_bag": "rework:wood/seeds",
     "farmersdelight:rice_panicle": "rework:wood/seeds",
-    "farmersdelight:rice_roll_medley_block": "rework:wood/seeds",
-    "farmersdelight:roast_chicken_block": "rework:wood/kill_farm_animal",
-    "farmersdelight:roasted_mutton_chops": "rework:wood/kill_farm_animal",
+    "farmersdelight:rice_roll_medley_block": "rework:iron/grand_feast",
+    "farmersdelight:roast_chicken_block": "rework:copper/pot_cooking",
+    "farmersdelight:roasted_mutton_chops": "rework:copper/pot_cooking",
     "farmersdelight:rope": "rework:wood/seeds",
     "farmersdelight:rope_fence": "rework:wood/seeds",
     "farmersdelight:rope_fence_gate": "rework:wood/seeds",
@@ -1871,16 +1874,16 @@
     "farmersdelight:safety_net": "rework:wood/seeds",
     "farmersdelight:salmon_roll": "rework:stone/catch_pufferfish",
     "farmersdelight:scaffolding_from_canvas": "rework:iron/breed_pandas",
-    "farmersdelight:shepherds_pie_block": "rework:wood/bread",
+    "farmersdelight:shepherds_pie_block": "rework:copper/pot_cooking",
     "farmersdelight:skillet": "rework:copper/get_iron",
-    "farmersdelight:smoked_ham": "rework:wood/kill_farm_animal",
+    "farmersdelight:smoked_ham": "rework:iron/grand_feast",
     "farmersdelight:spruce_cabinet": "rework:stone/craft_bundle",
-    "farmersdelight:steak_and_potatoes": "rework:wood/kill_farm_animal",
+    "farmersdelight:steak_and_potatoes": "rework:copper/pot_cooking",
     "farmersdelight:stove": "rework:copper/get_iron",
     "farmersdelight:straw": "rework:wood/seeds",
     "farmersdelight:straw_bale": "rework:wood/seeds",
     "farmersdelight:straw_bed": "rework:wood/seeds",
-    "farmersdelight:stuffed_potato": "rework:wood/seeds",
+    "farmersdelight:stuffed_potato": "rework:stone/hearty_meal",
     "farmersdelight:sweet_berry_cheesecake": "rework:iron/jungle",
     "farmersdelight:sweet_berry_cheesecake_from_slices": "rework:iron/jungle",
     "farmersdelight:sweet_berry_cookie": "rework:iron/jungle",
@@ -5540,10 +5543,10 @@
       "rework:wood/bread"
     ],
     "farmersdelight:bacon_and_eggs": [
-      "rework:wood/kill_farm_animal"
+      "rework:stone/hearty_meal"
     ],
     "farmersdelight:bacon_sandwich": [
-      "rework:wood/kill_farm_animal"
+      "rework:stone/hearty_meal"
     ],
     "farmersdelight:bamboo_basket": [
       "rework:iron/breed_pandas"
@@ -5552,7 +5555,7 @@
       "rework:stone/craft_bundle"
     ],
     "farmersdelight:barbecue_stick": [
-      "rework:wood/kill_farm_animal"
+      "rework:stone/hearty_meal"
     ],
     "farmersdelight:beef_patty": [
       "rework:wood/kill_farm_animal"
@@ -5609,7 +5612,7 @@
       "rework:stone/craft_bundle"
     ],
     "farmersdelight:chicken_sandwich": [
-      "rework:wood/kill_farm_animal"
+      "rework:stone/hearty_meal"
     ],
     "farmersdelight:chocolate_pie": [
       "rework:iron/jungle"
@@ -5672,7 +5675,7 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:gleaming_salad_block": [
-      "rework:wood/seeds"
+      "rework:iron/grand_feast"
     ],
     "farmersdelight:golden_knife": [
       "rework:iron/nether"
@@ -5696,7 +5699,7 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:hamburger": [
-      "rework:wood/kill_farm_animal"
+      "rework:stone/hearty_meal"
     ],
     "farmersdelight:hanging_canvas_sign": [
       "rework:wood/seeds"
@@ -5705,7 +5708,7 @@
       "rework:stone/get_honey"
     ],
     "farmersdelight:honey_glazed_ham_block": [
-      "rework:stone/get_honey"
+      "rework:iron/grand_feast"
     ],
     "farmersdelight:horse_feed": [
       "rework:copper/saddle_up"
@@ -5762,10 +5765,10 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:mutton_wrap": [
-      "rework:wood/kill_farm_animal"
+      "rework:stone/hearty_meal"
     ],
     "farmersdelight:nether_salad": [
-      "rework:iron/nether"
+      "rework:iron/grand_feast"
     ],
     "farmersdelight:netherite_knife": [
       "rework:diamond/complete_category"
@@ -5837,13 +5840,13 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:rice_roll_medley_block": [
-      "rework:wood/seeds"
+      "rework:iron/grand_feast"
     ],
     "farmersdelight:roast_chicken_block": [
-      "rework:wood/kill_farm_animal"
+      "rework:copper/pot_cooking"
     ],
     "farmersdelight:roasted_mutton_chops": [
-      "rework:wood/kill_farm_animal"
+      "rework:copper/pot_cooking"
     ],
     "farmersdelight:rope": [
       "rework:wood/seeds"
@@ -5861,19 +5864,19 @@
       "rework:stone/catch_pufferfish"
     ],
     "farmersdelight:shepherds_pie_block": [
-      "rework:wood/bread"
+      "rework:copper/pot_cooking"
     ],
     "farmersdelight:skillet": [
       "rework:copper/get_iron"
     ],
     "farmersdelight:smoked_ham": [
-      "rework:wood/kill_farm_animal"
+      "rework:iron/grand_feast"
     ],
     "farmersdelight:spruce_cabinet": [
       "rework:stone/craft_bundle"
     ],
     "farmersdelight:steak_and_potatoes": [
-      "rework:wood/kill_farm_animal"
+      "rework:copper/pot_cooking"
     ],
     "farmersdelight:stove": [
       "rework:copper/get_iron"
@@ -5888,7 +5891,7 @@
       "rework:wood/seeds"
     ],
     "farmersdelight:stuffed_potato": [
-      "rework:wood/seeds"
+      "rework:stone/hearty_meal"
     ],
     "farmersdelight:sweet_berry_cheesecake": [
       "rework:iron/jungle"

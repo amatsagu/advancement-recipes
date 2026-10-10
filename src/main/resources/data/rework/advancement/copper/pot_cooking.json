@@ -1,0 +1,170 @@
+{
+  "parent": "rework:copper/get_iron",
+  "criteria": {
+    "beef_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:copper/get_iron": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:beef_stew"
+        }
+      }
+    },
+    "chicken_soup": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:copper/get_iron": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:chicken_soup"
+        }
+      }
+    },
+    "vegetable_soup": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:copper/get_iron": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:vegetable_soup"
+        }
+      }
+    },
+    "noodle_soup": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:copper/get_iron": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:noodle_soup"
+        }
+      }
+    },
+    "fish_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:copper/get_iron": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:fish_stew"
+        }
+      }
+    },
+    "fried_rice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:copper/get_iron": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:fried_rice"
+        }
+      }
+    },
+    "cooked_rice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:copper/get_iron": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "farmersdelight:cooked_rice"
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Cook and enjoy a hot meal from a cooking pot."
+    },
+    "icon": {
+      "count": 1,
+      "id": "farmersdelight:cooking_pot"
+    },
+    "show_toast": true,
+    "title": "Home Cooking"
+  },
+  "requirements": [
+    [
+      "beef_stew",
+      "chicken_soup",
+      "vegetable_soup",
+      "noodle_soup",
+      "fish_stew",
+      "fried_rice",
+      "cooked_rice"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farmersdelight:steak_and_potatoes",
+      "farmersdelight:roasted_mutton_chops",
+      "farmersdelight:roast_chicken_block",
+      "farmersdelight:shepherds_pie_block"
+    ]
+  }
+}

@@ -208,6 +208,22 @@
           }
         }
       }
+    },
+    "goal15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/hearty_meal": true
+              }
+            }
+          }
+        }
+      }
     }
   },
   "display": {
@@ -262,6 +278,9 @@
     ],
     [
       "goal14"
+    ],
+    [
+      "goal15"
     ]
   ],
   "rewards": {

@@ -120,6 +120,28 @@ public class AdvancementRecipesTest {
 		Assertions.assertNotNull(applePieQuests, "Apple pie should be gated");
 		Assertions.assertTrue(applePieQuests.contains(Identifier.parse("rework:wood/bread")), "Apple pie should require Baker's Delight");
 
+		// Test cooking quest progression: Stone, Copper, Iron
+		Identifier hamburger = Identifier.parse("farmersdelight:hamburger");
+		List<Identifier> hamburgerQuests = QuestData.getQuestsForItem(hamburger);
+		Assertions.assertNotNull(hamburgerQuests, "Hamburger should be gated");
+		Assertions.assertTrue(hamburgerQuests.contains(Identifier.parse("rework:stone/hearty_meal")), "Hamburger should require Hearty Lunch");
+		Assertions.assertEquals("Hearty Lunch", QuestData.getQuestTitle(Identifier.parse("rework:stone/hearty_meal")));
+		Assertions.assertEquals("Questline II", QuestData.getQuestCategory(Identifier.parse("rework:stone/hearty_meal")));
+
+		Identifier steakAndPotatoes = Identifier.parse("farmersdelight:steak_and_potatoes");
+		List<Identifier> steakQuests = QuestData.getQuestsForItem(steakAndPotatoes);
+		Assertions.assertNotNull(steakQuests, "Steak and potatoes should be gated");
+		Assertions.assertTrue(steakQuests.contains(Identifier.parse("rework:copper/pot_cooking")), "Steak and potatoes should require Home Cooking");
+		Assertions.assertEquals("Home Cooking", QuestData.getQuestTitle(Identifier.parse("rework:copper/pot_cooking")));
+		Assertions.assertEquals("Questline III", QuestData.getQuestCategory(Identifier.parse("rework:copper/pot_cooking")));
+
+		Identifier honeyGlazedHam = Identifier.parse("farmersdelight:honey_glazed_ham_block");
+		List<Identifier> feastQuests = QuestData.getQuestsForItem(honeyGlazedHam);
+		Assertions.assertNotNull(feastQuests, "Honey glazed ham should be gated");
+		Assertions.assertTrue(feastQuests.contains(Identifier.parse("rework:iron/grand_feast")), "Honey glazed ham should require Grand Feast");
+		Assertions.assertEquals("Grand Feast", QuestData.getQuestTitle(Identifier.parse("rework:iron/grand_feast")));
+		Assertions.assertEquals("Questline IV", QuestData.getQuestCategory(Identifier.parse("rework:iron/grand_feast")));
+
 		// Test multiline tooltip lines for single and multi-quest items
 		List<net.minecraft.network.chat.Component> singleQuestLines = QuestData.getQuestTooltipLines(anvilQuests, false);
 		Assertions.assertEquals(2, singleQuestLines.size(), "Single quest should have 2 lines (state + quest)");
