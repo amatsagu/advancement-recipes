@@ -39,9 +39,6 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:chest",
-      "minecraft:copper_chest",
-      "minecraft:barrel",
       "farmersdelight:acacia_cabinet",
       "farmersdelight:bamboo_cabinet",
       "farmersdelight:birch_cabinet",

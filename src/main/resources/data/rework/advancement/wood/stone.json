@@ -46,7 +46,8 @@
       "minecraft:cobblestone_stairs",
       "minecraft:cobblestone_wall",
       "minecraft:torch",
-      "farmersdelight:flint_knife"
+      "farmersdelight:flint_knife",
+      "minecraft:furnace"
     ]
   }
 }

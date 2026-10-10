@@ -469,3 +469,7 @@ recipe give @s[advancements={rework:diamond/complete_category=true}] simplemagne
 recipe give @s[advancements={rework:end/advanced_magnet=true}] simplemagnets:advanced_demagnetization_coil
 recipe give @s[advancements={rework:iron/swamp=true}] glowpaste:glow_paste
 recipe give @s[advancements={rework:iron/swamp=true}] advancement_recipes:slime_ball_from_honey
+recipe give @s[advancements={rework:wood/stone=true}] minecraft:furnace
+recipe give @s[advancements={rework:wood/item_frame=true}] minecraft:chest
+recipe give @s[advancements={rework:stone/copper_ingot=true}] minecraft:copper_chest
+recipe give @s[advancements={rework:wood/item_frame=true}] minecraft:barrel

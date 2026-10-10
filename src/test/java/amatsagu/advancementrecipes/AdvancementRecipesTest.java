@@ -204,5 +204,24 @@ public class AdvancementRecipesTest {
 		// Test Slime Ball from Honey Recipe
 		Identifier slimeFromHoney = Identifier.parse("advancement_recipes:slime_ball_from_honey");
 		Assertions.assertEquals(Identifier.parse("rework:iron/swamp"), QuestData.getQuestForRecipe(slimeFromHoney));
+
+		// Test Furnace gating (unlocked at wood/stone "Stone Age")
+		Identifier furnaceId = Identifier.parse("minecraft:furnace");
+		Assertions.assertEquals(Identifier.parse("rework:wood/stone"), QuestData.getQuestForRecipe(furnaceId));
+		Assertions.assertTrue(QuestData.getQuestsForItem(furnaceId).contains(Identifier.parse("rework:wood/stone")));
+
+		// Test Chest and Barrel gating (unlocked at wood/item_frame "A Frame On View")
+		Identifier chestId = Identifier.parse("minecraft:chest");
+		Assertions.assertEquals(Identifier.parse("rework:wood/item_frame"), QuestData.getQuestForRecipe(chestId));
+		Assertions.assertTrue(QuestData.getQuestsForItem(chestId).contains(Identifier.parse("rework:wood/item_frame")));
+
+		Identifier barrelId = Identifier.parse("minecraft:barrel");
+		Assertions.assertEquals(Identifier.parse("rework:wood/item_frame"), QuestData.getQuestForRecipe(barrelId));
+		Assertions.assertTrue(QuestData.getQuestsForItem(barrelId).contains(Identifier.parse("rework:wood/item_frame")));
+
+		// Test Copper Chest gating (unlocked at stone/copper_ingot "Top Tier Copper")
+		Identifier copperChestId = Identifier.parse("minecraft:copper_chest");
+		Assertions.assertEquals(Identifier.parse("rework:stone/copper_ingot"), QuestData.getQuestForRecipe(copperChestId));
+		Assertions.assertTrue(QuestData.getQuestsForItem(copperChestId).contains(Identifier.parse("rework:stone/copper_ingot")));
 	}
 }

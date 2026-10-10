@@ -360,9 +360,9 @@
     "minecraft:suspicious_stew_from_red_tulip": "rework:stone/kill_zombie",
     "minecraft:suspicious_stew_from_torchflower": "rework:stone/kill_zombie",
     "minecraft:suspicious_stew_from_white_tulip": "rework:stone/kill_zombie",
-    "minecraft:chest": "rework:stone/craft_bundle",
-    "minecraft:copper_chest": "rework:stone/craft_bundle",
-    "minecraft:barrel": "rework:stone/craft_bundle",
+    "minecraft:chest": "rework:wood/item_frame",
+    "minecraft:copper_chest": "rework:stone/copper_ingot",
+    "minecraft:barrel": "rework:wood/item_frame",
     "minecraft:bone_meal": "rework:stone/kill_skeleton",
     "minecraft:bone_block": "rework:stone/kill_skeleton",
     "minecraft:bone_meal_from_bone_block": "rework:stone/kill_skeleton",
@@ -1081,7 +1081,7 @@
     "minecraft:leather_helmet_dyed": "rework:wood/complete_category",
     "minecraft:leather_horse_armor_dyed": "rework:wood/complete_category",
     "minecraft:leather_leggings_dyed": "rework:wood/complete_category",
-    "minecraft:furnace": "rework:wood/complete_category",
+    "minecraft:furnace": "rework:wood/stone",
     "minecraft:glass": "rework:wood/complete_category",
     "minecraft:copper_ingot_from_smelting_copper_ore": "rework:wood/complete_category",
     "minecraft:copper_ingot_from_smelting_deepslate_copper_ore": "rework:wood/complete_category",
@@ -2378,13 +2378,13 @@
       "rework:stone/kill_zombie"
     ],
     "minecraft:chest": [
-      "rework:stone/craft_bundle"
+      "rework:wood/item_frame"
     ],
     "minecraft:copper_chest": [
-      "rework:stone/craft_bundle"
+      "rework:stone/copper_ingot"
     ],
     "minecraft:barrel": [
-      "rework:stone/craft_bundle"
+      "rework:wood/item_frame"
     ],
     "minecraft:bone_meal": [
       "rework:stone/kill_skeleton"
@@ -4023,7 +4023,7 @@
       "rework:wood/complete_category"
     ],
     "minecraft:furnace": [
-      "rework:wood/complete_category"
+      "rework:wood/stone"
     ],
     "minecraft:glass": [
       "rework:wood/complete_category"
