@@ -142,6 +142,31 @@ public class AdvancementRecipesTest {
 		Assertions.assertEquals("Grand Feast", QuestData.getQuestTitle(Identifier.parse("rework:iron/grand_feast")));
 		Assertions.assertEquals("Questline IV", QuestData.getQuestCategory(Identifier.parse("rework:iron/grand_feast")));
 
+		// Test Simple Magnets
+		Identifier basicMagnet = Identifier.parse("simplemagnets:basicmagnet");
+		List<Identifier> basicMagnetQuests = QuestData.getQuestsForItem(basicMagnet);
+		Assertions.assertNotNull(basicMagnetQuests, "Basic magnet should be gated");
+		Assertions.assertTrue(basicMagnetQuests.contains(Identifier.parse("rework:copper/complete_category")), "Basic magnet should be unlocked by Iron Completionist");
+
+		Identifier basicCoil = Identifier.parse("simplemagnets:basic_demagnetization_coil");
+		List<Identifier> basicCoilQuests = QuestData.getQuestsForItem(basicCoil);
+		Assertions.assertNotNull(basicCoilQuests, "Basic demagnetization coil should be gated");
+		Assertions.assertTrue(basicCoilQuests.contains(Identifier.parse("rework:iron/basic_magnet")), "Basic coil should require Attraction");
+		Assertions.assertEquals("Attraction", QuestData.getQuestTitle(Identifier.parse("rework:iron/basic_magnet")));
+		Assertions.assertEquals("Questline IV", QuestData.getQuestCategory(Identifier.parse("rework:iron/basic_magnet")));
+
+		Identifier advancedMagnet = Identifier.parse("simplemagnets:advancedmagnet");
+		List<Identifier> advMagnetQuests = QuestData.getQuestsForItem(advancedMagnet);
+		Assertions.assertNotNull(advMagnetQuests, "Advanced magnet should be gated");
+		Assertions.assertTrue(advMagnetQuests.contains(Identifier.parse("rework:diamond/complete_category")), "Advanced magnet should require Netherite Completionist");
+
+		Identifier advancedCoil = Identifier.parse("simplemagnets:advanced_demagnetization_coil");
+		List<Identifier> advCoilQuests = QuestData.getQuestsForItem(advancedCoil);
+		Assertions.assertNotNull(advCoilQuests, "Advanced demagnetization coil should be gated");
+		Assertions.assertTrue(advCoilQuests.contains(Identifier.parse("rework:end/advanced_magnet")), "Advanced coil should require Polar Reversal");
+		Assertions.assertEquals("Polar Reversal", QuestData.getQuestTitle(Identifier.parse("rework:end/advanced_magnet")));
+		Assertions.assertEquals("Questline VI", QuestData.getQuestCategory(Identifier.parse("rework:end/advanced_magnet")));
+
 		// Test multiline tooltip lines for single and multi-quest items
 		List<net.minecraft.network.chat.Component> singleQuestLines = QuestData.getQuestTooltipLines(anvilQuests, false);
 		Assertions.assertEquals(2, singleQuestLines.size(), "Single quest should have 2 lines (state + quest)");

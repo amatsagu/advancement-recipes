@@ -166,7 +166,9 @@
     "rework:stone/backpack": "On Your Back",
     "rework:stone/hearty_meal": "Hearty Lunch",
     "rework:copper/pot_cooking": "Home Cooking",
-    "rework:iron/grand_feast": "Grand Feast"
+    "rework:iron/grand_feast": "Grand Feast",
+    "rework:iron/basic_magnet": "Attraction",
+    "rework:end/advanced_magnet": "Polar Reversal"
   },
   "recipe_to_quest": {
     "minecraft:dried_kelp": "rework:stone/deep_ocean_by_boat",
@@ -1898,7 +1900,11 @@
     "farmersdelight:white_hanging_canvas_sign": "rework:wood/seeds",
     "farmersdelight:wooden_basket": "rework:wood/seeds",
     "farmersdelight:yellow_canvas_sign": "rework:wood/seeds",
-    "farmersdelight:yellow_hanging_canvas_sign": "rework:wood/seeds"
+    "farmersdelight:yellow_hanging_canvas_sign": "rework:wood/seeds",
+    "simplemagnets:basicmagnet": "rework:copper/complete_category",
+    "simplemagnets:basic_demagnetization_coil": "rework:iron/basic_magnet",
+    "simplemagnets:advancedmagnet": "rework:diamond/complete_category",
+    "simplemagnets:advanced_demagnetization_coil": "rework:end/advanced_magnet"
   },
   "item_to_quests": {
     "minecraft:dried_kelp": [
@@ -5931,6 +5937,18 @@
     ],
     "farmersdelight:yellow_hanging_canvas_sign": [
       "rework:wood/seeds"
+    ],
+    "simplemagnets:basicmagnet": [
+      "rework:copper/complete_category"
+    ],
+    "simplemagnets:basic_demagnetization_coil": [
+      "rework:iron/basic_magnet"
+    ],
+    "simplemagnets:advancedmagnet": [
+      "rework:diamond/complete_category"
+    ],
+    "simplemagnets:advanced_demagnetization_coil": [
+      "rework:end/advanced_magnet"
     ]
   }
 }

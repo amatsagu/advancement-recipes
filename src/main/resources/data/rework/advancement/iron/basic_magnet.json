@@ -1,0 +1,49 @@
+{
+  "parent": "rework:iron/root",
+  "criteria": {
+    "has_magnet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "simplemagnets:basicmagnet"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft or obtain a Magnet."
+    },
+    "icon": {
+      "count": 1,
+      "id": "simplemagnets:basicmagnet"
+    },
+    "show_toast": true,
+    "title": "Attraction"
+  },
+  "requirements": [
+    [
+      "has_magnet"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "simplemagnets:basic_demagnetization_coil"
+    ]
+  }
+}

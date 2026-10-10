@@ -350,7 +350,8 @@
       "nemos_backpacks:yellow_iron_backpack_smithing",
       "farmersdelight:iron_knife",
       "farmersdelight:iron_nugget_from_blasting_knife",
-      "farmersdelight:iron_nugget_from_smelting_knife"
+      "farmersdelight:iron_nugget_from_smelting_knife",
+      "simplemagnets:basicmagnet"
     ]
   }
 }

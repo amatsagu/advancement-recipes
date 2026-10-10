@@ -1,0 +1,49 @@
+{
+  "parent": "rework:end/stronghold",
+  "criteria": {
+    "has_advanced_magnet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:end/stronghold": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "simplemagnets:advancedmagnet"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "text": "Upgrade to an Advanced Magnet."
+    },
+    "icon": {
+      "count": 1,
+      "id": "simplemagnets:advancedmagnet"
+    },
+    "show_toast": true,
+    "title": "Polar Reversal"
+  },
+  "requirements": [
+    [
+      "has_advanced_magnet"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "simplemagnets:advanced_demagnetization_coil"
+    ]
+  }
+}

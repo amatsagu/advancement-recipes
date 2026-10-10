@@ -5,16 +5,16 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:iron/root": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            }
+          }
+        },
         "items": [
           {
             "items": "minecraft:diamond"

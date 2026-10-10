@@ -463,3 +463,7 @@ recipe give @s[advancements={rework:wood/seeds=true}] farmersdelight:wooden_bask
 recipe give @s[advancements={rework:wood/seeds=true}] farmersdelight:yellow_canvas_sign
 recipe give @s[advancements={rework:wood/seeds=true}] farmersdelight:yellow_hanging_canvas_sign
 recipe give @s[advancements={rework:wood/stone=true}] farmersdelight:flint_knife
+recipe give @s[advancements={rework:copper/complete_category=true}] simplemagnets:basicmagnet
+recipe give @s[advancements={rework:iron/basic_magnet=true}] simplemagnets:basic_demagnetization_coil
+recipe give @s[advancements={rework:diamond/complete_category=true}] simplemagnets:advancedmagnet
+recipe give @s[advancements={rework:end/advanced_magnet=true}] simplemagnets:advanced_demagnetization_coil

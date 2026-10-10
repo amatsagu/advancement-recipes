@@ -5,15 +5,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:end/get_dragon_breath": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:end/get_dragon_breath": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -21,15 +21,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:end/chorus_flower": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:end/chorus_flower": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -37,15 +37,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:end/get_elytra": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:end/get_elytra": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -53,15 +53,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:end/levitation": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:end/levitation": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -69,15 +69,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:end/dragon_head": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:end/dragon_head": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -85,15 +85,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:end/kill_endermite": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:end/kill_endermite": true
+              }
             }
-  }
-}
+          }
         }
       }
     },
@@ -101,15 +101,31 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:end/netherite_armor": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:end/netherite_armor": true
+              }
             }
-  }
-}
+          }
+        }
+      }
+    },
+    "goal8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:end/advanced_magnet": true
+              }
+            }
+          }
         }
       }
     }
@@ -148,6 +164,9 @@
     ],
     [
       "goal7"
+    ],
+    [
+      "goal8"
     ]
   ],
   "rewards": {

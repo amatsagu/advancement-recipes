@@ -352,6 +352,22 @@
           }
         }
       }
+    },
+    "goal25": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/basic_magnet": true
+              }
+            }
+          }
+        }
+      }
     }
   },
   "display": {
@@ -433,6 +449,9 @@
     ],
     [
       "goal24"
+    ],
+    [
+      "goal25"
     ]
   ],
   "rewards": {
