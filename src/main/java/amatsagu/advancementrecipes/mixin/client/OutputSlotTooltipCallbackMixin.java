@@ -31,11 +31,8 @@ public class OutputSlotTooltipCallbackMixin {
 		Identifier questId = QuestData.getQuestForRecipe(recipeId);
 		if (questId != null) {
 			boolean completed = QuestData.isQuestCompleted(questId);
-			String formattedQuest = QuestData.formatQuestWithCategory(questId);
-			if (!completed) {
-				tooltip.add(Component.literal("§cLocked: Requires Quest " + formattedQuest));
-			} else {
-				tooltip.add(Component.literal("§7Unlocked by Quest: " + formattedQuest));
+			for (Component line : QuestData.getRecipeTooltipLines(questId, completed)) {
+				tooltip.add(line);
 			}
 		} else {
 			tooltip.add(Component.literal("§7Unlocked by default"));

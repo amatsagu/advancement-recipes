@@ -8,6 +8,7 @@ import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientAdvancements;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -166,5 +167,41 @@ public class QuestData {
 			return formatQuestWithCategory(questIds.get(0)) + " or " + formatQuestWithCategory(questIds.get(1));
 		}
 		return formatQuestWithCategory(questIds.get(0)) + " (or alternative quests)";
+	}
+
+	public static List<Component> getQuestTooltipLines(List<Identifier> questIds, boolean unlocked) {
+		List<Component> lines = new ArrayList<>();
+		if (questIds == null || questIds.isEmpty()) {
+			lines.add(Component.literal("§7Unlocked by default"));
+			return lines;
+		}
+
+		String prefixColor = unlocked ? "§7" : "§c";
+		String header;
+		if (unlocked) {
+			header = questIds.size() == 1 ? "Unlocked - completed quest:" : "Unlocked - completed quest path:";
+		} else {
+			header = questIds.size() == 1 ? "Usage or recipe blocked - finish quest:" : "Usage or recipe blocked - finish either of the quests:";
+		}
+		lines.add(Component.literal(prefixColor + header));
+
+		for (Identifier qId : questIds) {
+			lines.add(Component.literal(prefixColor + "  • " + formatQuestWithCategory(qId)));
+		}
+		return lines;
+	}
+
+	public static List<Component> getRecipeTooltipLines(Identifier questId, boolean unlocked) {
+		List<Component> lines = new ArrayList<>();
+		if (questId == null) {
+			lines.add(Component.literal("§7Unlocked by default"));
+			return lines;
+		}
+
+		String prefixColor = unlocked ? "§7" : "§c";
+		String header = unlocked ? "Unlocked - completed quest:" : "Usage or recipe blocked - finish quest:";
+		lines.add(Component.literal(prefixColor + header));
+		lines.add(Component.literal(prefixColor + "  • " + formatQuestWithCategory(questId)));
+		return lines;
 	}
 }

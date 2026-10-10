@@ -31,10 +31,8 @@ public class IngredientGridTooltipHelperMixin {
 			List<Identifier> questIds = QuestData.getQuestsForItem(itemId);
 			if (questIds != null && !questIds.isEmpty()) {
 				boolean unlocked = QuestData.isItemUnlocked(itemId);
-				if (!unlocked) {
-					tooltip.add(Component.literal("§cLocked: Requires Quest " + QuestData.formatQuestList(questIds)));
-				} else {
-					tooltip.add(Component.literal("§7Unlocked by Quest: " + QuestData.formatQuestList(questIds)));
+				for (Component line : QuestData.getQuestTooltipLines(questIds, unlocked)) {
+					tooltip.add(line);
 				}
 			} else {
 				tooltip.add(Component.literal("§7Unlocked by default"));

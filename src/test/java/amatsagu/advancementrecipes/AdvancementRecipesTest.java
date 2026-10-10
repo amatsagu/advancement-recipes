@@ -88,5 +88,22 @@ public class AdvancementRecipesTest {
 		List<Identifier> netheriteQuests = QuestData.getQuestsForItem(netheriteBackpack);
 		Assertions.assertNotNull(netheriteQuests, "Netherite backpack should be gated");
 		Assertions.assertTrue(netheriteQuests.contains(Identifier.parse("rework:diamond/complete_category")), "Netherite backpack should require Netherite Completionist");
+
+		// Test multiline tooltip lines for single and multi-quest items
+		List<net.minecraft.network.chat.Component> singleQuestLines = QuestData.getQuestTooltipLines(anvilQuests, false);
+		Assertions.assertEquals(2, singleQuestLines.size(), "Single quest should have 2 lines (state + quest)");
+		Assertions.assertTrue(singleQuestLines.get(0).getString().contains("Usage or recipe blocked - finish quest:"));
+		Assertions.assertTrue(singleQuestLines.get(1).getString().contains("•"));
+		Assertions.assertTrue(singleQuestLines.get(1).getString().contains("Heavy Metal"));
+
+		Identifier leatherHorseArmor = Identifier.parse("minecraft:leather_horse_armor");
+		List<Identifier> multiQuests = QuestData.getQuestsForItem(leatherHorseArmor);
+		Assertions.assertNotNull(multiQuests);
+		Assertions.assertTrue(multiQuests.size() >= 2);
+		List<net.minecraft.network.chat.Component> multiQuestLines = QuestData.getQuestTooltipLines(multiQuests, false);
+		Assertions.assertEquals(1 + multiQuests.size(), multiQuestLines.size(), "Multiple quests should have header + 1 line per quest");
+		Assertions.assertTrue(multiQuestLines.get(0).getString().contains("Usage or recipe blocked - finish either of the quests:"));
+		Assertions.assertTrue(multiQuestLines.get(1).getString().contains("•"));
+		Assertions.assertTrue(multiQuestLines.get(2).getString().contains("•"));
 	}
 }
