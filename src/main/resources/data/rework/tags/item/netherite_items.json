@@ -10,6 +10,8 @@
     "minecraft:netherite_pickaxe",
     "minecraft:netherite_shovel",
     "minecraft:netherite_spear",
-    "minecraft:netherite_sword"
+    "minecraft:netherite_sword",
+    "minecraft:netherite_horse_armor",
+    "minecraft:netherite_nautilus_armor"
   ]
 }

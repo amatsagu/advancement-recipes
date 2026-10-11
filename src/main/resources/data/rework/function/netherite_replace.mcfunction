@@ -8,5 +8,7 @@ $item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"i
 $item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "minecraft:netherite_chestplate"}, "on_pass": { "type": "minecraft:set_item", "item": "minecraft:diamond_chestplate" }}
 $item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "minecraft:netherite_leggings"}, "on_pass": { "type": "minecraft:set_item", "item": "minecraft:diamond_leggings" }}
 $item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "minecraft:netherite_boots"}, "on_pass": { "type": "minecraft:set_item", "item": "minecraft:diamond_boots" }}
+$item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "minecraft:netherite_horse_armor"}, "on_pass": { "type": "minecraft:set_item", "item": "minecraft:diamond_horse_armor" }}
+$item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "minecraft:netherite_nautilus_armor"}, "on_pass": { "type": "minecraft:set_item", "item": "minecraft:diamond_nautilus_armor" }}
 give @s netherite_upgrade_smithing_template 1
 give @s netherite_ingot 1

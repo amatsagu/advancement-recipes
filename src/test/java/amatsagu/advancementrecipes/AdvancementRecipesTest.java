@@ -312,6 +312,44 @@ public class AdvancementRecipesTest {
 		Identifier advWirelessTerminal = Identifier.parse("toms_storage:adv_wireless_terminal");
 		Assertions.assertEquals(Identifier.parse("rework:diamond/complete_category"), QuestData.getQuestForRecipe(advWirelessTerminal));
 		Assertions.assertTrue(QuestData.getQuestsForItem(advWirelessTerminal).contains(Identifier.parse("rework:diamond/complete_category")));
+
+		Identifier terracotta = Identifier.parse("minecraft:terracotta");
+		Assertions.assertEquals(Identifier.parse("rework:stone/archeology"), QuestData.getQuestForRecipe(terracotta));
+		Assertions.assertTrue(QuestData.getQuestsForItem(terracotta).contains(Identifier.parse("rework:stone/archeology")));
+		Assertions.assertEquals("trail_ruins", QuestData.getQuestTitle(Identifier.parse("rework:copper/trail_ruins")));
+		Assertions.assertEquals("trail_ruins_trims", QuestData.getQuestTitle(Identifier.parse("rework:copper/trail_ruins_trims")));
+
+		Identifier netheriteSword = Identifier.parse("minecraft:netherite_sword");
+		Assertions.assertTrue(QuestData.getQuestsForItem(netheriteSword).contains(Identifier.parse("rework:diamond/complete_category")));
+		Assertions.assertEquals(Identifier.parse("rework:diamond/complete_category"), QuestData.getQuestForRecipe(Identifier.parse("minecraft:netherite_sword_smithing")));
+
+		Identifier netheritePickaxe = Identifier.parse("minecraft:netherite_pickaxe");
+		Assertions.assertTrue(QuestData.getQuestsForItem(netheritePickaxe).contains(Identifier.parse("rework:diamond/complete_category")));
+		Assertions.assertEquals(Identifier.parse("rework:diamond/complete_category"), QuestData.getQuestForRecipe(Identifier.parse("minecraft:netherite_pickaxe_smithing")));
+
+		Identifier netheriteChestplate = Identifier.parse("minecraft:netherite_chestplate");
+		Assertions.assertTrue(QuestData.getQuestsForItem(netheriteChestplate).contains(Identifier.parse("rework:diamond/complete_category")));
+		Assertions.assertEquals(Identifier.parse("rework:diamond/complete_category"), QuestData.getQuestForRecipe(Identifier.parse("minecraft:netherite_chestplate_smithing")));
+
+		Identifier netheriteHelmet = Identifier.parse("minecraft:netherite_helmet");
+		Assertions.assertTrue(QuestData.getQuestsForItem(netheriteHelmet).contains(Identifier.parse("rework:diamond/complete_category")));
+		Assertions.assertEquals(Identifier.parse("rework:diamond/complete_category"), QuestData.getQuestForRecipe(Identifier.parse("minecraft:netherite_helmet_smithing")));
+
+		Identifier netheriteLeggings = Identifier.parse("minecraft:netherite_leggings");
+		Assertions.assertTrue(QuestData.getQuestsForItem(netheriteLeggings).contains(Identifier.parse("rework:diamond/complete_category")));
+		Assertions.assertEquals(Identifier.parse("rework:diamond/complete_category"), QuestData.getQuestForRecipe(Identifier.parse("minecraft:netherite_leggings_smithing")));
+
+		Identifier netheriteBoots = Identifier.parse("minecraft:netherite_boots");
+		Assertions.assertTrue(QuestData.getQuestsForItem(netheriteBoots).contains(Identifier.parse("rework:diamond/complete_category")));
+		Assertions.assertEquals(Identifier.parse("rework:diamond/complete_category"), QuestData.getQuestForRecipe(Identifier.parse("minecraft:netherite_boots_smithing")));
+
+		Identifier netheriteSpear = Identifier.parse("minecraft:netherite_spear");
+		Assertions.assertTrue(QuestData.getQuestsForItem(netheriteSpear).contains(Identifier.parse("rework:diamond/complete_category")));
+		Assertions.assertEquals(Identifier.parse("rework:diamond/complete_category"), QuestData.getQuestForRecipe(Identifier.parse("minecraft:netherite_spear_smithing")));
+
+		Identifier netheriteHorseArmor = Identifier.parse("minecraft:netherite_horse_armor");
+		Assertions.assertTrue(QuestData.getQuestsForItem(netheriteHorseArmor).contains(Identifier.parse("rework:diamond/complete_category")));
+		Assertions.assertEquals(Identifier.parse("rework:diamond/complete_category"), QuestData.getQuestForRecipe(Identifier.parse("minecraft:netherite_horse_armor_smithing")));
 	}
 
 	@Test

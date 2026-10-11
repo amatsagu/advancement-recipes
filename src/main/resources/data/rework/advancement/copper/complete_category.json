@@ -193,22 +193,6 @@
         }
       }
     },
-    "goal19": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "rework:copper/trail_ruins_trims": true
-              }
-            }
-          }
-        }
-      }
-    },
     "goal20": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -275,9 +259,6 @@
     ],
     [
       "goal18"
-    ],
-    [
-      "goal19"
     ],
     [
       "goal20"

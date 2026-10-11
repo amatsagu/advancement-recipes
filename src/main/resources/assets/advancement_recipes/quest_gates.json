@@ -49,10 +49,8 @@
     "rework:copper/kill_mob_with_arrow": "Take Aim",
     "rework:copper/root": "Questline III",
     "rework:copper/lava": "Hot Stuff",
-    "rework:copper/trail_ruins": "Respecting the Remnants",
     "rework:copper/saddle_up": "Saddle Up",
     "rework:copper/honeycomb": "It Ain't Much But It's Honest Work",
-    "rework:copper/trail_ruins_trims": "Timeless Fashion",
     "rework:copper/trial_chambers": "Minecraft Trial(s) Edition",
     "rework:copper/wolf_armor": "Armored Paws",
     "rework:copper/scrape_copper_golem_statue": "Rebooted",
@@ -485,6 +483,18 @@
     "minecraft:netherite_ingot": "rework:diamond/complete_category",
     "minecraft:netherite_scrap": "rework:diamond/complete_category",
     "minecraft:netherite_scrap_from_blasting": "rework:diamond/complete_category",
+    "minecraft:netherite_axe_smithing": "rework:diamond/complete_category",
+    "minecraft:netherite_boots_smithing": "rework:diamond/complete_category",
+    "minecraft:netherite_chestplate_smithing": "rework:diamond/complete_category",
+    "minecraft:netherite_helmet_smithing": "rework:diamond/complete_category",
+    "minecraft:netherite_hoe_smithing": "rework:diamond/complete_category",
+    "minecraft:netherite_horse_armor_smithing": "rework:diamond/complete_category",
+    "minecraft:netherite_leggings_smithing": "rework:diamond/complete_category",
+    "minecraft:netherite_nautilus_armor_smithing": "rework:diamond/complete_category",
+    "minecraft:netherite_pickaxe_smithing": "rework:diamond/complete_category",
+    "minecraft:netherite_shovel_smithing": "rework:diamond/complete_category",
+    "minecraft:netherite_spear_smithing": "rework:diamond/complete_category",
+    "minecraft:netherite_sword_smithing": "rework:diamond/complete_category",
     "minecraft:resin_brick": "rework:diamond/place_creaking_heart",
     "minecraft:resin_brick_slab": "rework:diamond/place_creaking_heart",
     "minecraft:resin_brick_stairs": "rework:diamond/place_creaking_heart",
@@ -508,39 +518,39 @@
     "minecraft:tipped_arrow": "rework:copper/kill_mob_with_arrow",
     "minecraft:fletching_table": "rework:copper/kill_mob_with_arrow",
     "minecraft:flint_and_steel": "rework:copper/lava",
-    "minecraft:black_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:black_terracotta": "rework:copper/trail_ruins",
-    "minecraft:blue_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:blue_terracotta": "rework:copper/trail_ruins",
-    "minecraft:brown_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:brown_terracotta": "rework:copper/trail_ruins",
-    "minecraft:cyan_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:cyan_terracotta": "rework:copper/trail_ruins",
-    "minecraft:gray_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:gray_terracotta": "rework:copper/trail_ruins",
-    "minecraft:green_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:green_terracotta": "rework:copper/trail_ruins",
-    "minecraft:light_blue_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:light_blue_terracotta": "rework:copper/trail_ruins",
-    "minecraft:light_gray_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:light_gray_terracotta": "rework:copper/trail_ruins",
-    "minecraft:lime_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:lime_terracotta": "rework:copper/trail_ruins",
-    "minecraft:magenta_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:magenta_terracotta": "rework:copper/trail_ruins",
-    "minecraft:orange_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:orange_terracotta": "rework:copper/trail_ruins",
-    "minecraft:pink_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:pink_terracotta": "rework:copper/trail_ruins",
-    "minecraft:purple_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:purple_terracotta": "rework:copper/trail_ruins",
-    "minecraft:red_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:red_terracotta": "rework:copper/trail_ruins",
-    "minecraft:terracotta": "rework:copper/trail_ruins",
-    "minecraft:white_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:white_terracotta": "rework:copper/trail_ruins",
-    "minecraft:yellow_glazed_terracotta": "rework:copper/trail_ruins",
-    "minecraft:yellow_terracotta": "rework:copper/trail_ruins",
+    "minecraft:black_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:black_terracotta": "rework:stone/archeology",
+    "minecraft:blue_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:blue_terracotta": "rework:stone/archeology",
+    "minecraft:brown_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:brown_terracotta": "rework:stone/archeology",
+    "minecraft:cyan_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:cyan_terracotta": "rework:stone/archeology",
+    "minecraft:gray_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:gray_terracotta": "rework:stone/archeology",
+    "minecraft:green_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:green_terracotta": "rework:stone/archeology",
+    "minecraft:light_blue_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:light_blue_terracotta": "rework:stone/archeology",
+    "minecraft:light_gray_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:light_gray_terracotta": "rework:stone/archeology",
+    "minecraft:lime_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:lime_terracotta": "rework:stone/archeology",
+    "minecraft:magenta_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:magenta_terracotta": "rework:stone/archeology",
+    "minecraft:orange_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:orange_terracotta": "rework:stone/archeology",
+    "minecraft:pink_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:pink_terracotta": "rework:stone/archeology",
+    "minecraft:purple_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:purple_terracotta": "rework:stone/archeology",
+    "minecraft:red_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:red_terracotta": "rework:stone/archeology",
+    "minecraft:terracotta": "rework:stone/archeology",
+    "minecraft:white_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:white_terracotta": "rework:stone/archeology",
+    "minecraft:yellow_glazed_terracotta": "rework:stone/archeology",
+    "minecraft:yellow_terracotta": "rework:stone/archeology",
     "minecraft:leather_horse_armor": "rework:copper/saddle_up",
     "minecraft:carrot_on_a_stick": "rework:copper/saddle_up",
     "minecraft:honeycomb_block": "rework:copper/honeycomb",
@@ -2912,6 +2922,42 @@
     "minecraft:netherite_scrap": [
       "rework:diamond/complete_category"
     ],
+    "minecraft:netherite_axe": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_boots": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_chestplate": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_helmet": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_hoe": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_horse_armor": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_leggings": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_nautilus_armor": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_pickaxe": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_shovel": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_spear": [
+      "rework:diamond/complete_category"
+    ],
+    "minecraft:netherite_sword": [
+      "rework:diamond/complete_category"
+    ],
     "minecraft:resin_brick": [
       "rework:diamond/place_creaking_heart"
     ],
@@ -2976,103 +3022,103 @@
       "rework:copper/lava"
     ],
     "minecraft:black_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:black_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:blue_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:blue_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:brown_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:brown_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:cyan_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:cyan_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:gray_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:gray_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:green_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:green_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:light_blue_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:light_blue_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:light_gray_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:light_gray_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:lime_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:lime_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:magenta_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:magenta_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:orange_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:orange_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:pink_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:pink_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:purple_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:purple_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:red_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:red_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:white_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:white_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:yellow_glazed_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:yellow_terracotta": [
-      "rework:copper/trail_ruins"
+      "rework:stone/archeology"
     ],
     "minecraft:leather_horse_armor": [
       "rework:copper/saddle_up",
