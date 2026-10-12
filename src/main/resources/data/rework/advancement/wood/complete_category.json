@@ -1,101 +1,8 @@
 {
   "parent": "rework:wood/root",
   "criteria": {
-    "goal1": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:wood/breed": true
-            }
-  }
-}
-        }
-      }
-    },
-    "goal2": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:wood/fancy_stone": true
-            }
-  }
-}
-        }
-      }
-    },
-    "goal3": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:wood/item_frame": true
-            }
-  }
-}
-        }
-      }
-    },
-    "goal4": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:wood/get_wool": true
-            }
-  }
-}
-        }
-      }
-    },
-    "goal5": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:wood/pumpkin_pie": true
-            }
-  }
-}
-        }
-      }
-    },
-    "goal6": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:wood/torch": true
-            }
-  }
-}
-        }
-      }
+    "default": {
+      "trigger": "minecraft:impossible"
     }
   },
   "display": {
@@ -113,22 +20,7 @@
   },
   "requirements": [
     [
-      "goal1"
-    ],
-    [
-      "goal2"
-    ],
-    [
-      "goal3"
-    ],
-    [
-      "goal4"
-    ],
-    [
-      "goal5"
-    ],
-    [
-      "goal6"
+      "default"
     ]
   ],
   "rewards": {

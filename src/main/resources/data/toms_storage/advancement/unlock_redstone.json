@@ -1,8 +1,14 @@
 {
+  "parent": "minecraft:recipes/root",
   "criteria": {
-    "default": {
-      "trigger": "minecraft:tick",
+    "inv_changed-redstone": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
+        "items": [
+          {
+            "items": "redstone"
+          }
+        ],
         "player": {
           "type": "minecraft:entity_properties",
           "entity": "this",
@@ -17,11 +23,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "default"
-    ]
-  ],
   "rewards": {
     "recipes": [
       "toms_storage:level_emitter",
@@ -29,5 +30,10 @@
       "toms_storage:tag_item_filter",
       "toms_storage:poly_item_filter"
     ]
-  }
+  },
+  "requirements": [
+    [
+      "inv_changed-redstone"
+    ]
+  ]
 }

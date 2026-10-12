@@ -1,8 +1,14 @@
 {
+  "parent": "minecraft:recipes/root",
   "criteria": {
-    "default": {
-      "trigger": "minecraft:tick",
+    "inv_changed-netherite": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
+        "items": [
+          {
+            "items": "netherite_ingot"
+          }
+        ],
         "player": {
           "type": "minecraft:entity_properties",
           "entity": "this",
@@ -17,14 +23,14 @@
       }
     }
   },
-  "requirements": [
-    [
-      "default"
-    ]
-  ],
   "rewards": {
     "recipes": [
       "toms_storage:adv_wireless_terminal"
     ]
-  }
+  },
+  "requirements": [
+    [
+      "inv_changed-netherite"
+    ]
+  ]
 }

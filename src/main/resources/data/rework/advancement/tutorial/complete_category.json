@@ -1,37 +1,8 @@
 {
   "parent": "rework:tutorial/root",
   "criteria": {
-    "goal1": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:tutorial/dirt": true
-            }
-  }
-}
-        }
-      }
-    },
-    "goal2": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:tutorial/plant_sapling": true
-            }
-  }
-}
-        }
-      }
+    "default": {
+      "trigger": "minecraft:impossible"
     }
   },
   "display": {
@@ -49,10 +20,7 @@
   },
   "requirements": [
     [
-      "goal1"
-    ],
-    [
-      "goal2"
+      "default"
     ]
   ],
   "rewards": {

@@ -1,7 +1,7 @@
 {
   "criteria": {
     "default": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:impossible"
     }
   },
   "display": {

@@ -1,20 +1,7 @@
 {
   "criteria": {
     "default": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:copper/complete_category": true
-            }
-  }
-}
-        }
-      }
+      "trigger": "minecraft:impossible"
     }
   },
   "display": {

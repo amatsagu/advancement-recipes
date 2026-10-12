@@ -1,8 +1,35 @@
 {
+  "parent": "minecraft:recipes/root",
   "criteria": {
-    "default": {
-      "trigger": "minecraft:tick",
+    "inv_changed-ender_pearl": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
+        "items": [
+          {
+            "items": "ender_pearl"
+          }
+        ],
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/root": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "inv_changed-diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond"
+          }
+        ],
         "player": {
           "type": "minecraft:entity_properties",
           "entity": "this",
@@ -17,11 +44,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "default"
-    ]
-  ],
   "rewards": {
     "recipes": [
       "toms_storage:inventory_cable_connector",
@@ -31,5 +53,11 @@
       "toms_storage:inventory_interface",
       "toms_storage:wireless_terminal"
     ]
-  }
+  },
+  "requirements": [
+    [
+      "inv_changed-ender_pearl",
+      "inv_changed-diamond"
+    ]
+  ]
 }

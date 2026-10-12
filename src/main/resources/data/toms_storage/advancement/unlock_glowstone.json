@@ -1,8 +1,14 @@
 {
+  "parent": "minecraft:recipes/root",
   "criteria": {
-    "default": {
-      "trigger": "minecraft:tick",
+    "inv_changed-glowstone": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
+        "items": [
+          {
+            "items": "glowstone_dust"
+          }
+        ],
         "player": {
           "type": "minecraft:entity_properties",
           "entity": "this",
@@ -17,15 +23,15 @@
       }
     }
   },
-  "requirements": [
-    [
-      "default"
-    ]
-  ],
   "rewards": {
     "recipes": [
       "toms_storage:storage_terminal",
       "toms_storage:crafting_terminal"
     ]
-  }
+  },
+  "requirements": [
+    [
+      "inv_changed-glowstone"
+    ]
+  ]
 }

@@ -1,0 +1,122 @@
+{
+  "categories": [
+    {
+      "category": "rework:tutorial/complete_category",
+      "root": "rework:tutorial/root",
+      "goals": [
+        "rework:tutorial/dirt",
+        "rework:tutorial/plant_sapling"
+      ]
+    },
+    {
+      "category": "rework:wood/complete_category",
+      "root": "rework:wood/root",
+      "goals": [
+        "rework:wood/breed",
+        "rework:wood/fancy_stone",
+        "rework:wood/item_frame",
+        "rework:wood/get_wool",
+        "rework:wood/pumpkin_pie",
+        "rework:wood/torch"
+      ]
+    },
+    {
+      "category": "rework:stone/complete_category",
+      "root": "rework:stone/root",
+      "goals": [
+        "rework:stone/catch_pufferfish",
+        "rework:stone/craft_bundle",
+        "rework:stone/craft_fermented_spider_eye",
+        "rework:stone/archeology",
+        "rework:stone/deep_ocean_by_boat",
+        "rework:stone/eat_stew",
+        "rework:stone/find_buried_treasure",
+        "rework:stone/lightning_rod",
+        "rework:stone/make_mud",
+        "rework:stone/kill_creeper",
+        "rework:stone/tame_wolf",
+        "rework:stone/slide_honey_block",
+        "rework:stone/backpack",
+        "rework:stone/hearty_meal"
+      ]
+    },
+    {
+      "category": "rework:copper/complete_category",
+      "root": "rework:copper/root",
+      "goals": [
+        "rework:copper/axolotl_bucket",
+        "rework:copper/blast_furnace",
+        "rework:copper/kill_pillager",
+        "rework:copper/eat_glow_berries",
+        "rework:copper/get_nautilus_armor",
+        "rework:copper/lava",
+        "rework:copper/trial_chambers",
+        "rework:copper/scrape_copper_golem_statue",
+        "rework:copper/summon_iron_golem",
+        "rework:copper/wax_sign",
+        "rework:copper/wolf_armor",
+        "rework:copper/get_goat_horn",
+        "rework:copper/pot_cooking"
+      ]
+    },
+    {
+      "category": "rework:iron/complete_category",
+      "root": "rework:iron/root",
+      "goals": [
+        "rework:iron/brew_healing_potion",
+        "rework:iron/harness",
+        "rework:iron/duplicate_trim",
+        "rework:iron/get_wither_skull",
+        "rework:iron/look_at_enderman",
+        "rework:iron/minecart",
+        "rework:iron/cake_on_noteblock",
+        "rework:iron/get_snout_armor_trim",
+        "rework:iron/turtle_helmet",
+        "rework:iron/swim_lava",
+        "rework:iron/breed_pandas",
+        "rework:iron/write_book",
+        "rework:iron/use_golden_dandelion",
+        "rework:iron/all_froglight",
+        "rework:iron/witch_hut",
+        "rework:iron/conduit",
+        "rework:iron/tnt_sulfur_cube",
+        "rework:iron/ride_strider",
+        "rework:iron/sponge",
+        "rework:iron/use_lodestone",
+        "rework:iron/enchant",
+        "rework:iron/grand_feast",
+        "rework:iron/basic_magnet"
+      ]
+    },
+    {
+      "category": "rework:diamond/complete_category",
+      "root": "rework:diamond/root",
+      "goals": [
+        "rework:diamond/feed_snifflet",
+        "rework:diamond/kill_near_catalyst",
+        "rework:diamond/get_music_disc_5",
+        "rework:diamond/get_recovery_compass",
+        "rework:diamond/place_creaking_heart",
+        "rework:diamond/full_beacon",
+        "rework:diamond/mace_damage",
+        "rework:diamond/true_rarest_block",
+        "rework:diamond/creator_music_discs",
+        "rework:diamond/get_coral"
+      ]
+    },
+    {
+      "category": "rework:end/complete_category",
+      "root": "rework:end/root",
+      "goals": [
+        "rework:end/get_dragon_breath",
+        "rework:end/chorus_flower",
+        "rework:end/get_elytra",
+        "rework:end/levitation",
+        "rework:end/dragon_head",
+        "rework:end/kill_endermite",
+        "rework:end/netherite_armor",
+        "rework:end/advanced_magnet"
+      ]
+    }
+  ]
+}
