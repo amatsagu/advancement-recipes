@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/root": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "toms_storage:inventory_cable_connector",
+      "toms_storage:inventory_cable_connector_framed_clean",
+      "toms_storage:inventory_cable_connector_framed",
+      "toms_storage:inventory_connector",
+      "toms_storage:inventory_interface",
+      "toms_storage:wireless_terminal"
+    ]
+  }
+}

@@ -14,7 +14,7 @@
     "block": [
       {
         "namespace": "minecraft",
-        "path": "^advancement\/.*"
+        "path": "^advancement/recipes/(?!root(\\.json)?$).*"
       }
     ]
   }
