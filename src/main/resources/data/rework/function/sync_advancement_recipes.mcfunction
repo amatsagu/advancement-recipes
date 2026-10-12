@@ -1,6 +1,7 @@
-# Advancement Recipes v1.2 migration: re-grant every recipe for quests players may have already completed.
-# Runs once per player via rework:hidden/update_26_4 so existing saves keep all unlocks after the
-# v1.2 advancement-tree fix (modded recipe-unlock advancements now load correctly).
+# Advancement Recipes - universal recipe sync.
+# Invoked by AdvancementRecipes (Java) on every player join so a player's unlocked recipes
+# always match their advancement (quest) progress. Replaces the old per-update migration
+# functions (update_26_1/update_26_3/update_patch/update_tr).
 
 # rework:copper/armadillo_scute
 recipe give @s[advancements={rework:copper/armadillo_scute=true}] minecraft:wolf_armor
