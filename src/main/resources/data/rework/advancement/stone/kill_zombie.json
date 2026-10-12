@@ -5,28 +5,28 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/root": true
-						}
-					}
-				}
-			},
-        "entity":{
-            "type": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": [
-                "minecraft:zombie",
-                "minecraft:zombie_villager",
-                "minecraft:husk",
-                "minecraft:drowned"
-              ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/root": true
+              }
             }
           }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": [
+              "minecraft:zombie",
+              "minecraft:zombie_villager",
+              "minecraft:husk",
+              "minecraft:drowned"
+            ]
+          }
+        }
       }
     }
   },
@@ -67,7 +67,9 @@
       "minecraft:suspicious_stew_from_poppy",
       "minecraft:suspicious_stew_from_red_tulip",
       "minecraft:suspicious_stew_from_torchflower",
-      "minecraft:suspicious_stew_from_white_tulip"
+      "minecraft:suspicious_stew_from_white_tulip",
+      "farmersdelight:cooking/mushroom_stew",
+      "farmersdelight:cooking/rabbit_stew"
     ]
   }
 }

@@ -5,19 +5,19 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:iron/nether": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/nether": true
+              }
+            },
+            "location": {
+              "structures": "minecraft:fortress"
             }
-          },
-          "location": {
-            "structures": "minecraft:fortress"
           }
-  }
-}
+        }
       }
     }
   },
@@ -52,7 +52,15 @@
       "minecraft:red_nether_brick_slab",
       "minecraft:red_nether_brick_stairs",
       "minecraft:red_nether_brick_wall",
-      "minecraft:red_nether_bricks"
+      "minecraft:red_nether_bricks",
+      "farmersdelight:cutting/nether_bricks",
+      "minecraft:chiseled_nether_bricks_from_nether_bricks_stonecutting",
+      "minecraft:nether_brick_slab_from_nether_bricks_stonecutting",
+      "minecraft:nether_brick_stairs_from_nether_bricks_stonecutting",
+      "minecraft:nether_brick_wall_from_nether_bricks_stonecutting",
+      "minecraft:red_nether_brick_slab_from_red_nether_bricks_stonecutting",
+      "minecraft:red_nether_brick_stairs_from_red_nether_bricks_stonecutting",
+      "minecraft:red_nether_brick_wall_from_red_nether_bricks_stonecutting"
     ]
   }
 }

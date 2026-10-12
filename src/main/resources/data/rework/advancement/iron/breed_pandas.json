@@ -57,7 +57,8 @@
       "minecraft:bamboo_mosaic_stairs",
       "minecraft:scaffolding",
       "farmersdelight:bamboo_basket",
-      "farmersdelight:scaffolding_from_canvas"
+      "farmersdelight:scaffolding_from_canvas",
+      "farmersdelight:cutting/bamboo_basket"
     ]
   }
 }

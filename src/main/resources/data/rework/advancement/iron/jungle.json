@@ -51,7 +51,9 @@
       "farmersdelight:melon_popsicle",
       "farmersdelight:sweet_berry_cheesecake",
       "farmersdelight:sweet_berry_cheesecake_from_slices",
-      "farmersdelight:sweet_berry_cookie"
+      "farmersdelight:sweet_berry_cookie",
+      "farmersdelight:cutting/chocolate_pie",
+      "farmersdelight:cutting/sweet_berry_cheesecake"
     ]
   }
 }

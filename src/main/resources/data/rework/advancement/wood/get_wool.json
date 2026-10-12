@@ -309,8 +309,7 @@
       "minecraft:red_bed",
       "minecraft:white_bed",
       "minecraft:yellow_bed",
-      "minecraft:straw_bed",
-      "farmersdelight:painting_from_canvas"
+      "minecraft:straw_bed"
     ]
   }
 }

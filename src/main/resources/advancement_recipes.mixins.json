@@ -4,7 +4,16 @@
   "compatibilityLevel": "JAVA_25",
   "mixins": [
     "PackRepositoryMixin",
-    "PlayerAdvancementsMixin"
+    "PlayerAdvancementsMixin",
+    "BlockEntityOperatorMixin",
+    "BlockPlacementMixin",
+    "BaseContainerBlockEntityMixin",
+    "AbstractFurnaceBlockEntityMixin",
+    "CrafterBlockMixin",
+    "StonecutterMenuMixin",
+    "SmithingMenuMixin",
+    "ItemCombinerMenuAccessor",
+    "CampfireBlockMixin"
   ],
   "client": [
     "client.IngredientGridTooltipHelperMixin",

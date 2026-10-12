@@ -63,7 +63,10 @@
       "minecraft:mud_bricks",
       "minecraft:packed_mud",
       "minecraft:muddy_mangrove_roots",
-      "farmersdelight:packed_mud_from_straw"
+      "farmersdelight:packed_mud_from_straw",
+      "minecraft:mud_brick_slab_from_mud_bricks_stonecutting",
+      "minecraft:mud_brick_stairs_from_mud_bricks_stonecutting",
+      "minecraft:mud_brick_wall_from_mud_bricks_stonecutting"
     ]
   }
 }

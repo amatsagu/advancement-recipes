@@ -68,7 +68,32 @@
       "minecraft:poplar_button",
       "minecraft:spruce_button",
       "minecraft:stone_button",
-      "minecraft:lever"
+      "minecraft:lever",
+      "minecraft:chiseled_tuff_bricks_from_polished_tuff_stonecutting",
+      "minecraft:chiseled_tuff_bricks_from_tuff_bricks_stonecutting",
+      "minecraft:chiseled_tuff_bricks_from_tuff_stonecutting",
+      "minecraft:chiseled_tuff_from_tuff_stonecutting",
+      "minecraft:polished_tuff_from_tuff_stonecutting",
+      "minecraft:polished_tuff_slab_from_polished_tuff_stonecutting",
+      "minecraft:polished_tuff_slab_from_tuff_stonecutting",
+      "minecraft:polished_tuff_stairs_from_polished_tuff_stonecutting",
+      "minecraft:polished_tuff_stairs_from_tuff_stonecutting",
+      "minecraft:polished_tuff_wall_from_polished_tuff_stonecutting",
+      "minecraft:polished_tuff_wall_from_tuff_stonecutting",
+      "minecraft:tuff_brick_slab_from_polished_tuff_stonecutting",
+      "minecraft:tuff_brick_slab_from_tuff_bricks_stonecutting",
+      "minecraft:tuff_brick_slab_from_tuff_stonecutting",
+      "minecraft:tuff_brick_stairs_from_polished_tuff_stonecutting",
+      "minecraft:tuff_brick_stairs_from_tuff_bricks_stonecutting",
+      "minecraft:tuff_brick_stairs_from_tuff_stonecutting",
+      "minecraft:tuff_brick_wall_from_polished_tuff_stonecutting",
+      "minecraft:tuff_brick_wall_from_tuff_bricks_stonecutting",
+      "minecraft:tuff_brick_wall_from_tuff_stonecutting",
+      "minecraft:tuff_bricks_from_polished_tuff_stonecutting",
+      "minecraft:tuff_bricks_from_tuff_stonecutting",
+      "minecraft:tuff_slab_from_tuff_stonecutting",
+      "minecraft:tuff_stairs_from_tuff_stonecutting",
+      "minecraft:tuff_wall_from_tuff_stonecutting"
     ]
   }
 }

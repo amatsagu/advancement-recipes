@@ -92,7 +92,20 @@
       "farmersdelight:iron_nugget_from_blasting_knife",
       "farmersdelight:iron_nugget_from_smelting_knife",
       "simplemagnets:basicmagnet",
-      "storagedrawers:emerald_storage_upgrade"
+      "storagedrawers:emerald_storage_upgrade",
+      "nemos_upgrade_templates:iron_axe_smithing",
+      "nemos_upgrade_templates:iron_boots_smithing",
+      "nemos_upgrade_templates:iron_chestplate_smithing",
+      "nemos_upgrade_templates:iron_helmet_smithing",
+      "nemos_upgrade_templates:iron_hoe_smithing",
+      "nemos_upgrade_templates:iron_horse_armor_smithing",
+      "nemos_upgrade_templates:iron_leggings_smithing",
+      "nemos_upgrade_templates:iron_nautilus_armor_smithing",
+      "nemos_upgrade_templates:iron_pickaxe_smithing",
+      "nemos_upgrade_templates:iron_shovel_smithing",
+      "nemos_upgrade_templates:iron_spear_smithing",
+      "nemos_upgrade_templates:iron_sword_smithing",
+      "nemos_upgrade_templates:iron_upgrade_smithing_template"
     ]
   }
 }

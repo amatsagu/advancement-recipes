@@ -4,19 +4,19 @@
     "default": {
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:copper/root": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:copper/root": true
+              }
+            },
+            "location": {
+              "biomes": "minecraft:lush_caves"
             }
-          },
-          "location": {
-            "biomes": "minecraft:lush_caves"
           }
-  }
-}
+        }
       },
       "trigger": "minecraft:location"
     }
@@ -71,7 +71,68 @@
       "minecraft:polished_deepslate_slab",
       "minecraft:polished_deepslate_stairs",
       "minecraft:polished_deepslate_wall",
-      "minecraft:glow_item_frame"
+      "minecraft:glow_item_frame",
+      "farmersdelight:cutting/deepslate",
+      "minecraft:chiseled_deepslate_from_cobbled_deepslate_stonecutting",
+      "minecraft:chiseled_deepslate_from_deepslate_stonecutting",
+      "minecraft:cobbled_deepslate_from_deepslate_stonecutting",
+      "minecraft:cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting",
+      "minecraft:cobbled_deepslate_slab_from_deepslate_stonecutting",
+      "minecraft:cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting",
+      "minecraft:cobbled_deepslate_stairs_from_deepslate_stonecutting",
+      "minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting",
+      "minecraft:cobbled_deepslate_wall_from_deepslate_stonecutting",
+      "minecraft:deepslate_brick_slab_from_cobbled_deepslate_stonecutting",
+      "minecraft:deepslate_brick_slab_from_deepslate_bricks_stonecutting",
+      "minecraft:deepslate_brick_slab_from_deepslate_stonecutting",
+      "minecraft:deepslate_brick_slab_from_polished_deepslate_stonecutting",
+      "minecraft:deepslate_brick_stairs_from_cobbled_deepslate_stonecutting",
+      "minecraft:deepslate_brick_stairs_from_deepslate_bricks_stonecutting",
+      "minecraft:deepslate_brick_stairs_from_deepslate_stonecutting",
+      "minecraft:deepslate_brick_stairs_from_polished_deepslate_stonecutting",
+      "minecraft:deepslate_brick_wall_from_cobbled_deepslate_stonecutting",
+      "minecraft:deepslate_brick_wall_from_deepslate_bricks_stonecutting",
+      "minecraft:deepslate_brick_wall_from_deepslate_stonecutting",
+      "minecraft:deepslate_brick_wall_from_polished_deepslate_stonecutting",
+      "minecraft:deepslate_bricks_from_cobbled_deepslate_stonecutting",
+      "minecraft:deepslate_bricks_from_deepslate_stonecutting",
+      "minecraft:deepslate_bricks_from_polished_deepslate_stonecutting",
+      "minecraft:deepslate_tile_slab_from_cobbled_deepslate_stonecutting",
+      "minecraft:deepslate_tile_slab_from_deepslate_bricks_stonecutting",
+      "minecraft:deepslate_tile_slab_from_deepslate_stonecutting",
+      "minecraft:deepslate_tile_slab_from_deepslate_tiles_stonecutting",
+      "minecraft:deepslate_tile_slab_from_polished_deepslate_stonecutting",
+      "minecraft:deepslate_tile_stairs_from_cobbled_deepslate_stonecutting",
+      "minecraft:deepslate_tile_stairs_from_deepslate_bricks_stonecutting",
+      "minecraft:deepslate_tile_stairs_from_deepslate_stonecutting",
+      "minecraft:deepslate_tile_stairs_from_deepslate_tiles_stonecutting",
+      "minecraft:deepslate_tile_stairs_from_polished_deepslate_stonecutting",
+      "minecraft:deepslate_tile_wall_from_cobbled_deepslate_stonecutting",
+      "minecraft:deepslate_tile_wall_from_deepslate_bricks_stonecutting",
+      "minecraft:deepslate_tile_wall_from_deepslate_stonecutting",
+      "minecraft:deepslate_tile_wall_from_deepslate_tiles_stonecutting",
+      "minecraft:deepslate_tile_wall_from_polished_deepslate_stonecutting",
+      "minecraft:deepslate_tiles_from_cobbled_deepslate_stonecutting",
+      "minecraft:deepslate_tiles_from_deepslate_bricks_stonecutting",
+      "minecraft:deepslate_tiles_from_deepslate_stonecutting",
+      "minecraft:deepslate_tiles_from_polished_deepslate_stonecutting",
+      "minecraft:mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting",
+      "minecraft:mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting",
+      "minecraft:mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting",
+      "minecraft:mossy_stone_brick_slab_from_mossy_stone_bricks_stonecutting",
+      "minecraft:mossy_stone_brick_stairs_from_mossy_stone_bricks_stonecutting",
+      "minecraft:mossy_stone_brick_wall_from_mossy_stone_bricks_stonecutting",
+      "minecraft:polished_deepslate_from_cobbled_deepslate_stonecutting",
+      "minecraft:polished_deepslate_from_deepslate_stonecutting",
+      "minecraft:polished_deepslate_slab_from_cobbled_deepslate_stonecutting",
+      "minecraft:polished_deepslate_slab_from_deepslate_stonecutting",
+      "minecraft:polished_deepslate_slab_from_polished_deepslate_stonecutting",
+      "minecraft:polished_deepslate_stairs_from_cobbled_deepslate_stonecutting",
+      "minecraft:polished_deepslate_stairs_from_deepslate_stonecutting",
+      "minecraft:polished_deepslate_stairs_from_polished_deepslate_stonecutting",
+      "minecraft:polished_deepslate_wall_from_cobbled_deepslate_stonecutting",
+      "minecraft:polished_deepslate_wall_from_deepslate_stonecutting",
+      "minecraft:polished_deepslate_wall_from_polished_deepslate_stonecutting"
     ]
   }
 }

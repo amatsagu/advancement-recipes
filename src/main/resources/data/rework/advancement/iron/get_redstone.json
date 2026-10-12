@@ -93,7 +93,8 @@
       "storagedrawers:min_redstone_upgrade",
       "storagedrawers:redstone_upgrade",
       "toms_storage:item_filter",
-      "toms_storage:open_crate"
+      "toms_storage:open_crate",
+      "toms_storage:poly_item_filter"
     ]
   }
 }

@@ -4,16 +4,16 @@
     "default": {
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:diamond/kill_creaking": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/kill_creaking": true
+              }
+            }
+          }
+        },
         "location": {
           "type": "minecraft:any_of",
           "terms": [
@@ -310,7 +310,11 @@
       "minecraft:resin_brick_stairs",
       "minecraft:resin_brick_wall",
       "minecraft:resin_bricks",
-      "minecraft:chiseled_resin_bricks"
+      "minecraft:chiseled_resin_bricks",
+      "minecraft:chiseled_resin_bricks_from_resin_bricks_stonecutting",
+      "minecraft:resin_brick_slab_from_resin_bricks_stonecutting",
+      "minecraft:resin_brick_stairs_from_resin_bricks_stonecutting",
+      "minecraft:resin_brick_wall_from_resin_bricks_stonecutting"
     ]
   }
 }

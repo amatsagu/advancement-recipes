@@ -55,7 +55,10 @@
       "farmersdelight:cake_from_slices",
       "farmersdelight:pie_crust",
       "farmersdelight:pumpkin_pie_from_pie_crust",
-      "farmersdelight:pumpkin_pie_from_slices"
+      "farmersdelight:pumpkin_pie_from_slices",
+      "farmersdelight:cutting/apple_pie",
+      "farmersdelight:cutting/cake",
+      "farmersdelight:cutting/pumpkin_pie"
     ]
   }
 }

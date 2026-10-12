@@ -72,7 +72,24 @@
       "toms_storage:inventory_cable_connector_framed_clean",
       "toms_storage:inventory_connector",
       "toms_storage:inventory_interface",
-      "toms_storage:poly_item_filter"
+      "minecraft:bolt_armor_trim_smithing_template_smithing_trim",
+      "minecraft:coast_armor_trim_smithing_template_smithing_trim",
+      "minecraft:dune_armor_trim_smithing_template_smithing_trim",
+      "minecraft:eye_armor_trim_smithing_template_smithing_trim",
+      "minecraft:flow_armor_trim_smithing_template_smithing_trim",
+      "minecraft:host_armor_trim_smithing_template_smithing_trim",
+      "minecraft:raiser_armor_trim_smithing_template_smithing_trim",
+      "minecraft:rib_armor_trim_smithing_template_smithing_trim",
+      "minecraft:sentry_armor_trim_smithing_template_smithing_trim",
+      "minecraft:shaper_armor_trim_smithing_template_smithing_trim",
+      "minecraft:silence_armor_trim_smithing_template_smithing_trim",
+      "minecraft:snout_armor_trim_smithing_template_smithing_trim",
+      "minecraft:spire_armor_trim_smithing_template_smithing_trim",
+      "minecraft:tide_armor_trim_smithing_template_smithing_trim",
+      "minecraft:vex_armor_trim_smithing_template_smithing_trim",
+      "minecraft:ward_armor_trim_smithing_template_smithing_trim",
+      "minecraft:wayfinder_armor_trim_smithing_template_smithing_trim",
+      "minecraft:wild_armor_trim_smithing_template_smithing_trim"
     ]
   }
 }

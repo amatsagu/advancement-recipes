@@ -53,9 +53,7 @@
       "minecraft:lapis_lazuli_from_smelting_lapis_ore",
       "minecraft:lectern",
       "farmersdelight:book_from_canvas",
-      "storagedrawers:conversion_upgrade",
-      "storagedrawers:keybutton_quantify",
-      "storagedrawers:quantify_key"
+      "storagedrawers:conversion_upgrade"
     ]
   }
 }

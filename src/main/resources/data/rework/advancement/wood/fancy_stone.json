@@ -5,16 +5,16 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:wood/stone": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:wood/stone": true
+              }
+            }
+          }
+        },
         "items": [
           {
             "items": [
@@ -67,7 +67,31 @@
       "minecraft:polished_andesite_stairs",
       "minecraft:polished_diorite",
       "minecraft:polished_diorite_slab",
-      "minecraft:polished_diorite_stairs"
+      "minecraft:polished_diorite_stairs",
+      "minecraft:andesite_slab_from_andesite_stonecutting",
+      "minecraft:andesite_stairs_from_andesite_stonecutting",
+      "minecraft:andesite_wall_from_andesite_stonecutting",
+      "minecraft:diorite_slab_from_diorite_stonecutting",
+      "minecraft:diorite_stairs_from_diorite_stonecutting",
+      "minecraft:diorite_wall_from_diorite_stonecutting",
+      "minecraft:granite_slab_from_granite_stonecutting",
+      "minecraft:granite_stairs_from_granite_stonecutting",
+      "minecraft:granite_wall_from_granite_stonecutting",
+      "minecraft:polished_andesite_from_andesite_stonecutting",
+      "minecraft:polished_andesite_slab_from_andesite_stonecutting",
+      "minecraft:polished_andesite_slab_from_polished_andesite_stonecutting",
+      "minecraft:polished_andesite_stairs_from_andesite_stonecutting",
+      "minecraft:polished_andesite_stairs_from_polished_andesite_stonecutting",
+      "minecraft:polished_diorite_from_diorite_stonecutting",
+      "minecraft:polished_diorite_slab_from_diorite_stonecutting",
+      "minecraft:polished_diorite_slab_from_polished_diorite_stonecutting",
+      "minecraft:polished_diorite_stairs_from_diorite_stonecutting",
+      "minecraft:polished_diorite_stairs_from_polished_diorite_stonecutting",
+      "minecraft:polished_granite_from_granite_stonecutting",
+      "minecraft:polished_granite_slab_from_granite_stonecutting",
+      "minecraft:polished_granite_slab_from_polished_granite_stonecutting",
+      "minecraft:polished_granite_stairs_from_granite_stonecutting",
+      "minecraft:polished_granite_stairs_from_polished_granite_stonecutting"
     ]
   }
 }

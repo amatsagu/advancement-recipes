@@ -148,7 +148,8 @@
       "farmersdelight:rice_roll_medley_block",
       "farmersdelight:gleaming_salad_block",
       "farmersdelight:smoked_ham",
-      "farmersdelight:nether_salad"
+      "farmersdelight:nether_salad",
+      "farmersdelight:cutting/smoked_ham"
     ]
   }
 }

@@ -5,23 +5,23 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/root": true
-						}
-					}
-				}
-			},
-        "entity":{
-            "type": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:creeper"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/root": true
+              }
             }
           }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:creeper"
+          }
+        }
       }
     }
   },
@@ -70,7 +70,18 @@
       "minecraft:poplar_door",
       "minecraft:poplar_trapdoor",
       "minecraft:spruce_door",
-      "minecraft:spruce_trapdoor"
+      "minecraft:spruce_trapdoor",
+      "farmersdelight:salvaging/acacia_furniture",
+      "farmersdelight:salvaging/bamboo_furniture",
+      "farmersdelight:salvaging/birch_furniture",
+      "farmersdelight:salvaging/cherry_furniture",
+      "farmersdelight:salvaging/dark_oak_furniture",
+      "farmersdelight:salvaging/jungle_furniture",
+      "farmersdelight:salvaging/mangrove_furniture",
+      "farmersdelight:salvaging/oak_furniture",
+      "farmersdelight:salvaging/pale_oak_furniture",
+      "farmersdelight:salvaging/poplar_furniture",
+      "farmersdelight:salvaging/spruce_furniture"
     ]
   }
 }

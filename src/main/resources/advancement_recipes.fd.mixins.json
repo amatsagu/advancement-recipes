@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "package": "amatsagu.advancementrecipes.mixin.fd",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "CookingPotBlockEntityMixin",
+    "CuttingBoardBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

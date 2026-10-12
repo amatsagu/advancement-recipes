@@ -76,7 +76,18 @@
       "nemos_backpacks:yellow_copper_backpack_smithing",
       "farmersdelight:copper_knife",
       "farmersdelight:copper_nugget_from_blasting_knife",
-      "farmersdelight:copper_nugget_from_smelting_knife"
+      "farmersdelight:copper_nugget_from_smelting_knife",
+      "nemos_upgrade_templates:copper_axe_smithing",
+      "nemos_upgrade_templates:copper_boots_smithing",
+      "nemos_upgrade_templates:copper_chestplate_smithing",
+      "nemos_upgrade_templates:copper_helmet_smithing",
+      "nemos_upgrade_templates:copper_hoe_smithing",
+      "nemos_upgrade_templates:copper_leggings_smithing",
+      "nemos_upgrade_templates:copper_pickaxe_smithing",
+      "nemos_upgrade_templates:copper_shovel_smithing",
+      "nemos_upgrade_templates:copper_spear_smithing",
+      "nemos_upgrade_templates:copper_sword_smithing",
+      "nemos_upgrade_templates:copper_upgrade_smithing_template"
     ]
   }
 }

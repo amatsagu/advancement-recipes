@@ -4,19 +4,19 @@
     "default": {
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:iron/root": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            },
+            "location": {
+              "biomes": "minecraft:sulfur_caves"
             }
-          },
-          "location": {
-            "biomes": "minecraft:sulfur_caves"
           }
-  }
-}
+        }
       },
       "trigger": "minecraft:location"
     }
@@ -65,7 +65,51 @@
       "minecraft:polished_cinnabar",
       "minecraft:polished_cinnabar_slab",
       "minecraft:polished_cinnabar_stairs",
-      "minecraft:polished_cinnabar_wall"
+      "minecraft:polished_cinnabar_wall",
+      "minecraft:chiseled_cinnabar_from_cinnabar_stonecutting",
+      "minecraft:chiseled_sulfur_from_sulfur_stonecutting",
+      "minecraft:cinnabar_brick_slab_from_cinnabar_bricks_stonecutting",
+      "minecraft:cinnabar_brick_slab_from_cinnabar_stonecutting",
+      "minecraft:cinnabar_brick_slab_from_polished_cinnabar_stonecutting",
+      "minecraft:cinnabar_brick_stairs_from_cinnabar_bricks_stonecutting",
+      "minecraft:cinnabar_brick_stairs_from_cinnabar_stonecutting",
+      "minecraft:cinnabar_brick_stairs_from_polished_cinnabar_stonecutting",
+      "minecraft:cinnabar_brick_wall_from_cinnabar_bricks_stonecutting",
+      "minecraft:cinnabar_brick_wall_from_cinnabar_stonecutting",
+      "minecraft:cinnabar_brick_wall_from_polished_cinnabar_stonecutting",
+      "minecraft:cinnabar_bricks_from_cinnabar_stonecutting",
+      "minecraft:cinnabar_bricks_from_polished_cinnabar_stonecutting",
+      "minecraft:cinnabar_slab_from_cinnabar_stonecutting",
+      "minecraft:cinnabar_stairs_from_cinnabar_stonecutting",
+      "minecraft:cinnabar_wall_from_cinnabar_stonecutting",
+      "minecraft:polished_cinnabar_from_cinnabar_stonecutting",
+      "minecraft:polished_cinnabar_slab_from_cinnabar_stonecutting",
+      "minecraft:polished_cinnabar_slab_from_polished_cinnabar_stonecutting",
+      "minecraft:polished_cinnabar_stairs_from_cinnabar_stonecutting",
+      "minecraft:polished_cinnabar_stairs_from_polished_cinnabar_stonecutting",
+      "minecraft:polished_cinnabar_wall_from_cinnabar_stonecutting",
+      "minecraft:polished_cinnabar_wall_from_polished_cinnabar_stonecutting",
+      "minecraft:polished_sulfur_from_sulfur_stonecutting",
+      "minecraft:polished_sulfur_slab_from_polished_sulfur_stonecutting",
+      "minecraft:polished_sulfur_slab_from_sulfur_stonecutting",
+      "minecraft:polished_sulfur_stairs_from_polished_sulfur_stonecutting",
+      "minecraft:polished_sulfur_stairs_from_sulfur_stonecutting",
+      "minecraft:polished_sulfur_wall_from_polished_sulfur_stonecutting",
+      "minecraft:polished_sulfur_wall_from_sulfur_stonecutting",
+      "minecraft:sulfur_brick_slab_from_polished_sulfur_stonecutting",
+      "minecraft:sulfur_brick_slab_from_sulfur_bricks_stonecutting",
+      "minecraft:sulfur_brick_slab_from_sulfur_stonecutting",
+      "minecraft:sulfur_brick_stairs_from_polished_sulfur_stonecutting",
+      "minecraft:sulfur_brick_stairs_from_sulfur_bricks_stonecutting",
+      "minecraft:sulfur_brick_stairs_from_sulfur_stonecutting",
+      "minecraft:sulfur_brick_wall_from_polished_sulfur_stonecutting",
+      "minecraft:sulfur_brick_wall_from_sulfur_bricks_stonecutting",
+      "minecraft:sulfur_brick_wall_from_sulfur_stonecutting",
+      "minecraft:sulfur_bricks_from_polished_sulfur_stonecutting",
+      "minecraft:sulfur_bricks_from_sulfur_stonecutting",
+      "minecraft:sulfur_slab_from_sulfur_stonecutting",
+      "minecraft:sulfur_stairs_from_sulfur_stonecutting",
+      "minecraft:sulfur_wall_from_sulfur_stonecutting"
     ]
   }
 }

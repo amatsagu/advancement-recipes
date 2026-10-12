@@ -5,16 +5,16 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:iron/root": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            }
+          }
+        },
         "items": [
           {
             "items": "minecraft:amethyst_shard",
@@ -47,7 +47,8 @@
     "recipes": [
       "minecraft:tinted_glass",
       "minecraft:spyglass",
-      "minecraft:amethyst_block"
+      "minecraft:amethyst_block",
+      "farmersdelight:cutting/amethyst_block"
     ]
   }
 }

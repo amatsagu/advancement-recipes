@@ -5,16 +5,16 @@
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/copper_ingot": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/copper_ingot": true
+              }
+            }
+          }
+        },
         "loot_tables": "minecraft:archaeology/trail_ruins_common"
       }
     },
@@ -22,16 +22,16 @@
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/copper_ingot": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/copper_ingot": true
+              }
+            }
+          }
+        },
         "loot_tables": "minecraft:archaeology/trail_ruins_rare"
       }
     },
@@ -39,16 +39,16 @@
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/copper_ingot": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/copper_ingot": true
+              }
+            }
+          }
+        },
         "loot_tables": "minecraft:archaeology/desert_well"
       }
     },
@@ -56,16 +56,16 @@
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/copper_ingot": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/copper_ingot": true
+              }
+            }
+          }
+        },
         "loot_tables": "minecraft:archaeology/desert_pyramid"
       }
     },
@@ -73,16 +73,16 @@
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/copper_ingot": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/copper_ingot": true
+              }
+            }
+          }
+        },
         "loot_tables": "minecraft:archaeology/ocean_ruin_cold"
       }
     },
@@ -90,16 +90,16 @@
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:stone/copper_ingot": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:stone/copper_ingot": true
+              }
+            }
+          }
+        },
         "loot_tables": "minecraft:archaeology/ocean_ruin_warm"
       }
     }
@@ -170,7 +170,12 @@
       "minecraft:white_glazed_terracotta",
       "minecraft:white_terracotta",
       "minecraft:yellow_glazed_terracotta",
-      "minecraft:yellow_terracotta"
+      "minecraft:yellow_terracotta",
+      "farmersdelight:cutting/bricks",
+      "farmersdelight:cutting/clay",
+      "minecraft:brick_slab_from_bricks_stonecutting",
+      "minecraft:brick_stairs_from_bricks_stonecutting",
+      "minecraft:brick_wall_from_bricks_stonecutting"
     ]
   }
 }

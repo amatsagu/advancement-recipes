@@ -14,15 +14,15 @@
           }
         ],
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:tutorial/root": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:tutorial/root": true
+              }
             }
-  }
-}
+          }
         }
       }
     }
@@ -78,7 +78,18 @@
       "minecraft:stripped_pale_oak_wood",
       "minecraft:stripped_poplar_wood",
       "minecraft:stripped_spruce_wood",
-      "minecraft:bamboo_block"
+      "minecraft:bamboo_block",
+      "farmersdelight:cutting/acacia_wood",
+      "farmersdelight:cutting/bamboo_block",
+      "farmersdelight:cutting/birch_wood",
+      "farmersdelight:cutting/cherry_wood",
+      "farmersdelight:cutting/dark_oak_wood",
+      "farmersdelight:cutting/jungle_wood",
+      "farmersdelight:cutting/mangrove_wood",
+      "farmersdelight:cutting/oak_wood",
+      "farmersdelight:cutting/pale_oak_wood",
+      "farmersdelight:cutting/poplar_wood",
+      "farmersdelight:cutting/spruce_wood"
     ]
   }
 }

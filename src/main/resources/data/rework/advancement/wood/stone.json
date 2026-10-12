@@ -47,7 +47,13 @@
       "minecraft:cobblestone_wall",
       "minecraft:torch",
       "farmersdelight:flint_knife",
-      "minecraft:furnace"
+      "minecraft:furnace",
+      "minecraft:cobblestone_slab_from_cobblestone_stonecutting",
+      "minecraft:cobblestone_slab_from_stone_stonecutting",
+      "minecraft:cobblestone_stairs_from_cobblestone_stonecutting",
+      "minecraft:cobblestone_stairs_from_stone_stonecutting",
+      "minecraft:cobblestone_wall_from_cobblestone_stonecutting",
+      "minecraft:cobblestone_wall_from_stone_stonecutting"
     ]
   }
 }

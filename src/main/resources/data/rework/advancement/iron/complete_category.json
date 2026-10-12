@@ -69,7 +69,20 @@
       "nemos_backpacks:white_diamond_backpack_smithing",
       "nemos_backpacks:yellow_diamond_backpack",
       "nemos_backpacks:yellow_diamond_backpack_smithing",
-      "farmersdelight:diamond_knife"
+      "farmersdelight:diamond_knife",
+      "nemos_upgrade_templates:diamond_axe_smithing",
+      "nemos_upgrade_templates:diamond_boots_smithing",
+      "nemos_upgrade_templates:diamond_chestplate_smithing",
+      "nemos_upgrade_templates:diamond_helmet_smithing",
+      "nemos_upgrade_templates:diamond_hoe_smithing",
+      "nemos_upgrade_templates:diamond_horse_armor_smithing",
+      "nemos_upgrade_templates:diamond_leggings_smithing",
+      "nemos_upgrade_templates:diamond_nautilus_armor_smithing",
+      "nemos_upgrade_templates:diamond_pickaxe_smithing",
+      "nemos_upgrade_templates:diamond_shovel_smithing",
+      "nemos_upgrade_templates:diamond_spear_smithing",
+      "nemos_upgrade_templates:diamond_sword_smithing",
+      "nemos_upgrade_templates:diamond_upgrade_smithing_template"
     ]
   }
 }

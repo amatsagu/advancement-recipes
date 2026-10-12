@@ -5,19 +5,19 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:iron/root": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/root": true
+              }
+            },
+            "location": {
+              "structures": "minecraft:monument"
             }
-          },
-          "location": {
-            "structures": "minecraft:monument"
           }
-  }
-}
+        }
       }
     }
   },
@@ -53,7 +53,14 @@
       "minecraft:turtle_helmet",
       "minecraft:sponge",
       "minecraft:conduit",
-      "minecraft:sea_lantern"
+      "minecraft:sea_lantern",
+      "minecraft:dark_prismarine_slab_from_dark_prismarine_stonecutting",
+      "minecraft:dark_prismarine_stairs_from_dark_prismarine_stonecutting",
+      "minecraft:prismarine_brick_slab_from_prismarine_bricks_stonecutting",
+      "minecraft:prismarine_brick_stairs_from_prismarine_bricks_stonecutting",
+      "minecraft:prismarine_slab_from_prismarine_stonecutting",
+      "minecraft:prismarine_stairs_from_prismarine_stonecutting",
+      "minecraft:prismarine_wall_from_prismarine_stonecutting"
     ]
   }
 }

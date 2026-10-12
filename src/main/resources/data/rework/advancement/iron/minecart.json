@@ -5,19 +5,19 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:type_specific/player": {
-            "advancements": {
-              "rework:iron/get_redstone": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/get_redstone": true
+              }
+            },
+            "vehicle": {
+              "minecraft:entity_type": "minecraft:minecart"
             }
-          },
-          "vehicle": {
-            "minecraft:entity_type": "minecraft:minecart"
           }
-  }
-}
+        }
       }
     }
   },
@@ -47,7 +47,11 @@
       "minecraft:tnt_minecart",
       "minecraft:activator_rail",
       "minecraft:detector_rail",
-      "minecraft:powered_rail"
+      "minecraft:powered_rail",
+      "farmersdelight:salvaging/chest_minecart",
+      "farmersdelight:salvaging/furnace_minecart",
+      "farmersdelight:salvaging/hopper_minecart",
+      "farmersdelight:salvaging/tnt_minecart"
     ]
   }
 }

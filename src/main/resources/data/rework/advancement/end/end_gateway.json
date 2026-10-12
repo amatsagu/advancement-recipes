@@ -5,16 +5,16 @@
       "trigger": "minecraft:enter_block",
       "conditions": {
         "player": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"rework:end/kill_ender_dragon": true
-						}
-					}
-				}
-			},
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:end/kill_ender_dragon": true
+              }
+            }
+          }
+        },
         "block": "minecraft:end_gateway"
       }
     }
@@ -42,7 +42,14 @@
       "minecraft:end_stone_brick_slab",
       "minecraft:end_stone_brick_stairs",
       "minecraft:end_stone_brick_wall",
-      "minecraft:end_stone_bricks"
+      "minecraft:end_stone_bricks",
+      "minecraft:end_stone_brick_slab_from_end_stone_bricks_stonecutting",
+      "minecraft:end_stone_brick_slab_from_end_stone_stonecutting",
+      "minecraft:end_stone_brick_stairs_from_end_stone_bricks_stonecutting",
+      "minecraft:end_stone_brick_stairs_from_end_stone_stonecutting",
+      "minecraft:end_stone_brick_wall_from_end_stone_bricks_stonecutting",
+      "minecraft:end_stone_brick_wall_from_end_stone_stonecutting",
+      "minecraft:end_stone_bricks_from_end_stone_stonecutting"
     ]
   }
 }

@@ -246,8 +246,8 @@ public class AdvancementRecipesTest {
 		Assertions.assertTrue(QuestData.getQuestsForItem(compDrawer).contains(Identifier.parse("rework:iron/get_redstone")));
 
 		Identifier quantifyKey = Identifier.parse("storagedrawers:quantify_key");
-		Assertions.assertEquals(Identifier.parse("rework:iron/write_book"), QuestData.getQuestForRecipe(quantifyKey));
-		Assertions.assertTrue(QuestData.getQuestsForItem(quantifyKey).contains(Identifier.parse("rework:iron/write_book")));
+		Assertions.assertEquals(Identifier.parse("rework:iron/nether"), QuestData.getQuestForRecipe(quantifyKey));
+		Assertions.assertTrue(QuestData.getQuestsForItem(quantifyKey).contains(Identifier.parse("rework:iron/nether")));
 
 		Identifier remoteUpgrade = Identifier.parse("storagedrawers:remote_upgrade");
 		Assertions.assertEquals(Identifier.parse("rework:iron/look_at_enderman"), QuestData.getQuestForRecipe(remoteUpgrade));
