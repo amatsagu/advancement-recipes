@@ -19,19 +19,17 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-/**
- * Hard-blocks campfire cooking: a player cannot place a food on a campfire unless they have unlocked
- * its {@code campfire_cooking} recipe.
- */
 @Mixin(CampfireBlock.class)
 public class CampfireBlockMixin {
 	@Inject(method = "useItemOn", at = @At("HEAD"), cancellable = true)
-	private void advancementrecipes$gateFoodPlacement(ItemStack stack, BlockState state, Level level, BlockPos pos, Player player,
-			InteractionHand hand, BlockHitResult hit, CallbackInfoReturnable<InteractionResult> cir) {
+	private void advancementrecipes$gateFoodPlacement(ItemStack stack, BlockState state, Level level, BlockPos pos,
+			Player player, InteractionHand hand, BlockHitResult hit, CallbackInfoReturnable<InteractionResult> cir) {
 		if (!(player instanceof ServerPlayer serverPlayer) || !(level instanceof ServerLevel serverLevel) || stack.isEmpty()) {
 			return;
 		}
-		var recipe = serverLevel.getServer().getRecipeManager().getRecipeFor(RecipeType.CAMPFIRE_COOKING, new SingleRecipeInput(stack), serverLevel);
+
+		var recipe = serverLevel.getServer().getRecipeManager()
+				.getRecipeFor(RecipeType.CAMPFIRE_COOKING, new SingleRecipeInput(stack), serverLevel);
 		if (recipe.isPresent() && !RecipeGate.isAllowed(serverPlayer, recipe.get())) {
 			cir.setReturnValue(InteractionResult.FAIL);
 		}

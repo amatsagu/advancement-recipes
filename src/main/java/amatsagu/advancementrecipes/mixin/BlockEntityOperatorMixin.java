@@ -13,10 +13,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import java.util.UUID;
 
-/**
- * Gives every block entity a persistent "operator" (the player who placed or last opened it) so the
- * unattended stations can be gated by that player's unlocked recipes.
- */
 @Mixin(BlockEntity.class)
 public abstract class BlockEntityOperatorMixin implements OperatorHolder {
 	@Unique

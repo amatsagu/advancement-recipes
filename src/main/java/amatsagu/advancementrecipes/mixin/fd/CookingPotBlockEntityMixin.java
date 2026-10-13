@@ -18,11 +18,7 @@ import vectorwing.farmersdelight.refabricated.inventory.RecipeWrapper;
 
 import java.util.Optional;
 
-/**
- * Hard-blocks the Farmer's Delight cooking pot. The pot cooks unattended, so it is gated by its
- * stored operator (the player who most recently opened it). The operator is recorded when the menu
- * is created and the matching {@code farmersdelight:cooking} recipe is refused otherwise.
- */
+/** The pot cooks unattended, so it is gated by the operator recorded when its menu is opened. */
 @Mixin(CookingPotBlockEntity.class)
 public class CookingPotBlockEntityMixin {
 	@Inject(method = "createMenu", at = @At("HEAD"))
@@ -40,6 +36,7 @@ public class CookingPotBlockEntityMixin {
 		if (recipe == null || recipe.isEmpty()) {
 			return;
 		}
+
 		if (!RecipeGate.isAllowed(level.getServer(), (CookingPotBlockEntity) (Object) this, recipe.get())) {
 			cir.setReturnValue(Optional.empty());
 		}

@@ -13,10 +13,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-/**
- * Hard-blocks smelting/blasting/smoking: an input may only be inserted into the furnace when the
- * station's operator has unlocked the matching cooking recipe.
- */
 @Mixin(AbstractFurnaceBlockEntity.class)
 public abstract class AbstractFurnaceBlockEntityMixin {
 	private static final int ADVANCEMENT_RECIPES_INPUT_SLOT = 0;
@@ -29,10 +25,12 @@ public abstract class AbstractFurnaceBlockEntityMixin {
 		if (slot != ADVANCEMENT_RECIPES_INPUT_SLOT || stack.isEmpty()) {
 			return;
 		}
+
 		AbstractFurnaceBlockEntity furnace = (AbstractFurnaceBlockEntity) (Object) this;
 		if (!(furnace.getLevel() instanceof ServerLevel level)) {
 			return;
 		}
+
 		var recipe = quickCheck.getRecipeFor(new SingleRecipeInput(stack), level);
 		if (recipe.isPresent() && !RecipeGate.isAllowed(level.getServer(), furnace, recipe.get())) {
 			cir.setReturnValue(false);

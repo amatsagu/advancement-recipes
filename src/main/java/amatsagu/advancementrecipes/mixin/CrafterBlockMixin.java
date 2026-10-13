@@ -17,14 +17,14 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 /**
- * Hard-blocks the auto-crafter: it will not craft a recipe that the block's operator has not
- * unlocked. {@link CrafterBlock} overrides {@code setPlacedBy} without calling super, so the placer
- * is recorded here explicitly.
+ * {@link CrafterBlock} overrides {@code setPlacedBy} without calling super, so the placer has to be
+ * recorded here instead of by the generic placement mixin.
  */
 @Mixin(CrafterBlock.class)
 public class CrafterBlockMixin {
 	@Inject(method = "setPlacedBy", at = @At("HEAD"))
-	private void advancementrecipes$rememberPlacer(Level level, BlockPos pos, BlockState state, LivingEntity placer, ItemStack stack, CallbackInfo ci) {
+	private void advancementrecipes$rememberPlacer(Level level, BlockPos pos, BlockState state, LivingEntity placer,
+			ItemStack stack, CallbackInfo ci) {
 		if (placer instanceof ServerPlayer player && level.getBlockEntity(pos) instanceof OperatorHolder holder) {
 			holder.advancementRecipes$setOperator(player.getUUID());
 		}
@@ -35,6 +35,7 @@ public class CrafterBlockMixin {
 		if (!(level.getBlockEntity(pos) instanceof CrafterBlockEntity crafter)) {
 			return;
 		}
+
 		var result = CrafterBlock.getPotentialResults(level, crafter.asCraftInput());
 		if (result.isPresent() && !RecipeGate.isAllowed(level.getServer(), crafter, result.get())) {
 			ci.cancel();

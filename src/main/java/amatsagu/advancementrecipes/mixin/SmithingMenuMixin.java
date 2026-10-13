@@ -11,7 +11,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/** Hard-blocks the smithing table: the result is cleared unless the player has unlocked the recipe. */
 @Mixin(SmithingMenu.class)
 public class SmithingMenuMixin {
 	@Inject(method = "createResult", at = @At("TAIL"))
@@ -21,6 +20,7 @@ public class SmithingMenuMixin {
 		if (!(player instanceof ServerPlayer serverPlayer)) {
 			return;
 		}
+
 		ResultContainer resultSlots = accessor.advancementRecipes$getResultSlots();
 		var recipe = resultSlots.getRecipeUsed();
 		if (recipe != null && !RecipeGate.isAllowed(serverPlayer, recipe)) {

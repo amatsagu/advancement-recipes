@@ -13,15 +13,16 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-/** Updates the station operator whenever a player opens its menu (furnace, crafter, ...). */
 @Mixin(BaseContainerBlockEntity.class)
 public class BaseContainerBlockEntityMixin {
 	@Inject(method = "createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;",
 			at = @At("HEAD"))
-	private void advancementrecipes$rememberOpener(int containerId, Inventory inventory, Player player, CallbackInfoReturnable<AbstractContainerMenu> cir) {
+	private void advancementrecipes$rememberOpener(int containerId, Inventory inventory, Player player,
+			CallbackInfoReturnable<AbstractContainerMenu> cir) {
 		if (!(player instanceof ServerPlayer serverPlayer)) {
 			return;
 		}
+
 		BlockEntity blockEntity = (BlockEntity) (Object) this;
 		if (blockEntity instanceof OperatorHolder holder && Stations.isGated(blockEntity)) {
 			holder.advancementRecipes$setOperator(serverPlayer.getUUID());

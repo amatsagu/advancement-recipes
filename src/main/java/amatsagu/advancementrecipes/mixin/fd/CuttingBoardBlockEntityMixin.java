@@ -15,10 +15,6 @@ import vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe;
 
 import java.util.Optional;
 
-/**
- * Hard-blocks the Farmer's Delight cutting board: an unlocked {@code farmersdelight:cutting} recipe
- * is required to process the stored item with a tool.
- */
 @Mixin(CuttingBoardBlockEntity.class)
 public class CuttingBoardBlockEntityMixin {
 	@Inject(method = "getMatchingRecipe", at = @At("RETURN"), cancellable = true)
@@ -28,6 +24,7 @@ public class CuttingBoardBlockEntityMixin {
 		if (recipe == null || recipe.isEmpty() || !(player instanceof ServerPlayer serverPlayer)) {
 			return;
 		}
+
 		if (!RecipeGate.isAllowed(serverPlayer, recipe.get())) {
 			cir.setReturnValue(Optional.empty());
 		}

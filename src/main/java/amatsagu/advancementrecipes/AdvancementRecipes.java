@@ -38,9 +38,7 @@ public class AdvancementRecipes implements ModInitializer {
 			}
 		});
 
-		// Everything progression related is event-driven and native Java - no tick/location polling.
-		// On join we realign questline roots/categories with the player's goals, then re-grant the
-		// recipe rewards of every completed quest directly through the recipe book (no mcfunction).
+		// Event-driven only: on join, realign roots/categories and re-grant completed quest recipes.
 		ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
 			ServerPlayer player = handler.player;
 			if (player == null) {
