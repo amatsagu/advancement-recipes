@@ -35,7 +35,8 @@
     "java": ">=25",
     "fabric-api": "*",
     "jei": ">=31.0.0",
-    "modern-advancements": ">=1.11.0"
+    "modern-advancements": ">=1.11.0",
+    "essentialis": ">=1.0"
   },
   "provides": [
     "mr_advancement_recipes"
