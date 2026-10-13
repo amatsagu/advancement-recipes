@@ -80,7 +80,13 @@
       "storagedrawers:concealment_key",
       "storagedrawers:keybutton_concealment",
       "storagedrawers:netherite_storage_upgrade",
-      "toms_storage:adv_wireless_terminal"
+      "toms_storage:adv_wireless_terminal",
+      "essentialis:netherite_citrine_ring_smithing",
+      "essentialis:netherite_jade_ring_smithing",
+      "essentialis:netherite_ruby_ring_smithing",
+      "essentialis:netherite_sapphire_ring_smithing",
+      "essentialis:netherite_tanzanite_ring_smithing",
+      "essentialis:netherite_topaz_ring_smithing"
     ]
   }
 }

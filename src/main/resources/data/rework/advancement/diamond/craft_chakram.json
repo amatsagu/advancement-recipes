@@ -1,0 +1,42 @@
+{
+  "parent": "rework:diamond/ancient_city",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:diamond/ancient_city": true
+              }
+            }
+          }
+        },
+        "recipe_id": "essentialis:chakram"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft the Chakram, a powerful thrown weapon born from the deep dark."
+    },
+    "icon": {
+      "count": 1,
+      "id": "essentialis:chakram"
+    },
+    "show_toast": true,
+    "title": "Echo Blade"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

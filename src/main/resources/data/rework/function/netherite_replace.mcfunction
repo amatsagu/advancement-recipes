@@ -10,5 +10,11 @@ $item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"i
 $item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "minecraft:netherite_boots"}, "on_pass": { "type": "minecraft:set_item", "item": "minecraft:diamond_boots" }}
 $item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "minecraft:netherite_horse_armor"}, "on_pass": { "type": "minecraft:set_item", "item": "minecraft:diamond_horse_armor" }}
 $item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "minecraft:netherite_nautilus_armor"}, "on_pass": { "type": "minecraft:set_item", "item": "minecraft:diamond_nautilus_armor" }}
+$item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "essentialis:netherite_citrine_ring"}, "on_pass": { "type": "minecraft:set_item", "item": "essentialis:citrine_ring" }}
+$item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "essentialis:netherite_jade_ring"}, "on_pass": { "type": "minecraft:set_item", "item": "essentialis:jade_ring" }}
+$item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "essentialis:netherite_ruby_ring"}, "on_pass": { "type": "minecraft:set_item", "item": "essentialis:ruby_ring" }}
+$item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "essentialis:netherite_sapphire_ring"}, "on_pass": { "type": "minecraft:set_item", "item": "essentialis:sapphire_ring" }}
+$item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "essentialis:netherite_tanzanite_ring"}, "on_pass": { "type": "minecraft:set_item", "item": "essentialis:tanzanite_ring" }}
+$item modify entity @s $(slot) {"type": "minecraft:filtered", "item_filter": {"items": "essentialis:netherite_topaz_ring"}, "on_pass": { "type": "minecraft:set_item", "item": "essentialis:topaz_ring" }}
 give @s netherite_upgrade_smithing_template 1
 give @s netherite_ingot 1

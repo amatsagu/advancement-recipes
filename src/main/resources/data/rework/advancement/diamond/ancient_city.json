@@ -41,7 +41,8 @@
   "rewards": {
     "recipes": [
       "minecraft:recovery_compass",
-      "minecraft:music_disc_5"
+      "minecraft:music_disc_5",
+      "essentialis:chakram"
     ]
   }
 }

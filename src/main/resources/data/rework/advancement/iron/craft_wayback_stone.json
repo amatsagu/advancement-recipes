@@ -1,0 +1,42 @@
+{
+  "parent": "rework:iron/nether",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:iron/nether": true
+              }
+            }
+          }
+        },
+        "recipe_id": "essentialis:wayback_stone"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft the Wayback Stone using glowstone, gold and a heart of the sea."
+    },
+    "icon": {
+      "count": 1,
+      "id": "essentialis:wayback_stone"
+    },
+    "show_toast": true,
+    "title": "Stone of Return"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

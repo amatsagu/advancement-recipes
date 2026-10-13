@@ -215,7 +215,8 @@
       "nemos_upgrade_templates:golden_spear_smithing",
       "nemos_upgrade_templates:golden_sword_smithing",
       "storagedrawers:quantify_key",
-      "storagedrawers:keybutton_quantify"
+      "storagedrawers:keybutton_quantify",
+      "essentialis:wayback_stone"
     ]
   }
 }

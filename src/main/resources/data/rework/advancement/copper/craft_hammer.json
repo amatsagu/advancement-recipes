@@ -1,0 +1,42 @@
+{
+  "parent": "rework:copper/get_iron",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "rework:copper/get_iron": true
+              }
+            }
+          }
+        },
+        "recipe_id": "essentialis:hammer"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft a Hammer using iron blocks and leather."
+    },
+    "icon": {
+      "count": 1,
+      "id": "essentialis:hammer"
+    },
+    "show_toast": true,
+    "title": "Heavy Strike"
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

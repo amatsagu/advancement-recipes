@@ -12,6 +12,12 @@
     "minecraft:netherite_spear",
     "minecraft:netherite_sword",
     "minecraft:netherite_horse_armor",
-    "minecraft:netherite_nautilus_armor"
+    "minecraft:netherite_nautilus_armor",
+    "essentialis:netherite_citrine_ring",
+    "essentialis:netherite_jade_ring",
+    "essentialis:netherite_ruby_ring",
+    "essentialis:netherite_sapphire_ring",
+    "essentialis:netherite_tanzanite_ring",
+    "essentialis:netherite_topaz_ring"
   ]
 }
