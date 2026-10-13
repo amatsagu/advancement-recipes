@@ -36,7 +36,15 @@
     "fabric-api": "*",
     "jei": ">=31.0.0",
     "modern-advancements": ">=1.11.0",
-    "essentialis": ">=1.0"
+    "essentialis": "=1.1-26.3.X",
+    "trinkets_updated": ">=4.2.1+26.3",
+    "toms_storage": ">=2.12.1",
+    "storagedrawers": ">=26.3.0.1",
+    "farmersdelight": ">=26.3-3.6.28+refabricated",
+    "nemos_backpacks": ">=26.3-2.1",
+    "nemos_upgrade_templates": ">=26.3-1.2",
+    "simplemagnets": ">=1.1.12",
+    "glowpaste": ">=1.0.0"
   },
   "provides": [
     "mr_advancement_recipes"

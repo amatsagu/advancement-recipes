@@ -70,13 +70,7 @@
       "minecraft:pale_oak_stairs",
       "minecraft:spruce_stairs",
       "minecraft:poplar_slab",
-      "minecraft:poplar_stairs",
-      "essentialis:citrine_ring",
-      "essentialis:jade_ring",
-      "essentialis:ruby_ring",
-      "essentialis:sapphire_ring",
-      "essentialis:tanzanite_ring",
-      "essentialis:topaz_ring"
+      "minecraft:poplar_stairs"
     ]
   }
 }

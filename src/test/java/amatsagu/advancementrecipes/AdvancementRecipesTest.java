@@ -353,6 +353,110 @@ public class AdvancementRecipesTest {
 	}
 
 	@Test
+	public void testEssentialisGates() {
+		// Tools are gated exactly where their recipes are granted.
+		Assertions.assertEquals(Identifier.parse("rework:copper/get_iron"),
+				QuestData.getQuestForRecipe(Identifier.parse("essentialis:hammer")));
+		Assertions.assertTrue(QuestData.getQuestsForItem(Identifier.parse("essentialis:hammer"))
+				.contains(Identifier.parse("rework:copper/get_iron")), "Hammer should require Heavy Metal");
+
+		Assertions.assertEquals(Identifier.parse("rework:iron/nether"),
+				QuestData.getQuestForRecipe(Identifier.parse("essentialis:wayback_stone")));
+		Assertions.assertTrue(QuestData.getQuestsForItem(Identifier.parse("essentialis:wayback_stone"))
+				.contains(Identifier.parse("rework:iron/nether")), "Wayback Stone should require the Nether quest");
+
+		Assertions.assertEquals(Identifier.parse("rework:diamond/ancient_city"),
+				QuestData.getQuestForRecipe(Identifier.parse("essentialis:chakram")));
+		Assertions.assertTrue(QuestData.getQuestsForItem(Identifier.parse("essentialis:chakram"))
+				.contains(Identifier.parse("rework:diamond/ancient_city")), "Chakram should require Ruins Of Echo");
+
+		String[] bases = {"citrine", "jade", "ruby", "sapphire", "tanzanite", "topaz"};
+
+		// Netherite rings unlock with the rest of the netherite gear.
+		for (String base : bases) {
+			Identifier smithing = Identifier.parse("essentialis:netherite_" + base + "_ring_smithing");
+			Assertions.assertEquals(Identifier.parse("rework:diamond/complete_category"), QuestData.getQuestForRecipe(smithing),
+					"Netherite " + base + " ring smithing should require Netherite Completionist");
+			Assertions.assertTrue(QuestData.getQuestsForItem(Identifier.parse("essentialis:netherite_" + base + "_ring"))
+					.contains(Identifier.parse("rework:diamond/complete_category")),
+					"Netherite " + base + " ring should require Netherite Completionist");
+		}
+
+		// Base rings are loot-only and stay ungated.
+		for (String base : bases) {
+			Assertions.assertNull(QuestData.getQuestsForItem(Identifier.parse("essentialis:" + base + "_ring")),
+					"Base " + base + " ring should not be gated");
+		}
+
+		// The three continuation quests carry their titles.
+		Assertions.assertEquals("Heavy Strike", QuestData.getQuestTitle(Identifier.parse("rework:copper/craft_hammer")));
+		Assertions.assertEquals("Stone of Return", QuestData.getQuestTitle(Identifier.parse("rework:iron/craft_wayback_stone")));
+		Assertions.assertEquals("Echo Blade", QuestData.getQuestTitle(Identifier.parse("rework:diamond/craft_chakram")));
+	}
+
+	@Test
+	public void testProgressionAndGateIntegrity() throws Exception {
+		com.google.gson.Gson gson = new com.google.gson.Gson();
+		java.nio.file.Path assets = java.nio.file.Paths.get("src/main/resources/assets/advancement_recipes");
+		com.google.gson.JsonObject gates = gson.fromJson(
+				java.nio.file.Files.readString(assets.resolve("quest_gates.json")), com.google.gson.JsonObject.class);
+		com.google.gson.JsonObject progression = gson.fromJson(
+				java.nio.file.Files.readString(assets.resolve("quest_progression.json")), com.google.gson.JsonObject.class);
+
+		java.util.function.Function<String, java.nio.file.Path> advFile = id -> {
+			String[] parts = id.split(":", 2);
+			return java.nio.file.Paths.get("src/main/resources/data").resolve(parts[0])
+					.resolve("advancement").resolve(parts[1] + ".json");
+		};
+
+		// A missing goal advancement would permanently block its category (and every later questline).
+		for (com.google.gson.JsonElement catEl : progression.getAsJsonArray("categories")) {
+			for (com.google.gson.JsonElement goalEl : catEl.getAsJsonObject().getAsJsonArray("goals")) {
+				String goal = goalEl.getAsString();
+				Assertions.assertTrue(java.nio.file.Files.exists(advFile.apply(goal)),
+						"Questline goal advancement is missing: " + goal);
+			}
+		}
+
+		// Every quest referenced by a gate must exist.
+		for (var e : gates.getAsJsonObject("recipe_to_quest").entrySet()) {
+			String quest = e.getValue().getAsString();
+			Assertions.assertTrue(java.nio.file.Files.exists(advFile.apply(quest)),
+					"Gate recipe " + e.getKey() + " points at missing quest " + quest);
+		}
+		for (var e : gates.getAsJsonObject("item_to_quests").entrySet()) {
+			for (com.google.gson.JsonElement qEl : e.getValue().getAsJsonArray()) {
+				String quest = qEl.getAsString();
+				Assertions.assertTrue(java.nio.file.Files.exists(advFile.apply(quest)),
+						"Gate item " + e.getKey() + " points at missing quest " + quest);
+			}
+		}
+
+		// Every gated Essentialis recipe must be granted by its quest's rewards. This is what the
+		// join-time recipe sync re-applies to players who completed the quest in an older version.
+		for (var e : gates.getAsJsonObject("recipe_to_quest").entrySet()) {
+			String recipe = e.getKey();
+			if (!recipe.startsWith("essentialis:")) {
+				continue;
+			}
+			String quest = e.getValue().getAsString();
+			com.google.gson.JsonObject adv = gson.fromJson(
+					java.nio.file.Files.readString(advFile.apply(quest)), com.google.gson.JsonObject.class);
+			boolean granted = false;
+			if (adv.has("rewards") && adv.getAsJsonObject("rewards").has("recipes")) {
+				for (com.google.gson.JsonElement r : adv.getAsJsonObject("rewards").getAsJsonArray("recipes")) {
+					if (r.getAsString().equals(recipe)) {
+						granted = true;
+						break;
+					}
+				}
+			}
+			Assertions.assertTrue(granted,
+					"Gated recipe " + recipe + " is not granted by " + quest + ", so it could never be obtained");
+		}
+	}
+
+	@Test
 	public void testTomsStorageRecipesAndDatapack() throws Exception {
 		java.nio.file.Path recipeDir = java.nio.file.Paths.get("src/main/resources/data/toms_storage/recipe");
 		Assertions.assertTrue(java.nio.file.Files.isDirectory(recipeDir), "Toms Storage recipe dir should exist");

@@ -11,7 +11,7 @@
 
 ## Overview
 
-**Advancement Recipes** is a customized and extended Fabric mod fork of the original [Advancement Recipes datapack by huuue](https://modrinth.com/datapack/advancement-recipes), specially tailored for the **Essentia 3 Modpack v1.1** on **Minecraft 26.3.X**.
+**Advancement Recipes** is a customized and extended Fabric mod fork of the original [Advancement Recipes datapack by huuue](https://modrinth.com/datapack/advancement-recipes), specially tailored for the **Essentia 3 Modpack** on modern versions of **Java Minecraft**.
 
 It provides a cohesive, structured progression experience where recipes for vanilla items and key modded equipment are locked behind an interconnected advancement tree. Players unlock new tools, crafting stations, storage solutions, and automation components progressively as they explore biomes, mine deeper, and conquer dimensions.
 
@@ -55,6 +55,9 @@ It provides a cohesive, structured progression experience where recipes for vani
     * Basic Magnet unlocked upon Iron Completionist; Demagnetization Coils and Advanced Magnets gated behind End exploration.
   * **Glow Paste**:
     * Unlocked via Swampland exploration; includes an alternative shapeless recipe combining honey bottles and clay balls into slimeballs.
+  * **Essentialis**:
+    * Hammer unlocked with iron blocks (Heavy Metal), Wayback Stone via Nether exploration, and the Chakram behind Ancient City exploration (Ruins Of Echo).
+    * Netherite rings are upgraded alongside the rest of the netherite gear (Netherite Completionist); base rings stay ungated and appear as found loot.
 
 - **Early-Game Progression Adjustments**:
   * Furnaces unlock immediately upon mining stone/cobblestone.
@@ -86,6 +89,7 @@ It provides a cohesive, structured progression experience where recipes for vani
   * [Nemo's Backpacks](https://modrinth.com/mod/nemos-backpacks) & [Upgrade Templates](https://modrinth.com/mod/nemos-upgrade-templates)
   * [Simple Magnets](https://modrinth.com/mod/simple-magnets)
   * [Glow Paste](https://modrinth.com/mod/glow-paste)
+  * [Essentialis](https://github.com/amatsagu/essentialis) (=1.1-26.3.X), which requires [Trinkets Updated](https://modrinth.com/mod/trinkets-updated)
 
 ## Credits & License
 

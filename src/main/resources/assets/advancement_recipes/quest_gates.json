@@ -162,7 +162,10 @@
     "rework:copper/pot_cooking": "Home Cooking",
     "rework:iron/grand_feast": "Grand Feast",
     "rework:iron/basic_magnet": "Attraction",
-    "rework:end/advanced_magnet": "Polar Reversal"
+    "rework:end/advanced_magnet": "Polar Reversal",
+    "rework:copper/craft_hammer": "Heavy Strike",
+    "rework:iron/craft_wayback_stone": "Stone of Return",
+    "rework:diamond/craft_chakram": "Echo Blade"
   },
   "recipe_to_quest": {
     "minecraft:dried_kelp": "rework:stone/deep_ocean_by_boat",
@@ -2923,7 +2926,16 @@
     "nemos_upgrade_templates:iron_shovel_smithing": "rework:copper/complete_category",
     "nemos_upgrade_templates:iron_spear_smithing": "rework:copper/complete_category",
     "nemos_upgrade_templates:iron_sword_smithing": "rework:copper/complete_category",
-    "nemos_upgrade_templates:iron_upgrade_smithing_template": "rework:copper/complete_category"
+    "nemos_upgrade_templates:iron_upgrade_smithing_template": "rework:copper/complete_category",
+    "essentialis:hammer": "rework:copper/get_iron",
+    "essentialis:wayback_stone": "rework:iron/nether",
+    "essentialis:chakram": "rework:diamond/ancient_city",
+    "essentialis:netherite_citrine_ring_smithing": "rework:diamond/complete_category",
+    "essentialis:netherite_jade_ring_smithing": "rework:diamond/complete_category",
+    "essentialis:netherite_ruby_ring_smithing": "rework:diamond/complete_category",
+    "essentialis:netherite_sapphire_ring_smithing": "rework:diamond/complete_category",
+    "essentialis:netherite_tanzanite_ring_smithing": "rework:diamond/complete_category",
+    "essentialis:netherite_topaz_ring_smithing": "rework:diamond/complete_category"
   },
   "item_to_quests": {
     "minecraft:dried_kelp": [
@@ -7693,6 +7705,33 @@
     ],
     "minecraft:golden_nautilus_armor": [
       "rework:iron/nether"
+    ],
+    "essentialis:hammer": [
+      "rework:copper/get_iron"
+    ],
+    "essentialis:wayback_stone": [
+      "rework:iron/nether"
+    ],
+    "essentialis:chakram": [
+      "rework:diamond/ancient_city"
+    ],
+    "essentialis:netherite_citrine_ring": [
+      "rework:diamond/complete_category"
+    ],
+    "essentialis:netherite_jade_ring": [
+      "rework:diamond/complete_category"
+    ],
+    "essentialis:netherite_ruby_ring": [
+      "rework:diamond/complete_category"
+    ],
+    "essentialis:netherite_sapphire_ring": [
+      "rework:diamond/complete_category"
+    ],
+    "essentialis:netherite_tanzanite_ring": [
+      "rework:diamond/complete_category"
+    ],
+    "essentialis:netherite_topaz_ring": [
+      "rework:diamond/complete_category"
     ]
   }
 }

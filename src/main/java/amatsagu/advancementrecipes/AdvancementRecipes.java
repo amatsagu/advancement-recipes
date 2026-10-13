@@ -45,21 +45,34 @@ public class AdvancementRecipes implements ModInitializer {
 				return;
 			}
 
-			Progression.refresh(player);
+			synchronize(player, server);
+		});
 
-			int knownBefore = player.getRecipeBook().pack().known().size();
-			syncRecipeRewards(player, server);
-			int knownAfter = player.getRecipeBook().pack().known().size();
-			LOGGER.info("Synchronized quest recipes for {} ({} -> {} unlocked recipes)",
-					player.getName().getString(), knownBefore, knownAfter);
+		// Datapack reloads happen on a live server (e.g. /reload after updating the mod). Re-sync the
+		// players who are already online so they receive recipes added to quests they already finished,
+		// instead of waiting for their next reconnect.
+		ServerLifecycleEvents.END_DATA_PACK_RELOAD.register((server, resourceManager, success) -> {
+			if (!success) {
+				return;
+			}
+			for (ServerPlayer player : server.getPlayerList().getPlayers()) {
+				synchronize(player, server);
+			}
 		});
 	}
 
-	/**
-	 * Re-grants the recipe rewards of every completed quest advancement. This is the native-Java
-	 * replacement for the old generated {@code sync_advancement_recipes.mcfunction} (1900+ commands)
-	 * and for the per-update migration functions.
-	 */
+	/** Realigns questline roots/categories and re-grants the recipe rewards of completed quests. */
+	private static void synchronize(ServerPlayer player, MinecraftServer server) {
+		Progression.refresh(player);
+
+		int knownBefore = player.getRecipeBook().pack().known().size();
+		syncRecipeRewards(player, server);
+		int knownAfter = player.getRecipeBook().pack().known().size();
+		LOGGER.info("Synchronized quest recipes for {} ({} -> {} unlocked recipes)",
+				player.getName().getString(), knownBefore, knownAfter);
+	}
+
+	/** Re-grants the recipe rewards of every completed quest advancement to keep the recipe book in sync on join. */
 	private static void syncRecipeRewards(ServerPlayer player, MinecraftServer server) {
 		ServerAdvancementManager manager = server.getAdvancements();
 		Set<ResourceKey<Recipe<?>>> recipes = new LinkedHashSet<>();

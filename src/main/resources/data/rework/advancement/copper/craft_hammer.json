@@ -15,7 +15,7 @@
             }
           }
         },
-        "recipe_id": "essentialis:hammer"
+        "recipes": "essentialis:hammer"
       }
     }
   },

@@ -33,6 +33,9 @@ bin/
 run/
 **/.cache/
 
+# dev mod downloads (essentialis release cache)
+maven-local/
+
 # java
 
 hs_err_*.log
